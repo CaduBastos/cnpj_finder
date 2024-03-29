@@ -78,10 +78,10 @@ public:
         pushButton_cls_input->setGeometry(QRect(410, 50, 71, 25));
         plainTextEdit_history = new QPlainTextEdit(centralwidget);
         plainTextEdit_history->setObjectName("plainTextEdit_history");
-        plainTextEdit_history->setGeometry(QRect(30, 220, 591, 411));
+        plainTextEdit_history->setGeometry(QRect(30, 360, 591, 271));
         label_history = new QLabel(centralwidget);
         label_history->setObjectName("label_history");
-        label_history->setGeometry(QRect(30, 190, 61, 20));
+        label_history->setGeometry(QRect(30, 330, 61, 20));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
