@@ -75,3 +75,7 @@ install(TARGETS CNPJ_Formatter
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(CNPJ_Formatter)
 endif()
+
+find_package(Qt6 REQUIRED COMPONENTS Network)
+
+target_link_libraries(CNPJ_Formatter PRIVATE Qt6::Network)

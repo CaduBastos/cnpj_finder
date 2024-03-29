@@ -1,18 +1,21 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
-#include <iostream>
-#include <string>
-#include <QString>
 #include <QRegularExpression>
 #include <QMessageBox>
 #include <QClipboard>
-#include <QPlainTextEdit>
+
+#include <QNetworkAccessManager>
+#include <QNetworkRequest>
+#include <QNetworkReply>
+#include <QEventLoop>
 
 bool CNPJvalidate(QString CNPJ);
 void showMessage();
 QString CNPJformat_dots(QString cnpj);
 QString CNPJformat_astrk(QString cnpj);
+
+QNetworkAccessManager netmanager;         //Define a network manager object
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -41,16 +44,40 @@ void MainWindow::on_pushButton_cp_astrk_clicked(bool checked)
 void MainWindow::on_lineEdit_input_editingFinished()
 {
     QString data;
+
     data = (ui->lineEdit_input->text());    //Catch and store the text inserted
 
     if(CNPJvalidate(data)){
 
         data = CNPJformat_dots(data);       //Format data inserted to pattern xx.xxx.xxx/xxxx-xx
         ui->lineEdit_output_dots->setText(data);
-        ui->plainTextEdit_history->appendPlainText(data + "\n");       //Append to the history the data inserted
+
+        //Append to the history the data inserted
+        ui->plainTextEdit_history->appendPlainText(data + "\n");
 
         data = CNPJformat_astrk(data);      //Format data inserted to pattern xx*xxx*xxx*xxxx*xx
         ui->lineEdit_output_astrk->setText(data);
+
+        //Format the url with cnpj inserted to send http get
+        QUrl url("https://receitaws.com.br/v1/cnpj/" + data.remove(QRegularExpression("[^0-9]")));
+        QNetworkRequest request(url);
+
+        QNetworkReply *reply = netmanager.get(request);
+
+        //Wait for the reply and response
+        QEventLoop response_loop;
+        QObject::connect(reply, &QNetworkReply::finished, &response_loop, &QEventLoop::quit);
+        response_loop.exec();
+
+        if(reply->error()==QNetworkReply::NoError){
+            qDebug() << "Error: " << reply->errorString();
+            //Get data from reply
+            QString response = reply->readAll();
+            qDebug() << "API Reponse: " << response;
+        }
+        else{
+            qDebug() << "Error: " << reply->errorString();
+        }
     }
     else showMessage();
 }

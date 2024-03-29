@@ -65,6 +65,12 @@
 			},
 			{
 				"command" : 5,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
 				"file" : 0,
 				"line" : 576,
 				"parent" : 2
@@ -80,7 +86,7 @@
 					"fragment" : "-DQT_QML_DEBUG -g"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"fragment" : "-fPIC"
 				},
 				{
@@ -90,12 +96,16 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"define" : "QT_CORE_LIB"
 				},
 				{
 					"backtrace" : 6,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NETWORK_LIB"
 				},
 				{
 					"backtrace" : 6,
@@ -109,17 +119,17 @@
 					"path" : "/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Formatter_autogen/include"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "/home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "/home/cadubastos/Qt/6.6.2/gcc_64/include"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "/home/cadubastos/Qt/6.6.2/gcc_64/mkspecs/linux-g++"
 				},
@@ -132,6 +142,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/cadubastos/Qt/6.6.2/gcc_64/include/QtNetwork"
 				}
 			],
 			"language" : "CXX",
@@ -139,8 +154,8 @@
 			{
 				"backtraces" : 
 				[
-					7,
-					7
+					8,
+					8
 				],
 				"standard" : "17"
 			},
@@ -199,12 +214,12 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Gui.so.6.6.2",
+				"backtrace" : 7,
+				"fragment" : "/home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
-				"fragment" : "/home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2",
+				"fragment" : "/home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Gui.so.6.6.2",
 				"role" : "libraries"
 			},
 			{
@@ -213,6 +228,11 @@
 			},
 			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2",
 				"role" : "libraries"
 			}
 		],
