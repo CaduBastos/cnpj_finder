@@ -96,6 +96,13 @@ void MainWindow::on_lineEdit_input_editingFinished()
     else showMessage("critical", "CNPJ inválido");
 }
 
+void MainWindow::on_pushButton_cls_input_clicked(bool checked)
+{
+    ui->lineEdit_input->clear();
+    ui->lineEdit_output_dots->clear();
+    ui->lineEdit_output_astrk->clear();
+}
+
 QString CNPJformat_dots(QString cnpj){
 
     cnpj = cnpj.trimmed();                  //Remove the blank characters at the beginning and the end of string
@@ -186,10 +193,4 @@ void showMessage(QString type, QString message){
         QMessageBox::question(nullptr, "", message);
 }
 
-void MainWindow::on_pushButton_cls_input_clicked(bool checked)
-{
-    ui->lineEdit_input->clear();
-    ui->lineEdit_output_dots->clear();
-    ui->lineEdit_output_astrk->clear();
-}
 

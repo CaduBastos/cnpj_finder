@@ -1,9 +1,0 @@
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/CNPJ_Formatter.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/CNPJ_Formatter_autogen_timestamp_deps.dir
-/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/CNPJ_Formatter_autogen.dir
