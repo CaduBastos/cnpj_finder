@@ -11,7 +11,8 @@
 #include <QEventLoop>
 
 bool CNPJvalidate(QString CNPJ);
-void showMessage();
+void showMessage(QString type, QString message);
+
 QString CNPJformat_dots(QString cnpj);
 QString CNPJformat_astrk(QString cnpj);
 
@@ -52,8 +53,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
         data = CNPJformat_dots(data);       //Format data inserted to pattern xx.xxx.xxx/xxxx-xx
         ui->lineEdit_output_dots->setText(data);
 
-        //Append to the history the data inserted
-        ui->plainTextEdit_history->appendPlainText(data + "\n");
+        ui->plainTextEdit_history->appendPlainText(data + "\n");    //Append to the history the data inserted
 
         data = CNPJformat_astrk(data);      //Format data inserted to pattern xx*xxx*xxx*xxxx*xx
         ui->lineEdit_output_astrk->setText(data);
@@ -69,17 +69,31 @@ void MainWindow::on_lineEdit_input_editingFinished()
         QObject::connect(reply, &QNetworkReply::finished, &response_loop, &QEventLoop::quit);
         response_loop.exec();
 
+        //Check if http request was succesful
         if(reply->error()==QNetworkReply::NoError){
-            qDebug() << "Error: " << reply->errorString();
-            //Get data from reply
-            QString response = reply->readAll();
+
+            QString response = reply->readAll();    //Get data from reply
             qDebug() << "API Reponse: " << response;
         }
         else{
             qDebug() << "Error: " << reply->errorString();
+            int http_status_code = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();      //Read and store the http status code returned from http request
+            switch(http_status_code){
+            case 429:
+                qDebug() << "Error: Too many requests - http status code: 429";
+                showMessage("critical", "Limite de consultas atingido! Aguarde 1 minuto.");
+                break;
+            case 504:
+                qDebug() << "Error: Timeout - http status code: 504";
+                showMessage("critical", "Timeout atingido!");
+                break;
+            default:
+                qDebug() << "Error: Unknow error - http code: unknow";
+                showMessage("critical", "Erro desconhecido!");
+            }
         }
     }
-    else showMessage();
+    else showMessage("critical", "CNPJ inválido");
 }
 
 QString CNPJformat_dots(QString cnpj){
@@ -159,9 +173,17 @@ bool CNPJvalidate(QString cnpj){
     return (digitos[12] == digito1 && digitos[13] == digito2);
 }
 
-void showMessage() {
+void showMessage(QString type, QString message){
 
-    QMessageBox::warning(nullptr, "ERRO!", "CNPJ inválido!");
+    //NoIcon, Question, Information, Warning, Critical
+    if(type == "warning")
+        QMessageBox::warning(nullptr, "Alerta", message);
+    else if(type == "critical")
+        QMessageBox::critical(nullptr, "Erro", message);
+    else if(type == "information")
+        QMessageBox::information(nullptr, "Info", message);
+    else
+        QMessageBox::question(nullptr, "", message);
 }
 
 void MainWindow::on_pushButton_cls_input_clicked(bool checked)
