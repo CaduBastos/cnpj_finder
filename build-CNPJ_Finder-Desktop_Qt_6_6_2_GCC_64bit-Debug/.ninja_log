@@ -1,0 +1,10 @@
+# ninja log v5
+2	29	0	/home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/cmake.verify_globs	391bbe5ba5615c3d
+0	661	1711755451682330640	CNPJ_Finder_autogen/timestamp	4acf6a0830206f31
+0	661	1711755451682330640	CNPJ_Finder_autogen/mocs_compilation.cpp	4acf6a0830206f31
+0	661	1711755451682330640	/home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Finder_autogen/timestamp	4acf6a0830206f31
+0	661	1711755451682330640	/home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Finder_autogen/mocs_compilation.cpp	4acf6a0830206f31
+661	3804	1711755454850198052	CMakeFiles/CNPJ_Finder.dir/CNPJ_Finder_autogen/mocs_compilation.cpp.o	866f45884280c5d6
+662	3879	1711755454926194878	CMakeFiles/CNPJ_Finder.dir/main.cpp.o	c75dd646d49b7ea5
+662	5258	1711755456302137525	CMakeFiles/CNPJ_Finder.dir/mainwindow.cpp.o	d0b013973cead974
+5258	6095	1711755457130103072	CNPJ_Finder	4ac0014c4a62ccdf

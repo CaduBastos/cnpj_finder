@@ -79,3 +79,5 @@ endif()
 find_package(Qt6 REQUIRED COMPONENTS Network)
 
 target_link_libraries(CNPJ_Finder PRIVATE Qt6::Network)
+
+set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/cnpj_finder/build)
