@@ -1,0 +1,12 @@
+# ninja log v5
+1	11	0	/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/cmake.verify_globs	850b9102b45ec292
+0	262	1711675283090227019	CNPJ_Formatter_autogen/timestamp	98a1d6fecf87ec09
+0	262	1711675283090227019	CNPJ_Formatter_autogen/mocs_compilation.cpp	98a1d6fecf87ec09
+0	262	1711675283090227019	/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Formatter_autogen/timestamp	98a1d6fecf87ec09
+0	262	1711675283090227019	/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Formatter_autogen/mocs_compilation.cpp	98a1d6fecf87ec09
+262	1520	1711675284354263283	CMakeFiles/CNPJ_Formatter.dir/CNPJ_Formatter_autogen/mocs_compilation.cpp.o	ab6a86592806574b
+262	1561	1711675284402264659	CMakeFiles/CNPJ_Formatter.dir/main.cpp.o	26567d6f51d91b03
+262	1863	1711675284698273142	CMakeFiles/CNPJ_Formatter.dir/mainwindow.cpp.o	390ac50fae173c88
+1863	2257	1711675285086284260	CNPJ_Formatter	9e03b392728a3dc2
+1	11	0	/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/cmake.verify_globs	850b9102b45ec292
+1	11	0	/home/cadubastos/qt_projects/CNPJ_Formatter/build-CNPJ_Formatter-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/cmake.verify_globs	850b9102b45ec292
