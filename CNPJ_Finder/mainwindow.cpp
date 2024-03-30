@@ -11,6 +11,7 @@
 #include <QEventLoop>
 
 #include <QJsonDocument>
+#include <QJsonObject>
 
 bool CNPJvalidate(QString CNPJ);
 void showMessage(QString type, QString message);
@@ -75,9 +76,12 @@ void MainWindow::on_lineEdit_input_editingFinished()
         //Check if http request was succesful
         if(reply->error()==QNetworkReply::NoError){
 
-            QByteArray response = reply->readAll();    //Get data from reply
-            qDebug() << "API Reponse: " << response;
-            reply->deleteLater();                   //free memory alocated for network reply
+            QByteArray response = reply->readAll();                     //Get data from reply
+            reply->deleteLater();                                       //free memory alocated for network reply
+
+            QJsonDocument jsonDoc = QJsonDocument::fromJson(response);  //Initialize a Json document from http request response data
+            QJsonObject jsonObj = jsonDoc.object();                     //Extract the Json object of Json document jsonDoc
+            qDebug() << "JSON: " << jsonObj;                            //Print to debug Json file
         }
         else{
             qDebug() << "Error: " << reply->errorString();
