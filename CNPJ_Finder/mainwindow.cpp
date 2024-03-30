@@ -10,6 +10,8 @@
 #include <QNetworkReply>
 #include <QEventLoop>
 
+#include <QJsonDocument>
+
 bool CNPJvalidate(QString CNPJ);
 void showMessage(QString type, QString message);
 
@@ -50,6 +52,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
 
     if(CNPJvalidate(data)){
 
+        data = data.remove(QRegularExpression("[^0-9]"));
         data = CNPJformat_dots(data);       //Format data inserted to pattern xx.xxx.xxx/xxxx-xx
         ui->lineEdit_output_dots->setText(data);
 
@@ -72,8 +75,9 @@ void MainWindow::on_lineEdit_input_editingFinished()
         //Check if http request was succesful
         if(reply->error()==QNetworkReply::NoError){
 
-            QString response = reply->readAll();    //Get data from reply
+            QByteArray response = reply->readAll();    //Get data from reply
             qDebug() << "API Reponse: " << response;
+            reply->deleteLater();                   //free memory alocated for network reply
         }
         else{
             qDebug() << "Error: " << reply->errorString();
@@ -105,26 +109,26 @@ void MainWindow::on_pushButton_cls_input_clicked(bool checked)
 
 QString CNPJformat_dots(QString cnpj){
 
-    cnpj = cnpj.trimmed();                  //Remove the blank characters at the beginning and the end of string
-    if(cnpj.size()<18){
-        cnpj.resize(18);                    //Check if cnpj was inserted with separators characteres. if not, resize the string
+    cnpj.remove(QRegularExpression("[^0-9]"));  //Remove not numbers characters of the string
+   // if(cnpj.size()<18){
+    cnpj.resize(18);                            //Check if cnpj was inserted with separators characteres. if not, resize the string
 
-        cnpj[17]=cnpj[13];                  //Move characters to the right position //-xx
-        cnpj[16]=cnpj[12];
+    cnpj[17]=cnpj[13];                          //Move characters to the right position //-xx
+    cnpj[16]=cnpj[12];
 
-        cnpj[14]=cnpj[11];                  ///xxxx-
-        cnpj[13]=cnpj[10];
-        cnpj[12]=cnpj[9];
-        cnpj[11]=cnpj[8];
+    cnpj[14]=cnpj[11];                          ///xxxx-
+    cnpj[13]=cnpj[10];
+    cnpj[12]=cnpj[9];
+    cnpj[11]=cnpj[8];
 
-        cnpj[9]=cnpj[7];                    //.xxx/
-        cnpj[8]=cnpj[6];
-        cnpj[7]=cnpj[5];
+    cnpj[9]=cnpj[7];                            //.xxx/
+    cnpj[8]=cnpj[6];
+    cnpj[7]=cnpj[5];
 
-        cnpj[5]=cnpj[4];                    //.xxx.
-        cnpj[4]=cnpj[3];
-        cnpj[3]=cnpj[2];                    //xx. don't need to be moved
-    }
+    cnpj[5]=cnpj[4];                            //.xxx.
+    cnpj[4]=cnpj[3];
+    cnpj[3]=cnpj[2];                            //xx. don't need to be moved
+
     //add the separator characters
     cnpj[2]=QChar('.');
     cnpj[6]=QChar('.');

@@ -89,6 +89,7 @@ public:
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
+        statusbar->setEnabled(true);
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
