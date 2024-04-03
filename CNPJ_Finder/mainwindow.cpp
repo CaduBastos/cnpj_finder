@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
+#include <QApplication>
 #include <QRegularExpression>
 #include <QMessageBox>
 #include <QClipboard>
@@ -26,6 +27,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->statusbar->showMessage("Developed by Cadu Bastos");
 }
 
 MainWindow::~MainWindow()
@@ -83,12 +85,26 @@ void MainWindow::on_lineEdit_input_editingFinished()
             QJsonObject jsonObj = jsonDoc.object();                     //Extract the Json object of Json document jsonDoc
             qDebug() << "JSON: " << jsonObj;                            //Print to debug Json file
 
-            ui->lineEdit_output_social_name->setText(jsonObj.value("nome").toString());     //Print at lineEdit the social name
-            ui->lineEdit_output_fake_name->setText(jsonObj.value("fantasia").toString());   //Print at lineEdit the fake name
+            //Print the main informations about the company
+            ui->lineEdit_output_social_name->setText(jsonObj.value("nome").toString());
+            ui->lineEdit_output_fake_name->setText(jsonObj.value("fantasia").toString());
+            ui->label_type->setText("Tipo: " + jsonObj.value("tipo").toString());
+            ui->label_last_update->setText("Última atualização: " + jsonObj.value("ultima_atualizacao").toString());
+            ui->label_status->setText("Situação: " + jsonObj.value("situacao").toString());
+            ui->label_status_2->setText("Status: " + jsonObj.value("status").toString());
+            ui->label_size->setText("Porte: " + jsonObj.value("porte").toString());
 
-            ui->label_type_company_output->setText(jsonObj.value("tipo").toString());       //Print the type of company at the label
-            ui->lineEdit_output_email->setText(jsonObj.value("email").toString());          //Print at lineEdit the email of the company
-            ui->lineEdit_output_phone->setText(jsonObj.value("telefone").toString());       //Print at lineEdit the phone number of the company
+            //Print the contact informations
+            ui->lineEdit_output_email->setText(jsonObj.value("email").toString());
+            ui->lineEdit_output_phone->setText(jsonObj.value("telefone").toString());
+
+            //Print the location informations about the company
+            ui->lineEdit_output_cep->setText(jsonObj.value("cep").toString());
+            ui->lineEdit_output_street->setText(jsonObj.value("logradouro").toString());
+            ui->lineEdit_output_neighborhood->setText(jsonObj.value("bairro").toString());
+            ui->lineEdit_output_city->setText(jsonObj.value("municipio").toString());
+            ui->label_uf->setText("UF: " + jsonObj.value("uf").toString());
+            ui->label_number->setText("Número: " + jsonObj.value("numero").toString());
 
         }
         else{
@@ -210,5 +226,14 @@ void showMessage(QString type, QString message){
     else
         QMessageBox::question(nullptr, "", message);
 }
+/*
+void MainWindow::on_action_theme_light_triggered()
+{
+    mainWindow.setStyleSheet("backgroud-color: white");
+}
 
-
+void MainWindow::on_action_theme_dark_triggered()
+{
+    MainWindow.setStyleSheet("backgroud-color: grey");
+}
+*/

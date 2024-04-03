@@ -22,6 +22,8 @@ private slots:
     void on_toolButton_cp_astrk_clicked(bool checked);
     void on_lineEdit_input_editingFinished();
     void on_pushButton_cls_input_clicked(bool checked);
+    //void on_action_theme_dark_triggered();
+    //void on_action_theme_light_triggered();
 
 private:
     Ui::MainWindow *ui;
