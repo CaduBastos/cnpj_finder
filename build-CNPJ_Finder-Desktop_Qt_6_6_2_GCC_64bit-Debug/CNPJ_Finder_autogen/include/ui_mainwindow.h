@@ -10,13 +10,16 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QAction>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolButton>
 #include <QtWidgets/QWidget>
@@ -26,6 +29,8 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionEscuro;
+    QAction *actionClaro;
     QWidget *centralwidget;
     QToolButton *toolButton_cp_dots;
     QLabel *label_input_cnpj;
@@ -35,7 +40,7 @@ public:
     QLineEdit *lineEdit_output_astrk;
     QLabel *label_cnpj_formated_2;
     QToolButton *toolButton_cp_astrk;
-    QToolButton *toolButton_cls_input;
+    QPushButton *pushButton_cls_input;
     QFrame *line;
     QLineEdit *lineEdit_output_social_name;
     QLabel *label_social_name;
@@ -48,6 +53,9 @@ public:
     QLabel *label_phone;
     QLineEdit *lineEdit_output_phone;
     QMenuBar *menubar;
+    QMenu *menuArquivo;
+    QMenu *menuTema;
+    QMenu *menuInforma_es;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -56,11 +64,15 @@ public:
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(651, 679);
         MainWindow->setTabShape(QTabWidget::Rounded);
+        actionEscuro = new QAction(MainWindow);
+        actionEscuro->setObjectName("actionEscuro");
+        actionClaro = new QAction(MainWindow);
+        actionClaro->setObjectName("actionClaro");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         toolButton_cp_dots = new QToolButton(centralwidget);
         toolButton_cp_dots->setObjectName("toolButton_cp_dots");
-        toolButton_cp_dots->setGeometry(QRect(410, 90, 41, 25));
+        toolButton_cp_dots->setGeometry(QRect(400, 90, 41, 25));
         QIcon icon(QIcon::fromTheme(QString::fromUtf8("edit-copy")));
         toolButton_cp_dots->setIcon(icon);
         label_input_cnpj = new QLabel(centralwidget);
@@ -84,13 +96,12 @@ public:
         label_cnpj_formated_2->setGeometry(QRect(90, 130, 131, 20));
         toolButton_cp_astrk = new QToolButton(centralwidget);
         toolButton_cp_astrk->setObjectName("toolButton_cp_astrk");
-        toolButton_cp_astrk->setGeometry(QRect(410, 130, 41, 25));
+        toolButton_cp_astrk->setGeometry(QRect(400, 130, 41, 25));
         QIcon icon1(QIcon::fromTheme(QString::fromUtf8("edit-paste")));
         toolButton_cp_astrk->setIcon(icon1);
-        toolButton_cls_input = new QToolButton(centralwidget);
-        toolButton_cls_input->setObjectName("toolButton_cls_input");
-        toolButton_cls_input->setGeometry(QRect(410, 50, 41, 25));
-        toolButton_cls_input->setIcon(icon);
+        pushButton_cls_input = new QPushButton(centralwidget);
+        pushButton_cls_input->setObjectName("pushButton_cls_input");
+        pushButton_cls_input->setGeometry(QRect(400, 50, 71, 25));
         line = new QFrame(centralwidget);
         line->setObjectName("line");
         line->setGeometry(QRect(10, 172, 631, 20));
@@ -136,11 +147,25 @@ public:
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 651, 22));
+        menuArquivo = new QMenu(menubar);
+        menuArquivo->setObjectName("menuArquivo");
+        menuTema = new QMenu(menuArquivo);
+        menuTema->setObjectName("menuTema");
+        menuInforma_es = new QMenu(menubar);
+        menuInforma_es->setObjectName("menuInforma_es");
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         statusbar->setEnabled(true);
         MainWindow->setStatusBar(statusbar);
+
+        menubar->addAction(menuArquivo->menuAction());
+        menubar->addAction(menuInforma_es->menuAction());
+        menuArquivo->addAction(menuTema->menuAction());
+        menuTema->addSeparator();
+        menuTema->addSeparator();
+        menuTema->addAction(actionClaro);
+        menuTema->addAction(actionEscuro);
 
         retranslateUi(MainWindow);
 
@@ -150,12 +175,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "CNPJ Formatter", nullptr));
+        actionEscuro->setText(QCoreApplication::translate("MainWindow", "Escuro", nullptr));
+        actionClaro->setText(QCoreApplication::translate("MainWindow", "Claro", nullptr));
         toolButton_cp_dots->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         label_input_cnpj->setText(QCoreApplication::translate("MainWindow", "Digite o CNPJ", nullptr));
         label_cnpj_formated->setText(QCoreApplication::translate("MainWindow", "CNPJ formatado", nullptr));
         label_cnpj_formated_2->setText(QCoreApplication::translate("MainWindow", "CNPJ formatado(*)", nullptr));
         toolButton_cp_astrk->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
-        toolButton_cls_input->setText(QCoreApplication::translate("MainWindow", "Limpar", nullptr));
+        pushButton_cls_input->setText(QCoreApplication::translate("MainWindow", "Limpar", nullptr));
         label_social_name->setText(QCoreApplication::translate("MainWindow", "Raz\303\243o social", nullptr));
         label_fake_name->setText(QCoreApplication::translate("MainWindow", "Nome fantasia", nullptr));
         label_type_->setText(QCoreApplication::translate("MainWindow", "Tipo:", nullptr));
@@ -164,6 +191,9 @@ public:
         lineEdit_output_email->setText(QString());
         label_phone->setText(QCoreApplication::translate("MainWindow", "Telefone", nullptr));
         lineEdit_output_phone->setText(QString());
+        menuArquivo->setTitle(QCoreApplication::translate("MainWindow", "Configura\303\247\303\265es", nullptr));
+        menuTema->setTitle(QCoreApplication::translate("MainWindow", "Tema", nullptr));
+        menuInforma_es->setTitle(QCoreApplication::translate("MainWindow", "Informa\303\247\303\265es", nullptr));
 #if QT_CONFIG(accessibility)
         statusbar->setAccessibleName(QString());
 #endif // QT_CONFIG(accessibility)

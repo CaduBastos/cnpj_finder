@@ -292,7 +292,7 @@
    </property>
    <widget class="QMenu" name="menuArquivo">
     <property name="title">
-     <string>Configurações</string>
+     <string>Arquivo</string>
     </property>
     <widget class="QMenu" name="menuTema">
      <property name="title">
@@ -304,14 +304,11 @@
      <addaction name="actionEscuro"/>
     </widget>
     <addaction name="menuTema"/>
-   </widget>
-   <widget class="QMenu" name="menuInforma_es">
-    <property name="title">
-     <string>Informações</string>
-    </property>
+    <addaction name="separator"/>
+    <addaction name="actionHistorico"/>
+    <addaction name="actionInforma_oes"/>
    </widget>
    <addaction name="menuArquivo"/>
-   <addaction name="menuInforma_es"/>
   </widget>
   <widget class="QStatusBar" name="statusbar">
    <property name="enabled">
@@ -329,6 +326,16 @@
   <action name="actionClaro">
    <property name="text">
     <string>Claro</string>
+   </property>
+  </action>
+  <action name="actionHistorico">
+   <property name="text">
+    <string>Historico</string>
+   </property>
+  </action>
+  <action name="actionInforma_oes">
+   <property name="text">
+    <string>Informaçoes</string>
    </property>
   </action>
  </widget>

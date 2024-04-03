@@ -114,7 +114,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
     else showMessage("critical", "CNPJ inválido");
 }
 
-void MainWindow::on_toolButton_cls_input_clicked(bool checked)
+void MainWindow::on_pushButton_cls_input_clicked(bool checked)
 {
     ui->lineEdit_input->clear();
     ui->lineEdit_output_dots->clear();
