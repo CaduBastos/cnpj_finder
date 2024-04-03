@@ -18,10 +18,10 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_cp_dots_clicked(bool checked);
-    void on_pushButton_cp_astrk_clicked(bool checked);
+    void on_toolButton_cp_dots_clicked(bool checked);
+    void on_toolButton_cp_astrk_clicked(bool checked);
     void on_lineEdit_input_editingFinished();
-    void on_pushButton_cls_input_clicked(bool checked);
+    void on_toolButton_cls_input_clicked(bool checked);
 
 private:
     Ui::MainWindow *ui;

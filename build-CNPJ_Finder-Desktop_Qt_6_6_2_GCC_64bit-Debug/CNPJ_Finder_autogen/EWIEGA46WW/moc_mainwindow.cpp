@@ -39,12 +39,12 @@ namespace {
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
     "MainWindow",
-    "on_pushButton_cp_dots_clicked",
+    "on_toolButton_cp_dots_clicked",
     "",
     "checked",
-    "on_pushButton_cp_astrk_clicked",
+    "on_toolButton_cp_astrk_clicked",
     "on_lineEdit_input_editingFinished",
-    "on_pushButton_cls_input_clicked"
+    "on_toolButton_cls_input_clicked"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
@@ -62,20 +62,20 @@ struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {
 Q_CONSTINIT static const qt_meta_stringdata_CLASSMainWindowENDCLASS_t qt_meta_stringdata_CLASSMainWindowENDCLASS = {
     {
         QT_MOC_LITERAL(0, 10),  // "MainWindow"
-        QT_MOC_LITERAL(11, 29),  // "on_pushButton_cp_dots_clicked"
+        QT_MOC_LITERAL(11, 29),  // "on_toolButton_cp_dots_clicked"
         QT_MOC_LITERAL(41, 0),  // ""
         QT_MOC_LITERAL(42, 7),  // "checked"
-        QT_MOC_LITERAL(50, 30),  // "on_pushButton_cp_astrk_clicked"
+        QT_MOC_LITERAL(50, 30),  // "on_toolButton_cp_astrk_clicked"
         QT_MOC_LITERAL(81, 33),  // "on_lineEdit_input_editingFini..."
-        QT_MOC_LITERAL(115, 31)   // "on_pushButton_cls_input_clicked"
+        QT_MOC_LITERAL(115, 31)   // "on_toolButton_cls_input_clicked"
     },
     "MainWindow",
-    "on_pushButton_cp_dots_clicked",
+    "on_toolButton_cp_dots_clicked",
     "",
     "checked",
-    "on_pushButton_cp_astrk_clicked",
+    "on_toolButton_cp_astrk_clicked",
     "on_lineEdit_input_editingFinished",
-    "on_pushButton_cls_input_clicked"
+    "on_toolButton_cls_input_clicked"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -118,15 +118,15 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'on_pushButton_cp_dots_clicked'
+        // method 'on_toolButton_cp_dots_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'on_pushButton_cp_astrk_clicked'
+        // method 'on_toolButton_cp_astrk_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>,
         // method 'on_lineEdit_input_editingFinished'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_pushButton_cls_input_clicked'
+        // method 'on_toolButton_cls_input_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>
     >,
@@ -139,10 +139,10 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_pushButton_cp_dots_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
-        case 1: _t->on_pushButton_cp_astrk_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 0: _t->on_toolButton_cp_dots_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 1: _t->on_toolButton_cp_astrk_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 2: _t->on_lineEdit_input_editingFinished(); break;
-        case 3: _t->on_pushButton_cls_input_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 3: _t->on_toolButton_cls_input_clicked((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
     }

@@ -33,13 +33,13 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_pushButton_cp_dots_clicked(bool checked)
+void MainWindow::on_toolButton_cp_dots_clicked(bool checked)
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->lineEdit_output_dots->text());
 }
 
-void MainWindow::on_pushButton_cp_astrk_clicked(bool checked)
+void MainWindow::on_toolButton_cp_astrk_clicked(bool checked)
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->lineEdit_output_astrk->text());
@@ -57,7 +57,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
         data = CNPJformat_dots(data);       //Format data inserted to pattern xx.xxx.xxx/xxxx-xx
         ui->lineEdit_output_dots->setText(data);
 
-        ui->plainTextEdit_history->appendPlainText(data + "\n");    //Append to the history the data inserted
+        //ui->plainTextEdit_history->appendPlainText(data + "\n");    //Append to the history the data inserted
 
         data = CNPJformat_astrk(data);      //Format data inserted to pattern xx*xxx*xxx*xxxx*xx
         ui->lineEdit_output_astrk->setText(data);
@@ -82,10 +82,20 @@ void MainWindow::on_lineEdit_input_editingFinished()
             QJsonDocument jsonDoc = QJsonDocument::fromJson(response);  //Initialize a Json document from http request response data
             QJsonObject jsonObj = jsonDoc.object();                     //Extract the Json object of Json document jsonDoc
             qDebug() << "JSON: " << jsonObj;                            //Print to debug Json file
+
+            ui->lineEdit_output_social_name->setText(jsonObj.value("nome").toString());     //Print at lineEdit the social name
+            ui->lineEdit_output_fake_name->setText(jsonObj.value("fantasia").toString());   //Print at lineEdit the fake name
+
+            ui->label_type_company_output->setText(jsonObj.value("tipo").toString());       //Print the type of company at the label
+            ui->lineEdit_output_email->setText(jsonObj.value("email").toString());          //Print at lineEdit the email of the company
+            ui->lineEdit_output_phone->setText(jsonObj.value("telefone").toString());       //Print at lineEdit the phone number of the company
+
         }
         else{
             qDebug() << "Error: " << reply->errorString();
+
             int http_status_code = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();      //Read and store the http status code returned from http request
+
             switch(http_status_code){
             case 429:
                 qDebug() << "Error: Too many requests - http status code: 429";
@@ -104,7 +114,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
     else showMessage("critical", "CNPJ inválido");
 }
 
-void MainWindow::on_pushButton_cls_input_clicked(bool checked)
+void MainWindow::on_toolButton_cls_input_clicked(bool checked)
 {
     ui->lineEdit_input->clear();
     ui->lineEdit_output_dots->clear();
