@@ -35,18 +35,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_toolButton_cp_dots_clicked(bool checked)
-{
-    QClipboard *clipboard = QApplication::clipboard();
-    clipboard->setText(ui->lineEdit_output_dots->text());
-}
-
-void MainWindow::on_toolButton_cp_astrk_clicked(bool checked)
-{
-    QClipboard *clipboard = QApplication::clipboard();
-    clipboard->setText(ui->lineEdit_output_astrk->text());
-}
-
 void MainWindow::on_lineEdit_input_editingFinished()
 {
     QString data;
@@ -226,14 +214,69 @@ void showMessage(QString type, QString message){
     else
         QMessageBox::question(nullptr, "", message);
 }
-/*
+
 void MainWindow::on_action_theme_light_triggered()
 {
-    mainWindow.setStyleSheet("backgroud-color: white");
+    MainWindow::setStyleSheet("background-color: white");
 }
 
 void MainWindow::on_action_theme_dark_triggered()
 {
-    MainWindow.setStyleSheet("backgroud-color: grey");
+    MainWindow::setStyleSheet("background-color: grey");
+}
+/*
+void MainWindow::on_action_about_triggered()
+{
+    showMessage("information", "");
 }
 */
+
+
+void MainWindow::on_toolButton_cp_dots_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_dots->text());
+}
+
+void MainWindow::on_toolButton_cp_astrk_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_astrk->text());
+}
+
+void MainWindow::on_toolButton_cp_cep_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_cep->text());
+}
+
+void MainWindow::on_toolButton_cp_street_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_street->text());
+}
+
+void MainWindow::on_toolButton_cp_neighborhood_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_neighborhood->text());
+}
+
+void MainWindow::on_toolButton_cp_city_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_city->text());
+}
+
+void MainWindow::on_toolButton_cp_email_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_email->text());
+}
+
+void MainWindow::on_toolButton_cp_phone_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_phone->text());
+}
+

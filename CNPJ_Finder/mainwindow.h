@@ -18,12 +18,22 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_toolButton_cp_dots_clicked(bool checked);
-    void on_toolButton_cp_astrk_clicked(bool checked);
+
     void on_lineEdit_input_editingFinished();
     void on_pushButton_cls_input_clicked(bool checked);
-    //void on_action_theme_dark_triggered();
-    //void on_action_theme_light_triggered();
+    void on_action_theme_dark_triggered();
+    void on_action_theme_light_triggered();
+//    void on_action_about_triggered();
+
+    void on_toolButton_cp_dots_clicked(bool checked);
+    void on_toolButton_cp_astrk_clicked(bool checked);
+    void on_toolButton_cp_cep_clicked();
+    void on_toolButton_cp_cep_clicked(bool checked);
+    void on_toolButton_cp_street_clicked(bool checked);
+    void on_toolButton_cp_neighborhood_clicked(bool checked);
+    void on_toolButton_cp_city_clicked(bool checked);
+    void on_toolButton_cp_email_clicked(bool checked);
+    void on_toolButton_cp_phone_clicked(bool checked);
 
 private:
     Ui::MainWindow *ui;

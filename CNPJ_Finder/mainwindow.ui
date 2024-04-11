@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>CNPJ Formatter 1.0</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Downloads/analise.png</normaloff>../../../Downloads/analise.png</iconset>
+  </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
   </property>
@@ -89,7 +93,7 @@
       <string>Copiar</string>
      </property>
      <property name="icon">
-      <iconset theme="edit-paste"/>
+      <iconset theme="edit-copy"/>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_output_dots">
@@ -160,9 +164,19 @@
      <rect>
       <x>20</x>
       <y>200</y>
-      <width>461</width>
+      <width>501</width>
       <height>271</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
@@ -335,18 +349,91 @@
       <string>CEP</string>
      </property>
     </widget>
+    <widget class="QToolButton" name="toolButton_cp_cep">
+     <property name="geometry">
+      <rect>
+       <x>291</x>
+       <y>40</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_cp_street">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>77</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_cp_neighborhood">
+     <property name="geometry">
+      <rect>
+       <x>381</x>
+       <y>117</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_cp_city">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>158</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="group_contact">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>560</x>
       <y>220</y>
-      <width>461</width>
+      <width>511</width>
       <height>111</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
     <property name="title">
      <string>Contato</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
     </property>
     <widget class="QLabel" name="label_phone">
      <property name="geometry">
@@ -400,13 +487,45 @@
       <string/>
      </property>
     </widget>
+    <widget class="QToolButton" name="toolButton_cp_email">
+     <property name="geometry">
+      <rect>
+       <x>451</x>
+       <y>33</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_cp_phone">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>70</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="company_informations">
     <property name="geometry">
      <rect>
       <x>440</x>
       <y>10</y>
-      <width>691</width>
+      <width>741</width>
       <height>181</height>
      </rect>
     </property>
@@ -527,14 +646,46 @@
       <string>Porte:</string>
      </property>
     </widget>
+    <widget class="QToolButton" name="toolButton_cp_social_name">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>20</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_cp_fake_name">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>60</y>
+       <width>41</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Copiar</string>
+     </property>
+     <property name="icon">
+      <iconset theme="edit-copy"/>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="group_qsa">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>560</x>
       <y>360</y>
-      <width>521</width>
-      <height>251</height>
+      <width>491</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="title">
@@ -617,9 +768,9 @@
      <addaction name="action_theme_dark"/>
     </widget>
     <addaction name="separator"/>
-    <addaction name="actionHistorico"/>
+    <addaction name="action_historic"/>
     <addaction name="menuTema"/>
-    <addaction name="actionInforma_oes"/>
+    <addaction name="action_about"/>
    </widget>
    <addaction name="menuArquivo"/>
   </widget>
@@ -641,23 +792,40 @@
    </property>
   </widget>
   <action name="action_theme_dark">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Escuro</string>
    </property>
   </action>
   <action name="action_theme_light">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Claro</string>
    </property>
   </action>
-  <action name="actionHistorico">
+  <action name="action_historic">
    <property name="text">
     <string>Historico</string>
    </property>
   </action>
-  <action name="actionInforma_oes">
+  <action name="action_about">
    <property name="text">
     <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset theme="dialog-question"/>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
    </property>
   </action>
  </widget>
