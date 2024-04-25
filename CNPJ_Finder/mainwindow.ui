@@ -25,7 +25,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>10</y>
+      <y>40</y>
       <width>401</width>
       <height>131</height>
      </rect>
@@ -163,7 +163,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>200</y>
+      <y>240</y>
       <width>501</width>
       <height>271</height>
      </rect>
@@ -417,8 +417,8 @@
    <widget class="QGroupBox" name="group_contact">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>220</y>
+      <x>550</x>
+      <y>240</y>
       <width>511</width>
       <height>111</height>
      </rect>
@@ -520,26 +520,23 @@
      </property>
     </widget>
    </widget>
-   <widget class="QFrame" name="company_informations">
+   <widget class="QGroupBox" name="company_informations">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>10</y>
+      <x>430</x>
+      <y>20</y>
       <width>741</width>
-      <height>181</height>
+      <height>201</height>
      </rect>
     </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
+    <property name="title">
+     <string>Dados da empresa</string>
     </property>
     <widget class="QLabel" name="label_status">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>140</y>
+       <y>160</y>
        <width>141</width>
        <height>20</height>
       </rect>
@@ -552,7 +549,7 @@
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>20</y>
+       <y>40</y>
        <width>551</width>
        <height>25</height>
       </rect>
@@ -562,7 +559,7 @@
      <property name="geometry">
       <rect>
        <x>13</x>
-       <y>61</y>
+       <y>81</y>
        <width>101</width>
        <height>20</height>
       </rect>
@@ -575,7 +572,7 @@
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>60</y>
+       <y>80</y>
        <width>551</width>
        <height>25</height>
       </rect>
@@ -585,7 +582,7 @@
      <property name="geometry">
       <rect>
        <x>250</x>
-       <y>100</y>
+       <y>120</y>
        <width>311</width>
        <height>20</height>
       </rect>
@@ -598,7 +595,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>100</y>
+       <y>120</y>
        <width>141</width>
        <height>20</height>
       </rect>
@@ -611,7 +608,7 @@
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>21</y>
+       <y>41</y>
        <width>81</width>
        <height>20</height>
       </rect>
@@ -624,7 +621,7 @@
      <property name="geometry">
       <rect>
        <x>251</x>
-       <y>140</y>
+       <y>160</y>
        <width>141</width>
        <height>20</height>
       </rect>
@@ -637,7 +634,7 @@
      <property name="geometry">
       <rect>
        <x>490</x>
-       <y>140</y>
+       <y>160</y>
        <width>181</width>
        <height>20</height>
       </rect>
@@ -650,7 +647,7 @@
      <property name="geometry">
       <rect>
        <x>680</x>
-       <y>20</y>
+       <y>40</y>
        <width>41</width>
        <height>25</height>
       </rect>
@@ -666,7 +663,7 @@
      <property name="geometry">
       <rect>
        <x>680</x>
-       <y>60</y>
+       <y>80</y>
        <width>41</width>
        <height>25</height>
       </rect>
@@ -679,70 +676,15 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="group_qsa">
+   <widget class="QListWidget" name="listWidget_qsa">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>360</y>
-      <width>491</width>
-      <height>121</height>
+      <x>550</x>
+      <y>370</y>
+      <width>511</width>
+      <height>251</height>
      </rect>
     </property>
-    <property name="title">
-     <string>Quadro societário</string>
-    </property>
-    <widget class="QLabel" name="label_phone_2">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>76</y>
-       <width>61</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Telefone</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_output_email_2">
-     <property name="geometry">
-      <rect>
-       <x>111</x>
-       <y>39</y>
-       <width>361</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_output_phone_2">
-     <property name="geometry">
-      <rect>
-       <x>110</x>
-       <y>76</y>
-       <width>291</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_email_2">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>40</y>
-       <width>41</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nome</string>
-     </property>
-    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -788,7 +730,7 @@
     <string/>
    </property>
    <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
+    <enum>Qt::RightToLeft</enum>
    </property>
   </widget>
   <action name="action_theme_dark">

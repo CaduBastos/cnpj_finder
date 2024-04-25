@@ -10,9 +10,11 @@
 #include <QNetworkRequest>
 #include <QNetworkReply>
 #include <QEventLoop>
+#include <QListWidget>
 
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QJsonArray>
 
 bool CNPJvalidate(QString CNPJ);
 void showMessage(QString type, QString message);
@@ -94,6 +96,15 @@ void MainWindow::on_lineEdit_input_editingFinished()
             ui->label_uf->setText("UF: " + jsonObj.value("uf").toString());
             ui->label_number->setText("Número: " + jsonObj.value("numero").toString());
 
+            //Print the QSA informations
+            QJsonArray qsa_array = jsonObj.value("qsa").toArray();
+            QListWidget listWidget_qsa;
+            foreach(const QJsonValue &value, qsa_array){
+                listWidget_qsa.addItem(value.toString());
+                qDebug() << "item added with succes!!";
+            }
+            listWidget_qsa.show();
+
         }
         else{
             qDebug() << "Error: " << reply->errorString();
@@ -123,6 +134,21 @@ void MainWindow::on_pushButton_cls_input_clicked(bool checked)
     ui->lineEdit_input->clear();
     ui->lineEdit_output_dots->clear();
     ui->lineEdit_output_astrk->clear();
+    ui->lineEdit_output_social_name->clear();
+    ui->lineEdit_output_fake_name->clear();
+    ui->label_type->setText(" ");
+    ui->label_last_update->setText(" ");
+    ui->label_status->setText(" ");
+    ui->label_status_2->setText(" ");
+    ui->label_size->setText(" ");
+    ui->lineEdit_output_email->clear();
+    ui->lineEdit_output_phone->clear();
+    ui->lineEdit_output_cep->clear();
+    ui->lineEdit_output_street->clear();
+    ui->lineEdit_output_neighborhood->clear();
+    ui->lineEdit_output_city->clear();
+    ui->label_uf->setText(" ");
+    ui->label_number->setText(" ");
 }
 
 QString CNPJformat_dots(QString cnpj){
@@ -278,5 +304,17 @@ void MainWindow::on_toolButton_cp_phone_clicked(bool checked)
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->lineEdit_output_phone->text());
+}
+
+void MainWindow::on_toolButton_cp_social_name_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_social_name->text());
+}
+
+void MainWindow::on_toolButton_cp_fake_name_clicked(bool checked)
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEdit_output_fake_name->text());
 }
 

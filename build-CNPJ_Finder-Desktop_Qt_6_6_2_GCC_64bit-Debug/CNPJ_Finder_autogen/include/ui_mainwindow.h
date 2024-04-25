@@ -17,6 +17,7 @@
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
@@ -70,7 +71,7 @@ public:
     QLineEdit *lineEdit_output_phone;
     QToolButton *toolButton_cp_email;
     QToolButton *toolButton_cp_phone;
-    QFrame *company_informations;
+    QGroupBox *company_informations;
     QLabel *label_status;
     QLineEdit *lineEdit_output_social_name;
     QLabel *label_fake_name;
@@ -82,11 +83,7 @@ public:
     QLabel *label_size;
     QToolButton *toolButton_cp_social_name;
     QToolButton *toolButton_cp_fake_name;
-    QGroupBox *group_qsa;
-    QLabel *label_phone_2;
-    QLineEdit *lineEdit_output_email_2;
-    QLineEdit *lineEdit_output_phone_2;
-    QLabel *label_email_2;
+    QListWidget *listWidget_qsa;
     QMenuBar *menubar;
     QMenu *menuArquivo;
     QMenu *menuTema;
@@ -120,7 +117,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         cnpj_fields = new QFrame(centralwidget);
         cnpj_fields->setObjectName("cnpj_fields");
-        cnpj_fields->setGeometry(QRect(20, 10, 401, 131));
+        cnpj_fields->setGeometry(QRect(20, 40, 401, 131));
         QFont font;
         font.setItalic(false);
         cnpj_fields->setFont(font);
@@ -159,7 +156,7 @@ public:
         lineEdit_output_astrk->setGeometry(QRect(150, 93, 161, 25));
         group_location = new QGroupBox(centralwidget);
         group_location->setObjectName("group_location");
-        group_location->setGeometry(QRect(20, 200, 501, 271));
+        group_location->setGeometry(QRect(20, 240, 501, 271));
         QFont font1;
         font1.setBold(false);
         font1.setUnderline(false);
@@ -224,7 +221,7 @@ public:
         toolButton_cp_city->setIcon(icon2);
         group_contact = new QGroupBox(centralwidget);
         group_contact->setObjectName("group_contact");
-        group_contact->setGeometry(QRect(560, 220, 511, 111));
+        group_contact->setGeometry(QRect(550, 240, 511, 111));
         group_contact->setAutoFillBackground(false);
         group_contact->setFlat(false);
         group_contact->setCheckable(false);
@@ -248,61 +245,47 @@ public:
         toolButton_cp_phone->setObjectName("toolButton_cp_phone");
         toolButton_cp_phone->setGeometry(QRect(380, 70, 41, 25));
         toolButton_cp_phone->setIcon(icon2);
-        company_informations = new QFrame(centralwidget);
+        company_informations = new QGroupBox(centralwidget);
         company_informations->setObjectName("company_informations");
-        company_informations->setGeometry(QRect(440, 10, 741, 181));
-        company_informations->setFrameShape(QFrame::Box);
-        company_informations->setFrameShadow(QFrame::Raised);
+        company_informations->setGeometry(QRect(430, 20, 741, 201));
         label_status = new QLabel(company_informations);
         label_status->setObjectName("label_status");
-        label_status->setGeometry(QRect(20, 140, 141, 20));
+        label_status->setGeometry(QRect(20, 160, 141, 20));
         lineEdit_output_social_name = new QLineEdit(company_informations);
         lineEdit_output_social_name->setObjectName("lineEdit_output_social_name");
-        lineEdit_output_social_name->setGeometry(QRect(120, 20, 551, 25));
+        lineEdit_output_social_name->setGeometry(QRect(120, 40, 551, 25));
         label_fake_name = new QLabel(company_informations);
         label_fake_name->setObjectName("label_fake_name");
-        label_fake_name->setGeometry(QRect(13, 61, 101, 20));
+        label_fake_name->setGeometry(QRect(13, 81, 101, 20));
         lineEdit_output_fake_name = new QLineEdit(company_informations);
         lineEdit_output_fake_name->setObjectName("lineEdit_output_fake_name");
-        lineEdit_output_fake_name->setGeometry(QRect(120, 60, 551, 25));
+        lineEdit_output_fake_name->setGeometry(QRect(120, 80, 551, 25));
         label_last_update = new QLabel(company_informations);
         label_last_update->setObjectName("label_last_update");
-        label_last_update->setGeometry(QRect(250, 100, 311, 20));
+        label_last_update->setGeometry(QRect(250, 120, 311, 20));
         label_type = new QLabel(company_informations);
         label_type->setObjectName("label_type");
-        label_type->setGeometry(QRect(20, 100, 141, 20));
+        label_type->setGeometry(QRect(20, 120, 141, 20));
         label_social_name = new QLabel(company_informations);
         label_social_name->setObjectName("label_social_name");
-        label_social_name->setGeometry(QRect(30, 21, 81, 20));
+        label_social_name->setGeometry(QRect(30, 41, 81, 20));
         label_status_2 = new QLabel(company_informations);
         label_status_2->setObjectName("label_status_2");
-        label_status_2->setGeometry(QRect(251, 140, 141, 20));
+        label_status_2->setGeometry(QRect(251, 160, 141, 20));
         label_size = new QLabel(company_informations);
         label_size->setObjectName("label_size");
-        label_size->setGeometry(QRect(490, 140, 181, 20));
+        label_size->setGeometry(QRect(490, 160, 181, 20));
         toolButton_cp_social_name = new QToolButton(company_informations);
         toolButton_cp_social_name->setObjectName("toolButton_cp_social_name");
-        toolButton_cp_social_name->setGeometry(QRect(680, 20, 41, 25));
+        toolButton_cp_social_name->setGeometry(QRect(680, 40, 41, 25));
         toolButton_cp_social_name->setIcon(icon2);
         toolButton_cp_fake_name = new QToolButton(company_informations);
         toolButton_cp_fake_name->setObjectName("toolButton_cp_fake_name");
-        toolButton_cp_fake_name->setGeometry(QRect(680, 60, 41, 25));
+        toolButton_cp_fake_name->setGeometry(QRect(680, 80, 41, 25));
         toolButton_cp_fake_name->setIcon(icon2);
-        group_qsa = new QGroupBox(centralwidget);
-        group_qsa->setObjectName("group_qsa");
-        group_qsa->setGeometry(QRect(560, 360, 491, 121));
-        label_phone_2 = new QLabel(group_qsa);
-        label_phone_2->setObjectName("label_phone_2");
-        label_phone_2->setGeometry(QRect(40, 76, 61, 20));
-        lineEdit_output_email_2 = new QLineEdit(group_qsa);
-        lineEdit_output_email_2->setObjectName("lineEdit_output_email_2");
-        lineEdit_output_email_2->setGeometry(QRect(111, 39, 361, 25));
-        lineEdit_output_phone_2 = new QLineEdit(group_qsa);
-        lineEdit_output_phone_2->setObjectName("lineEdit_output_phone_2");
-        lineEdit_output_phone_2->setGeometry(QRect(110, 76, 291, 25));
-        label_email_2 = new QLabel(group_qsa);
-        label_email_2->setObjectName("label_email_2");
-        label_email_2->setGeometry(QRect(60, 40, 41, 20));
+        listWidget_qsa = new QListWidget(centralwidget);
+        listWidget_qsa->setObjectName("listWidget_qsa");
+        listWidget_qsa->setGeometry(QRect(550, 370, 511, 251));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -319,7 +302,7 @@ public:
         font2.setPointSize(10);
         font2.setItalic(true);
         statusbar->setFont(font2);
-        statusbar->setLayoutDirection(Qt::LeftToRight);
+        statusbar->setLayoutDirection(Qt::RightToLeft);
         MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menuArquivo->menuAction());
@@ -375,6 +358,7 @@ public:
         lineEdit_output_phone->setText(QString());
         toolButton_cp_email->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         toolButton_cp_phone->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
+        company_informations->setTitle(QCoreApplication::translate("MainWindow", "Dados da empresa", nullptr));
         label_status->setText(QCoreApplication::translate("MainWindow", "Situa\303\247\303\243o:", nullptr));
         label_fake_name->setText(QCoreApplication::translate("MainWindow", "Nome fantasia", nullptr));
         label_last_update->setText(QCoreApplication::translate("MainWindow", "\303\232ltima atualiza\303\247\303\243o:", nullptr));
@@ -384,11 +368,6 @@ public:
         label_size->setText(QCoreApplication::translate("MainWindow", "Porte:", nullptr));
         toolButton_cp_social_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         toolButton_cp_fake_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
-        group_qsa->setTitle(QCoreApplication::translate("MainWindow", "Quadro societ\303\241rio", nullptr));
-        label_phone_2->setText(QCoreApplication::translate("MainWindow", "Telefone", nullptr));
-        lineEdit_output_email_2->setText(QString());
-        lineEdit_output_phone_2->setText(QString());
-        label_email_2->setText(QCoreApplication::translate("MainWindow", "Nome", nullptr));
         menuArquivo->setTitle(QCoreApplication::translate("MainWindow", "Arquivo", nullptr));
         menuTema->setTitle(QCoreApplication::translate("MainWindow", "Tema", nullptr));
 #if QT_CONFIG(accessibility)
