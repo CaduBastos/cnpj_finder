@@ -12,6 +12,9 @@
 #include <QEventLoop>
 #include <QListWidget>
 
+#include <QTableView>
+#include <QHeaderView>
+
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonArray>
@@ -29,7 +32,13 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->statusbar->showMessage("Developed by Cadu Bastos");
+    //ui->statusbar->showMessage("Developed by Cadu Bastos");
+
+    //Configure the tableView_qsa for qsa data
+    qsa_table_model = new QStandardItemModel(0, 3, this);
+    qsa_table_model->setHorizontalHeaderLabels({"Nome", "Qualificação", "País de origem"});
+    ui->tableView_qsa->setModel(qsa_table_model);
+
 }
 
 MainWindow::~MainWindow()
@@ -49,14 +58,13 @@ void MainWindow::on_lineEdit_input_editingFinished()
         data = CNPJformat_dots(data);       //Format data inserted to pattern xx.xxx.xxx/xxxx-xx
         ui->lineEdit_output_dots->setText(data);
 
-        //ui->plainTextEdit_history->appendPlainText(data + "\n");    //Append to the history the data inserted
-
         data = CNPJformat_astrk(data);      //Format data inserted to pattern xx*xxx*xxx*xxxx*xx
         ui->lineEdit_output_astrk->setText(data);
 
         //Format the url with cnpj inserted to send http get
         QUrl url("https://receitaws.com.br/v1/cnpj/" + data.remove(QRegularExpression("[^0-9]")));
         QNetworkRequest request(url);
+        ui->statusbar->showMessage("Carregando...");
 
         QNetworkReply *reply = netmanager.get(request);
 
@@ -67,6 +75,8 @@ void MainWindow::on_lineEdit_input_editingFinished()
 
         //Check if http request was succesful
         if(reply->error()==QNetworkReply::NoError){
+
+            ui->statusbar->clearMessage();
 
             QByteArray response = reply->readAll();                     //Get data from reply
             reply->deleteLater();                                       //free memory alocated for network reply
@@ -98,13 +108,21 @@ void MainWindow::on_lineEdit_input_editingFinished()
 
             //Print the QSA informations
             QJsonArray qsa_array = jsonObj.value("qsa").toArray();
-            QListWidget listWidget_qsa;
-            foreach(const QJsonValue &value, qsa_array){
-                listWidget_qsa.addItem(value.toString());
-                qDebug() << "item added with succes!!";
-            }
-            listWidget_qsa.show();
+            foreach(const QJsonValue &qsa_value, qsa_array){
 
+                QString name = qsa_value.toObject().value("nome").toString();
+                QString qual = qsa_value.toObject().value("qual").toString();
+                QString country = qsa_value.toObject().value("pais_origem").toString();
+
+                QList<QStandardItem*> row_data = {
+                    new QStandardItem(name),
+                    new QStandardItem(qual),
+                    new QStandardItem(country)};
+
+                qsa_table_model->appendRow(row_data);
+            }
+            ui->tableView_qsa->resizeColumnsToContents();
+            ui->tableView_qsa->update();
         }
         else{
             qDebug() << "Error: " << reply->errorString();
@@ -149,12 +167,13 @@ void MainWindow::on_pushButton_cls_input_clicked(bool checked)
     ui->lineEdit_output_city->clear();
     ui->label_uf->setText(" ");
     ui->label_number->setText(" ");
+    qsa_table_model->removeRows(0, qsa_table_model->rowCount());
+    ui->tableView_qsa->update();
 }
 
 QString CNPJformat_dots(QString cnpj){
 
     cnpj.remove(QRegularExpression("[^0-9]"));  //Remove not numbers characters of the string
-   // if(cnpj.size()<18){
     cnpj.resize(18);                            //Check if cnpj was inserted with separators characteres. if not, resize the string
 
     cnpj[17]=cnpj[13];                          //Move characters to the right position //-xx
@@ -317,4 +336,6 @@ void MainWindow::on_toolButton_cp_fake_name_clicked(bool checked)
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->lineEdit_output_fake_name->text());
 }
+
+
 

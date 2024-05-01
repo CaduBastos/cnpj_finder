@@ -13,10 +13,6 @@
   <property name="windowTitle">
    <string>CNPJ Formatter 1.0</string>
   </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>../../../Downloads/analise.png</normaloff>../../../Downloads/analise.png</iconset>
-  </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
   </property>
@@ -429,6 +425,9 @@
     <property name="title">
      <string>Contato</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
     <property name="flat">
      <bool>false</bool>
     </property>
@@ -531,6 +530,9 @@
     </property>
     <property name="title">
      <string>Dados da empresa</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <widget class="QLabel" name="label_status">
      <property name="geometry">
@@ -676,14 +678,33 @@
      </property>
     </widget>
    </widget>
-   <widget class="QListWidget" name="listWidget_qsa">
+   <widget class="QTableView" name="tableView_qsa">
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>370</y>
-      <width>511</width>
+      <y>380</y>
+      <width>621</width>
       <height>251</height>
      </rect>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>553</x>
+      <y>360</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QSA</string>
     </property>
    </widget>
   </widget>

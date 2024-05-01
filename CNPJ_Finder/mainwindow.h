@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QStandardItemModel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,6 +17,8 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+    QStandardItemModel *qsa_table_model; //model data of qsa_table
 
 private slots:
 

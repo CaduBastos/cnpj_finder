@@ -4,6 +4,7 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q20memory.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q20type_traits.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q23utility.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qabstractitemmodel.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qanystringview.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qarraydata.h \
@@ -113,6 +114,7 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qversiontagging.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qxptype_traits.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/QStandardItemModel \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qaction.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qbitmap.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qbrush.h \
@@ -132,6 +134,7 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qregion.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qrgb.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qrgba64.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qstandarditemmodel.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qtgui-config.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qtguiexports.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qtguiglobal.h \
