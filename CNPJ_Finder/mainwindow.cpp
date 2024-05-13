@@ -44,6 +44,9 @@ MainWindow::MainWindow(QWidget *parent)
     qsa_table_model = new QStandardItemModel(0, 3, this);
     qsa_table_model->setHorizontalHeaderLabels({"Nome", "Qualificação", "País de origem"});
     ui->tableView_qsa->setModel(qsa_table_model);
+
+    historicwindow = new HistoricWindow(this);
+    historicwindow->close();
 }
 
 MainWindow::~MainWindow()
@@ -131,7 +134,6 @@ void MainWindow::on_lineEdit_input_editingFinished()
             ui->tableView_qsa->update();
 
             //entering search data to history
-            historicwindow = new HistoricWindow(this);
             historicwindow->historic_list_setup(CNPJformat_dots(data), jsonObj.value("nome").toString(), jsonObj.value("fantasia").toString());
         }
         else{

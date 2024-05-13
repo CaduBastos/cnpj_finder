@@ -20,8 +20,6 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    QStandardItemModel *qsa_table_model; //model data of qsa_table
-
 private slots:
 
     void on_lineEdit_input_editingFinished();
@@ -43,5 +41,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     HistoricWindow *historicwindow;
+    QStandardItemModel *qsa_table_model; //model data of qsa_table
 };
 #endif // MAINWINDOW_H
