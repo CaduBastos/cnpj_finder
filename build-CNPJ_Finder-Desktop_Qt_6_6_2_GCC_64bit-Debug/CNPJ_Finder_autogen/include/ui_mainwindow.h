@@ -32,11 +32,11 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *action_theme_dark;
-    QAction *action_theme_light;
-    QAction *action_historic;
-    QAction *action_about;
-    QAction *actionAbout;
+    QAction *actionDark;
+    QAction *actionWhite_2;
+    QAction *actionDark_2;
+    QAction *actionSobre;
+    QAction *actionHist_rico;
     QWidget *centralwidget;
     QFrame *cnpj_fields;
     QLabel *label_input_cnpj;
@@ -85,10 +85,11 @@ public:
     QToolButton *toolButton_cp_social_name;
     QToolButton *toolButton_cp_fake_name;
     QTableView *tableView_qsa;
-    QLabel *label;
+    QLabel *label_qsa;
     QMenuBar *menubar;
-    QMenu *menuArquivo;
+    QMenu *menuConfigura_es;
     QMenu *menuTema;
+    QMenu *menuTema_2;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -97,21 +98,16 @@ public:
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(1199, 679);
         MainWindow->setTabShape(QTabWidget::Rounded);
-        action_theme_dark = new QAction(MainWindow);
-        action_theme_dark->setObjectName("action_theme_dark");
-        action_theme_dark->setCheckable(false);
-        action_theme_light = new QAction(MainWindow);
-        action_theme_light->setObjectName("action_theme_light");
-        action_theme_light->setCheckable(false);
-        action_historic = new QAction(MainWindow);
-        action_historic->setObjectName("action_historic");
-        action_about = new QAction(MainWindow);
-        action_about->setObjectName("action_about");
-        actionAbout = new QAction(MainWindow);
-        actionAbout->setObjectName("actionAbout");
-        QIcon icon(QIcon::fromTheme(QString::fromUtf8("dialog-question")));
-        actionAbout->setIcon(icon);
-        actionAbout->setMenuRole(QAction::NoRole);
+        actionDark = new QAction(MainWindow);
+        actionDark->setObjectName("actionDark");
+        actionWhite_2 = new QAction(MainWindow);
+        actionWhite_2->setObjectName("actionWhite_2");
+        actionDark_2 = new QAction(MainWindow);
+        actionDark_2->setObjectName("actionDark_2");
+        actionSobre = new QAction(MainWindow);
+        actionSobre->setObjectName("actionSobre");
+        actionHist_rico = new QAction(MainWindow);
+        actionHist_rico->setObjectName("actionHist_rico");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         cnpj_fields = new QFrame(centralwidget);
@@ -135,8 +131,8 @@ public:
         toolButton_cp_astrk = new QToolButton(cnpj_fields);
         toolButton_cp_astrk->setObjectName("toolButton_cp_astrk");
         toolButton_cp_astrk->setGeometry(QRect(320, 93, 41, 25));
-        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("edit-copy")));
-        toolButton_cp_astrk->setIcon(icon1);
+        QIcon icon(QIcon::fromTheme(QString::fromUtf8("edit-copy")));
+        toolButton_cp_astrk->setIcon(icon);
         lineEdit_output_dots = new QLineEdit(cnpj_fields);
         lineEdit_output_dots->setObjectName("lineEdit_output_dots");
         lineEdit_output_dots->setGeometry(QRect(150, 53, 161, 25));
@@ -146,7 +142,7 @@ public:
         toolButton_cp_dots = new QToolButton(cnpj_fields);
         toolButton_cp_dots->setObjectName("toolButton_cp_dots");
         toolButton_cp_dots->setGeometry(QRect(320, 53, 41, 25));
-        toolButton_cp_dots->setIcon(icon1);
+        toolButton_cp_dots->setIcon(icon);
         pushButton_cls_input = new QPushButton(cnpj_fields);
         pushButton_cls_input->setObjectName("pushButton_cls_input");
         pushButton_cls_input->setGeometry(QRect(320, 13, 71, 25));
@@ -155,7 +151,7 @@ public:
         lineEdit_output_astrk->setGeometry(QRect(150, 93, 161, 25));
         group_location = new QGroupBox(centralwidget);
         group_location->setObjectName("group_location");
-        group_location->setGeometry(QRect(20, 240, 501, 271));
+        group_location->setGeometry(QRect(20, 230, 501, 271));
         QFont font1;
         font1.setBold(false);
         font1.setUnderline(false);
@@ -205,22 +201,22 @@ public:
         toolButton_cp_cep = new QToolButton(group_location);
         toolButton_cp_cep->setObjectName("toolButton_cp_cep");
         toolButton_cp_cep->setGeometry(QRect(291, 40, 41, 25));
-        toolButton_cp_cep->setIcon(icon1);
+        toolButton_cp_cep->setIcon(icon);
         toolButton_cp_street = new QToolButton(group_location);
         toolButton_cp_street->setObjectName("toolButton_cp_street");
         toolButton_cp_street->setGeometry(QRect(450, 77, 41, 25));
-        toolButton_cp_street->setIcon(icon1);
+        toolButton_cp_street->setIcon(icon);
         toolButton_cp_neighborhood = new QToolButton(group_location);
         toolButton_cp_neighborhood->setObjectName("toolButton_cp_neighborhood");
         toolButton_cp_neighborhood->setGeometry(QRect(381, 117, 41, 25));
-        toolButton_cp_neighborhood->setIcon(icon1);
+        toolButton_cp_neighborhood->setIcon(icon);
         toolButton_cp_city = new QToolButton(group_location);
         toolButton_cp_city->setObjectName("toolButton_cp_city");
         toolButton_cp_city->setGeometry(QRect(410, 158, 41, 25));
-        toolButton_cp_city->setIcon(icon1);
+        toolButton_cp_city->setIcon(icon);
         group_contact = new QGroupBox(centralwidget);
         group_contact->setObjectName("group_contact");
-        group_contact->setGeometry(QRect(550, 240, 511, 111));
+        group_contact->setGeometry(QRect(549, 230, 520, 111));
         group_contact->setAutoFillBackground(false);
         group_contact->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         group_contact->setFlat(false);
@@ -240,11 +236,11 @@ public:
         toolButton_cp_email = new QToolButton(group_contact);
         toolButton_cp_email->setObjectName("toolButton_cp_email");
         toolButton_cp_email->setGeometry(QRect(451, 33, 41, 25));
-        toolButton_cp_email->setIcon(icon1);
+        toolButton_cp_email->setIcon(icon);
         toolButton_cp_phone = new QToolButton(group_contact);
         toolButton_cp_phone->setObjectName("toolButton_cp_phone");
         toolButton_cp_phone->setGeometry(QRect(380, 70, 41, 25));
-        toolButton_cp_phone->setIcon(icon1);
+        toolButton_cp_phone->setIcon(icon);
         company_informations = new QGroupBox(centralwidget);
         company_informations->setObjectName("company_informations");
         company_informations->setGeometry(QRect(430, 20, 741, 201));
@@ -279,27 +275,31 @@ public:
         toolButton_cp_social_name = new QToolButton(company_informations);
         toolButton_cp_social_name->setObjectName("toolButton_cp_social_name");
         toolButton_cp_social_name->setGeometry(QRect(680, 40, 41, 25));
-        toolButton_cp_social_name->setIcon(icon1);
+        toolButton_cp_social_name->setIcon(icon);
         toolButton_cp_fake_name = new QToolButton(company_informations);
         toolButton_cp_fake_name->setObjectName("toolButton_cp_fake_name");
         toolButton_cp_fake_name->setGeometry(QRect(680, 80, 41, 25));
-        toolButton_cp_fake_name->setIcon(icon1);
+        toolButton_cp_fake_name->setIcon(icon);
         tableView_qsa = new QTableView(centralwidget);
         tableView_qsa->setObjectName("tableView_qsa");
-        tableView_qsa->setGeometry(QRect(550, 380, 621, 251));
+        tableView_qsa->setGeometry(QRect(547, 380, 621, 251));
         tableView_qsa->setAlternatingRowColors(false);
+        tableView_qsa->horizontalHeader()->setDefaultSectionSize(205);
         tableView_qsa->verticalHeader()->setVisible(false);
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(553, 360, 31, 20));
+        tableView_qsa->verticalHeader()->setDefaultSectionSize(57);
+        label_qsa = new QLabel(centralwidget);
+        label_qsa->setObjectName("label_qsa");
+        label_qsa->setGeometry(QRect(550, 360, 31, 20));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 1199, 22));
-        menuArquivo = new QMenu(menubar);
-        menuArquivo->setObjectName("menuArquivo");
-        menuTema = new QMenu(menuArquivo);
+        menuConfigura_es = new QMenu(menubar);
+        menuConfigura_es->setObjectName("menuConfigura_es");
+        menuTema = new QMenu(menuConfigura_es);
         menuTema->setObjectName("menuTema");
+        menuTema_2 = new QMenu(menuTema);
+        menuTema_2->setObjectName("menuTema_2");
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -311,15 +311,13 @@ public:
         statusbar->setLayoutDirection(Qt::RightToLeft);
         MainWindow->setStatusBar(statusbar);
 
-        menubar->addAction(menuArquivo->menuAction());
-        menuArquivo->addSeparator();
-        menuArquivo->addAction(action_historic);
-        menuArquivo->addAction(menuTema->menuAction());
-        menuArquivo->addAction(action_about);
-        menuTema->addSeparator();
-        menuTema->addSeparator();
-        menuTema->addAction(action_theme_light);
-        menuTema->addAction(action_theme_dark);
+        menubar->addAction(menuConfigura_es->menuAction());
+        menuConfigura_es->addAction(menuTema->menuAction());
+        menuConfigura_es->addAction(actionHist_rico);
+        menuConfigura_es->addAction(actionSobre);
+        menuTema->addAction(menuTema_2->menuAction());
+        menuTema_2->addAction(actionWhite_2);
+        menuTema_2->addAction(actionDark_2);
 
         retranslateUi(MainWindow);
 
@@ -329,11 +327,11 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "CNPJ Formatter 1.0", nullptr));
-        action_theme_dark->setText(QCoreApplication::translate("MainWindow", "Escuro", nullptr));
-        action_theme_light->setText(QCoreApplication::translate("MainWindow", "Claro", nullptr));
-        action_historic->setText(QCoreApplication::translate("MainWindow", "Historico", nullptr));
-        action_about->setText(QCoreApplication::translate("MainWindow", "Sobre", nullptr));
-        actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
+        actionDark->setText(QCoreApplication::translate("MainWindow", "Dark", nullptr));
+        actionWhite_2->setText(QCoreApplication::translate("MainWindow", "White", nullptr));
+        actionDark_2->setText(QCoreApplication::translate("MainWindow", "Dark", nullptr));
+        actionSobre->setText(QCoreApplication::translate("MainWindow", "Sobre", nullptr));
+        actionHist_rico->setText(QCoreApplication::translate("MainWindow", "Hist\303\263rico", nullptr));
         label_input_cnpj->setText(QCoreApplication::translate("MainWindow", "Digite o CNPJ", nullptr));
         label_cnpj_formated->setText(QCoreApplication::translate("MainWindow", "CNPJ formatado", nullptr));
         toolButton_cp_astrk->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
@@ -374,9 +372,10 @@ public:
         label_size->setText(QCoreApplication::translate("MainWindow", "Porte:", nullptr));
         toolButton_cp_social_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         toolButton_cp_fake_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "QSA", nullptr));
-        menuArquivo->setTitle(QCoreApplication::translate("MainWindow", "Arquivo", nullptr));
-        menuTema->setTitle(QCoreApplication::translate("MainWindow", "Tema", nullptr));
+        label_qsa->setText(QCoreApplication::translate("MainWindow", "QSA", nullptr));
+        menuConfigura_es->setTitle(QCoreApplication::translate("MainWindow", "Arquivo", nullptr));
+        menuTema->setTitle(QCoreApplication::translate("MainWindow", "Prefer\303\252ncias", nullptr));
+        menuTema_2->setTitle(QCoreApplication::translate("MainWindow", "Tema", nullptr));
 #if QT_CONFIG(accessibility)
         statusbar->setAccessibleName(QString());
 #endif // QT_CONFIG(accessibility)

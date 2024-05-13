@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-5e039ca77f339a752711.json",
+					"jsonFile" : "directory-.-Debug-494694f85f9e205c9129.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CNPJ_Finder::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CNPJ_Finder-Debug-32fc8bfedb66b39c639d.json",
+					"jsonFile" : "target-CNPJ_Finder-Debug-43466be8753ce0c06dc8.json",
 					"name" : "CNPJ_Finder",
 					"projectIndex" : 0
 				},

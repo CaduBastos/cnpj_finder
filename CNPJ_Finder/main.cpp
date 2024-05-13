@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "historicwindow.h"
 
 #include <QApplication>
 #include <QLocale>

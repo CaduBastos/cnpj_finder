@@ -159,7 +159,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>240</y>
+      <y>230</y>
       <width>501</width>
       <height>271</height>
      </rect>
@@ -413,9 +413,9 @@
    <widget class="QGroupBox" name="group_contact">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>240</y>
-      <width>511</width>
+      <x>549</x>
+      <y>230</y>
+      <width>520</width>
       <height>111</height>
      </rect>
     </property>
@@ -681,7 +681,7 @@
    <widget class="QTableView" name="tableView_qsa">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>547</x>
       <y>380</y>
       <width>621</width>
       <height>251</height>
@@ -690,14 +690,20 @@
     <property name="alternatingRowColors">
      <bool>false</bool>
     </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>205</number>
+    </attribute>
     <attribute name="verticalHeaderVisible">
      <bool>false</bool>
     </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>57</number>
+    </attribute>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_qsa">
     <property name="geometry">
      <rect>
-      <x>553</x>
+      <x>550</x>
       <y>360</y>
       <width>31</width>
       <height>20</height>
@@ -717,25 +723,28 @@
      <height>22</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuArquivo">
+   <widget class="QMenu" name="menuConfigura_es">
     <property name="title">
      <string>Arquivo</string>
     </property>
     <widget class="QMenu" name="menuTema">
      <property name="title">
-      <string>Tema</string>
+      <string>Preferências</string>
      </property>
-     <addaction name="separator"/>
-     <addaction name="separator"/>
-     <addaction name="action_theme_light"/>
-     <addaction name="action_theme_dark"/>
+     <widget class="QMenu" name="menuTema_2">
+      <property name="title">
+       <string>Tema</string>
+      </property>
+      <addaction name="actionWhite_2"/>
+      <addaction name="actionDark_2"/>
+     </widget>
+     <addaction name="menuTema_2"/>
     </widget>
-    <addaction name="separator"/>
-    <addaction name="action_historic"/>
     <addaction name="menuTema"/>
-    <addaction name="action_about"/>
+    <addaction name="actionHist_rico"/>
+    <addaction name="actionSobre"/>
    </widget>
-   <addaction name="menuArquivo"/>
+   <addaction name="menuConfigura_es"/>
   </widget>
   <widget class="QStatusBar" name="statusbar">
    <property name="enabled">
@@ -754,41 +763,29 @@
     <enum>Qt::RightToLeft</enum>
    </property>
   </widget>
-  <action name="action_theme_dark">
-   <property name="checkable">
-    <bool>false</bool>
-   </property>
+  <action name="actionDark">
    <property name="text">
-    <string>Escuro</string>
+    <string>Dark</string>
    </property>
   </action>
-  <action name="action_theme_light">
-   <property name="checkable">
-    <bool>false</bool>
-   </property>
+  <action name="actionWhite_2">
    <property name="text">
-    <string>Claro</string>
+    <string>White</string>
    </property>
   </action>
-  <action name="action_historic">
+  <action name="actionDark_2">
    <property name="text">
-    <string>Historico</string>
+    <string>Dark</string>
    </property>
   </action>
-  <action name="action_about">
+  <action name="actionSobre">
    <property name="text">
     <string>Sobre</string>
    </property>
   </action>
-  <action name="actionAbout">
-   <property name="icon">
-    <iconset theme="dialog-question"/>
-   </property>
+  <action name="actionHist_rico">
    <property name="text">
-    <string>About</string>
-   </property>
-   <property name="menuRole">
-    <enum>QAction::NoRole</enum>
+    <string>Histórico</string>
    </property>
   </action>
  </widget>

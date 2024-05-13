@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8b01eade1258879af27c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CNPJ_Finder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CNPJ_Finder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNPJ_Finder-Debug-7436a311d7adff1d1ec7.json",
+					"name" : "CNPJ_Finder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNPJ_Finder_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNPJ_Finder_autogen-Debug-5c26bb3b5ad57f83be1f.json",
+					"name" : "CNPJ_Finder_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNPJ_Finder_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNPJ_Finder_autogen_timestamp_deps-Debug-48fa5addb98d33fb4833.json",
+					"name" : "CNPJ_Finder_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug",
+		"source" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

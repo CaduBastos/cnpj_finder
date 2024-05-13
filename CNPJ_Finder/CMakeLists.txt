@@ -26,6 +26,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(CNPJ_Finder
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        historicwindow.h historicwindow.cpp historicwindow.ui
+        historicwindow.h historicwindow.cpp historicwindow.ui
+        historicwindow.h historicwindow.cpp historicwindow.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET CNPJ_Finder APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

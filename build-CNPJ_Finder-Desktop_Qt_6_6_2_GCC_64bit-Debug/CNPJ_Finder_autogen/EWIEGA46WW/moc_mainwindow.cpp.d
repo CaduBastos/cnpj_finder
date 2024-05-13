@@ -1,5 +1,7 @@
 /home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Finder_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/mainwindow.h \
   /home/cadubastos/qt_projects/CNPJ_Finder/build-CNPJ_Finder-Desktop_Qt_6_6_2_GCC_64bit-Debug/CNPJ_Finder_autogen/moc_predefs.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/QStringList \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/QStringListModel \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q20functional.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q20memory.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/q20type_traits.h \
@@ -83,6 +85,7 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringconverter_base.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringfwd.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringlist.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringlistmodel.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringliteral.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringmatcher.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtCore/qstringtokenizer.h \
@@ -140,7 +143,9 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qtguiglobal.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qtransform.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/QDockWidget \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/QMainWindow \
+  /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qdockwidget.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -148,6 +153,7 @@
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/cadubastos/Qt/6.6.2/gcc_64/include/QtWidgets/qwidget.h \
+  /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/historicwindow.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

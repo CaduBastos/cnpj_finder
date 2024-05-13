@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QStandardItemModel>
 
+#include "historicwindow.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -24,9 +26,6 @@ private slots:
 
     void on_lineEdit_input_editingFinished();
     void on_pushButton_cls_input_clicked(bool checked);
-    void on_action_theme_dark_triggered();
-    void on_action_theme_light_triggered();
-
     void on_toolButton_cp_dots_clicked(bool checked);
     void on_toolButton_cp_astrk_clicked(bool checked);
     void on_toolButton_cp_cep_clicked(bool checked);
@@ -38,7 +37,11 @@ private slots:
     void on_toolButton_cp_social_name_clicked(bool checked);
     void on_toolButton_cp_fake_name_clicked(bool checked);
 
+    void on_actionHist_rico_triggered(bool checked);
+
+
 private:
     Ui::MainWindow *ui;
+    HistoricWindow *historicwindow;
 };
 #endif // MAINWINDOW_H

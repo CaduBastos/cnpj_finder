@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
+#include "historicwindow.h"
+#include "ui_historicwindow.h"
+
 #include <QApplication>
 #include <QRegularExpression>
 #include <QMessageBox>
@@ -27,23 +30,26 @@ QString CNPJformat_astrk(QString cnpj);
 
 QNetworkAccessManager netmanager;         //Define a network manager object
 
+HistoricWindow *historicwindow = nullptr;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
     //ui->statusbar->showMessage("Developed by Cadu Bastos");
 
     //Configure the tableView_qsa for qsa data
     qsa_table_model = new QStandardItemModel(0, 3, this);
     qsa_table_model->setHorizontalHeaderLabels({"Nome", "Qualificação", "País de origem"});
     ui->tableView_qsa->setModel(qsa_table_model);
-
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete historicwindow;
 }
 
 void MainWindow::on_lineEdit_input_editingFinished()
@@ -123,6 +129,10 @@ void MainWindow::on_lineEdit_input_editingFinished()
             }
             ui->tableView_qsa->resizeColumnsToContents();
             ui->tableView_qsa->update();
+
+            //entering search data to history
+            historicwindow = new HistoricWindow(this);
+            historicwindow->historic_list_setup(CNPJformat_dots(data), jsonObj.value("nome").toString(), jsonObj.value("fantasia").toString());
         }
         else{
             qDebug() << "Error: " << reply->errorString();
@@ -260,23 +270,6 @@ void showMessage(QString type, QString message){
         QMessageBox::question(nullptr, "", message);
 }
 
-void MainWindow::on_action_theme_light_triggered()
-{
-    MainWindow::setStyleSheet("background-color: white");
-}
-
-void MainWindow::on_action_theme_dark_triggered()
-{
-    MainWindow::setStyleSheet("background-color: grey");
-}
-/*
-void MainWindow::on_action_about_triggered()
-{
-    showMessage("information", "");
-}
-*/
-
-
 void MainWindow::on_toolButton_cp_dots_clicked(bool checked)
 {
     QClipboard *clipboard = QApplication::clipboard();
@@ -337,5 +330,11 @@ void MainWindow::on_toolButton_cp_fake_name_clicked(bool checked)
     clipboard->setText(ui->lineEdit_output_fake_name->text());
 }
 
-
+void MainWindow::on_actionHist_rico_triggered(bool checked)
+{
+    int mainWindowHeight = this->height();
+    int mainWindowWidht = this->width();
+    historicwindow->setGeometry(0, 20, mainWindowWidht, mainWindowHeight-20);
+    historicwindow->show();
+}
 
