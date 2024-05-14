@@ -116,6 +116,8 @@ void MainWindow::on_lineEdit_input_editingFinished()
             ui->label_number->setText("Número: " + jsonObj.value("numero").toString());
 
             //Print the QSA informations
+            qsa_table_model->removeRows(0, qsa_table_model->rowCount());
+            ui->tableView_qsa->update();
             QJsonArray qsa_array = jsonObj.value("qsa").toArray();
             foreach(const QJsonValue &qsa_value, qsa_array){
 
@@ -334,9 +336,10 @@ void MainWindow::on_toolButton_cp_fake_name_clicked(bool checked)
 
 void MainWindow::on_actionHist_rico_triggered(bool checked)
 {
+    //historic window setup
     int mainWindowHeight = this->height();
-    int mainWindowWidht = this->width();
-    historicwindow->setGeometry(0, 20, mainWindowWidht, mainWindowHeight-20);
+    //int mainWindowWidht = this->width();
+    historicwindow->setGeometry(0, 20, 752, mainWindowHeight-20);
     historicwindow->show();
 }
 

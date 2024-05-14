@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1199</width>
+    <width>1197</width>
     <height>679</height>
    </rect>
   </property>
@@ -20,7 +20,7 @@
    <widget class="QFrame" name="cnpj_fields">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>21</x>
       <y>40</y>
       <width>401</width>
       <height>131</height>
@@ -158,7 +158,7 @@
    <widget class="QGroupBox" name="group_location">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>21</x>
       <y>230</y>
       <width>501</width>
       <height>271</height>
@@ -413,7 +413,7 @@
    <widget class="QGroupBox" name="group_contact">
     <property name="geometry">
      <rect>
-      <x>549</x>
+      <x>550</x>
       <y>230</y>
       <width>520</width>
       <height>111</height>
@@ -522,7 +522,7 @@
    <widget class="QGroupBox" name="company_informations">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>431</x>
       <y>20</y>
       <width>741</width>
       <height>201</height>
@@ -681,7 +681,7 @@
    <widget class="QTableView" name="tableView_qsa">
     <property name="geometry">
      <rect>
-      <x>547</x>
+      <x>548</x>
       <y>380</y>
       <width>621</width>
       <height>251</height>
@@ -703,7 +703,7 @@
    <widget class="QLabel" name="label_qsa">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>551</x>
       <y>360</y>
       <width>31</width>
       <height>20</height>
@@ -719,7 +719,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1199</width>
+     <width>1197</width>
      <height>22</height>
     </rect>
    </property>

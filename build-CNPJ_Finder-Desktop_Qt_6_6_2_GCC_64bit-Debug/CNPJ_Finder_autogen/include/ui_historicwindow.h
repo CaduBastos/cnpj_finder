@@ -28,7 +28,7 @@ public:
         if (HistoricWindow->objectName().isEmpty())
             HistoricWindow->setObjectName("HistoricWindow");
         HistoricWindow->setEnabled(true);
-        HistoricWindow->resize(1199, 679);
+        HistoricWindow->resize(752, 679);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -41,7 +41,11 @@ public:
         HistoricWindow->setAutoFillBackground(true);
         listView_historic = new QListView(HistoricWindow);
         listView_historic->setObjectName("listView_historic");
-        listView_historic->setGeometry(QRect(78, 55, 1021, 591));
+        listView_historic->setGeometry(QRect(78, 55, 591, 571));
+        QFont font1;
+        font1.setPointSize(12);
+        font1.setKerning(true);
+        listView_historic->setFont(font1);
         listView_historic->setEditTriggers(QAbstractItemView::AllEditTriggers);
         listView_historic->setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
         listView_historic->setItemAlignment(Qt::AlignLeading);

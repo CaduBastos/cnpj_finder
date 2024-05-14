@@ -96,7 +96,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1199, 679);
+        MainWindow->resize(1197, 679);
         MainWindow->setTabShape(QTabWidget::Rounded);
         actionDark = new QAction(MainWindow);
         actionDark->setObjectName("actionDark");
@@ -112,7 +112,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         cnpj_fields = new QFrame(centralwidget);
         cnpj_fields->setObjectName("cnpj_fields");
-        cnpj_fields->setGeometry(QRect(20, 40, 401, 131));
+        cnpj_fields->setGeometry(QRect(21, 40, 401, 131));
         QFont font;
         font.setItalic(false);
         cnpj_fields->setFont(font);
@@ -151,7 +151,7 @@ public:
         lineEdit_output_astrk->setGeometry(QRect(150, 93, 161, 25));
         group_location = new QGroupBox(centralwidget);
         group_location->setObjectName("group_location");
-        group_location->setGeometry(QRect(20, 230, 501, 271));
+        group_location->setGeometry(QRect(21, 230, 501, 271));
         QFont font1;
         font1.setBold(false);
         font1.setUnderline(false);
@@ -216,7 +216,7 @@ public:
         toolButton_cp_city->setIcon(icon);
         group_contact = new QGroupBox(centralwidget);
         group_contact->setObjectName("group_contact");
-        group_contact->setGeometry(QRect(549, 230, 520, 111));
+        group_contact->setGeometry(QRect(550, 230, 520, 111));
         group_contact->setAutoFillBackground(false);
         group_contact->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         group_contact->setFlat(false);
@@ -243,7 +243,7 @@ public:
         toolButton_cp_phone->setIcon(icon);
         company_informations = new QGroupBox(centralwidget);
         company_informations->setObjectName("company_informations");
-        company_informations->setGeometry(QRect(430, 20, 741, 201));
+        company_informations->setGeometry(QRect(431, 20, 741, 201));
         company_informations->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         label_status = new QLabel(company_informations);
         label_status->setObjectName("label_status");
@@ -282,18 +282,18 @@ public:
         toolButton_cp_fake_name->setIcon(icon);
         tableView_qsa = new QTableView(centralwidget);
         tableView_qsa->setObjectName("tableView_qsa");
-        tableView_qsa->setGeometry(QRect(547, 380, 621, 251));
+        tableView_qsa->setGeometry(QRect(548, 380, 621, 251));
         tableView_qsa->setAlternatingRowColors(false);
         tableView_qsa->horizontalHeader()->setDefaultSectionSize(205);
         tableView_qsa->verticalHeader()->setVisible(false);
         tableView_qsa->verticalHeader()->setDefaultSectionSize(57);
         label_qsa = new QLabel(centralwidget);
         label_qsa->setObjectName("label_qsa");
-        label_qsa->setGeometry(QRect(550, 360, 31, 20));
+        label_qsa->setGeometry(QRect(551, 360, 31, 20));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1199, 22));
+        menubar->setGeometry(QRect(0, 0, 1197, 22));
         menuConfigura_es = new QMenu(menubar);
         menuConfigura_es->setObjectName("menuConfigura_es");
         menuTema = new QMenu(menuConfigura_es);
