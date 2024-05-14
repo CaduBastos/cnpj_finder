@@ -189,7 +189,7 @@ build CNPJ_Finder_autogen/timestamp CNPJ_Finder_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles/CNPJ_Finder_autogen_timestamp_deps
 
-build CMakeFiles/CNPJ_Finder_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CNPJ_Finder_autogen_timestamp_deps: phony /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/moc /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/uic /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2
+build CMakeFiles/CNPJ_Finder_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CNPJ_Finder_autogen_timestamp_deps: phony /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/moc /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/uic /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2
 
 
 #############################################

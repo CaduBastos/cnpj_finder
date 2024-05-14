@@ -41,7 +41,6 @@ endif()
 # _directory_contents at /home/cadubastos/Qt/6.6.2/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/*.cpp")
 set(OLD_GLOB
-  "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/build/Desktop_win-Debug/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/historicwindow.cpp"
   "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/main.cpp"
   "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/mainwindow.cpp"
@@ -54,7 +53,6 @@ endif()
 # _directory_contents at /home/cadubastos/Qt/6.6.2/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/*.cxx")
 set(OLD_GLOB
-  "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/build/Desktop_win-Debug/CMakeFiles/FindThreads/CheckForPthreads.cxx"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
