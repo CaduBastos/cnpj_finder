@@ -91,6 +91,7 @@ build CMakeFiles/CNPJ_Finder.dir/historicwindow.cpp.o: CXX_COMPILER__CNPJ_Finder
 
 build CNPJ_Finder: CXX_EXECUTABLE_LINKER__CNPJ_Finder_Debug CMakeFiles/CNPJ_Finder.dir/CNPJ_Finder_autogen/mocs_compilation.cpp.o CMakeFiles/CNPJ_Finder.dir/main.cpp.o CMakeFiles/CNPJ_Finder.dir/mainwindow.cpp.o CMakeFiles/CNPJ_Finder.dir/historicwindow.cpp.o | /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Gui.so.6.6.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2 || CNPJ_Finder_autogen CNPJ_Finder_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
+  LINK_FLAGS = -static
   LINK_LIBRARIES = -Wl,-rpath,/home/cadubastos/Qt/6.6.2/gcc_64/lib:  /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2  /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2  /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Gui.so.6.6.2  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2
   OBJECT_DIR = CMakeFiles/CNPJ_Finder.dir
   POST_BUILD = :
@@ -189,7 +190,7 @@ build CNPJ_Finder_autogen/timestamp CNPJ_Finder_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles/CNPJ_Finder_autogen_timestamp_deps
 
-build CMakeFiles/CNPJ_Finder_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CNPJ_Finder_autogen_timestamp_deps: phony /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/moc /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/uic /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2
+build CMakeFiles/CNPJ_Finder_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/CNPJ_Finder_autogen_timestamp_deps: phony /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Network.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2 /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/moc /home/cadubastos/Qt/6.6.2/gcc_64/./libexec/uic /home/cadubastos/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2
 
 
 #############################################

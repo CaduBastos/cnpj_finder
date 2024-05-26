@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/g++-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -291,7 +291,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/clang-14"
 		},
 		{
 			"name" : "CMAKE_C_OUTPUT_EXTENSION",
@@ -1562,6 +1562,22 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
 		},
 		{
+			"name" : "OPENGL_gl_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "OPENGL_gl_LIBRARY-NOTFOUND"
+		},
+		{
 			"name" : "OPENGL_glu_LIBRARY",
 			"properties" : 
 			[
@@ -1575,7 +1591,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/libGLU.so"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLU.a"
 		},
 		{
 			"name" : "OPENGL_glx_LIBRARY",

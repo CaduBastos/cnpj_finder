@@ -2,6 +2,14 @@ cmake_minimum_required(VERSION 3.5)
 
 project(CNPJ_Finder VERSION 0.1 LANGUAGES CXX)
 
+# Set CMake variable for static linking
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+set(BUILD_SHARED_LIBS OFF)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+
+# Set qt libraries directory
+set(CMAKE_PREFIX_PATH "/home/cadubastos/Qt/6.6.2/gcc_64")
+
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -27,9 +35,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         historicwindow.h historicwindow.cpp historicwindow.ui
-        historicwindow.h historicwindow.cpp historicwindow.ui
-        historicwindow.h historicwindow.cpp historicwindow.ui
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET CNPJ_Finder APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
