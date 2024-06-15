@@ -1,0 +1,4265 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6QuickControls2Imagine.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"qt_internal_add_qml_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"qt6_add_qml_module",
+			"_qt_internal_target_enable_qmlcachegen",
+			"qt6_target_qml_sources",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_custom_command",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt_internal_add_resource",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quickcontrols/imagine/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlMacros.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/gui/CMakeLists.txt",
+			"qtdeclarative/src/qml/CMakeLists.txt",
+			"qtdeclarative/src/qmlmodels/CMakeLists.txt",
+			"qtdeclarative/src/quick/CMakeLists.txt",
+			"qtdeclarative/src/quicktemplates/CMakeLists.txt",
+			"qtdeclarative/src/quickcontrolsimpl/CMakeLists.txt",
+			"qtdeclarative/src/quickcontrols/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 137,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 2
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 171,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 392,
+				"parent" : 17
+			},
+			{
+				"command" : 15,
+				"file" : 9,
+				"line" : 647,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 2635,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 1245,
+				"parent" : 20
+			},
+			{
+				"command" : 16,
+				"file" : 9,
+				"line" : 2747,
+				"parent" : 19
+			},
+			{
+				"command" : 16,
+				"file" : 5,
+				"line" : 136,
+				"parent" : 13
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 251,
+				"parent" : 12
+			},
+			{
+				"command" : 17,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 11
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 559,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 9,
+				"line" : 1216,
+				"parent" : 20
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 30
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 31
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 34
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 35
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 36
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 38
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 40
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 41
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 43
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 44
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 46
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 47
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 48
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 49
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 51
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 53
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 54
+			},
+			{
+				"file" : 16
+			},
+			{
+				"file" : 16,
+				"line" : -1,
+				"parent" : 56
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 57
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 58
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 59
+			},
+			{
+				"file" : 17
+			},
+			{
+				"file" : 17,
+				"line" : -1,
+				"parent" : 61
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 62
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 63
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 64
+			},
+			{
+				"file" : 18
+			},
+			{
+				"file" : 18,
+				"line" : -1,
+				"parent" : 66
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 67
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 68
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 69
+			},
+			{
+				"file" : 24
+			},
+			{
+				"command" : 25,
+				"file" : 24,
+				"line" : 63,
+				"parent" : 71
+			},
+			{
+				"command" : 24,
+				"file" : 23,
+				"line" : 494,
+				"parent" : 72
+			},
+			{
+				"command" : 23,
+				"file" : 23,
+				"line" : 179,
+				"parent" : 73
+			},
+			{
+				"command" : 20,
+				"file" : 23,
+				"line" : 21,
+				"parent" : 74
+			},
+			{
+				"file" : 22,
+				"parent" : 75
+			},
+			{
+				"command" : 20,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 76
+			},
+			{
+				"file" : 21,
+				"parent" : 77
+			},
+			{
+				"command" : 22,
+				"file" : 21,
+				"line" : 4,
+				"parent" : 78
+			},
+			{
+				"command" : 21,
+				"file" : 20,
+				"line" : 453,
+				"parent" : 79
+			},
+			{
+				"command" : 20,
+				"file" : 20,
+				"line" : 79,
+				"parent" : 80
+			},
+			{
+				"file" : 19,
+				"parent" : 81
+			},
+			{
+				"command" : 19,
+				"file" : 19,
+				"line" : 39,
+				"parent" : 82
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 2
+			},
+			{
+				"command" : 26,
+				"file" : 5,
+				"line" : 311,
+				"parent" : 84
+			},
+			{
+				"command" : 28,
+				"file" : 8,
+				"line" : 168,
+				"parent" : 15
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 2
+			},
+			{
+				"command" : 28,
+				"file" : 8,
+				"line" : 1435,
+				"parent" : 87
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 310,
+				"parent" : 84
+			},
+			{
+				"command" : 30,
+				"file" : 8,
+				"line" : 163,
+				"parent" : 15
+			},
+			{
+				"command" : 31,
+				"file" : 9,
+				"line" : 541,
+				"parent" : 17
+			},
+			{
+				"command" : 30,
+				"file" : 9,
+				"line" : 3099,
+				"parent" : 91
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 93
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 94
+			},
+			{
+				"command" : 36,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 2
+			},
+			{
+				"command" : 35,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 96
+			},
+			{
+				"command" : 35,
+				"file" : 8,
+				"line" : 147,
+				"parent" : 15
+			},
+			{
+				"command" : 37,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 2
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 99
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 3065,
+				"parent" : 91
+			},
+			{
+				"command" : 40,
+				"file" : 9,
+				"line" : 590,
+				"parent" : 17
+			},
+			{
+				"command" : 39,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 102
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 103
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 104
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 1244,
+				"parent" : 20
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 19
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 19
+			},
+			{
+				"command" : 40,
+				"file" : 9,
+				"line" : 2766,
+				"parent" : 19
+			},
+			{
+				"command" : 39,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 207
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 208
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 209
+			},
+			{
+				"command" : 41,
+				"file" : 3,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 39,
+				"file" : 26,
+				"line" : 30,
+				"parent" : 211
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 212
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 213
+			},
+			{
+				"command" : 42,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 11
+			},
+			{
+				"command" : 35,
+				"file" : 27,
+				"line" : 205,
+				"parent" : 215
+			},
+			{
+				"command" : 43,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 11
+			},
+			{
+				"command" : 35,
+				"file" : 28,
+				"line" : 160,
+				"parent" : 217
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 85,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/CMakeFiles/QuickControls2Imagine.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 86,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILD_QUICKCONTROLS2IMAGINE_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 89,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMAGINESTYLEIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickControls2Imagine_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 95,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl/QtQuickControls2ImagineStyleImpl"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				8,
+				11,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 85,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/CMakeFiles/QuickControls2Imagine.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 86,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILD_QUICKCONTROLS2IMAGINE_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 89,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMAGINESTYLEIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickControls2Imagine_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 95,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl/QtQuickControls2ImagineStyleImpl"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 83,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 85,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 86,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_BUILD_QUICKCONTROLS2IMAGINE_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 89,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMAGINESTYLEIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 86,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickControls2Imagine_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/6.7.1/QtQuickControls2Imagine"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2/6.7.1/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 95,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2ImagineStyleImpl/QtQuickControls2ImagineStyleImpl"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				9,
+				111,
+				112
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 22,
+			"id" : "QuickControls2Imagine_tooling::@4f40d3ff401839b5c364"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "QuickControls2Imagine_version_script::@4f40d3ff401839b5c364"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "QuickControls2Imagine_sync_headers::@4f40d3ff401839b5c364"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "QuickControls2Imagine_lib_pri::@4f40d3ff401839b5c364"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickControls2ImagineStyleImpl::@44f8a69d5a70bae1feb4"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "qmlcachegen::@e720dc932ac7ed76011b"
+		},
+		{
+			"id" : "qmltyperegistrar::@b7d96742f61bda066508"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "Gui_sync_headers::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlIntegration::@29f26caaecb4c251c292"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlBuiltins::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "QmlBuiltins_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlModels::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "QmlModels_sync_headers::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "Quick_sync_headers::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickTemplates2::@d8e4b05793fe777813fb"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "QuickTemplates2_sync_headers::@d8e4b05793fe777813fb"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickControls2Impl::@43d63f53c887901ae31b"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "QuickControls2Impl_sync_headers::@43d63f53c887901ae31b"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickControls2::@d0a521f8df56dfe448b0"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "QuickControls2_sync_headers::@d0a521f8df56dfe448b0"
+		},
+		{
+			"id" : "QuickControls2Imagine_autogen_timestamp_deps::@4f40d3ff401839b5c364"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Imagine_autogen::@4f40d3ff401839b5c364"
+		}
+	],
+	"id" : "QuickControls2Imagine::@4f40d3ff401839b5c364",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6QuickControls2ImagineStyleImpl.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QuickControls2Impl.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QuickControls2.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QuickTemplates2.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "qtbase/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "QuickControls2Imagine",
+	"nameOnDisk" : "libQt6QuickControls2Imagine.so",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/imagine",
+		"source" : "qtdeclarative/src/quickcontrols/imagine"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				8,
+				9,
+				11,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				111,
+				112
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				7,
+				10,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				113,
+				114,
+				116,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				115
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/CMakeFiles/QuickControls2Imagine.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Imagine/qtquickcontrols2imagineexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/qquickimaginestyle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/qquickimaginestyle_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/qquickimaginetheme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/qquickimaginetheme_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/meta_types/qt6quickcontrols2imagine_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/quickcontrols2imagine_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_qmake_QtQuick_Controls_Imagine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ApplicationWindow.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ApplicationWindow_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/BusyIndicator.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_BusyIndicator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Button.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Button_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/CheckBox.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_CheckBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/CheckDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_CheckDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ComboBox.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ComboBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/DelayButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_DelayButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 121,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Dial.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Dial_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Dialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Dialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/DialogButtonBox.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_DialogButtonBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 127,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Drawer.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 128,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Drawer_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 129,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Frame.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 130,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Frame_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/GroupBox.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_GroupBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 133,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/HorizontalHeaderView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 134,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_HorizontalHeaderView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 135,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ItemDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 136,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ItemDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 137,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Label.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 138,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Label_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 139,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Menu.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 140,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Menu_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 141,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/MenuItem.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 142,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_MenuItem_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 143,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/MenuSeparator.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 144,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_MenuSeparator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 145,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/PageIndicator.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 146,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_PageIndicator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 147,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Page.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 148,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Page_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 149,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Pane.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 150,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Pane_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 151,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Popup.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 152,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Popup_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ProgressBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 154,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ProgressBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 155,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/RadioButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 156,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RadioButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 157,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/RadioDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 158,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RadioDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 159,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/RangeSlider.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 160,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RangeSlider_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 161,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/RoundButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 162,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RoundButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 163,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ScrollView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 164,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 165,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ScrollBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 166,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 167,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ScrollIndicator.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 168,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollIndicator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SelectionRectangle.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 170,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SelectionRectangle_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 171,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Slider.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 172,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Slider_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 173,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SpinBox.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 174,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SpinBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 175,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SplitView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 176,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SplitView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 177,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/StackView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 178,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_StackView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 179,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SwipeDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 180,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwipeDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 181,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SwipeView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 182,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwipeView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 183,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Switch.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Switch_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 185,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/SwitchDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwitchDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 187,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/TextField.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 188,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TextField_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 189,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/TextArea.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TextArea_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 191,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/TabBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 192,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TabBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 193,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/TabButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 194,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TabButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 195,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ToolBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 196,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 197,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ToolButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 198,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 199,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ToolSeparator.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 200,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolSeparator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 201,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/ToolTip.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 202,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolTip_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 203,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/Tumbler.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 204,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Tumbler_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 205,
+			"path" : "qtdeclarative/src/quickcontrols/imagine/VerticalHeaderView.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 206,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_VerticalHeaderView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 210,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_QuickControls2Imagine_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 214,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_qmake_qtquickcontrols2imaginestyle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 216,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/preliminary_prl_for_QuickControls2Imagine_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 218,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6QuickControls2Imagine.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/CMakeFiles/QuickControls2Imagine.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/meta_types/qt6quickcontrols2imagine_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/quickcontrols2imagine_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_qmake_QtQuick_Controls_Imagine.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ApplicationWindow_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_BusyIndicator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Button_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_CheckBox_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_CheckDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ComboBox_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_DelayButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Dial_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Dialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_DialogButtonBox_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Drawer_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Frame_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_GroupBox_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_HorizontalHeaderView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ItemDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Label_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Menu_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_MenuItem_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_MenuSeparator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_PageIndicator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Page_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Pane_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Popup_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ProgressBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RadioButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RadioDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RangeSlider_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_RoundButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ScrollIndicator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SelectionRectangle_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Slider_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SpinBox_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SplitView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_StackView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwipeDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwipeView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Switch_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_SwitchDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TextField_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TextArea_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TabBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_TabButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolSeparator_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_ToolTip_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_Tumbler_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.rcc/qmlcache/QuickControls2Imagine_VerticalHeaderView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_QuickControls2Imagine_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/.qt/rcc/qrc_qmake_qtquickcontrols2imaginestyle.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/preliminary_prl_for_QuickControls2Imagine_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6QuickControls2Imagine.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/QuickControls2Imagine_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/meta_types/QuickControls2Imagine_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib/meta_types/qt6core_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui/meta_types/qt6gui_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qmlbuiltins_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qml_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network/meta_types/qt6network_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/impl/meta_types/qt6quickcontrols2imaginestyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl/meta_types/qt6quickcontrols2impl_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/meta_types/qt6quick_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels/meta_types/qt6qmlmodels_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/opengl/meta_types/qt6opengl_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/meta_types/qt6quickcontrols2_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates/meta_types/qt6quicktemplates2_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

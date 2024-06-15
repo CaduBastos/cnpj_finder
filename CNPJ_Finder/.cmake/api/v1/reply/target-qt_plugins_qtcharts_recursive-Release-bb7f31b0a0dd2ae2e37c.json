@@ -1,0 +1,154 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtcharts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "qt_plugins_qtquicktimeline::@8f0eedf324c84ace99ed"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qt_plugins_qtquick3d::@d3774c846119e484cbfe"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "qt_plugins_qtmultimedia::@f6be161ca40fb2138242"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "qt_plugins_qtcharts::@a74e8709cf30c1a63415"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "qt_plugins_qtbase::@e5137009cee4d36dff54"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "qt_plugins_qtimageformats::@57198556e487f86b0cf5"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "qt_plugins_qtlanguageserver::@82f86ec940245d7f0d67"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "qt_plugins_qtshadertools::@289997075d89e55c951f"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "qt_plugins_qtsvg::@baec950b6194507a830b"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "qt_plugins_qtdeclarative::@3f8b8320d1872f2fb4d4"
+		}
+	],
+	"id" : "qt_plugins_qtcharts_recursive::@a74e8709cf30c1a63415",
+	"name" : "qt_plugins_qtcharts_recursive",
+	"paths" : 
+	{
+		"build" : "qtcharts",
+		"source" : "qtcharts"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

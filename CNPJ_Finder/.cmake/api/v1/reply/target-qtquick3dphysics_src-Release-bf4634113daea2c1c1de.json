@@ -1,0 +1,154 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtquick3dphysics/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtquick3dphysics/src/quick3dphysics/CMakeLists.txt",
+			"qtquick3dphysics/src/helpers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "BundledPhysX::@aef7e419e70b3f76ba4d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Quick3DPhysics::@89b926fa90b5866ba765"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qquick3dphysicsplugin::@89b926fa90b5866ba765"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Quick3DPhysics_sync_headers::@89b926fa90b5866ba765"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Quick3DPhysicsHelpers::@19b8d6aefd2b42966922"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquick3dphysicshelpersplugin::@19b8d6aefd2b42966922"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Quick3DPhysicsHelpers_sync_headers::@19b8d6aefd2b42966922"
+		}
+	],
+	"id" : "qtquick3dphysics_src::@5ea11a6d82b893940af0",
+	"name" : "qtquick3dphysics_src",
+	"paths" : 
+	{
+		"build" : "qtquick3dphysics",
+		"source" : "qtquick3dphysics"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

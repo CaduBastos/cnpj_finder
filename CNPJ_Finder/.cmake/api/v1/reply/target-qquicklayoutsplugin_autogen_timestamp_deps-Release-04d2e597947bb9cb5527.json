@@ -1,0 +1,70 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quicklayouts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		}
+	],
+	"id" : "qquicklayoutsplugin_autogen_timestamp_deps::@bc8defaabb119a65668a",
+	"isGeneratorProvided" : true,
+	"name" : "qquicklayoutsplugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quicklayouts",
+		"source" : "qtdeclarative/src/quicklayouts"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicklayouts/CMakeFiles/qquicklayoutsplugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicklayouts/CMakeFiles/qquicklayoutsplugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

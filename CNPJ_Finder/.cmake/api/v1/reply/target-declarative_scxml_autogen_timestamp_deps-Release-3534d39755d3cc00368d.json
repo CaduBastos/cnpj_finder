@@ -1,0 +1,70 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtscxml/src/scxmlqml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		}
+	],
+	"id" : "declarative_scxml_autogen_timestamp_deps::@7a95e5fe409962fa3e40",
+	"isGeneratorProvided" : true,
+	"name" : "declarative_scxml_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtscxml/src/scxmlqml",
+		"source" : "qtscxml/src/scxmlqml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtscxml/src/scxmlqml/CMakeFiles/declarative_scxml_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtscxml/src/scxmlqml/CMakeFiles/declarative_scxml_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

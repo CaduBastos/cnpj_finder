@@ -1,0 +1,1638 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6Test.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_internal_qtbase_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/src/testlib/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtbase/cmake/QtBaseHelpers.cmake",
+			"qtbase/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 23
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 20,
+				"file" : 16,
+				"line" : 32,
+				"parent" : 25
+			},
+			{
+				"command" : 19,
+				"file" : 15,
+				"line" : 154,
+				"parent" : 26
+			},
+			{
+				"command" : 18,
+				"file" : 14,
+				"line" : 179,
+				"parent" : 27
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"file" : 13,
+				"parent" : 29
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 6,
+				"parent" : 30
+			},
+			{
+				"file" : 12,
+				"parent" : 31
+			},
+			{
+				"command" : 17,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 32
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 453,
+				"parent" : 33
+			},
+			{
+				"command" : 15,
+				"file" : 11,
+				"line" : 79,
+				"parent" : 34
+			},
+			{
+				"file" : 10,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 36
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 655,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 38
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 41
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 44
+			},
+			{
+				"command" : 26,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 45
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 47
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1207,
+				"parent" : 47
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 51
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 53
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 55
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 57
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 18,
+				"line" : 205,
+				"parent" : 59
+			},
+			{
+				"command" : 33,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 19,
+				"line" : 160,
+				"parent" : 61
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/CMakeFiles/Test.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 40,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILD_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_DATASTREAM"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_MESSAGELOGCONTEXT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Test_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test_autogen/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/testlib"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/6.7.1"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/6.7.1/QtTest"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				8,
+				11,
+				13,
+				15,
+				18,
+				21,
+				23,
+				26,
+				28,
+				31,
+				34,
+				36,
+				44,
+				46,
+				50,
+				52,
+				54,
+				59,
+				62,
+				64,
+				66,
+				70,
+				74,
+				79,
+				83
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/CMakeFiles/Test.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 40,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILD_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_DATASTREAM"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_MESSAGELOGCONTEXT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Test_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test_autogen/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/testlib"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/6.7.1"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/6.7.1/QtTest"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "Test_version_script::@5d02e66db150225b781d"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Test_sync_headers::@5d02e66db150225b781d"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Test_lib_pri::@5d02e66db150225b781d"
+		},
+		{
+			"id" : "Test_autogen_timestamp_deps::@5d02e66db150225b781d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Test_autogen::@5d02e66db150225b781d"
+		}
+	],
+	"id" : "Test::@5d02e66db150225b781d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Test",
+	"nameOnDisk" : "libQt6Test.so",
+	"paths" : 
+	{
+		"build" : "qtbase/src/testlib",
+		"source" : "qtbase/src/testlib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5,
+				7,
+				8,
+				11,
+				13,
+				15,
+				18,
+				21,
+				23,
+				26,
+				28,
+				31,
+				34,
+				36,
+				44,
+				46,
+				50,
+				52,
+				54,
+				59,
+				62,
+				64,
+				66,
+				70,
+				74,
+				79,
+				83
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				6,
+				9,
+				10,
+				12,
+				14,
+				16,
+				17,
+				19,
+				20,
+				22,
+				24,
+				25,
+				27,
+				29,
+				30,
+				32,
+				33,
+				35,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				45,
+				47,
+				48,
+				49,
+				51,
+				53,
+				55,
+				56,
+				57,
+				58,
+				60,
+				61,
+				63,
+				65,
+				67,
+				68,
+				69,
+				71,
+				72,
+				73,
+				75,
+				76,
+				77,
+				80,
+				81,
+				82,
+				84
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				78,
+				85,
+				86,
+				88
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				87
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				89,
+				90,
+				91,
+				92,
+				93
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/CMakeFiles/Test.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/qttestexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest/6.7.1/QtTest/private/qttestexports_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/3rdparty/cycle_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qabstracttestlogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qabstracttestlogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qasciikey.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmark.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmark_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmarkevent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarkevent_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmarkmeasurement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarkmeasurement_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmarkmetric.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarkmetric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarkmetric_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmarkperfevents.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarkperfevents_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qbenchmarktimemeasurers_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qcomparisontesthelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qcomparisontesthelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qcsvbenchmarklogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qcsvbenchmarklogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qemulationdetector_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qjunittestlogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qjunittestlogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qplaintestlogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qplaintestlogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qpropertytesthelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qsignaldumper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qsignaldumper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qsignalspy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtaptestlogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtaptestlogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qteamcitylogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qteamcitylogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtest_gui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtest_network.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtest_widgets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestaccessible.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestassert.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestblacklist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestblacklist_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestcase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestcase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestcase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestcoreelement_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestelement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestelement_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestelementattribute.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestelementattribute_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestevent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtesteventloop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtesthelpers_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestjunitstreamer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestjunitstreamer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestkeyboard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestlog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestlog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestmouse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestmouse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtestresult.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestresult_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestspontaneevent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtestsystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qtesttable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtesttable_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qtesttouch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qttestglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qxmltestlogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/testlib/qxmltestlogger_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/qttestlib-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/qttestlib-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 54,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/meta_types/qt6test_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 56,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qabstractitemmodeltester.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"path" : "qtbase/src/testlib/qabstractitemmodeltester.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qtbase/src/testlib/3rdparty/callgrind_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qtbase/src/testlib/3rdparty/valgrind_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/testlib/qbenchmarkvalgrind.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qtbase/src/testlib/qbenchmarkvalgrind_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/preliminary_prl_for_Test_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 62,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Test.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/CMakeFiles/Test.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/meta_types/qt6test_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/preliminary_prl_for_Test_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Test.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/Test_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/testlib/meta_types/Test_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

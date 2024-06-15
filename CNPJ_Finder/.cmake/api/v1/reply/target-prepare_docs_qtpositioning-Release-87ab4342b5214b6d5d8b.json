@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtpositioning/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtpositioning/src/positioning/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 274,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 269,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "prepare_docs_Positioning::@9d46389cb8471f8f1d24"
+		}
+	],
+	"id" : "prepare_docs_qtpositioning::@815382bef56eeb934d7e",
+	"name" : "prepare_docs_qtpositioning",
+	"paths" : 
+	{
+		"build" : "qtpositioning",
+		"source" : "qtpositioning"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

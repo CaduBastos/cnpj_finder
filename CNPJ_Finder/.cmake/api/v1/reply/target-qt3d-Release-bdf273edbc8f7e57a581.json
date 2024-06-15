@@ -1,0 +1,71 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qt3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "qt3d_src::@cd0eab48c1a3d16c536b"
+		}
+	],
+	"id" : "qt3d::@cd0eab48c1a3d16c536b",
+	"name" : "qt3d",
+	"paths" : 
+	{
+		"build" : "qt3d",
+		"source" : "qt3d"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

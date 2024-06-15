@@ -1,0 +1,497 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtshadertools/src/shadertools/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1256,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 36
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 39
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtshadertools/src/shadertools/meta_types/qt6shadertools_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6ShaderTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6ShaderTools.so.6.7.1",
+				"qtbase/lib/libQt6ShaderTools.so.6"
+			],
+			"targetId" : "ShaderTools::@484bb1c56e28263ebe8f",
+			"targetIndex" : 1592,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6ShaderTools.so"
+			],
+			"targetId" : "ShaderTools::@484bb1c56e28263ebe8f",
+			"targetIndex" : 1592,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6ShaderTools",
+			"exportName" : "Qt6ShaderToolsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ShaderTools::@484bb1c56e28263ebe8f",
+					"index" : 1592
+				},
+				{
+					"id" : "ShaderToolsPrivate::@484bb1c56e28263ebe8f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtshadertools/src/shadertools/CMakeFiles/Export/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6ShaderTools",
+			"exportName" : "Qt6ShaderToolsVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ShaderToolsVersionless::@484bb1c56e28263ebe8f",
+					"index" : 0
+				},
+				{
+					"id" : "ShaderToolsPrivateVersionless::@484bb1c56e28263ebe8f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtshadertools/src/shadertools/CMakeFiles/Export/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/ShaderTools.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_ShaderTools",
+			"destination" : "./doc/qtshadertools",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtshadertools",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_ShaderTools",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtshadertools.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6ShaderTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtShaderTools",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtShaderTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/qtshadertoolsexports.h",
+				"qtshadertools/src/shadertools/qtshadertoolsglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/QtShaderToolsDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtShaderTools/6.7.1/QtShaderTools/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1/QtShaderTools/private/qtshadertoolsexports_p.h",
+				"qtshadertools/src/shadertools/qshaderrewriter_p.h",
+				"qtshadertools/src/shadertools/qspirvcompiler_p.h",
+				"qtshadertools/src/shadertools/qspirvshader_p.h",
+				"qtshadertools/src/shadertools/qspirvshaderremap_p.h",
+				"qtshadertools/src/shadertools/qtshadertoolsglobal_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/QtShaderTools/6.7.1/QtShaderTools/rhi",
+			"paths" : 
+			[
+				"qtshadertools/src/shadertools/qshaderbaker.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_shadertools.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_shadertools_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6ShaderTools.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtshadertools/src/shadertools",
+		"source" : "qtshadertools/src/shadertools"
+	}
+}

@@ -1,0 +1,688 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6PacketProtocol.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"add_dependencies",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdeclarative/src/plugins/qmltooling/packetprotocol/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt",
+			"qtbase/cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 12
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 17
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 17,
+				"file" : 14,
+				"line" : 63,
+				"parent" : 19
+			},
+			{
+				"command" : 16,
+				"file" : 13,
+				"line" : 494,
+				"parent" : 20
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 179,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"file" : 12,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 6,
+				"parent" : 24
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 14,
+				"file" : 11,
+				"line" : 4,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 453,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 79,
+				"parent" : 28
+			},
+			{
+				"file" : 9,
+				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 39,
+				"parent" : 30
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 32
+			},
+			{
+				"command" : 20,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 12
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 35
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 32
+			},
+			{
+				"command" : 22,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 12
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 12
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 40
+			},
+			{
+				"command" : 25,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 7
+			},
+			{
+				"command" : 23,
+				"file" : 15,
+				"line" : 205,
+				"parent" : 42
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 31,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 31,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 33,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 34,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_BUILD_PACKETPROTOCOL_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/PacketProtocolPrivate_autogen/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPacketProtocol"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/plugins/qmltooling/packetprotocol"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPacketProtocol/6.7.1"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPacketProtocol/6.7.1/QtPacketProtocol"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					13
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "PacketProtocolPrivate_version_script::@a437ddcb89473f80e3f8"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "PacketProtocolPrivate_sync_headers::@a437ddcb89473f80e3f8"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"id" : "PacketProtocolPrivate_autogen_timestamp_deps::@a437ddcb89473f80e3f8"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PacketProtocolPrivate_autogen::@a437ddcb89473f80e3f8"
+		}
+	],
+	"id" : "PacketProtocolPrivate::@a437ddcb89473f80e3f8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"name" : "PacketProtocolPrivate",
+	"nameOnDisk" : "libQt6PacketProtocol.a",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/plugins/qmltooling/packetprotocol",
+		"source" : "qtdeclarative/src/plugins/qmltooling/packetprotocol"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/PacketProtocolPrivate_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 39,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/plugins/qmltooling/packetprotocol/qpacket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 39,
+			"path" : "qtdeclarative/src/plugins/qmltooling/packetprotocol/qpacket_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 39,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/plugins/qmltooling/packetprotocol/qpacketprotocol.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 39,
+			"path" : "qtdeclarative/src/plugins/qmltooling/packetprotocol/qpacketprotocol_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 39,
+			"path" : "qtdeclarative/src/plugins/qmltooling/packetprotocol/qversionedpacket_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/meta_types/qt6packetprotocolprivate_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 43,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/preliminary_prl_for_PacketProtocolPrivate_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/PacketProtocolPrivate_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/meta_types/qt6packetprotocolprivate_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/preliminary_prl_for_PacketProtocolPrivate_step2_Release.prl.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/PacketProtocolPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/packetprotocol/meta_types/PacketProtocolPrivate_json_file_list.txt.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

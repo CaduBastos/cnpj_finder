@@ -1,0 +1,205 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtmultimedia/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtmultimedia/src/multimedia/CMakeLists.txt",
+			"qtmultimedia/src/spatialaudio/CMakeLists.txt",
+			"qtmultimedia/src/multimediawidgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 19
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "SadieHrtfsObj::@0a355ac93a23fb226d15"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BundledResonanceAudio::@0a355ac93a23fb226d15"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Multimedia::@fdef2e563025ab6d5924"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Multimedia_sync_headers::@fdef2e563025ab6d5924"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SpatialAudio::@ad1b23e3ac9050538eca"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "SpatialAudio_sync_headers::@ad1b23e3ac9050538eca"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MultimediaQuickPrivate::@042c672709ae3a299016"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quickmultimedia::@042c672709ae3a299016"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MultimediaQuickPrivate_tooling::@042c672709ae3a299016"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Quick3DSpatialAudioPrivate::@9923edfbe76b9501d683"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3dspatialaudio::@9923edfbe76b9501d683"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MultimediaWidgets::@be8effd533f3926fe0a3"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "MultimediaWidgets_sync_headers::@be8effd533f3926fe0a3"
+		}
+	],
+	"id" : "qtmultimedia_src_for_examples::@f6be161ca40fb2138242",
+	"name" : "qtmultimedia_src_for_examples",
+	"paths" : 
+	{
+		"build" : "qtmultimedia",
+		"source" : "qtmultimedia"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

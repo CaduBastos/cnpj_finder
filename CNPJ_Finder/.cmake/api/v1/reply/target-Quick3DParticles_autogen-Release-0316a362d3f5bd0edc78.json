@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtquick3d/src/quick3dparticles/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DParticles_version_script::@a8366319adf6519ee2cf"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DParticles_sync_headers::@a8366319adf6519ee2cf"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DParticles_lib_pri::@a8366319adf6519ee2cf"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Quick3DParticles_autogen_timestamp_deps::@a8366319adf6519ee2cf"
+		}
+	],
+	"id" : "Quick3DParticles_autogen::@a8366319adf6519ee2cf",
+	"isGeneratorProvided" : true,
+	"name" : "Quick3DParticles_autogen",
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/quick3dparticles",
+		"source" : "qtquick3d/src/quick3dparticles"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/quick3dparticles/CMakeFiles/Quick3DParticles_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/quick3dparticles/CMakeFiles/Quick3DParticles_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/quick3dparticles/Quick3DParticles_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,511 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtserialbus/src/serialbus/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtserialbus/src/serialbus/meta_types/qt6serialbus_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6SerialBus",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SerialBus/Qt6SerialBusConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SerialBus/Qt6SerialBusConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SerialBus/Qt6SerialBusConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6SerialBus.so.6.7.1",
+				"qtbase/lib/libQt6SerialBus.so.6"
+			],
+			"targetId" : "SerialBus::@9e7a8ba87033816f279e",
+			"targetIndex" : 1578,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6SerialBus.so"
+			],
+			"targetId" : "SerialBus::@9e7a8ba87033816f279e",
+			"targetIndex" : 1578,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SerialBus",
+			"exportName" : "Qt6SerialBusTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SerialBus::@9e7a8ba87033816f279e",
+					"index" : 1578
+				},
+				{
+					"id" : "SerialBusPrivate::@9e7a8ba87033816f279e",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtserialbus/src/serialbus/CMakeFiles/Export/lib/cmake/Qt6SerialBus/Qt6SerialBusTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SerialBus",
+			"exportName" : "Qt6SerialBusVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SerialBusVersionless::@9e7a8ba87033816f279e",
+					"index" : 0
+				},
+				{
+					"id" : "SerialBusPrivateVersionless::@9e7a8ba87033816f279e",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtserialbus/src/serialbus/CMakeFiles/Export/lib/cmake/Qt6SerialBus/Qt6SerialBusVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/SerialBus.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_SerialBus",
+			"destination" : "./doc/qtserialbus",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtserialbus",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_SerialBus",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtserialbus.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SerialBus",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SerialBus/Qt6SerialBusAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtSerialBus",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSerialBus/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtSerialBus",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSerialBus/qtserialbusexports.h",
+				"qtserialbus/src/serialbus/qcanbus.h",
+				"qtserialbus/src/serialbus/qcanbusdevice.h",
+				"qtserialbus/src/serialbus/qcanbusdeviceinfo.h",
+				"qtserialbus/src/serialbus/qcanbusfactory.h",
+				"qtserialbus/src/serialbus/qcanbusframe.h",
+				"qtserialbus/src/serialbus/qcancommondefinitions.h",
+				"qtserialbus/src/serialbus/qcandbcfileparser.h",
+				"qtserialbus/src/serialbus/qcanframeprocessor.h",
+				"qtserialbus/src/serialbus/qcanmessagedescription.h",
+				"qtserialbus/src/serialbus/qcansignaldescription.h",
+				"qtserialbus/src/serialbus/qcanuniqueiddescription.h",
+				"qtserialbus/src/serialbus/qmodbusclient.h",
+				"qtserialbus/src/serialbus/qmodbusdataunit.h",
+				"qtserialbus/src/serialbus/qmodbusdevice.h",
+				"qtserialbus/src/serialbus/qmodbusdeviceidentification.h",
+				"qtserialbus/src/serialbus/qmodbuspdu.h",
+				"qtserialbus/src/serialbus/qmodbusreply.h",
+				"qtserialbus/src/serialbus/qmodbusserver.h",
+				"qtserialbus/src/serialbus/qmodbustcpclient.h",
+				"qtserialbus/src/serialbus/qmodbustcpserver.h",
+				"qtserialbus/src/serialbus/qtserialbusglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtserialbus/src/serialbus/qtserialbus-config.h",
+				"qtserialbus/src/serialbus/qmodbusrtuserialclient.h",
+				"qtserialbus/src/serialbus/qmodbusrtuserialserver.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSerialBus/QtSerialBusDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtSerialBus/6.7.1/QtSerialBus/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSerialBus/6.7.1/QtSerialBus/private/qtserialbusexports_p.h",
+				"qtserialbus/src/serialbus/qcanbusdevice_p.h",
+				"qtserialbus/src/serialbus/qcanbusdeviceinfo_p.h",
+				"qtserialbus/src/serialbus/qcandbcfileparser_p.h",
+				"qtserialbus/src/serialbus/qcanframeprocessor_p.h",
+				"qtserialbus/src/serialbus/qcanmessagedescription_p.h",
+				"qtserialbus/src/serialbus/qcansignaldescription_p.h",
+				"qtserialbus/src/serialbus/qcanuniqueiddescription_p.h",
+				"qtserialbus/src/serialbus/qmodbus_symbols_p.h",
+				"qtserialbus/src/serialbus/qmodbusadu_p.h",
+				"qtserialbus/src/serialbus/qmodbusclient_p.h",
+				"qtserialbus/src/serialbus/qmodbuscommevent_p.h",
+				"qtserialbus/src/serialbus/qmodbusdevice_p.h",
+				"qtserialbus/src/serialbus/qmodbusserver_p.h",
+				"qtserialbus/src/serialbus/qmodbustcpclient_p.h",
+				"qtserialbus/src/serialbus/qmodbustcpserver_p.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtserialbus/src/serialbus/qtserialbus-config_p.h",
+				"qtserialbus/src/serialbus/qmodbusrtuserialclient_p.h",
+				"qtserialbus/src/serialbus/qmodbusrtuserialserver_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_serialbus.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_serialbus_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6SerialBus.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtserialbus/src/serialbus",
+		"source" : "qtserialbus/src/serialbus"
+	}
+}

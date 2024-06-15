@@ -1,0 +1,316 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_ts_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qttranslations/translations/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ts-qtmultimedia-ar::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ts-qtmultimedia-bg::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ts-qtmultimedia-ca::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ts-qtmultimedia-cs::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ts-qtmultimedia-da::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ts-qtmultimedia-de::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ts-qtmultimedia-es::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "ts-qtmultimedia-fa::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "ts-qtmultimedia-fi::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "ts-qtmultimedia-fr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "ts-qtmultimedia-hr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "ts-qtmultimedia-hu::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "ts-qtmultimedia-it::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "ts-qtmultimedia-ja::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "ts-qtmultimedia-ka::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "ts-qtmultimedia-ko::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "ts-qtmultimedia-nl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "ts-qtmultimedia-nn::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "ts-qtmultimedia-pl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "ts-qtmultimedia-pt_BR::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "ts-qtmultimedia-ru::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "ts-qtmultimedia-sk::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "ts-qtmultimedia-tr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "ts-qtmultimedia-uk::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "ts-qtmultimedia-zh_CN::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "ts-qtmultimedia-zh_TW::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "ts-qtmultimedia-untranslated::@ac001fec6975ed2cc610"
+		}
+	],
+	"id" : "ts-qtmultimedia-all::@ac001fec6975ed2cc610",
+	"name" : "ts-qtmultimedia-all",
+	"paths" : 
+	{
+		"build" : "qttranslations/translations",
+		"source" : "qttranslations/translations"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

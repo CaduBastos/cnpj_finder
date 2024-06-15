@@ -1,0 +1,80 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtvirtualkeyboard/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtvirtualkeyboard_config_tests::@45172afbc29b91a1b9bb",
+	"name" : "qtvirtualkeyboard_config_tests",
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard",
+		"source" : "qtvirtualkeyboard"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "hunspell",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtvirtualkeyboard/config.tests/hunspell/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtvirtualkeyboard/config.tests/hunspell/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

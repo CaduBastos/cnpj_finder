@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/platforms/minimal/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QMinimalIntegrationPlugin_version_script::@c0a52443cdfa262243f4"
+		},
+		{
+			"id" : "QMinimalIntegrationPlugin_autogen_timestamp_deps::@c0a52443cdfa262243f4"
+		}
+	],
+	"id" : "QMinimalIntegrationPlugin_autogen::@c0a52443cdfa262243f4",
+	"isGeneratorProvided" : true,
+	"name" : "QMinimalIntegrationPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platforms/minimal",
+		"source" : "qtbase/src/plugins/platforms/minimal"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

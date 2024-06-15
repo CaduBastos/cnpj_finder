@@ -1,0 +1,2274 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/qml/QtQuick/VirtualKeyboard/Components/libqtvkbcomponentsplugin.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_plugin",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_custom_command",
+			"_qt_internal_target_enable_qmlcachegen",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_plugin",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtvirtualkeyboard/src/components/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtdeclarative/src/qml/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtvirtualkeyboard/CMakeLists.txt",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:743:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2451,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 474,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 477,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 137,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 348,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 171,
+				"parent" : 12
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 14,
+				"file" : 7,
+				"line" : 647,
+				"parent" : 14
+			},
+			{
+				"command" : 13,
+				"file" : 7,
+				"line" : 2635,
+				"parent" : 15
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 1216,
+				"parent" : 16
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 18
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 915,
+				"parent" : 20
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 256,
+				"parent" : 21
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 23
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 24
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 915,
+				"parent" : 25
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 256,
+				"parent" : 26
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 24
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 915,
+				"parent" : 28
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 256,
+				"parent" : 29
+			},
+			{
+				"command" : 16,
+				"file" : 5,
+				"line" : 136,
+				"parent" : 10
+			},
+			{
+				"command" : 16,
+				"file" : 7,
+				"line" : 2747,
+				"parent" : 15
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 25,
+				"file" : 18,
+				"line" : 44,
+				"parent" : 33
+			},
+			{
+				"command" : 24,
+				"file" : 17,
+				"line" : 494,
+				"parent" : 34
+			},
+			{
+				"command" : 23,
+				"file" : 17,
+				"line" : 179,
+				"parent" : 35
+			},
+			{
+				"command" : 20,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 36
+			},
+			{
+				"file" : 16,
+				"parent" : 37
+			},
+			{
+				"command" : 20,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 38
+			},
+			{
+				"file" : 15,
+				"parent" : 39
+			},
+			{
+				"command" : 22,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 40
+			},
+			{
+				"command" : 21,
+				"file" : 14,
+				"line" : 453,
+				"parent" : 41
+			},
+			{
+				"command" : 20,
+				"file" : 14,
+				"line" : 79,
+				"parent" : 42
+			},
+			{
+				"file" : 13,
+				"parent" : 43
+			},
+			{
+				"command" : 19,
+				"file" : 13,
+				"line" : 39,
+				"parent" : 44
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 26,
+				"file" : 5,
+				"line" : 311,
+				"parent" : 46
+			},
+			{
+				"command" : 28,
+				"file" : 0,
+				"line" : 2518,
+				"parent" : 3
+			},
+			{
+				"command" : 28,
+				"file" : 6,
+				"line" : 168,
+				"parent" : 12
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 382,
+				"parent" : 2
+			},
+			{
+				"command" : 28,
+				"file" : 6,
+				"line" : 1435,
+				"parent" : 50
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 310,
+				"parent" : 46
+			},
+			{
+				"command" : 30,
+				"file" : 6,
+				"line" : 163,
+				"parent" : 12
+			},
+			{
+				"command" : 31,
+				"file" : 7,
+				"line" : 541,
+				"parent" : 14
+			},
+			{
+				"command" : 30,
+				"file" : 7,
+				"line" : 3099,
+				"parent" : 54
+			},
+			{
+				"command" : 33,
+				"file" : 7,
+				"line" : 2899,
+				"parent" : 54
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 56
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 3065,
+				"parent" : 54
+			},
+			{
+				"command" : 36,
+				"file" : 7,
+				"line" : 590,
+				"parent" : 14
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 59
+			},
+			{
+				"command" : 34,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 60
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 61
+			},
+			{
+				"command" : 37,
+				"file" : 7,
+				"line" : 625,
+				"parent" : 14
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2233,
+				"parent" : 63
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 1244,
+				"parent" : 16
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2531,
+				"parent" : 15
+			},
+			{
+				"command" : 32,
+				"file" : 7,
+				"line" : 2683,
+				"parent" : 15
+			},
+			{
+				"command" : 36,
+				"file" : 7,
+				"line" : 2766,
+				"parent" : 15
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 128
+			},
+			{
+				"command" : 34,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 129
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 130
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 39,
+				"file" : 19,
+				"line" : 1,
+				"parent" : 132
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 768,
+				"parent" : 133
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2117,
+				"parent" : 134
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_VIRTUALKEYBOARDSETTINGS_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_VIRTUALKEYBOARD_LIB"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE_SOURCE"
+				},
+				{
+					"define" : "qtvkbcomponentsplugin_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_autogen/include"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtvirtualkeyboard/src/components"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtVirtualKeyboard"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtVirtualKeyboardSettings"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					13
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				68
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtvkbcomponentsplugin_autogen::@92748dbbdf9089e93004"
+		},
+		{
+			"id" : "qtvkbcomponentsplugin_autogen_timestamp_deps::@92748dbbdf9089e93004"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "qmlcachegen::@e720dc932ac7ed76011b"
+		},
+		{
+			"id" : "qmltyperegistrar::@b7d96742f61bda066508"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "QmlIntegration::@29f26caaecb4c251c292"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "QmlBuiltins::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "QmlBuiltins_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "QmlModels::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "VirtualKeyboard::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "VirtualKeyboardSettings::@a16b477fed1f725845e8"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "qtvkbcomponentsplugin_version_script::@92748dbbdf9089e93004"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "qtvkbcomponentsplugin_tooling::@92748dbbdf9089e93004"
+		}
+	],
+	"id" : "qtvkbcomponentsplugin::@92748dbbdf9089e93004",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "./qml/QtQuick/VirtualKeyboard/Components"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6VirtualKeyboard.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6VirtualKeyboardSettings.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "qtvkbcomponentsplugin",
+	"nameOnDisk" : "libqtvkbcomponentsplugin.so",
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard/src/components",
+		"source" : "qtvirtualkeyboard/src/components"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				68
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				69,
+				70,
+				71,
+				72,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 57,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/meta_types/qt6qtvkbcomponentsplugin_release_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qrc_qmake_QtQuick_VirtualKeyboard_Components.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_QtQuick_VirtualKeyboard_ComponentsPlugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "qtvirtualkeyboard/src/components/AlternativeKeys.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_AlternativeKeys_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "qtvirtualkeyboard/src/components/BackspaceKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_BackspaceKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "qtvirtualkeyboard/src/components/BaseKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_BaseKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"path" : "qtvirtualkeyboard/src/components/ChangeLanguageKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ChangeLanguageKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qtvirtualkeyboard/src/components/CharacterPreviewBubble.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_CharacterPreviewBubble_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"path" : "qtvirtualkeyboard/src/components/EnterKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_EnterKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"path" : "qtvirtualkeyboard/src/components/FillerKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FillerKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "qtvirtualkeyboard/src/components/FlickKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FlickKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "qtvirtualkeyboard/src/components/FunctionPopupList.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FunctionPopupList_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"path" : "qtvirtualkeyboard/src/components/HandwritingModeKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_HandwritingModeKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"path" : "qtvirtualkeyboard/src/components/HideKeyboardKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_HideKeyboardKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"path" : "qtvirtualkeyboard/src/components/InputModeKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 89,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_InputModeKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"path" : "qtvirtualkeyboard/src/components/Key.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 91,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_Key_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"path" : "qtvirtualkeyboard/src/components/Keyboard.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 93,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_Keyboard_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "qtvirtualkeyboard/src/components/KeyboardColumn.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 95,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardColumn_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"path" : "qtvirtualkeyboard/src/components/KeyboardLayout.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 97,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardLayout_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qtvirtualkeyboard/src/components/KeyboardLayoutLoader.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardLayoutLoader_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"path" : "qtvirtualkeyboard/src/components/KeyboardRow.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardRow_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "qtvirtualkeyboard/src/components/ModeKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ModeKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"path" : "qtvirtualkeyboard/src/components/MultiSoundEffect.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_MultiSoundEffect_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "qtvirtualkeyboard/src/components/MultitapInputMethod.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_MultitapInputMethod_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "qtvirtualkeyboard/src/components/NumberKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 109,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_NumberKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "qtvirtualkeyboard/src/components/PopupList.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_PopupList_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "qtvirtualkeyboard/src/components/SelectionControl.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SelectionControl_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "qtvirtualkeyboard/src/components/ShadowInputControl.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ShadowInputControl_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "qtvirtualkeyboard/src/components/ShiftKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ShiftKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"path" : "qtvirtualkeyboard/src/components/SpaceKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SpaceKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"path" : "qtvirtualkeyboard/src/components/SymbolModeKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 121,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SymbolModeKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"path" : "qtvirtualkeyboard/src/components/TraceInputArea.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 123,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_TraceInputArea_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"path" : "qtvirtualkeyboard/src/components/TraceInputKey.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 125,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_TraceInputKey_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"path" : "qtvirtualkeyboard/src/components/WordCandidatePopupList.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 127,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_WordCandidatePopupList_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qrc_qtvkbcomponentsplugin_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 135,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qmake_QtQuick_VirtualKeyboard_Components.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/qml/QtQuick/VirtualKeyboard/Components/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qtvkbcomponentsplugin_raw_qml_0.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/meta_types/qt6qtvkbcomponentsplugin_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qrc_qmake_QtQuick_VirtualKeyboard_Components.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_AlternativeKeys_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_BackspaceKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_BaseKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ChangeLanguageKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_CharacterPreviewBubble_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_EnterKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FillerKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FlickKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_FunctionPopupList_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_HandwritingModeKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_HideKeyboardKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_InputModeKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_Key_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_Keyboard_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardColumn_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardLayout_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardLayoutLoader_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_KeyboardRow_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ModeKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_MultiSoundEffect_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_MultitapInputMethod_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_NumberKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_PopupList_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SelectionControl_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ShadowInputControl_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_ShiftKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SpaceKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_SymbolModeKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_TraceInputArea_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_TraceInputKey_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.rcc/qmlcache/qtvkbcomponentsplugin_WordCandidatePopupList_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/.qt/rcc/qrc_qtvkbcomponentsplugin_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/qtvkbcomponentsplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/components/meta_types/qtvkbcomponentsplugin_json_file_list.txt.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib/meta_types/qt6core_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui/meta_types/qt6gui_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qml_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qmlbuiltins_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network/meta_types/qt6network_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/meta_types/qt6quick_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels/meta_types/qt6qmlmodels_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/opengl/meta_types/qt6opengl_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/virtualkeyboard/meta_types/qt6virtualkeyboard_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtvirtualkeyboard/src/settings/meta_types/qt6virtualkeyboardsettings_release_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

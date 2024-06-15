@@ -1,0 +1,584 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quicknativestyle/CMakeLists.txt",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 441,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 461,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 416,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 45
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 47
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 48
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 49
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 50
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle",
+			"paths" : 
+			[
+				"qtbase/qml/QtQuick/NativeStyle/libqtquickcontrols2nativestyleplugin.so"
+			],
+			"targetId" : "qtquickcontrols2nativestyleplugin::@bf06b91c3a582c78b910",
+			"targetIndex" : 3849,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6qtquickcontrols2nativestylepluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qtquickcontrols2nativestyleplugin::@bf06b91c3a582c78b910",
+					"index" : 3849
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultButton.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultCheckBox.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultComboBox.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultDial.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultFrame.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultGroupBox.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultItemDelegate.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultItemDelegateIconLabel.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultProgressBar.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultRadioButton.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultRadioDelegate.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultScrollBar.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultSlider.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultSpinBox.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultTextArea.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultTextField.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle/controls",
+			"paths" : 
+			[
+				"qtdeclarative/src/quicknativestyle/controls/DefaultTreeViewDelegate.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtQuick/NativeStyle/plugins.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick/NativeStyle",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtQuick/NativeStyle/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quicknativestyle",
+		"source" : "qtdeclarative/src/quicknativestyle"
+	}
+}

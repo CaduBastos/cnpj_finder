@@ -1,0 +1,81 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtserialbus/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 451,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtserialbus_extra_files::@9505959a53623ced070a",
+	"name" : "qtserialbus_extra_files",
+	"paths" : 
+	{
+		"build" : "qtserialbus",
+		"source" : "qtserialbus"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"path" : "qtserialbus/.tag",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,76 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtserialbus/src/plugins/canbus/peakcan/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"id" : "SerialBus::@9e7a8ba87033816f279e"
+		},
+		{
+			"id" : "SerialBus_sync_headers::@9e7a8ba87033816f279e"
+		}
+	],
+	"id" : "PeakCanBusPlugin_autogen_timestamp_deps::@dd5a5998cebae592917b",
+	"isGeneratorProvided" : true,
+	"name" : "PeakCanBusPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtserialbus/src/plugins/canbus/peakcan",
+		"source" : "qtserialbus/src/plugins/canbus/peakcan"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtserialbus/src/plugins/canbus/peakcan/CMakeFiles/PeakCanBusPlugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtserialbus/src/plugins/canbus/peakcan/CMakeFiles/PeakCanBusPlugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

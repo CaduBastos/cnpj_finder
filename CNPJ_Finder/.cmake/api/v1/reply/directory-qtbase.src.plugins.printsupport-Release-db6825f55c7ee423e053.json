@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/printsupport",
+		"source" : "qtbase/src/plugins/printsupport"
+	}
+}

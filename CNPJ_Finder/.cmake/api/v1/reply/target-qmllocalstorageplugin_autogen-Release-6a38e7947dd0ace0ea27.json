@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/qmllocalstorage/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "qmllocalstorageplugin_version_script::@ca32027ba8675d0591ed"
+		},
+		{
+			"id" : "qmllocalstorageplugin_autogen_timestamp_deps::@ca32027ba8675d0591ed"
+		}
+	],
+	"id" : "qmllocalstorageplugin_autogen::@ca32027ba8675d0591ed",
+	"isGeneratorProvided" : true,
+	"name" : "qmllocalstorageplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/qmllocalstorage",
+		"source" : "qtdeclarative/src/qmllocalstorage"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmllocalstorage/CMakeFiles/qmllocalstorageplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmllocalstorage/CMakeFiles/qmllocalstorageplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmllocalstorage/qmllocalstorageplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

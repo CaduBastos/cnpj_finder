@@ -1,0 +1,61 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtcharts/src/charts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 316,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "install_html_docs_Charts::@dabe66ae6607b7e376cb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "install_qch_docs_Charts::@dabe66ae6607b7e376cb"
+		}
+	],
+	"id" : "install_docs_Charts::@dabe66ae6607b7e376cb",
+	"name" : "install_docs_Charts",
+	"paths" : 
+	{
+		"build" : "qtcharts/src/charts",
+		"source" : "qtcharts/src/charts"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,5455 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6Quick3DRuntimeRender.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"_qt_internal_add_shaders_impl",
+			"qt_internal_add_shaders",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtquick3d/src/runtimerender/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtquick3d/src/utils/CMakeLists.txt",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/gui/CMakeLists.txt",
+			"qtshadertools/src/shadertools/CMakeLists.txt",
+			"qtdeclarative/src/qml/CMakeLists.txt",
+			"qtdeclarative/src/qmlmodels/CMakeLists.txt",
+			"qtdeclarative/src/quick/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtquick3d/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 18
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 27
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 32
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 34
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 36
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 37
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 40
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 41
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 42
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 44
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 46
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 47
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 49
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 50
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 54
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 55
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 57
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 58
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 59
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 60
+			},
+			{
+				"file" : 21
+			},
+			{
+				"command" : 20,
+				"file" : 21,
+				"line" : 62,
+				"parent" : 62
+			},
+			{
+				"command" : 19,
+				"file" : 20,
+				"line" : 494,
+				"parent" : 63
+			},
+			{
+				"command" : 18,
+				"file" : 20,
+				"line" : 179,
+				"parent" : 64
+			},
+			{
+				"command" : 15,
+				"file" : 20,
+				"line" : 21,
+				"parent" : 65
+			},
+			{
+				"file" : 19,
+				"parent" : 66
+			},
+			{
+				"command" : 15,
+				"file" : 19,
+				"line" : 6,
+				"parent" : 67
+			},
+			{
+				"file" : 18,
+				"parent" : 68
+			},
+			{
+				"command" : 17,
+				"file" : 18,
+				"line" : 4,
+				"parent" : 69
+			},
+			{
+				"command" : 16,
+				"file" : 17,
+				"line" : 453,
+				"parent" : 70
+			},
+			{
+				"command" : 15,
+				"file" : 17,
+				"line" : 79,
+				"parent" : 71
+			},
+			{
+				"file" : 16,
+				"parent" : 72
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 39,
+				"parent" : 73
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 75
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 78
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 75
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 16
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 18
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 84
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 86
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 87
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 89
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 90
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 92
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 93
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 95
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 96
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 18
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 98
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 99
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 16
+			},
+			{
+				"command" : 27,
+				"file" : 22,
+				"line" : 15,
+				"parent" : 101
+			},
+			{
+				"command" : 26,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 102
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 104
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1207,
+				"parent" : 104
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 108
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 110
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 111
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 112
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 210,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 114
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 115
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 116
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 117
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 118
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 228,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 120
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 121
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 122
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 123
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 124
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 126
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 127
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 128
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 129
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 130
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 132
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 133
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 134
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 135
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 136
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 138
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 139
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 140
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 141
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 142
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 289,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 144
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 145
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 146
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 147
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 148
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 150
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 151
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 152
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 153
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 154
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 156
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 157
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 158
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 159
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 160
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 335,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 162
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 163
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 164
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 165
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 166
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 351,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 168
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 169
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 170
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 171
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 172
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 368,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 174
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 175
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 176
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 177
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 178
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 384,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 180
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 181
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 182
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 183
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 184
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 401,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 186
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 187
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 188
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 189
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 190
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 417,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 192
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 193
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 194
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 195
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 196
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 434,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 198
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 199
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 200
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 201
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 202
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 450,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 204
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 205
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 206
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 207
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 208
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 468,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 210
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 211
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 212
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 213
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 214
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 482,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 216
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 217
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 218
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 219
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 220
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 498,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 222
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 223
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 224
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 225
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 226
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 516,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 228
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 229
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 230
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 231
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 232
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 532,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 234
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 235
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 236
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 237
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 238
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 549,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 240
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 241
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 242
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 243
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 244
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 567,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 246
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 247
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 248
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 249
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 250
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 581,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 252
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 253
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 254
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 255
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 256
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 597,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 258
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 259
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 260
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 261
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 262
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 613,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 264
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 265
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 266
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 267
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 268
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 627,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 270
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 271
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 272
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 273
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 274
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 643,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 276
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 277
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 278
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 279
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 280
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 660,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 282
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 283
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 284
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 285
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 286
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 676,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 288
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 289
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 290
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 291
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 292
+			},
+			{
+				"command" : 36,
+				"file" : 2,
+				"line" : 693,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 24,
+				"line" : 308,
+				"parent" : 294
+			},
+			{
+				"command" : 34,
+				"file" : 24,
+				"line" : 264,
+				"parent" : 295
+			},
+			{
+				"command" : 33,
+				"file" : 23,
+				"line" : 30,
+				"parent" : 296
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 297
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 298
+			},
+			{
+				"command" : 37,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 25,
+				"line" : 205,
+				"parent" : 300
+			},
+			{
+				"command" : 38,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 26,
+				"line" : 160,
+				"parent" : 302
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 76,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/CMakeFiles/Quick3DRuntimeRender.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 77,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILD_QUICK3DRUNTIMERENDER_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 80,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK3DUTILS_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QUICK3D_HAS_LIGHTMAPPER"
+				},
+				{
+					"backtrace" : 82,
+					"define" : "QT_QUICK3D_HAS_RUNTIME_SHADERS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_SHADERTOOLS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Quick3DRuntimeRender_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/tinyexr"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/embree/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/utils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtshadertools/src/shadertools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1/QtShaderTools"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 88,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 91,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 94,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 97,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 100,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/QtShaderTools"
+				},
+				{
+					"backtrace" : 103,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent/QtConcurrent"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				7,
+				9,
+				11,
+				13,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				46,
+				48,
+				50,
+				52,
+				54,
+				60,
+				62,
+				64,
+				67,
+				69,
+				71,
+				75,
+				77,
+				80,
+				82,
+				84,
+				86,
+				89,
+				94,
+				96,
+				99,
+				100,
+				104,
+				105,
+				108,
+				110,
+				111,
+				113,
+				115,
+				119,
+				121,
+				123
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 76,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/CMakeFiles/Quick3DRuntimeRender.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 77,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILD_QUICK3DRUNTIMERENDER_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 80,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK3DUTILS_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QUICK3D_HAS_LIGHTMAPPER"
+				},
+				{
+					"backtrace" : 82,
+					"define" : "QT_QUICK3D_HAS_RUNTIME_SHADERS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_SHADERTOOLS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Quick3DRuntimeRender_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/tinyexr"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/embree/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/utils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtshadertools/src/shadertools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1/QtShaderTools"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 88,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 91,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 94,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 97,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 100,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/QtShaderTools"
+				},
+				{
+					"backtrace" : 103,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent/QtConcurrent"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 74,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 76,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 77,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_BUILD_QUICK3DRUNTIMERENDER_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 80,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK3DUTILS_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QUICK3D_HAS_LIGHTMAPPER"
+				},
+				{
+					"backtrace" : 82,
+					"define" : "QT_QUICK3D_HAS_RUNTIME_SHADERS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_SHADERTOOLS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Quick3DRuntimeRender_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/tinyexr"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtquick3d/src/runtimerender/../3rdparty/embree/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/utils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtshadertools/src/shadertools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/6.7.1/QtShaderTools"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 88,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 91,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 94,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 97,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/QtQuick3DUtils"
+				},
+				{
+					"backtrace" : 100,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtShaderTools/QtShaderTools"
+				},
+				{
+					"backtrace" : 103,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent/QtConcurrent"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 17,
+			"id" : "BundledEmbree::@ff5c00fd9768e25e28ce"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Quick3DUtils::@5cf1b40b097b382ef5c1"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Quick3DUtils_sync_headers::@5cf1b40b097b382ef5c1"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "Quick3DRuntimeRender_version_script::@f37fe430e567354aeb73"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "Quick3DRuntimeRender_sync_headers::@f37fe430e567354aeb73"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "Quick3DRuntimeRender_lib_pri::@f37fe430e567354aeb73"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Concurrent::@6debff8c4cb0dde4990d"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "Gui_sync_headers::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "ShaderTools::@484bb1c56e28263ebe8f"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "ShaderTools_sync_headers::@484bb1c56e28263ebe8f"
+		},
+		{
+			"id" : "qsb::@3a860c13ae1d73cd1ff7"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "QmlIntegration::@29f26caaecb4c251c292"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "QmlBuiltins::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "QmlBuiltins_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "QmlModels::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "QmlModels_sync_headers::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "Quick_sync_headers::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"id" : "Quick3DRuntimeRender_autogen_timestamp_deps::@f37fe430e567354aeb73"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DRuntimeRender_autogen::@f37fe430e567354aeb73"
+		}
+	],
+	"id" : "Quick3DRuntimeRender::@f37fe430e567354aeb73",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "qtbase/lib/libQt6Concurrent.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "qtbase/lib/libQt6BundledEmbree.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Quick3DUtils.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "qtbase/lib/libQt6ShaderTools.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Quick3DRuntimeRender",
+	"nameOnDisk" : "libQt6Quick3DRuntimeRender.so",
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/runtimerender",
+		"source" : "qtquick3d/src/runtimerender"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				7,
+				9,
+				11,
+				13,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				46,
+				48,
+				50,
+				52,
+				54,
+				60,
+				62,
+				64,
+				67,
+				69,
+				71,
+				75,
+				77,
+				80,
+				82,
+				84,
+				86,
+				89,
+				94,
+				96,
+				99,
+				100,
+				104,
+				105,
+				108,
+				110,
+				111,
+				113,
+				115,
+				119,
+				121,
+				123,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				44,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				56,
+				57,
+				58,
+				59,
+				61,
+				63,
+				65,
+				66,
+				68,
+				70,
+				72,
+				73,
+				74,
+				76,
+				78,
+				79,
+				81,
+				83,
+				85,
+				87,
+				88,
+				90,
+				91,
+				92,
+				93,
+				95,
+				97,
+				98,
+				101,
+				102,
+				103,
+				106,
+				107,
+				109,
+				112,
+				114,
+				116,
+				117,
+				118,
+				120,
+				122
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				124,
+				157,
+				158,
+				160
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				159
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/CMakeFiles/Quick3DRuntimeRender.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/qtquick3druntimerenderexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender/private/qtquick3druntimerenderexports_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendercamera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendercamera_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendercustommaterial_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderdefaultmaterial.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderdefaultmaterial_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendereffect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendereffect_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendergeometry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendergeometry_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendergraphobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendergraphobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendergraphobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderimage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderimage_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderinstancetable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderinstancetable_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderitem2d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderitem2d_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderjoint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderjoint_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderlayer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderlayer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderlight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderlight_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendermodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendermodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendernode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendernode_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderskeleton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderskeleton_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderskin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderskin_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendertexturedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendertexturedata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendermorphtarget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrendermorphtarget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderresourceloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderresourceloader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderreflectionprobe.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderreflectionprobe_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgperframeallocator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderableimage_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderclippingfrustum.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderclippingfrustum_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderparticles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/graphobjects/qssgrenderparticles_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendercommands.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendercommands_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendercontextcore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendercontextcore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderdefaultmaterialshadergenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderdefaultmaterialshadergenerator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendererutil_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderimagetexture_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendermaterialshadergenerator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendermesh_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderray_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadercodegenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadercodegenerator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershaderkeys_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadermetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadermetadata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadowmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrendershadowmap_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderreflectionmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderreflectionmap_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderpickresult_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrenderpickresult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrhiparticles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhiparticles_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrhicontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhicontext_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhicontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrhicustommaterialsystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhicustommaterialsystem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrhieffectsystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhieffectsystem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgrhiquadrenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgrhiquadrenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgruntimerenderlogging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgruntimerenderlogging_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgshadermapkey_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgshadermaterialadapter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgshadermaterialadapter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgshaderresourcemergecontext_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qtquick3druntimerenderglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qtquick3druntimerenderglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderableobjects.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderableobjects_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssglayerrenderdata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssglayerrenderdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssglightmapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssglightmapper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssglightmapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrendererimplshaders_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrendererimplshaders_rhi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgvertexpipelineimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgvertexpipelineimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderpass_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderpass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderhelpers_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgrenderhelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrenderbuffermanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrenderbuffermanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrenderloadedtexture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrenderloadedtexture_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrendershaderlibrarymanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/resourcemanager/qssgrendershaderlibrarymanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/rendererimpl/qssgcputonemapper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/extensionapi/qssgrenderextensions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/extensionapi/qssgrenderextensions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/extensionapi/qssgrenderhelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/extensionapi/qssgrenderhelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtquick3d/src/runtimerender/qssgdebugdrawsystem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"path" : "qtquick3d/src/runtimerender/qssgdebugdrawsystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/meta_types/qt6quick3druntimerender_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_pertarget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 137,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3_pertarget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 143,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3_gl3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 149,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_lightprobe_rgbe.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 155,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_none.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 161,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_none.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 167,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_linear.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 173,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_linear.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 179,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_aces.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 185,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_aces.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 191,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_hejldawson.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 197,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_hejldawson.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 203,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_filmic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 209,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_filmic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 215,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 221,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight_mapped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 227,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight_animated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 233,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 239,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight_mapped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 245,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight_animated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 251,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_default.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 257,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_uv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 263,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_uv_tangent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 269,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 275,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_mapped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 281,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_animated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 287,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 293,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight_mapped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 299,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight_animated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 301,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/preliminary_prl_for_Quick3DRuntimeRender_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 303,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Quick3DRuntimeRender.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/CMakeFiles/Quick3DRuntimeRender.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/meta_types/qt6quick3druntimerender_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_pertarget.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3_pertarget.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_es3_gl3.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_lightprobe_rgbe.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_none.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_none.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_linear.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_linear.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_aces.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_aces.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_hejldawson.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_hejldawson.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_hdr_filmic.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_skybox_rgbe_filmic.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight_mapped.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_nolight_animated.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight_mapped.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_particles_vlight_animated.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_default.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_uv.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_lightmapuvraster_uv_tangent.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_mapped.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_animated.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight_mapped.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qt/rcc/qrc_res_shaders_line_particles_vlight_animated.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/preliminary_prl_for_Quick3DRuntimeRender_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Quick3DRuntimeRender.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/Quick3DRuntimeRender_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/meta_types/Quick3DRuntimeRender_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/debugobject.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/debugobject.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmap.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmap.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/orthoshadowblurx.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/orthoshadowblurx.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/orthoshadowblury.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/orthoshadowblury.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/texturedquad.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/texturedquad.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/progressiveaa.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/progressiveaa.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/simplequad.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/simplequad.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/ssaaresolve.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/ssaaresolve.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/cubeshadowblurx.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/cubeshadowblurx.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/cubeshadowblury.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/cubeshadowblury.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapdilate.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapdilate.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmapprefilter.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmapprefilter.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/grid.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/grid.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/reflectionprobeprefilter.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/reflectionprobeprefilter.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skyboxcube.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skyboxcube.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/ssao.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/ssao.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmapprefilter_rgbe.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/environmentmapprefilter_rgbe.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_none.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_none.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_none.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_none.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_linear.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_linear.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_linear.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_linear.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_aces.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_aces.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_aces.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_aces.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_hejldawson.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_hejldawson.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_hejldawson.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_hejldawson.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_filmic.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_hdr_filmic.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_filmic.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/skybox_rgbe_filmic.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightsimple.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightsimple.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightmapped.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightmapped.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightanimated.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesnolightanimated.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightsimple.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightsimple.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightmapped.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightmapped.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightanimated.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/particlesvlightanimated.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster_uv.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster_uv.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster_uv_tangent.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lightmapuvraster_uv_tangent.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticles.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticles.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesmapped.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesmapped.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesanimated.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesanimated.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightsimple.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightsimple.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightmapped.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightmapped.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightanimated.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/.qsb/res/rhishaders/lineparticlesvlightanimated.vert.qsb.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

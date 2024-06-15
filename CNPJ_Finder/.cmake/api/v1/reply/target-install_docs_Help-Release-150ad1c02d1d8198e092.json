@@ -1,0 +1,61 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qttools/src/assistant/help/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "install_html_docs_Help::@23ef048eb01b902dc14a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "install_qch_docs_Help::@23ef048eb01b902dc14a"
+		}
+	],
+	"id" : "install_docs_Help::@23ef048eb01b902dc14a",
+	"name" : "install_docs_Help",
+	"paths" : 
+	{
+		"build" : "qttools/src/assistant/help",
+		"source" : "qttools/src/assistant/help"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

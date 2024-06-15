@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt3d/src/quick3d/imports/scene2d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "qtquickscene2dplugin_autogen_timestamp_deps::@ea2653864b8e8ed83263"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "qtquickscene2dplugin_version_script::@ea2653864b8e8ed83263"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "qtquickscene2dplugin_autogen::@ea2653864b8e8ed83263",
+	"isGeneratorProvided" : true,
+	"name" : "qtquickscene2dplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qt3d/src/quick3d/imports/scene2d",
+		"source" : "qt3d/src/quick3d/imports/scene2d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/scene2d/CMakeFiles/qtquickscene2dplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/scene2d/CMakeFiles/qtquickscene2dplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/scene2d/qtquickscene2dplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

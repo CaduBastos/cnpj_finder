@@ -1,0 +1,426 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qt3d/CMakeLists.txt",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qt3d/src/quick3d/quick3d/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/render/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/scene3d/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/extras/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/scene2d/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/input/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/logic/CMakeLists.txt",
+			"qt3d/src/quick3d/imports/animation/CMakeLists.txt",
+			"qt3d/src/plugins/sceneparsers/gltf/CMakeLists.txt",
+			"qt3d/src/plugins/sceneparsers/assimp/CMakeLists.txt",
+			"qt3d/src/plugins/sceneparsers/gltfexport/CMakeLists.txt",
+			"qt3d/src/plugins/geometryloaders/gltf/CMakeLists.txt",
+			"qt3d/src/plugins/geometryloaders/default/CMakeLists.txt",
+			"qt3d/src/plugins/renderers/opengl/CMakeLists.txt",
+			"qt3d/src/plugins/renderers/rhi/CMakeLists.txt",
+			"qt3d/src/plugins/renderplugins/scene2d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 10,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 6
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 10,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 10,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 18
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 10,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 22
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 26
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 30
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 10,
+				"parent" : 32
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 34
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 12,
+				"line" : 10,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 37
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 10,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 40
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 10,
+				"parent" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 43
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 10,
+				"parent" : 45
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 46
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 10,
+				"parent" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 49
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 17,
+				"line" : 94,
+				"parent" : 51
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 52
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 67,
+				"parent" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 55
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 10,
+				"parent" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 58
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "quick3dcoreplugin::@e4113fa6a7abb0afe31f"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "quick3drenderplugin::@0a67050be4bd08f376bf"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "qtquickscene3dplugin::@26ad8d2d61c535430574"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "quick3dextrasplugin::@86597fac5c9fad56a81b"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "qtquickscene2dplugin::@ea2653864b8e8ed83263"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "quick3dinputplugin::@31940f2b48561cab35bb"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "quick3dlogicplugin::@5b45a6b5a5beaea52b2d"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "quick3danimationplugin::@8ca0554a1db97e8573bc"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "GLTFSceneImportPlugin::@ef151bb26daeb5519caf"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "AssimpSceneImportPlugin::@ce5023ab4685026905ad"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "GLTFSceneExportPlugin::@589d72b573912a9ed2dc"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "GLTFGeometryLoaderPlugin::@a5e515dc9b026741e04d"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "DefaultGeometryLoaderPlugin::@8a0d6db3069a48c06e70"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "OpenGLRendererPlugin::@a7d973aa1912698ef009"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "RhiRendererPlugin::@6a5de3384383de8f84ec"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "Scene2DPlugin::@993f37b7cd4fab0d3d13"
+		}
+	],
+	"id" : "qt_plugins_qt3d::@cd0eab48c1a3d16c536b",
+	"name" : "qt_plugins_qt3d",
+	"paths" : 
+	{
+		"build" : "qt3d",
+		"source" : "qt3d"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

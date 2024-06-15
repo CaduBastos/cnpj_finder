@@ -1,0 +1,156 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_plugin"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtserialbus/CMakeLists.txt",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtserialbus/src/plugins/canbus/virtualcan/CMakeLists.txt",
+			"qtserialbus/src/plugins/canbus/socketcan/CMakeLists.txt",
+			"qtserialbus/src/plugins/canbus/passthrucan/CMakeLists.txt",
+			"qtserialbus/src/plugins/canbus/peakcan/CMakeLists.txt",
+			"qtserialbus/src/plugins/canbus/tinycan/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 17
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "VirtualCanBusPlugin::@717a8aa7252a2405aad5"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "SocketCanBusPlugin::@dfff9e50e6a9eab40124"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "PassThruCanBusPlugin::@3760b7805892a87b82d0"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "PeakCanBusPlugin::@dd5a5998cebae592917b"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "TinyCanBusPlugin::@61b51a3baeb997320f35"
+		}
+	],
+	"id" : "qt_plugins_qtserialbus::@9505959a53623ced070a",
+	"name" : "qt_plugins_qtserialbus",
+	"paths" : 
+	{
+		"build" : "qtserialbus",
+		"source" : "qtserialbus"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

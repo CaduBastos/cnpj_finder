@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt3d/src/quick3d/imports/animation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "quick3danimationplugin_autogen_timestamp_deps::@8ca0554a1db97e8573bc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "quick3danimationplugin_version_script::@8ca0554a1db97e8573bc"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "quick3danimationplugin_autogen::@8ca0554a1db97e8573bc",
+	"isGeneratorProvided" : true,
+	"name" : "quick3danimationplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qt3d/src/quick3d/imports/animation",
+		"source" : "qt3d/src/quick3d/imports/animation"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/animation/CMakeFiles/quick3danimationplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/animation/CMakeFiles/quick3danimationplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/animation/quick3danimationplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

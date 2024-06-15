@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtimageformats/src/plugins/imageformats/wbmp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QWbmpPlugin::@33d8f5396415a2074432"
+		}
+	],
+	"id" : "qwbmp::@33d8f5396415a2074432",
+	"name" : "qwbmp",
+	"paths" : 
+	{
+		"build" : "qtimageformats/src/plugins/imageformats/wbmp",
+		"source" : "qtimageformats/src/plugins/imageformats/wbmp"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

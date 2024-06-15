@@ -1,0 +1,3387 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_expose_source_file_to_ide",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"qt_internal_add_qml_module",
+			"set_property",
+			"_qt_internal_add_shaders_impl",
+			"qt_internal_add_shaders",
+			"qt_internal_add_resource"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quick/CMakeLists.txt",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 99
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 101
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 103
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 105
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 107
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 111
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 113
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 115
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 117
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 119
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 121
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 123
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 125
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 129
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 131
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 133
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 135
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 137
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 139
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 141
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 143
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 145
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 147
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 149
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 151
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 153
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 155
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 157
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 159
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 161
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 163
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 165
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 167
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 169
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 171
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 173
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 175
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 177
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 179
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 181
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 183
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 185
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 187
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 189
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 191
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 193
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 195
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 197
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 199
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 201
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 203
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 205
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 207
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 209
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 211
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 213
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 215
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 217
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 219
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 221
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 223
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 118
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 225
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 227
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 228
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 229
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 228
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 231
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 228
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 233
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 97,
+				"parent" : 228
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 235
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 228
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 237
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 239
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 241
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 243
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 245
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 247
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 249
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 250
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 251
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 252
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 253
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 252
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 255
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 252
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 257
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 354,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 259
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 260
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 261
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 262
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 263
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 262
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 265
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 262
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 267
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 269
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 270
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 271
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 272
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 273
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 272
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 275
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 272
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 277
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 389,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 279
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 280
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 281
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 282
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 283
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 282
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 285
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 282
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 287
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 406,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 289
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 290
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 291
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 292
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 293
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 292
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 295
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 292
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 297
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 424,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 299
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 300
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 301
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 302
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 303
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 302
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 305
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 302
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 307
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 441,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 308,
+				"parent" : 309
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 264,
+				"parent" : 310
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 311
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 312
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 313
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 312
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 315
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 312
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 317
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "qsb::@3a860c13ae1d73cd1ff7"
+		}
+	],
+	"id" : "Quick_other_files::@022ac8dfaf7bfe5dcf20",
+	"name" : "Quick_other_files",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quick",
+		"source" : "qtdeclarative/src/quick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/qmake_QtQuick.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/qml/QtQuick/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/24bittextmask.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/32bitcolortext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/8bittextmask.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/8bittextmask_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldoutlinetext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldoutlinetext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldoutlinetext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldoutlinetext_a_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 28,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldoutlinetext_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldshiftedtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldshiftedtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldshiftedtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldshiftedtext_a_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldshiftedtext_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldtext_a_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/distancefieldtext_fwidth.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/flatcolor.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/flatcolor.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 54,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/loqsubpixeldistancefieldtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/opaquetexture.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/opaquetexture.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/outlinedtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/outlinedtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/outlinedtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shadereffect.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shadereffect.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/smoothcolor.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/smoothcolor.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/smoothtexture.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/smoothtexture.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/sprite.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/sprite.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/stencilclip.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/stencilclip.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/styledtext.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/styledtext.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/styledtext_a.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/textmask.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/textmask.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/texture.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/texture.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/vertexcolor.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/vertexcolor.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/visualization.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/visualization.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_shaders.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/24bittextmask.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/32bitcolortext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/8bittextmask.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/8bittextmask_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 130,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 134,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 136,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_a_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 138,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 140,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 142,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 144,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 146,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_a_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 148,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 150,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 152,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 154,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 156,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_a_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 158,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_fwidth.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 160,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/flatcolor.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 162,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/flatcolor.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 164,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 166,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 168,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 170,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 172,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 174,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 176,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/opaquetexture.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 178,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/opaquetexture.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 180,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 182,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 184,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shadereffect.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 188,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shadereffect.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 190,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothcolor.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 192,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothcolor.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 194,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothtexture.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 196,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothtexture.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 198,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/sprite.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 200,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/sprite.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 202,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/stencilclip.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 204,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/stencilclip.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 206,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 208,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 210,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext_a.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 212,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/textmask.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 214,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/textmask.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 216,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/texture.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 218,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/texture.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 220,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/vertexcolor.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 222,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/vertexcolor.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 224,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/visualization.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 226,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/visualization.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 230,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shapecurve.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 232,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shapecurve.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 234,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shapestroke.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 236,
+			"path" : "qtdeclarative/src/quick/scenegraph/shaders_ng/shapestroke.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 240,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 242,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 244,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 246,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapestroke.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 248,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapestroke.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 254,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_derivatives.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 256,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_derivatives.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 258,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_derivatives.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 264,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_lg.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 266,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 268,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 274,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_lg_derivatives.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 276,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg_derivatives.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 278,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg_derivatives.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 284,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_rg.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 286,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 288,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 294,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_rg_derivatives.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 296,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg_derivatives.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 298,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg_derivatives.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 304,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_cg.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 306,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 308,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 314,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qt/rcc/scenegraph_curve_shaders_cg_derivatives.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 316,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg_derivatives.frag.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 318,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg_derivatives.vert.qsb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/24bittextmask.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/32bitcolortext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/8bittextmask.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/8bittextmask_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_a_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldoutlinetext_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_a_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldshiftedtext_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_a_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/distancefieldtext_fwidth.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/flatcolor.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/flatcolor.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/hiqsubpixeldistancefieldtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/loqsubpixeldistancefieldtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/opaquetexture.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/opaquetexture.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/outlinedtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shadereffect.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shadereffect.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothcolor.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothcolor.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothtexture.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/smoothtexture.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/sprite.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/sprite.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/stencilclip.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/stencilclip.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/styledtext_a.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/textmask.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/textmask.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/texture.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/texture.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/vertexcolor.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/vertexcolor.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/visualization.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/visualization.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapestroke.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapestroke.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_derivatives.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_derivatives.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg_derivatives.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_lg_derivatives.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg_derivatives.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_rg_derivatives.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg_derivatives.frag.qsb.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/.qsb/scenegraph/shaders_ng/shapecurve_cg_derivatives.vert.qsb.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

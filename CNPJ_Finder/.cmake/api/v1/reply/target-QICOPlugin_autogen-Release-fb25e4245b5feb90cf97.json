@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/imageformats/ico/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QICOPlugin_version_script::@74e674d8b0662cbe14ae"
+		},
+		{
+			"id" : "QICOPlugin_autogen_timestamp_deps::@74e674d8b0662cbe14ae"
+		}
+	],
+	"id" : "QICOPlugin_autogen::@74e674d8b0662cbe14ae",
+	"isGeneratorProvided" : true,
+	"name" : "QICOPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/imageformats/ico",
+		"source" : "qtbase/src/plugins/imageformats/ico"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/imageformats/ico/CMakeFiles/QICOPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/imageformats/ico/CMakeFiles/QICOPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/imageformats/ico/QICOPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

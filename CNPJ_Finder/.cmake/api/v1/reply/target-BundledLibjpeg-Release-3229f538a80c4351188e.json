@@ -1,0 +1,1153 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6BundledLibjpeg.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_common_qt_library_helper",
+			"qt_internal_add_3rdparty_library",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_3rdparty_lib_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_internal_qtbase_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"qtbase/src/3rdparty/libjpeg/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtbase/cmake/QtBaseHelpers.cmake",
+			"qtbase/CMakeLists.txt",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 292,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 233,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 171,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 603,
+				"parent" : 9
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 16,
+				"file" : 12,
+				"line" : 32,
+				"parent" : 11
+			},
+			{
+				"command" : 15,
+				"file" : 11,
+				"line" : 154,
+				"parent" : 12
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 179,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 9,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 6,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 453,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 79,
+				"parent" : 20
+			},
+			{
+				"file" : 6,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 39,
+				"parent" : 22
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 1
+			},
+			{
+				"command" : 17,
+				"file" : 13,
+				"line" : 311,
+				"parent" : 24
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 13,
+				"line" : 310,
+				"parent" : 24
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 163,
+				"parent" : 7
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 147,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-w"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 28,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/3rdparty/libjpeg/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "BundledLibjpeg16bits::@48ef2ba2aaf08e41e5e7"
+		},
+		{
+			"id" : "BundledLibjpeg12bits::@48ef2ba2aaf08e41e5e7"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "BundledLibjpeg_ext_pri::@48ef2ba2aaf08e41e5e7"
+		}
+	],
+	"id" : "BundledLibjpeg::@48ef2ba2aaf08e41e5e7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"name" : "BundledLibjpeg",
+	"nameOnDisk" : "libQt6BundledLibjpeg.a",
+	"paths" : 
+	{
+		"build" : "qtbase/src/3rdparty/libjpeg",
+		"source" : "qtbase/src/3rdparty/libjpeg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jccolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcdiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jclossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcprepct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdcolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jddiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdlossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdpostct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jutils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jccoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcdctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdcoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jddctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdmerge.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jfdctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jfdctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jidctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jidctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jidctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jidctred.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jquant1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jquant2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jaricom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcarith.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jchuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcicc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcinit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jclhuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcomapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcparam.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jcphuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jctrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdarith.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdatadst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdatasrc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdhuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdicc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdinput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdlhuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdphuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jdtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jfdctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jmemmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jmemnobs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/jpeg_nbits.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcapistd_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jccolor_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcdiffct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jclossls_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcmainct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcprepct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcsample_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdapistd_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdcolor_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jddiffct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdlossls_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdmainct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdpostct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdsample_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jutils_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jccoefct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jcdctmgr_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdcoefct_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jddctmgr_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jdmerge_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jfdctfst_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jfdctint_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jidctflt_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jidctfst_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jidctint_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jidctred_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jquant1_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg12bits.dir/jquant2_12.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jcapistd_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jccolor_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jcdiffct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jclossls_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jcmainct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jcprepct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jcsample_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdapistd_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdcolor_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jddiffct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdlossls_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdmainct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdpostct_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jdsample_16.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/3rdparty/libjpeg/CMakeFiles/BundledLibjpeg16bits.dir/jutils_16.c.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

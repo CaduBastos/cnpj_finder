@@ -1,0 +1,82 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/platformsupport/input/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InputSupportPrivate_version_script::@7d8f9348911b38ba1b63"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InputSupportPrivate_sync_headers::@7d8f9348911b38ba1b63"
+		},
+		{
+			"id" : "InputSupportPrivate_autogen_timestamp_deps::@7d8f9348911b38ba1b63"
+		}
+	],
+	"id" : "InputSupportPrivate_autogen::@7d8f9348911b38ba1b63",
+	"isGeneratorProvided" : true,
+	"name" : "InputSupportPrivate_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/platformsupport/input",
+		"source" : "qtbase/src/platformsupport/input"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/input/CMakeFiles/InputSupportPrivate_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/input/CMakeFiles/InputSupportPrivate_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/input/InputSupportPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard/src/plugins/pinyin/3rdparty/pinyin",
+		"source" : "qtvirtualkeyboard/src/plugins/pinyin/3rdparty/pinyin"
+	}
+}

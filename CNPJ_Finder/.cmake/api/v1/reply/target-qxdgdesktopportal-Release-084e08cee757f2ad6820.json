@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/src/plugins/platformthemes/xdgdesktopportal/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QXdgDesktopPortalThemePlugin::@24c03b5a9ff5e9cd56d1"
+		}
+	],
+	"id" : "qxdgdesktopportal::@24c03b5a9ff5e9cd56d1",
+	"name" : "qxdgdesktopportal",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platformthemes/xdgdesktopportal",
+		"source" : "qtbase/src/plugins/platformthemes/xdgdesktopportal"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

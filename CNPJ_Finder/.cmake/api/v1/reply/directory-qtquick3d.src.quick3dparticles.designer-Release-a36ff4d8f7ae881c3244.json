@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_copy_or_install"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtquick3d/src/quick3dparticles/designer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick3D/Particles3D/designer",
+			"paths" : 
+			[
+				"qtquick3d/src/quick3dparticles/designer/Particle3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Particle3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/Affector3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Affector3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/Attractor3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Attractor3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/EmitBurst3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/EmitBurst3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/DynamicBurst3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/DynamicBurst3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleEmitter3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleEmitter3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/Gravity3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Gravity3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/LineParticle3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/LineParticle3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ModelBlendParticle3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ModelBlendParticle3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ModelParticle3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ModelParticle3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/NodeSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/NodeSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleCustomShape3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleCustomShape3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleModelShape3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleModelShape3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/PointRotator3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/PointRotator3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleShape3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleShape3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/Repeller3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Repeller3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/SpriteParticle3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/SpriteParticle3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/SpriteSequence3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/SpriteSequence3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ScaleAffector3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ScaleAffector3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleSystem3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/ParticleSystem3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/TargetDirection3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/TargetDirection3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/TrailEmitter3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/TrailEmitter3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/VectorDirection3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/VectorDirection3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/Wander3DSection.qml",
+				"qtquick3d/src/quick3dparticles/designer/Wander3DSpecifics.qml",
+				"qtquick3d/src/quick3dparticles/designer/particles3d.metainfo"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/quick3dparticles/designer",
+		"source" : "qtquick3d/src/quick3dparticles/designer"
+	}
+}

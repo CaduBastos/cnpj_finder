@@ -1,0 +1,461 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtquick3d/src/utils/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 242,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1259,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 562,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 162,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 36
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/utils/meta_types/qt6quick3dutils_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Quick3DUtils",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Quick3DUtils.so.6.7.1",
+				"qtbase/lib/libQt6Quick3DUtils.so.6"
+			],
+			"targetId" : "Quick3DUtils::@5cf1b40b097b382ef5c1",
+			"targetIndex" : 1163,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Quick3DUtils.so"
+			],
+			"targetId" : "Quick3DUtils::@5cf1b40b097b382ef5c1",
+			"targetIndex" : 1163,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DUtils",
+			"exportName" : "Qt6Quick3DUtilsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Quick3DUtils::@5cf1b40b097b382ef5c1",
+					"index" : 1163
+				},
+				{
+					"id" : "Quick3DUtilsPrivate::@5cf1b40b097b382ef5c1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtquick3d/src/utils/CMakeFiles/Export/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DUtils",
+			"exportName" : "Qt6Quick3DUtilsVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Quick3DUtilsVersionless::@5cf1b40b097b382ef5c1",
+					"index" : 0
+				},
+				{
+					"id" : "Quick3DUtilsPrivateVersionless::@5cf1b40b097b382ef5c1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtquick3d/src/utils/CMakeFiles/Export/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/Quick3DUtils.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DUtils",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DUtils/Qt6Quick3DUtilsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DUtils",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DUtils",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/qtquick3dutilsexports.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/QtQuick3DUtilsDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DUtils/6.7.1/QtQuick3DUtils/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DUtils/6.7.1/QtQuick3DUtils/private/qtquick3dutilsexports_p.h",
+				"qtquick3d/src/utils/qqsbcollection_p.h",
+				"qtquick3d/src/utils/qssgbounds3_p.h",
+				"qtquick3d/src/utils/qssgdataref_p.h",
+				"qtquick3d/src/utils/qssginvasivelinkedlist_p.h",
+				"qtquick3d/src/utils/qssgmeshbvh_p.h",
+				"qtquick3d/src/utils/qssgplane_p.h",
+				"qtquick3d/src/utils/qssgrenderbasetypes_p.h",
+				"qtquick3d/src/utils/qssgutils_p.h",
+				"qtquick3d/src/utils/qssgmeshbvhbuilder_p.h",
+				"qtquick3d/src/utils/qssgmesh_p.h",
+				"qtquick3d/src/utils/qssgassert_p.h",
+				"qtquick3d/src/utils/qssgaosettings_p.h",
+				"qtquick3d/src/utils/qtquick3dutilsglobal_p.h",
+				"qtquick3d/src/utils/qquick3dprofiler_p.h",
+				"qtquick3d/src/utils/qssglightmapuvgenerator_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DUtils/6.7.1/QtQuick3DUtils/ssg",
+			"paths" : 
+			[
+				"qtquick3d/src/utils/qssgrenderbasetypes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_quick3dutils.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_quick3dutils_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Quick3DUtils.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/utils",
+		"source" : "qtquick3d/src/utils"
+	}
+}

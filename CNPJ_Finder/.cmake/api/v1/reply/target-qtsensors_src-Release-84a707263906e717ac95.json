@@ -1,0 +1,154 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtsensors/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtsensors/src/sensors/CMakeLists.txt",
+			"qtsensors/src/sensorsquick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Sensors::@e51b90d7256946c0832f"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Sensors_sync_headers::@e51b90d7256946c0832f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "genericSensorPlugin::@cca562e030f032f7748d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IIOSensorProxySensorPlugin::@305d06c4c95a2d6e331a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SensorsQuick::@a9eb58f86ebb27d65b24"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SensorsQuickplugin::@a9eb58f86ebb27d65b24"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "SensorsQuick_sync_headers::@a9eb58f86ebb27d65b24"
+		}
+	],
+	"id" : "qtsensors_src::@7a2c0b396965c03558da",
+	"name" : "qtsensors_src",
+	"paths" : 
+	{
+		"build" : "qtsensors",
+		"source" : "qtsensors"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

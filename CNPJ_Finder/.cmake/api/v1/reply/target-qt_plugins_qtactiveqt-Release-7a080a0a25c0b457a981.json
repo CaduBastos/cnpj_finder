@@ -1,0 +1,43 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtactiveqt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "qt_plugins_qtactiveqt::@cf54eafa9655adc5af71",
+	"name" : "qt_plugins_qtactiveqt",
+	"paths" : 
+	{
+		"build" : "qtactiveqt",
+		"source" : "qtactiveqt"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

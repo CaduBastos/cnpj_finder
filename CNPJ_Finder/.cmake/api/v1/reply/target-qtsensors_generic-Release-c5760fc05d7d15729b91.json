@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtsensors/src/plugins/sensors/generic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "genericSensorPlugin::@cca562e030f032f7748d"
+		}
+	],
+	"id" : "qtsensors_generic::@cca562e030f032f7748d",
+	"name" : "qtsensors_generic",
+	"paths" : 
+	{
+		"build" : "qtsensors/src/plugins/sensors/generic",
+		"source" : "qtsensors/src/plugins/sensors/generic"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

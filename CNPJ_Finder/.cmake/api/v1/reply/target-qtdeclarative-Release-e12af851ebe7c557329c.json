@@ -1,0 +1,75 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "qtdeclarative_src::@3f8b8320d1872f2fb4d4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtdeclarative_tools::@3f8b8320d1872f2fb4d4"
+		}
+	],
+	"id" : "qtdeclarative::@3f8b8320d1872f2fb4d4",
+	"name" : "qtdeclarative",
+	"paths" : 
+	{
+		"build" : "qtdeclarative",
+		"source" : "qtdeclarative"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,255 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtlottie/src/imports/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 441,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 461,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 416,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 230,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 243,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/labs/lottieqt",
+			"paths" : 
+			[
+				"qtbase/qml/Qt/labs/lottieqt/liblottieqtplugin.so"
+			],
+			"targetId" : "lottieqtplugin::@0368c97da5bfcfeafa09",
+			"targetIndex" : 2725,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6lottieqtpluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "lottieqtplugin::@0368c97da5bfcfeafa09",
+					"index" : 2725
+				}
+			],
+			"paths" : 
+			[
+				"qtlottie/src/imports/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/labs/lottieqt",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt/labs/lottieqt/plugins.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/labs/lottieqt",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt/labs/lottieqt/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "_install_html_docs_lottieqtplugin",
+			"destination" : "./doc/qtlottieanimation",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtlottieanimation",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "_install_qch_docs_lottieqtplugin",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtlottieanimation.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtlottie/src/imports",
+		"source" : "qtlottie/src/imports"
+	}
+}

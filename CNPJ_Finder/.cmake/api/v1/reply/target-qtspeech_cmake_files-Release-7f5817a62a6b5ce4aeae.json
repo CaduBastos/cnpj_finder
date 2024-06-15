@@ -1,0 +1,122 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtspeech/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtspeech_cmake_files::@d3257f8b491eccfba4e1",
+	"name" : "qtspeech_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtspeech",
+		"source" : "qtspeech"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "src\\tts",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/cmake/FindFlite.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/cmake/FindSpeechDispatcher.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/src/tts/configure.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtspeech/src/tts/qt_cmdline.cmake",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "UTILITY"
+}

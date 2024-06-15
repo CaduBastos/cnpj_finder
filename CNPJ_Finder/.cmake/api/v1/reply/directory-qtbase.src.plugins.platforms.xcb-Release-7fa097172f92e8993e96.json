@@ -1,0 +1,350 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_plugin",
+			"qt_generate_module_pri_file",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/src/plugins/platforms/xcb/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 441,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 452,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 461,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 562,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/xcb/meta_types/qt6xcbqpaprivate_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6XcbQpaPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6XcbQpa.so.6.7.1",
+				"qtbase/lib/libQt6XcbQpa.so.6"
+			],
+			"targetId" : "XcbQpaPrivate::@cc7349eb4287b3fb0908",
+			"targetIndex" : 1777,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6XcbQpa.so"
+			],
+			"targetId" : "XcbQpaPrivate::@cc7349eb4287b3fb0908",
+			"targetIndex" : 1777,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6XcbQpaPrivate",
+			"exportName" : "Qt6XcbQpaPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "XcbQpaPrivate::@cc7349eb4287b3fb0908",
+					"index" : 1777
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/plugins/platforms/xcb/CMakeFiles/Export/lib/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6XcbQpaPrivate",
+			"exportName" : "Qt6XcbQpaPrivateVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "XcbQpaPrivateVersionless::@cc7349eb4287b3fb0908",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/plugins/platforms/xcb/CMakeFiles/Export/lib/cmake/Qt6XcbQpaPrivate/Qt6XcbQpaPrivateVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/XcbQpaPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "./plugins/platforms",
+			"paths" : 
+			[
+				"qtbase/plugins/platforms/libqxcb.so"
+			],
+			"targetId" : "QXcbIntegrationPlugin::@cc7349eb4287b3fb0908",
+			"targetIndex" : 868,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6QXcbIntegrationPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QXcbIntegrationPlugin::@cc7349eb4287b3fb0908",
+					"index" : 868
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/plugins/platforms/xcb/CMakeFiles/Export/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platforms/xcb",
+		"source" : "qtbase/src/plugins/platforms/xcb"
+	}
+}

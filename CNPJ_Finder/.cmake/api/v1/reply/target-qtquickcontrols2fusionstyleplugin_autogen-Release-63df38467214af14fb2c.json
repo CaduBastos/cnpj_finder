@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/fusion/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "qtquickcontrols2fusionstyleplugin_version_script::@bf51e4d6335e76f1f49b"
+		},
+		{
+			"id" : "qtquickcontrols2fusionstyleplugin_autogen_timestamp_deps::@bf51e4d6335e76f1f49b"
+		}
+	],
+	"id" : "qtquickcontrols2fusionstyleplugin_autogen::@bf51e4d6335e76f1f49b",
+	"isGeneratorProvided" : true,
+	"name" : "qtquickcontrols2fusionstyleplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/fusion",
+		"source" : "qtdeclarative/src/quickcontrols/fusion"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/fusion/CMakeFiles/qtquickcontrols2fusionstyleplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/fusion/CMakeFiles/qtquickcontrols2fusionstyleplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/fusion/qtquickcontrols2fusionstyleplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtsvg/src/plugins/imageformats",
+		"source" : "qtsvg/src/plugins/imageformats"
+	}
+}

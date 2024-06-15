@@ -1,0 +1,104 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_ts_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qttranslations/translations/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ts-designer-sl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ts-linguist-sl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ts-assistant-sl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ts-qt_help-sl::@ac001fec6975ed2cc610"
+		}
+	],
+	"id" : "ts-sl::@ac001fec6975ed2cc610",
+	"name" : "ts-sl",
+	"paths" : 
+	{
+		"build" : "qttranslations/translations",
+		"source" : "qttranslations/translations"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

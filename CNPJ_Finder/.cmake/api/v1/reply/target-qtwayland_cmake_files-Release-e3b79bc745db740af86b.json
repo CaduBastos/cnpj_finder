@@ -1,0 +1,164 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtwayland/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtwayland_cmake_files::@887962b2188c00fadee7",
+	"name" : "qtwayland_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtwayland",
+		"source" : "qtwayland"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "src\\client",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "src\\compositor",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/cmake/FindWaylandkms.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/client/Qt6WaylandClientMacros.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/client/configure.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/client/qt_cmdline.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/compositor/Qt6WaylandCompositorMacros.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/compositor/configure.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/compositor/qt_cmdline.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/configure.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/src/qt_cmdline.cmake",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "UTILITY"
+}

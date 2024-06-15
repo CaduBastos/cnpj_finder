@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QQuickProfilerAdapterFactoryPlugin_version_script::@d4fe0ab1e1e8fe1f3d8b"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "QQuickProfilerAdapterFactoryPlugin_autogen_timestamp_deps::@d4fe0ab1e1e8fe1f3d8b"
+		}
+	],
+	"id" : "QQuickProfilerAdapterFactoryPlugin_autogen::@d4fe0ab1e1e8fe1f3d8b",
+	"isGeneratorProvided" : true,
+	"name" : "QQuickProfilerAdapterFactoryPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler",
+		"source" : "qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler/CMakeFiles/QQuickProfilerAdapterFactoryPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler/CMakeFiles/QQuickProfilerAdapterFactoryPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_quickprofiler/QQuickProfilerAdapterFactoryPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

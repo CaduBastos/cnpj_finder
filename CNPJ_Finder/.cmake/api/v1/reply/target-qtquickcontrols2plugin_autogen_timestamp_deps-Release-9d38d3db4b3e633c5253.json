@@ -1,0 +1,167 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtdeclarative/src/quicktemplates/CMakeLists.txt",
+			"qtdeclarative/src/quickcontrolsimpl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 915,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 4
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 0,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 915,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 13
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QuickTemplates2_sync_headers::@d8e4b05793fe777813fb"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "QuickControls2Impl_sync_headers::@43d63f53c887901ae31b"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "QuickControls2_sync_headers::@d0a521f8df56dfe448b0"
+		}
+	],
+	"id" : "qtquickcontrols2plugin_autogen_timestamp_deps::@d0a521f8df56dfe448b0",
+	"isGeneratorProvided" : true,
+	"name" : "qtquickcontrols2plugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols",
+		"source" : "qtdeclarative/src/quickcontrols"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/CMakeFiles/qtquickcontrols2plugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/CMakeFiles/qtquickcontrols2plugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

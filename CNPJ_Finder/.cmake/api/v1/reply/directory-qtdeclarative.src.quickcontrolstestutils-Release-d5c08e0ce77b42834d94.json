@@ -1,0 +1,568 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdeclarative/src/quickcontrolstestutils/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 217,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 441,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 452,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 461,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 344,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 390,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 416,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 36
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 30
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 242,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 45
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 562,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 48
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolstestutils/meta_types/qt6quickcontrolstestutilsprivate_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6QuickControlsTestUtilsPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6QuickControlsTestUtils.a"
+			],
+			"targetId" : "QuickControlsTestUtilsPrivate::@d9c24100bd2cf0dd0413",
+			"targetIndex" : 1334,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QuickControlsTestUtilsPrivate",
+			"exportName" : "Qt6QuickControlsTestUtilsPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QuickControlsTestUtilsPrivate::@d9c24100bd2cf0dd0413",
+					"index" : 1334
+				},
+				{
+					"id" : "QuickControlsTestUtilsPrivate_resources_1::@d9c24100bd2cf0dd0413",
+					"index" : 1342
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/quickcontrolstestutils/CMakeFiles/Export/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QuickControlsTestUtilsPrivate",
+			"exportName" : "Qt6QuickControlsTestUtilsPrivateVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QuickControlsTestUtilsPrivateVersionless::@d9c24100bd2cf0dd0413",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/quickcontrolstestutils/CMakeFiles/Export/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/QuickControlsTestUtilsPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/test/controls",
+			"paths" : 
+			[
+				"qtbase/qml/Qt/test/controls/libquickcontrolstestutilsprivateplugin.so"
+			],
+			"targetId" : "QuickControlsTestUtilsPrivateplugin::@d9c24100bd2cf0dd0413",
+			"targetIndex" : 1346,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6QuickControlsTestUtilsPrivatepluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QuickControlsTestUtilsPrivateplugin::@d9c24100bd2cf0dd0413",
+					"index" : 1346
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/quickcontrolstestutils/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/test/controls",
+			"paths" : 
+			[
+				{
+					"from" : "qtdeclarative/src/quickcontrolstestutils/CMakeFiles/QuickControlsTestUtilsPrivate_resources_1.dir/.//.qt/rcc/qrc_qmake_Qt_test_controls_init.cpp.o",
+					"to" : "objects-Release/QuickControlsTestUtilsPrivate_resources_1/.qt/rcc/qrc_qmake_Qt_test_controls_init.cpp.o"
+				}
+			],
+			"targetId" : "QuickControlsTestUtilsPrivate_resources_1::@d9c24100bd2cf0dd0413",
+			"targetIndex" : 1342,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/test/controls",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt/test/controls/QuickControlsTestUtilsPrivate.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt/test/controls",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt/test/controls/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QuickControlsTestUtilsPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuickControlsTestUtils",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControlsTestUtils/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuickControlsTestUtils",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControlsTestUtils/QtQuickControlsTestUtilsDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuickControlsTestUtils/6.7.1/QtQuickControlsTestUtils/private",
+			"paths" : 
+			[
+				"qtdeclarative/src/quickcontrolstestutils/controlstestutils_p.h",
+				"qtdeclarative/src/quickcontrolstestutils/qtest_quickcontrols_p.h",
+				"qtdeclarative/src/quickcontrolstestutils/dialogstestutils_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrolstestutils",
+		"source" : "qtdeclarative/src/quickcontrolstestutils"
+	}
+}

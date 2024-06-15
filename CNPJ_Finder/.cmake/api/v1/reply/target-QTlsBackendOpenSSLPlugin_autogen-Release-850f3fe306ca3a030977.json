@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/tls/openssl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QTlsBackendOpenSSLPlugin_version_script::@bd1c97891db826a31c15"
+		},
+		{
+			"id" : "QTlsBackendOpenSSLPlugin_autogen_timestamp_deps::@bd1c97891db826a31c15"
+		}
+	],
+	"id" : "QTlsBackendOpenSSLPlugin_autogen::@bd1c97891db826a31c15",
+	"isGeneratorProvided" : true,
+	"name" : "QTlsBackendOpenSSLPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/tls/openssl",
+		"source" : "qtbase/src/plugins/tls/openssl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/openssl/CMakeFiles/QTlsBackendOpenSSLPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/openssl/CMakeFiles/QTlsBackendOpenSSLPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/openssl/QTlsBackendOpenSSLPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

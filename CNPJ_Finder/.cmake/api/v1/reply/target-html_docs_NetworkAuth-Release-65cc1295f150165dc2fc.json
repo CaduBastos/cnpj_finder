@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtnetworkauth/src/oauth/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "generate_docs_NetworkAuth::@292faff82b2e18fce823"
+		}
+	],
+	"id" : "html_docs_NetworkAuth::@292faff82b2e18fce823",
+	"name" : "html_docs_NetworkAuth",
+	"paths" : 
+	{
+		"build" : "qtnetworkauth/src/oauth",
+		"source" : "qtnetworkauth/src/oauth"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/tls/certonly/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QTlsBackendCertOnlyPlugin_version_script::@51ad2db262184d9164f4"
+		},
+		{
+			"id" : "QTlsBackendCertOnlyPlugin_autogen_timestamp_deps::@51ad2db262184d9164f4"
+		}
+	],
+	"id" : "QTlsBackendCertOnlyPlugin_autogen::@51ad2db262184d9164f4",
+	"isGeneratorProvided" : true,
+	"name" : "QTlsBackendCertOnlyPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/tls/certonly",
+		"source" : "qtbase/src/plugins/tls/certonly"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/certonly/CMakeFiles/QTlsBackendCertOnlyPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/certonly/CMakeFiles/QTlsBackendCertOnlyPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/tls/certonly/QTlsBackendCertOnlyPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

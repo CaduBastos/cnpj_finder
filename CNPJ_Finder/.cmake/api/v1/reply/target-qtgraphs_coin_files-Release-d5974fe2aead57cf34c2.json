@@ -1,0 +1,86 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtgraphs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtgraphs_coin_files::@27f83266a690eb854cf8",
+	"name" : "qtgraphs_coin_files",
+	"paths" : 
+	{
+		"build" : "qtgraphs",
+		"source" : "qtgraphs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "axivion",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtgraphs/coin/axivion/ci_config_linux.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgraphs/coin/module_config.yaml",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

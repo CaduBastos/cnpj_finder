@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickdialogs/quickdialogs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtquickdialogsplugin_version_script::@ede857d7fff4529fe76a"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "qtquickdialogsplugin_autogen_timestamp_deps::@ede857d7fff4529fe76a"
+		}
+	],
+	"id" : "qtquickdialogsplugin_autogen::@ede857d7fff4529fe76a",
+	"isGeneratorProvided" : true,
+	"name" : "qtquickdialogsplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickdialogs/quickdialogs",
+		"source" : "qtdeclarative/src/quickdialogs/quickdialogs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogs/CMakeFiles/qtquickdialogsplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogs/CMakeFiles/qtquickdialogsplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogs/qtquickdialogsplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

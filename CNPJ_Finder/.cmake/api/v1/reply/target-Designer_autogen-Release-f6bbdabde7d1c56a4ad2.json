@@ -1,0 +1,93 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qttools/src/designer/src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Designer_autogen_timestamp_deps::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "UiPlugin_sync_headers::@1fa6a9cbad4ebcf3e5ea"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Designer_version_script::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Designer_sync_headers::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Designer_lib_pri::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "uic::@59bab6873281db6cb111"
+		}
+	],
+	"id" : "Designer_autogen::@3c0d5573d61ad1bf16bb",
+	"isGeneratorProvided" : true,
+	"name" : "Designer_autogen",
+	"paths" : 
+	{
+		"build" : "qttools/src/designer/src/lib",
+		"source" : "qttools/src/designer/src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

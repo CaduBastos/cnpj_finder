@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11/CMakeLists.txt",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 441,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 461,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 738,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1013,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 738,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1013,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 738,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1013,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "./plugins/egldeviceintegrations",
+			"paths" : 
+			[
+				"qtbase/plugins/egldeviceintegrations/libqeglfs-x11-integration.so"
+			],
+			"targetId" : "QEglFSX11IntegrationPlugin::@21e7ae633e11b4202809",
+			"targetIndex" : 656,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6QEglFSX11IntegrationPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QEglFSX11IntegrationPlugin::@21e7ae633e11b4202809",
+					"index" : 656
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11/CMakeFiles/Export/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6EglFSDeviceIntegrationPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6EglFSDeviceIntegrationPrivate/Qt6EglFSDeviceIntegrationPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11",
+		"source" : "qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11"
+	}
+}

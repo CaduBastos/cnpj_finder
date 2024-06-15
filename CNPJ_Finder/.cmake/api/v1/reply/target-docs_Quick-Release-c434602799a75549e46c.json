@@ -1,0 +1,67 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtdeclarative/src/quick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 692,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "html_docs_Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qch_docs_Quick::@022ac8dfaf7bfe5dcf20"
+		}
+	],
+	"id" : "docs_Quick::@022ac8dfaf7bfe5dcf20",
+	"name" : "docs_Quick",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quick",
+		"source" : "qtdeclarative/src/quick"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

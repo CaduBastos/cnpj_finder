@@ -1,0 +1,486 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtmqtt/src/mqtt/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmqtt/src/mqtt/meta_types/qt6mqtt_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Mqtt",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Mqtt/Qt6MqttConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Mqtt/Qt6MqttConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Mqtt/Qt6MqttConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Mqtt.so.6.7.1",
+				"qtbase/lib/libQt6Mqtt.so.6"
+			],
+			"targetId" : "Mqtt::@4da9d186bc3730be13cf",
+			"targetIndex" : 504,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Mqtt.so"
+			],
+			"targetId" : "Mqtt::@4da9d186bc3730be13cf",
+			"targetIndex" : 504,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Mqtt",
+			"exportName" : "Qt6MqttTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Mqtt::@4da9d186bc3730be13cf",
+					"index" : 504
+				},
+				{
+					"id" : "MqttPrivate::@4da9d186bc3730be13cf",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtmqtt/src/mqtt/CMakeFiles/Export/lib/cmake/Qt6Mqtt/Qt6MqttTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Mqtt",
+			"exportName" : "Qt6MqttVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "MqttVersionless::@4da9d186bc3730be13cf",
+					"index" : 0
+				},
+				{
+					"id" : "MqttPrivateVersionless::@4da9d186bc3730be13cf",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtmqtt/src/mqtt/CMakeFiles/Export/lib/cmake/Qt6Mqtt/Qt6MqttVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/Mqtt.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Mqtt",
+			"destination" : "./doc/qtmqtt",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtmqtt",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Mqtt",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtmqtt.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Mqtt",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Mqtt/Qt6MqttAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtMqtt",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtMqtt/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtMqtt",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtMqtt/qtmqttexports.h",
+				"qtmqtt/src/mqtt/qmqttauthenticationproperties.h",
+				"qtmqtt/src/mqtt/qmqttclient.h",
+				"qtmqtt/src/mqtt/qmqttconnectionproperties.h",
+				"qtmqtt/src/mqtt/qmqttglobal.h",
+				"qtmqtt/src/mqtt/qmqttmessage.h",
+				"qtmqtt/src/mqtt/qmqttpublishproperties.h",
+				"qtmqtt/src/mqtt/qmqttsubscription.h",
+				"qtmqtt/src/mqtt/qmqttsubscriptionproperties.h",
+				"qtmqtt/src/mqtt/qmqtttopicfilter.h",
+				"qtmqtt/src/mqtt/qmqtttopicname.h",
+				"qtmqtt/src/mqtt/qmqtttype.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtMqtt/QtMqttDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtMqtt/6.7.1/QtMqtt/private",
+			"paths" : 
+			[
+				"qtmqtt/src/mqtt/qmqttclient_p.h",
+				"qtmqtt/src/mqtt/qmqttconnection_p.h",
+				"qtmqtt/src/mqtt/qmqttconnectionproperties_p.h",
+				"qtmqtt/src/mqtt/qmqttcontrolpacket_p.h",
+				"qtmqtt/src/mqtt/qmqttmessage_p.h",
+				"qtmqtt/src/mqtt/qmqttpublishproperties_p.h",
+				"qtmqtt/src/mqtt/qmqttsubscription_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_mqtt.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_mqtt_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Mqtt.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtmqtt/src/mqtt",
+		"source" : "qtmqtt/src/mqtt"
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtinsighttracker/src/insighttracker/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "InsightTracker_sync_headers::@8fb53162f8723e97f291"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "Sql::@ade569add210a552017a"
+		},
+		{
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		}
+	],
+	"id" : "InsightTracker_autogen_timestamp_deps::@8fb53162f8723e97f291",
+	"isGeneratorProvided" : true,
+	"name" : "InsightTracker_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtinsighttracker/src/insighttracker",
+		"source" : "qtinsighttracker/src/insighttracker"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttracker/CMakeFiles/InsightTracker_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttracker/CMakeFiles/InsightTracker_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

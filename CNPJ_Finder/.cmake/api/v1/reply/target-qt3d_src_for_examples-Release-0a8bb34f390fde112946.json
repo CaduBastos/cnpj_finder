@@ -1,0 +1,556 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qt3d/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qt3d/src/core/CMakeLists.txt",
+			"qt3d/src/logic/CMakeLists.txt",
+			"qt3d/src/input/CMakeLists.txt",
+			"qt3d/src/render/CMakeLists.txt",
+			"qt3d/src/extras/CMakeLists.txt",
+			"qt3d/src/animation/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3d/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3drender/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3dscene2d/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3dextras/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3dinput/CMakeLists.txt",
+			"qt3d/src/quick3d/quick3danimation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 24
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 29
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 34
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 36
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 37
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 39
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 42
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 44
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 46
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 47
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 48
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 49
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 52
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 53
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 54
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 56
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 57
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 58
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 59
+			},
+			{
+				"file" : 16
+			},
+			{
+				"file" : 16,
+				"line" : -1,
+				"parent" : 61
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 63
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 64
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "3DCore::@c624818a73eafba92541"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "3DCore_sync_headers::@c624818a73eafba92541"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DLogic::@2786a6baba2b76eda098"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "3DLogic_sync_headers::@2786a6baba2b76eda098"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DInput::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "3DInput_sync_headers::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DRender::@a247953c8cd425a8752d"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "3DRender_sync_headers::@a247953c8cd425a8752d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DExtras::@0b2deaa323775a837749"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "3DExtras_sync_headers::@0b2deaa323775a837749"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DAnimation::@c3f8f9360911fc6e2bb4"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "3DAnimation_sync_headers::@c3f8f9360911fc6e2bb4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuick::@e4113fa6a7abb0afe31f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3dcoreplugin::@e4113fa6a7abb0afe31f"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "3DQuick_sync_headers::@e4113fa6a7abb0afe31f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuickRender::@08ef70dee6ca42fc897d"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "3DQuickRender_sync_headers::@08ef70dee6ca42fc897d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuickScene2D::@dc29468a396ac9ebf55c"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "3DQuickScene2D_sync_headers::@dc29468a396ac9ebf55c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuickExtras::@7623921bc3a728b961a6"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "3DQuickExtras_sync_headers::@7623921bc3a728b961a6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuickInput::@b3ce8bb280a0e779fa10"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "3DQuickInput_sync_headers::@b3ce8bb280a0e779fa10"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "3DQuickAnimation::@26edf462b9df95814217"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "3DQuickAnimation_sync_headers::@26edf462b9df95814217"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3drenderplugin::@0a67050be4bd08f376bf"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquickscene3dplugin::@26ad8d2d61c535430574"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3dextrasplugin::@86597fac5c9fad56a81b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquickscene2dplugin::@ea2653864b8e8ed83263"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3dinputplugin::@31940f2b48561cab35bb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3dlogicplugin::@5b45a6b5a5beaea52b2d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "quick3danimationplugin::@8ca0554a1db97e8573bc"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "GLTFSceneImportPlugin::@ef151bb26daeb5519caf"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "AssimpSceneImportPlugin::@ce5023ab4685026905ad"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "GLTFSceneExportPlugin::@589d72b573912a9ed2dc"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "GLTFGeometryLoaderPlugin::@a5e515dc9b026741e04d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "DefaultGeometryLoaderPlugin::@8a0d6db3069a48c06e70"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "OpenGLRendererPlugin::@a7d973aa1912698ef009"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RhiRendererPlugin::@6a5de3384383de8f84ec"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Scene2DPlugin::@993f37b7cd4fab0d3d13"
+		}
+	],
+	"id" : "qt3d_src_for_examples::@cd0eab48c1a3d16c536b",
+	"name" : "qt3d_src_for_examples",
+	"paths" : 
+	{
+		"build" : "qt3d",
+		"source" : "qt3d"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

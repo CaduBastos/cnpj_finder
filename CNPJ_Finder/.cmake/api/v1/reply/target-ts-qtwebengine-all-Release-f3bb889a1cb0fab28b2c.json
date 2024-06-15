@@ -1,0 +1,146 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_ts_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qttranslations/translations/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ts-qtwebengine-ca::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ts-qtwebengine-de::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ts-qtwebengine-es::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ts-qtwebengine-ka::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ts-qtwebengine-ko::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ts-qtwebengine-pl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ts-qtwebengine-ru::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "ts-qtwebengine-uk::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "ts-qtwebengine-zh_CN::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "ts-qtwebengine-untranslated::@ac001fec6975ed2cc610"
+		}
+	],
+	"id" : "ts-qtwebengine-all::@ac001fec6975ed2cc610",
+	"name" : "ts-qtwebengine-all",
+	"paths" : 
+	{
+		"build" : "qttranslations/translations",
+		"source" : "qttranslations/translations"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

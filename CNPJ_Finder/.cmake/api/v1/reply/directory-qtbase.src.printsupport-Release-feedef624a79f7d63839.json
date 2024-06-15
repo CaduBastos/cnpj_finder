@@ -1,0 +1,514 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/src/printsupport/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 36
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 39
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/printsupport/meta_types/qt6printsupport_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6PrintSupport",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6PrintSupport.so.6.7.1",
+				"qtbase/lib/libQt6PrintSupport.so.6"
+			],
+			"targetId" : "PrintSupport::@485694ce776186d67c5b",
+			"targetIndex" : 619,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6PrintSupport.so"
+			],
+			"targetId" : "PrintSupport::@485694ce776186d67c5b",
+			"targetIndex" : 619,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PrintSupport",
+			"exportName" : "Qt6PrintSupportTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PrintSupport::@485694ce776186d67c5b",
+					"index" : 619
+				},
+				{
+					"id" : "PrintSupportPrivate::@485694ce776186d67c5b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/printsupport/CMakeFiles/Export/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PrintSupport",
+			"exportName" : "Qt6PrintSupportVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PrintSupportVersionless::@485694ce776186d67c5b",
+					"index" : 0
+				},
+				{
+					"id" : "PrintSupportPrivateVersionless::@485694ce776186d67c5b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtbase/src/printsupport/CMakeFiles/Export/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/PrintSupport.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_PrintSupport",
+			"destination" : "./doc/qtprintsupport",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtprintsupport",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_PrintSupport",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtprintsupport.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PrintSupport",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtPrintSupport",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPrintSupport/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtPrintSupport",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPrintSupport/qtprintsupportexports.h",
+				"qtbase/src/printsupport/kernel/qprintengine.h",
+				"qtbase/src/printsupport/kernel/qprinter.h",
+				"qtbase/src/printsupport/kernel/qprinterinfo.h",
+				"qtbase/src/printsupport/kernel/qtprintsupportglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/printsupport/qtprintsupport-config.h",
+				"qtbase/src/printsupport/widgets/qprintpreviewwidget.h",
+				"qtbase/src/printsupport/dialogs/qabstractprintdialog.h",
+				"qtbase/src/printsupport/dialogs/qpagesetupdialog.h",
+				"qtbase/src/printsupport/dialogs/qprintdialog.h",
+				"qtbase/src/printsupport/dialogs/qprintpreviewdialog.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPrintSupport/QtPrintSupportDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtPrintSupport/6.7.1/QtPrintSupport/private",
+			"paths" : 
+			[
+				"qtbase/src/printsupport/kernel/qpaintengine_alpha_p.h",
+				"qtbase/src/printsupport/kernel/qprint_p.h",
+				"qtbase/src/printsupport/kernel/qprintdevice_p.h",
+				"qtbase/src/printsupport/kernel/qprintengine_pdf_p.h",
+				"qtbase/src/printsupport/kernel/qprinter_p.h",
+				"qtbase/src/printsupport/kernel/qprinterinfo_p.h",
+				"qtbase/src/printsupport/kernel/qtprintsupportglobal_p.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/printsupport/qtprintsupport-config_p.h",
+				"qtbase/src/printsupport/kernel/qpaintengine_preview_p.h",
+				"qtbase/src/printsupport/dialogs/qabstractprintdialog_p.h",
+				"qtbase/src/printsupport/dialogs/qpagesetupdialog_p.h",
+				"qtbase/src/printsupport/dialogs/qpagesetupdialog_unix_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/QtPrintSupport/6.7.1/QtPrintSupport/qpa",
+			"paths" : 
+			[
+				"qtbase/src/printsupport/kernel/qplatformprintdevice.h",
+				"qtbase/src/printsupport/kernel/qplatformprintersupport.h",
+				"qtbase/src/printsupport/kernel/qplatformprintplugin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_printsupport.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_printsupport_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6PrintSupport.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtbase/src/printsupport",
+		"source" : "qtbase/src/printsupport"
+	}
+}

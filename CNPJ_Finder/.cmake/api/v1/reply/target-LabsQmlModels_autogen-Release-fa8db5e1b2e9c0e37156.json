@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/labs/models/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "LabsQmlModels_version_script::@d6b636d05164fab310db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "LabsQmlModels_sync_headers::@d6b636d05164fab310db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "LabsQmlModels_lib_pri::@d6b636d05164fab310db"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "LabsQmlModels_autogen_timestamp_deps::@d6b636d05164fab310db"
+		}
+	],
+	"id" : "LabsQmlModels_autogen::@d6b636d05164fab310db",
+	"isGeneratorProvided" : true,
+	"name" : "LabsQmlModels_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/labs/models",
+		"source" : "qtdeclarative/src/labs/models"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/labs/models/CMakeFiles/LabsQmlModels_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/labs/models/CMakeFiles/LabsQmlModels_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/labs/models/LabsQmlModels_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

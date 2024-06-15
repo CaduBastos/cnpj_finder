@@ -1,0 +1,164 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qttools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qttools_cmake_files::@68afebd7d6f448dd66da",
+	"name" : "qttools_cmake_files",
+	"paths" : 
+	{
+		"build" : "qttools",
+		"source" : "qttools"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "src\\assistant\\qlitehtml\\src\\3rdparty\\litehtml\\cmake",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"name" : "src\\linguist",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		},
+		{
+			"name" : "src\\linguist\\linguist\\doc\\snippets\\cmake-macros",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\linguist\\test_i18n_exclusion",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\linguist\\test_i18n_source_language",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qttools/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/cmake/FindWrapLibClang.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/src/assistant/qlitehtml/src/3rdparty/litehtml/cmake/litehtmlConfig.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/src/linguist/GenerateLUpdateProject.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/src/linguist/Qt6LinguistToolsMacros.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/src/linguist/linguist/doc/snippets/cmake-macros/examples.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/tests/auto/cmake/linguist/test_i18n_exclusion/check_ts_file.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qttools/tests/auto/cmake/linguist/test_i18n_source_language/check_ts_files.cmake",
+			"sourceGroupIndex" : 6
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtsensors/src/sensorsquick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "SensorsQuick_autogen_timestamp_deps::@a9eb58f86ebb27d65b24"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SensorsQuick_version_script::@a9eb58f86ebb27d65b24"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SensorsQuick_sync_headers::@a9eb58f86ebb27d65b24"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SensorsQuick_lib_pri::@a9eb58f86ebb27d65b24"
+		}
+	],
+	"id" : "SensorsQuick_autogen::@a9eb58f86ebb27d65b24",
+	"isGeneratorProvided" : true,
+	"name" : "SensorsQuick_autogen",
+	"paths" : 
+	{
+		"build" : "qtsensors/src/sensorsquick",
+		"source" : "qtsensors/src/sensorsquick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsensors/src/sensorsquick/CMakeFiles/SensorsQuick_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsensors/src/sensorsquick/CMakeFiles/SensorsQuick_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsensors/src/sensorsquick/SensorsQuick_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

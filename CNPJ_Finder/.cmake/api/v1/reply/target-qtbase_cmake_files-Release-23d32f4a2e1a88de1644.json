@@ -1,0 +1,1863 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_internal_qtbase_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtbase/cmake/QtBaseHelpers.cmake",
+			"qtbase/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtbase_cmake_files::@e5137009cee4d36dff54",
+	"name" : "qtbase_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtbase",
+		"source" : "qtbase"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				205,
+				207
+			]
+		},
+		{
+			"name" : "bin",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "cmake\\3rdparty\\extra-cmake-modules",
+			"sourceIndexes" : 
+			[
+				2,
+				12
+			]
+		},
+		{
+			"name" : "cmake\\3rdparty\\extra-cmake-modules\\find-modules",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "cmake\\3rdparty\\extra-cmake-modules\\modules",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		},
+		{
+			"name" : "cmake\\3rdparty\\kwin",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				190,
+				191,
+				194,
+				195
+			]
+		},
+		{
+			"name" : "cmake\\QtBuildInternals",
+			"sourceIndexes" : 
+			[
+				84
+			]
+		},
+		{
+			"name" : "cmake\\QtBuildInternals\\QtStandaloneTestTemplateProject",
+			"sourceIndexes" : 
+			[
+				85,
+				86
+			]
+		},
+		{
+			"name" : "cmake\\ios",
+			"sourceIndexes" : 
+			[
+				187,
+				188
+			]
+		},
+		{
+			"name" : "cmake\\macos",
+			"sourceIndexes" : 
+			[
+				189
+			]
+		},
+		{
+			"name" : "cmake\\platforms",
+			"sourceIndexes" : 
+			[
+				192
+			]
+		},
+		{
+			"name" : "cmake\\platforms\\Platform",
+			"sourceIndexes" : 
+			[
+				193
+			]
+		},
+		{
+			"name" : "cmake\\tests",
+			"sourceIndexes" : 
+			[
+				196,
+				197,
+				201,
+				203
+			]
+		},
+		{
+			"name" : "cmake\\tests\\features",
+			"sourceIndexes" : 
+			[
+				198,
+				199
+			]
+		},
+		{
+			"name" : "cmake\\tests\\features\\src",
+			"sourceIndexes" : 
+			[
+				200
+			]
+		},
+		{
+			"name" : "cmake\\tests\\qt_make_output_file",
+			"sourceIndexes" : 
+			[
+				202
+			]
+		},
+		{
+			"name" : "config.tests\\cmake_zstd",
+			"sourceIndexes" : 
+			[
+				204
+			]
+		},
+		{
+			"name" : "examples\\widgets\\painting\\shared",
+			"sourceIndexes" : 
+			[
+				206
+			]
+		},
+		{
+			"name" : "src\\corelib",
+			"sourceIndexes" : 
+			[
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				221
+			]
+		},
+		{
+			"name" : "src\\corelib\\doc\\snippets\\cmake-macros",
+			"sourceIndexes" : 
+			[
+				217,
+				218
+			]
+		},
+		{
+			"name" : "src\\corelib\\doc\\snippets\\overview",
+			"sourceIndexes" : 
+			[
+				219
+			]
+		},
+		{
+			"name" : "src\\corelib\\mimetypes",
+			"sourceIndexes" : 
+			[
+				220
+			]
+		},
+		{
+			"name" : "src\\dbus",
+			"sourceIndexes" : 
+			[
+				222
+			]
+		},
+		{
+			"name" : "src\\dbus\\doc\\snippets\\cmake",
+			"sourceIndexes" : 
+			[
+				223
+			]
+		},
+		{
+			"name" : "src\\entrypoint",
+			"sourceIndexes" : 
+			[
+				224
+			]
+		},
+		{
+			"name" : "src\\gui",
+			"sourceIndexes" : 
+			[
+				225,
+				227
+			]
+		},
+		{
+			"name" : "src\\gui\\doc\\snippets\\overview",
+			"sourceIndexes" : 
+			[
+				226
+			]
+		},
+		{
+			"name" : "src\\network",
+			"sourceIndexes" : 
+			[
+				228,
+				229
+			]
+		},
+		{
+			"name" : "src\\plugins\\sqldrivers",
+			"sourceIndexes" : 
+			[
+				230,
+				231,
+				232
+			]
+		},
+		{
+			"name" : "src\\printsupport",
+			"sourceIndexes" : 
+			[
+				233,
+				234
+			]
+		},
+		{
+			"name" : "src\\sql",
+			"sourceIndexes" : 
+			[
+				235,
+				236
+			]
+		},
+		{
+			"name" : "src\\testlib",
+			"sourceIndexes" : 
+			[
+				237,
+				238,
+				239
+			]
+		},
+		{
+			"name" : "src\\tools",
+			"sourceIndexes" : 
+			[
+				240
+			]
+		},
+		{
+			"name" : "src\\widgets",
+			"sourceIndexes" : 
+			[
+				241,
+				242,
+				244
+			]
+		},
+		{
+			"name" : "src\\widgets\\doc\\snippets\\cmake-macros",
+			"sourceIndexes" : 
+			[
+				243
+			]
+		},
+		{
+			"name" : "src\\xml",
+			"sourceIndexes" : 
+			[
+				245,
+				246
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\mockplugins",
+			"sourceIndexes" : 
+			[
+				247
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\mockplugins\\mockplugins1",
+			"sourceIndexes" : 
+			[
+				248
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\mockplugins\\mockplugins3",
+			"sourceIndexes" : 
+			[
+				249
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\test_generating_cpp_exports",
+			"sourceIndexes" : 
+			[
+				250
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\test_moc_macro_target",
+			"sourceIndexes" : 
+			[
+				251
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake",
+			"sourceIndexes" : 
+			[
+				252
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\test_static_resources",
+			"sourceIndexes" : 
+			[
+				253
+			]
+		},
+		{
+			"name" : "tests\\auto\\cmake\\test_static_resources\\mock_static_resources1",
+			"sourceIndexes" : 
+			[
+				254
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/bin/qt-cmake-private-install.cmake.in",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindWayland.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindWaylandScanner.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindX11_XCB.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/find-modules/FindXCB.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/modules/ECMEnableSanitizers.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/extra-cmake-modules/qt_attribution.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/FindLibdrm.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/FindLibinput.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/FindXKB.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/Findgbm.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/3rdparty/kwin/qt_attribution.json",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindATSPI2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindDB2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindDirectFB.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindGLESv2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindGSSAPI.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindGTK3.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindInterbase.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindLibb2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindLibproxy.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindLibsystemd.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindLibudev.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindMimer.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindMtdev.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindMySQL.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindOracle.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindPPS.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindPostgreSQL.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindRenderDoc.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindSlog2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindTslib.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapAtomic.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapBacktrace.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapBrotli.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapDBus1.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapFreetype.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapHarfbuzz.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapJpeg.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapOpenGL.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapOpenSSL.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapOpenSSLHeaders.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapPCRE2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapPNG.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapResolv.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapRt.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemDoubleConversion.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemFreetype.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemHarfbuzz.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemJpeg.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemMd4c.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemPCRE2.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemPNG.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapSystemZLIB.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapVulkan.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapVulkanHeaders.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapZLIB.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindWrapZSTD.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindXKB_COMMON_X11.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/FindXRender.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/ModuleDescription.json.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/PkgConfigLibrary.pc.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/Qt3rdPartyLibraryConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtAndroidHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtAppHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtAutoDetect.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtAutoDetectHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtAutogenHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBaseCMakeTesting.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBaseConfigureTests.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBaseGlobalTargets.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBaseHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBaseTopLevelHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuild.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildInformation.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildInternals/QtBuildInternalsConfig.cmake",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildInternals/QtStandaloneTestTemplateProject/CMakeLists.txt",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildInternals/QtStandaloneTestTemplateProject/Main.cmake",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildInternalsExtra.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildOptionsHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildPathsHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildRepoExamplesHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCMakeHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCMakePackageVersionFile.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCMakeVersionHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCompilerFlags.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCompilerOptimization.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtConfigDependencies.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtConfigExtras.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtConfigureTimeExecutableCMakeLists.txt.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtCopyFileIfDifferent.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtDbusHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtDeferredDependenciesHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtDocsHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtExecutableHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFeature.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFeatureCommon.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFileConfigure.txt.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFindPackageHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFindWrapConfigExtra.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFindWrapHelper.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFinishPkgConfigFile.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFinishPrlFile.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtFrameworkHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtGenerateExtPri.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtGenerateLibHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtGenerateLibPri.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtGenerateVersionScript.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtGlobalStateHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtHeadersClean.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtHostInfoConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtInitProject.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtInstallHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtInternalTargets.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtJavaHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtLalrHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtMkspecHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleDependencies.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleHeadersCheck.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleToolsConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleToolsDependencies.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtModuleToolsVersionlessTargets.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtNoLinkTargetHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPkgConfigHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPlatformAndroid.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPlatformSupport.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPlatformTargetHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPluginConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPluginDependencies.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPluginHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPlugins.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPostProcess.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPostProcessHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPriHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPrlHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtProcessConfigureArgs.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtProperties.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicAppleHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicCMakeHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicCMakeVersionHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicDependencyHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicExternalProjectHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicFinalizerHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicFindPackageHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicPluginHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicTargetHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicTestHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicToolHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicWalkLibsHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtPublicWasmToolchainHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtQmakeHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtResourceHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtRpathHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSanitizerHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtScopeFinalizerHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSeparateDebugInfo.Info.plist.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSeparateDebugInfo.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSetup.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSimdHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSingleRepoTargetSetBuildHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtStandaloneTestsConfig.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtSyncQtHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtTargetHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtTestHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtToolHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtToolchainHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtUnityBuildHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtWasmHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtWrapperScriptHelpers.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/QtWriteArgsFile.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/README.md",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/configure-cmake-mapping.md",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/ios/Info.plist.app.in",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/ios/LaunchScreen.storyboard",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/macos/Info.plist.app.in",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/modulecppexports.h.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/modulecppexports_p.h.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/platforms/FindIntegrityPlatformGraphics.cmake",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/platforms/Platform/Integrity.cmake",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/qbatchedtestrunner.in.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/qt.toolchain.cmake.in",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/CMakeLists.txt",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/empty.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/features/CMakeLists.txt",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/features/configure.cmake",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/features/src/CMakeLists.txt",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/main.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/qt_make_output_file/CMakeLists.txt",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/cmake/tests/test.cmake",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/config.tests/cmake_zstd/check_zstd.cmake",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/examples/widgets/painting/shared/use_lib.cmake",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6AndroidMacros.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6CTestMacros.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6CoreConfigExtras.cmake.in",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6CoreDeploySupport.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/Qt6WasmMacros.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/QtCompressMimeDatabase.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/QtInstallPaths.cmake.in",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/configure.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/doc/snippets/cmake-macros/deployment.cmake",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/doc/snippets/cmake-macros/examples.cmake",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/doc/snippets/overview/using-qt-core.cmake",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/mimetypes/mimetypes_resources.cmake",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/corelib/qt_cmdline.cmake",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/dbus/Qt6DBusMacros.cmake",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/dbus/doc/snippets/cmake/examples.cmake",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/entrypoint/EntryPointMinGW32Target.cmake.in",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/gui/configure.cmake",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/gui/doc/snippets/overview/using-qt-gui.cmake",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/gui/qt_cmdline.cmake",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/network/configure.cmake",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/network/qt_cmdline.cmake",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/plugins/sqldrivers/.cmake.conf",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/plugins/sqldrivers/configure.cmake",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/plugins/sqldrivers/qt_cmdline.cmake",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/printsupport/configure.cmake",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/printsupport/qt_cmdline.cmake",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/sql/configure.cmake",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/sql/qt_cmdline.cmake",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/testlib/configure.cmake",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/testlib/qt_cmdline.cmake",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/testlib/selfcover.cmake",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/tools/configure.cmake",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/widgets/Qt6WidgetsMacros.cmake",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/widgets/configure.cmake",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/widgets/doc/snippets/cmake-macros/examples.cmake",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/widgets/qt_cmdline.cmake",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/xml/configure.cmake",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/src/xml/qt_cmdline.cmake",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/mockplugins/.cmake.conf",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/mockplugins/mockplugins1/configure.cmake",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/mockplugins/mockplugins3/configure.cmake",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/test_generating_cpp_exports/.cmake.conf",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/test_moc_macro_target/check_moc_parameters.cmake",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/test_plugin_shared_static_flavor.cmake",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/test_static_resources/.cmake.conf",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtbase/tests/auto/cmake/test_static_resources/mock_static_resources1/configure.cmake",
+			"sourceGroupIndex" : 44
+		}
+	],
+	"type" : "UTILITY"
+}

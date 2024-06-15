@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qttools/src/designer/src/plugins",
+		"source" : "qttools/src/designer/src/plugins"
+	}
+}

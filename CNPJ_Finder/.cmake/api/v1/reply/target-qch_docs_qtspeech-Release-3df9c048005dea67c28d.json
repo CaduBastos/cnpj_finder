@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtspeech/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtspeech/src/tts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 271,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "qch_repo_docs_TextToSpeech::@1afd2d74c6a57ed1fc71"
+		}
+	],
+	"id" : "qch_docs_qtspeech::@d3257f8b491eccfba4e1",
+	"name" : "qch_docs_qtspeech",
+	"paths" : 
+	{
+		"build" : "qtspeech",
+		"source" : "qtspeech"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

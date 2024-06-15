@@ -1,0 +1,514 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtquick3d/src/runtimerender/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 242,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1259,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 562,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 162,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 36
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/runtimerender/meta_types/qt6quick3druntimerender_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Quick3DRuntimeRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Quick3DRuntimeRender.so.6.7.1",
+				"qtbase/lib/libQt6Quick3DRuntimeRender.so.6"
+			],
+			"targetId" : "Quick3DRuntimeRender::@f37fe430e567354aeb73",
+			"targetIndex" : 1144,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Quick3DRuntimeRender.so"
+			],
+			"targetId" : "Quick3DRuntimeRender::@f37fe430e567354aeb73",
+			"targetIndex" : 1144,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DRuntimeRender",
+			"exportName" : "Qt6Quick3DRuntimeRenderTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Quick3DRuntimeRender::@f37fe430e567354aeb73",
+					"index" : 1144
+				},
+				{
+					"id" : "Quick3DRuntimeRenderPrivate::@f37fe430e567354aeb73",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtquick3d/src/runtimerender/CMakeFiles/Export/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DRuntimeRender",
+			"exportName" : "Qt6Quick3DRuntimeRenderVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Quick3DRuntimeRenderVersionless::@f37fe430e567354aeb73",
+					"index" : 0
+				},
+				{
+					"id" : "Quick3DRuntimeRenderPrivateVersionless::@f37fe430e567354aeb73",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtquick3d/src/runtimerender/CMakeFiles/Export/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/Quick3DRuntimeRender.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Quick3DRuntimeRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Quick3DRuntimeRender/Qt6Quick3DRuntimeRenderAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DRuntimeRender",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DRuntimeRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/qtquick3druntimerenderexports.h",
+				"qtquick3d/src/runtimerender/qtquick3druntimerenderglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/QtQuick3DRuntimeRenderDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender/private/qtquick3druntimerenderexports_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendercamera_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendercustommaterial_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderdefaultmaterial_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendereffect_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendergeometry_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendergraphobject_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderimage_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderinstancetable_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderitem2d_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderjoint_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderlayer_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderlight_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendermodel_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendernode_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderskeleton_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderskin_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendertexturedata_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendermorphtarget_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderresourceloader_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderreflectionprobe_p.h",
+				"qtquick3d/src/runtimerender/qssgperframeallocator_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderableimage_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderclippingfrustum_p.h",
+				"qtquick3d/src/runtimerender/graphobjects/qssgrenderparticles_p.h",
+				"qtquick3d/src/runtimerender/qssgrendercommands_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderdefaultmaterialshadergenerator_p.h",
+				"qtquick3d/src/runtimerender/qssgrendererutil_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderimagetexture_p.h",
+				"qtquick3d/src/runtimerender/qssgrendermaterialshadergenerator_p.h",
+				"qtquick3d/src/runtimerender/qssgrendermesh_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderray_p.h",
+				"qtquick3d/src/runtimerender/qssgrendershadercache_p.h",
+				"qtquick3d/src/runtimerender/qssgrendershadercodegenerator_p.h",
+				"qtquick3d/src/runtimerender/qssgrendershaderkeys_p.h",
+				"qtquick3d/src/runtimerender/qssgrendershadermetadata_p.h",
+				"qtquick3d/src/runtimerender/qssgrendershadowmap_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderreflectionmap_p.h",
+				"qtquick3d/src/runtimerender/qssgrenderpickresult_p.h",
+				"qtquick3d/src/runtimerender/qssgrhiparticles_p.h",
+				"qtquick3d/src/runtimerender/qssgrhicontext_p.h",
+				"qtquick3d/src/runtimerender/qssgrhicustommaterialsystem_p.h",
+				"qtquick3d/src/runtimerender/qssgrhieffectsystem_p.h",
+				"qtquick3d/src/runtimerender/qssgrhiquadrenderer_p.h",
+				"qtquick3d/src/runtimerender/qssgruntimerenderlogging_p.h",
+				"qtquick3d/src/runtimerender/qssgshadermapkey_p.h",
+				"qtquick3d/src/runtimerender/qssgshadermaterialadapter_p.h",
+				"qtquick3d/src/runtimerender/qssgshaderresourcemergecontext_p.h",
+				"qtquick3d/src/runtimerender/qtquick3druntimerenderglobal_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgrenderableobjects_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgrenderer_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssglayerrenderdata_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssglightmapper_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgrendererimplshaders_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgvertexpipelineimpl_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgrenderpass_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgrenderhelpers_p.h",
+				"qtquick3d/src/runtimerender/resourcemanager/qssgrenderbuffermanager_p.h",
+				"qtquick3d/src/runtimerender/resourcemanager/qssgrenderloadedtexture_p.h",
+				"qtquick3d/src/runtimerender/resourcemanager/qssgrendershaderlibrarymanager_p.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssgcputonemapper_p.h",
+				"qtquick3d/src/runtimerender/qssgdebugdrawsystem_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/QtQuick3DRuntimeRender/6.7.1/QtQuick3DRuntimeRender/ssg",
+			"paths" : 
+			[
+				"qtquick3d/src/runtimerender/graphobjects/qssgrendergraphobject.h",
+				"qtquick3d/src/runtimerender/qssgrendercontextcore.h",
+				"qtquick3d/src/runtimerender/qssgrenderpickresult.h",
+				"qtquick3d/src/runtimerender/qssgrhicontext.h",
+				"qtquick3d/src/runtimerender/rendererimpl/qssglightmapper.h",
+				"qtquick3d/src/runtimerender/extensionapi/qssgrenderextensions.h",
+				"qtquick3d/src/runtimerender/extensionapi/qssgrenderhelpers.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_quick3druntimerender.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_quick3druntimerender_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Quick3DRuntimeRender.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/runtimerender",
+		"source" : "qtquick3d/src/runtimerender"
+	}
+}

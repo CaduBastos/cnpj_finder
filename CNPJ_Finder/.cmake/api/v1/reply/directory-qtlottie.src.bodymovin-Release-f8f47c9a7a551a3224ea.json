@@ -1,0 +1,411 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtlottie/src/bodymovin/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 242,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 562,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtlottie/src/bodymovin/meta_types/qt6bodymovinprivate_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BodymovinPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Bodymovin.so.6.7.1",
+				"qtbase/lib/libQt6Bodymovin.so.6"
+			],
+			"targetId" : "BodymovinPrivate::@4928f0a20fd7fd07894a",
+			"targetIndex" : 106,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Bodymovin.so"
+			],
+			"targetId" : "BodymovinPrivate::@4928f0a20fd7fd07894a",
+			"targetIndex" : 106,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BodymovinPrivate",
+			"exportName" : "Qt6BodymovinPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BodymovinPrivate::@4928f0a20fd7fd07894a",
+					"index" : 106
+				}
+			],
+			"paths" : 
+			[
+				"qtlottie/src/bodymovin/CMakeFiles/Export/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BodymovinPrivate",
+			"exportName" : "Qt6BodymovinPrivateVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BodymovinPrivateVersionless::@4928f0a20fd7fd07894a",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtlottie/src/bodymovin/CMakeFiles/Export/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/BodymovinPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BodymovinPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BodymovinPrivate/Qt6BodymovinPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/QtBodymovin",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBodymovin/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtBodymovin",
+			"paths" : 
+			[
+				"qtlottie/src/bodymovin/bmglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBodymovin/QtBodymovinDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/QtBodymovin/6.7.1/QtBodymovin/private",
+			"paths" : 
+			[
+				"qtlottie/src/bodymovin/beziereasing_p.h",
+				"qtlottie/src/bodymovin/bmbase_p.h",
+				"qtlottie/src/bodymovin/bmbasictransform_p.h",
+				"qtlottie/src/bodymovin/bmconstants_p.h",
+				"qtlottie/src/bodymovin/bmellipse_p.h",
+				"qtlottie/src/bodymovin/bmfill_p.h",
+				"qtlottie/src/bodymovin/bmfilleffect_p.h",
+				"qtlottie/src/bodymovin/bmfreeformshape_p.h",
+				"qtlottie/src/bodymovin/bmgfill_p.h",
+				"qtlottie/src/bodymovin/bmgroup_p.h",
+				"qtlottie/src/bodymovin/bmimage_p.h",
+				"qtlottie/src/bodymovin/bmimagelayer_p.h",
+				"qtlottie/src/bodymovin/bmlayer_p.h",
+				"qtlottie/src/bodymovin/bmpathtrimmer_p.h",
+				"qtlottie/src/bodymovin/bmproperty_p.h",
+				"qtlottie/src/bodymovin/bmrect_p.h",
+				"qtlottie/src/bodymovin/bmrepeater_p.h",
+				"qtlottie/src/bodymovin/bmrepeatertransform_p.h",
+				"qtlottie/src/bodymovin/bmround_p.h",
+				"qtlottie/src/bodymovin/bmshape_p.h",
+				"qtlottie/src/bodymovin/bmshapelayer_p.h",
+				"qtlottie/src/bodymovin/bmshapetransform_p.h",
+				"qtlottie/src/bodymovin/bmspatialproperty_p.h",
+				"qtlottie/src/bodymovin/bmstroke_p.h",
+				"qtlottie/src/bodymovin/bmtrimpath_p.h",
+				"qtlottie/src/bodymovin/lottierenderer_p.h",
+				"qtlottie/src/bodymovin/trimpath_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_bodymovin_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtlottie/src/bodymovin",
+		"source" : "qtlottie/src/bodymovin"
+	}
+}

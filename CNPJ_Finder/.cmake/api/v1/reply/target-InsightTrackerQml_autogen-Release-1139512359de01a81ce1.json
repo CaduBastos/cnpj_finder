@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtinsighttracker/src/insighttrackerqml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "InsightTrackerQml_autogen_timestamp_deps::@3ffae792432903af01db"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InsightTrackerQml_version_script::@3ffae792432903af01db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InsightTrackerQml_sync_headers::@3ffae792432903af01db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InsightTrackerQml_lib_pri::@3ffae792432903af01db"
+		}
+	],
+	"id" : "InsightTrackerQml_autogen::@3ffae792432903af01db",
+	"isGeneratorProvided" : true,
+	"name" : "InsightTrackerQml_autogen",
+	"paths" : 
+	{
+		"build" : "qtinsighttracker/src/insighttrackerqml",
+		"source" : "qtinsighttracker/src/insighttrackerqml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/CMakeFiles/InsightTrackerQml_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/CMakeFiles/InsightTrackerQml_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQml_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

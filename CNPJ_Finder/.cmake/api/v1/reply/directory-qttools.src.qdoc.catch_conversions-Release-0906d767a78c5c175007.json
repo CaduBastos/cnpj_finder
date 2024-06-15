@@ -1,0 +1,291 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_module",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qttools/src/qdoc/catch_conversions/CMakeLists.txt",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 485,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1035,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 738,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1013,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 562,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 24
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/QtQDocCatchConversions",
+			"paths" : 
+			[
+				{
+					"from" : "qttools/src/qdoc/catch_conversions/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6QDocCatchConversionsPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QDocCatchConversionsPrivate",
+			"exportName" : "Qt6QDocCatchConversionsPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QDocCatchConversionsPrivate::@bcc6410f3781109cb2e1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qttools/src/qdoc/catch_conversions/CMakeFiles/Export/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QDocCatchConversionsPrivate",
+			"exportName" : "Qt6QDocCatchConversionsPrivateVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QDocCatchConversionsPrivateVersionless::@bcc6410f3781109cb2e1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qttools/src/qdoc/catch_conversions/CMakeFiles/Export/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/QDocCatchConversionsPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QDocCatchConversionsPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6QDocCatchConversionsPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "include/QtQDocCatchConversions",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQDocCatchConversions/QtQDocCatchConversionsDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qttools/src/qdoc/catch_conversions",
+		"source" : "qttools/src/qdoc/catch_conversions"
+	}
+}

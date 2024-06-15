@@ -1,0 +1,370 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qttools/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qttools/src/uitools/CMakeLists.txt",
+			"qttools/src/designer/src/lib/CMakeLists.txt",
+			"qttools/src/assistant/help/CMakeLists.txt",
+			"qttools/src/qdoc/catch/CMakeLists.txt",
+			"qttools/src/qdoc/catch_conversions/CMakeLists.txt",
+			"qttools/src/qdoc/catch_generators/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 24
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 29
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 34
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "UiPlugin::@1fa6a9cbad4ebcf3e5ea"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "UiTools::@e77ce7598941c41e0d73"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "UiTools_sync_headers::@e77ce7598941c41e0d73"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Tools::@380d20597f1acdfa9db1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Linguist::@c1ab6afa443198b51985"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lconvert::@002fda16e778f0863335"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lprodump::@6f2fbcbb1043d2d9a9d0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lrelease::@392205beb4572d25495b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lrelease-pro::@c0826f3de5976205ea89"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lupdate::@03ed3dee48fc81eaf8a9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lupdate-pro::@a327ef8033cddaff5587"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "linguist::@c0c18ffd11347b218f4e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Designer::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Designer_sync_headers::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "DesignerComponentsPrivate::@229e487cc404ff1dda48"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "designer::@47d948e763e5c0a89e4c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QQuickWidgetPlugin::@6ad6b632e415479f162c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "pixeltool::@ae329968a7737927fbf9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Help::@23ef048eb01b902dc14a"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Help_sync_headers::@23ef048eb01b902dc14a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "assistant::@cb198c9b13c478f85fdb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qhelpgenerator::@8dd31d61caaa7912cae3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qlitehtml::@39f8be2c182169c8b54d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "litehtml::@da548118eb290d2230c8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gumbo::@198c5828e391bd6fcb76"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qdistancefieldgenerator::@1e37a958c9f046934d03"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtattributionsscanner::@37d3ac53dbac8fe58e57"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtplugininfo::@79319511c88727bfc07e"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "QDocCatchPrivate_sync_headers::@066ed7b9add31ab544ad"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "QDocCatchConversionsPrivate_sync_headers::@bcc6410f3781109cb2e1"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "QDocCatchGeneratorsPrivate_sync_headers::@03a2ef8e93287ebfba85"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qdbus::@5ccd26a2e8781542d37d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qdbusviewer::@30910f465d0f5c434985"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtdiag::@05aa2a83f07ecd7761d5"
+		}
+	],
+	"id" : "qttools_src::@68afebd7d6f448dd66da",
+	"name" : "qttools_src",
+	"paths" : 
+	{
+		"build" : "qttools",
+		"source" : "qttools"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

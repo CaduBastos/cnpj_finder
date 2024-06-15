@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtsvg/src/plugins/iconengines",
+		"source" : "qtsvg/src/plugins/iconengines"
+	}
+}

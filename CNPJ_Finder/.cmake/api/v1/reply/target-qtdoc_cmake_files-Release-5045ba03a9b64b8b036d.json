@@ -1,0 +1,193 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdoc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "qtdoc_cmake_files::@3e3e19ca4bb0a1418a40",
+	"name" : "qtdoc_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtdoc",
+		"source" : "qtdoc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "doc\\snippets\\platforms\\cmake\\linux",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "doc\\snippets\\platforms\\cmake\\win",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "doc\\snippets\\plugins",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "doc\\src\\cmake\\snippets\\cmake",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "examples\\demos\\car-configurator",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "examples\\demos\\shared",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"name" : "examples\\demos\\todolist",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/snippets/platforms/cmake/linux/toolchain_integrity.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/snippets/platforms/cmake/win/toolchain_integrity.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/snippets/plugins/doc_src_plugins-howto.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/deploy_non_qml.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/deploy_qml.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/examples.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/helloworld_qtcore.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/helloworld_qtqml.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/helloworld_qtwidgets.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/helloworld_src_businesslogic.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/doc/src/cmake/snippets/cmake/qt5_qt6_compatible.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/examples/demos/car-configurator/qmlmodules.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/examples/demos/shared/QtBundleQmlModuleForMacOS.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"path" : "qtdoc/examples/demos/todolist/qmlmodules.cmake",
+			"sourceGroupIndex" : 7
+		}
+	],
+	"type" : "UTILITY"
+}

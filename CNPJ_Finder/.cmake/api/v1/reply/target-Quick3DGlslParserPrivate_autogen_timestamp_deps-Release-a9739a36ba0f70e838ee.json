@@ -1,0 +1,70 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtquick3d/src/glslparser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Quick3DGlslParserPrivate_sync_headers::@749b3677825dbbc87e46"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		}
+	],
+	"id" : "Quick3DGlslParserPrivate_autogen_timestamp_deps::@749b3677825dbbc87e46",
+	"isGeneratorProvided" : true,
+	"name" : "Quick3DGlslParserPrivate_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/glslparser",
+		"source" : "qtquick3d/src/glslparser"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/glslparser/CMakeFiles/Quick3DGlslParserPrivate_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/glslparser/CMakeFiles/Quick3DGlslParserPrivate_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

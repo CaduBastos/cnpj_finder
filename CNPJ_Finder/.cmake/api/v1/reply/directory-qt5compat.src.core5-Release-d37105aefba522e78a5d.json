@@ -1,0 +1,489 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qt5compat/src/core5/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/meta_types/qt6core5compat_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Core5Compat",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Core5Compat.so.6.7.1",
+				"qtbase/lib/libQt6Core5Compat.so.6"
+			],
+			"targetId" : "Core5Compat::@7fdedc63ca22c4e18891",
+			"targetIndex" : 189,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Core5Compat.so"
+			],
+			"targetId" : "Core5Compat::@7fdedc63ca22c4e18891",
+			"targetIndex" : 189,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Core5Compat",
+			"exportName" : "Qt6Core5CompatTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Core5Compat::@7fdedc63ca22c4e18891",
+					"index" : 189
+				},
+				{
+					"id" : "Core5CompatPrivate::@7fdedc63ca22c4e18891",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt5compat/src/core5/CMakeFiles/Export/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Core5Compat",
+			"exportName" : "Qt6Core5CompatVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Core5CompatVersionless::@7fdedc63ca22c4e18891",
+					"index" : 0
+				},
+				{
+					"id" : "Core5CompatPrivateVersionless::@7fdedc63ca22c4e18891",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt5compat/src/core5/CMakeFiles/Export/lib/cmake/Qt6Core5Compat/Qt6Core5CompatVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/Core5Compat.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Core5Compat",
+			"destination" : "./doc/qtcore5compat",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtcore5compat",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Core5Compat",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtcore5compat.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Core5Compat",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core5Compat/Qt6Core5CompatAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore5Compat",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore5Compat/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore5Compat",
+			"paths" : 
+			[
+				"qt5compat/src/core5/qcore5global.h",
+				"qt5compat/src/core5/sax/qxml.h",
+				"qt5compat/src/core5/serialization/qbinaryjson.h",
+				"qt5compat/src/core5/text/qregexp.h",
+				"qt5compat/src/core5/text/qstringref.h",
+				"qt5compat/src/core5/tools/qlinkedlist.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/qtcore5compat-config.h",
+				"qt5compat/src/core5/codecs/qtextcodec.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore5Compat/QtCore5CompatDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore5Compat/6.7.1/QtCore5Compat/private",
+			"paths" : 
+			[
+				"qt5compat/src/core5/codecs/qcodecmacros_p.h",
+				"qt5compat/src/core5/codecs/qtextcodec_p.h",
+				"qt5compat/src/core5/codecs/qutfcodec_p.h",
+				"qt5compat/src/core5/sax/qxml_p.h",
+				"qt5compat/src/core5/serialization/qbinaryjson_p.h",
+				"qt5compat/src/core5/serialization/qbinaryjsonarray_p.h",
+				"qt5compat/src/core5/serialization/qbinaryjsonobject_p.h",
+				"qt5compat/src/core5/serialization/qbinaryjsonvalue_p.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/qtcore5compat-config_p.h",
+				"qt5compat/src/core5/codecs/qlatincodec_p.h",
+				"qt5compat/src/core5/codecs/qsimplecodec_p.h",
+				"qt5compat/src/core5/codecs/qisciicodec_p.h",
+				"qt5compat/src/core5/codecs/qtsciicodec_p.h",
+				"qt5compat/src/core5/codecs/qicucodec_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_core5compat.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_core5compat_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Core5Compat.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qt5compat/src/core5",
+		"source" : "qt5compat/src/core5"
+	}
+}

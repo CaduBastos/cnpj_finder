@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt3d/src/quick3d/imports/input/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "quick3dinputplugin_autogen_timestamp_deps::@31940f2b48561cab35bb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "quick3dinputplugin_version_script::@31940f2b48561cab35bb"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "quick3dinputplugin_autogen::@31940f2b48561cab35bb",
+	"isGeneratorProvided" : true,
+	"name" : "quick3dinputplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qt3d/src/quick3d/imports/input",
+		"source" : "qt3d/src/quick3d/imports/input"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/input/CMakeFiles/quick3dinputplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/input/CMakeFiles/quick3dinputplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/quick3d/imports/input/quick3dinputplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_tool",
+			"_qt_internal_create_versioned_link_or_copy",
+			"qt_internal_install_versioned_link",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtToolHelpers.cmake",
+			"qtbase/qmake/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 230,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 243,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"qtbase/bin/qmake"
+			],
+			"targetId" : "qmake::@6c23daa751e2220a3dfd",
+			"targetIndex" : 3272,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "_install_html_docs_qmake",
+			"destination" : "./doc/qmake",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qmake",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "_install_qch_docs_qmake",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qmake.qch"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtbase/qmake",
+		"source" : "qtbase/qmake"
+	}
+}

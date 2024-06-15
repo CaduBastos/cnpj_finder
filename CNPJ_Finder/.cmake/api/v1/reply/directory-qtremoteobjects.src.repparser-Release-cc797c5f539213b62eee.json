@@ -1,0 +1,334 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_module",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_copy_or_install",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtremoteobjects/src/repparser/CMakeLists.txt",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1035,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 738,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1013,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 562,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 162,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 28
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RepParser",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RepParser/Qt6RepParserConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RepParser/Qt6RepParserConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RepParser/Qt6RepParserConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6RepParser",
+			"exportName" : "Qt6RepParserTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "RepParser::@f5876b8832ef19f8c780",
+					"index" : 1523
+				},
+				{
+					"id" : "RepParserPrivate::@f5876b8832ef19f8c780",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtremoteobjects/src/repparser/CMakeFiles/Export/lib/cmake/Qt6RepParser/Qt6RepParserTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6RepParser",
+			"exportName" : "Qt6RepParserVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "RepParserVersionless::@f5876b8832ef19f8c780",
+					"index" : 0
+				},
+				{
+					"id" : "RepParserPrivateVersionless::@f5876b8832ef19f8c780",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtremoteobjects/src/repparser/CMakeFiles/Export/lib/cmake/Qt6RepParser/Qt6RepParserVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/RepParser.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include/QtRepParser",
+			"paths" : 
+			[
+				"qtremoteobjects/src/repparser/parser.g"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6RepParser",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RepParser/Qt6RepParserAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "include/QtRepParser",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtRepParser/QtRepParserDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_repparser.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_repparser_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6RepParser.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtremoteobjects/src/repparser",
+		"source" : "qtremoteobjects/src/repparser"
+	}
+}

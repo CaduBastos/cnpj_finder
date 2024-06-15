@@ -1,0 +1,110 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Material::@a5aa0af7d22794615bdb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Universal::@26392891d9b1a1e52c80"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickDialogs2QuickImpl_tooling::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickDialogs2QuickImpl_version_script::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickDialogs2QuickImpl_sync_headers::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickDialogs2QuickImpl_lib_pri::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Basic::@f3603730969a3f4688de"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Fusion::@bf51e4d6335e76f1f49b"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Imagine::@4f40d3ff401839b5c364"
+		},
+		{
+			"id" : "QuickDialogs2QuickImpl_autogen_timestamp_deps::@41a59b2ff1f2e91f4e79"
+		}
+	],
+	"id" : "QuickDialogs2QuickImpl_autogen::@41a59b2ff1f2e91f4e79",
+	"isGeneratorProvided" : true,
+	"name" : "QuickDialogs2QuickImpl_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl",
+		"source" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

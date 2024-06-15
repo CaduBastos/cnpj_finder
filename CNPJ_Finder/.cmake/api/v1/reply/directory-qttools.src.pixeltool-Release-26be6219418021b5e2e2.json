@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_executable",
+			"qt_internal_add_app"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtExecutableHelpers.cmake",
+			"qtbase/cmake/QtAppHelpers.cmake",
+			"qttools/src/pixeltool/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 46,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 198,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"qtbase/bin/pixeltool"
+			],
+			"targetId" : "pixeltool::@ae329968a7737927fbf9",
+			"targetIndex" : 2773,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qttools/src/pixeltool",
+		"source" : "qttools/src/pixeltool"
+	}
+}

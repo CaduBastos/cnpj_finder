@@ -1,0 +1,134 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtconnectivity/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtconnectivity_config_tests::@1d845a44fe9cdea7f99d",
+	"name" : "qtconnectivity_config_tests",
+	"paths" : 
+	{
+		"build" : "qtconnectivity",
+		"source" : "qtconnectivity"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "bluez",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "bluez_le",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		},
+		{
+			"name" : "linux_crypto_api",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "winrt_bt",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/bluez/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/bluez/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/bluez_le/CMakeLists.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/bluez_le/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/linux_crypto_api/CMakeLists.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/linux_crypto_api/main.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/winrt_bt/CMakeLists.txt",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtconnectivity/config.tests/winrt_bt/main.cpp",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/openglwidgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_version_script::@5c0e57a89c8c6a8b2532"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_sync_headers::@5c0e57a89c8c6a8b2532"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_lib_pri::@5c0e57a89c8c6a8b2532"
+		},
+		{
+			"id" : "OpenGLWidgets_autogen_timestamp_deps::@5c0e57a89c8c6a8b2532"
+		}
+	],
+	"id" : "OpenGLWidgets_autogen::@5c0e57a89c8c6a8b2532",
+	"isGeneratorProvided" : true,
+	"name" : "OpenGLWidgets_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/openglwidgets",
+		"source" : "qtbase/src/openglwidgets"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/openglwidgets/CMakeFiles/OpenGLWidgets_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/openglwidgets/CMakeFiles/OpenGLWidgets_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/openglwidgets/OpenGLWidgets_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

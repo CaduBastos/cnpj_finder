@@ -1,0 +1,224 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtgrpc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtgrpc_cmake_files::@8697a5e28771d33ae317",
+	"name" : "qtgrpc_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtgrpc",
+		"source" : "qtgrpc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "src\\grpc",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "src\\protobuf",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "src\\tools\\qtgrpcgen",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"name" : "src\\tools\\qtgrpcgen\\doc\\src\\snippets",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"name" : "src\\tools\\qtprotobufgen",
+			"sourceIndexes" : 
+			[
+				15,
+				16
+			]
+		},
+		{
+			"name" : "src\\wellknown",
+			"sourceIndexes" : 
+			[
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/cmake/FindWrapProtobuf.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/cmake/FindWrapProtoc.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/cmake/FindWrapgRPC.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/cmake/FindWrapgRPCPlugin.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/grpc/configure.cmake",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/protobuf/Qt6ProtobufBuildInternals.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/protobuf/QtProtobufProperties.cmake.in",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/protobuf/configure.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/protobuf/qt_cmdline.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/qt_cmdline.cmake",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/tools/qtgrpcgen/Qt6GrpcToolsMacros.cmake",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/tools/qtgrpcgen/doc/src/snippets/qt-add-grpc-example.cmake",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/tools/qtprotobufgen/Qt6ProtobufToolsMacros.cmake",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/tools/qtprotobufgen/QtProtocCommandWrapper.cmake",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtgrpc/src/wellknown/Qt6ProtobufWellKnownTypesBuildInternals.cmake",
+			"sourceGroupIndex" : 8
+		}
+	],
+	"type" : "UTILITY"
+}

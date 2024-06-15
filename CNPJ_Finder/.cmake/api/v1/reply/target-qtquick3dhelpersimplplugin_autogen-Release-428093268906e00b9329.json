@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtquick3d/src/helpers/impl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtquick3dhelpersimplplugin_version_script::@a0ce047a5e53fe1c0389"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "qtquick3dhelpersimplplugin_autogen_timestamp_deps::@a0ce047a5e53fe1c0389"
+		}
+	],
+	"id" : "qtquick3dhelpersimplplugin_autogen::@a0ce047a5e53fe1c0389",
+	"isGeneratorProvided" : true,
+	"name" : "qtquick3dhelpersimplplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/helpers/impl",
+		"source" : "qtquick3d/src/helpers/impl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/helpers/impl/CMakeFiles/qtquick3dhelpersimplplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/helpers/impl/CMakeFiles/qtquick3dhelpersimplplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/helpers/impl/qtquick3dhelpersimplplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

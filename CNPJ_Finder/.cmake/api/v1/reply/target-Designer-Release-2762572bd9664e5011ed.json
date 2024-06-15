@@ -1,0 +1,4435 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6Designer.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_add_sync_header_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qttools/src/designer/src/lib/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/gui/CMakeLists.txt",
+			"qtbase/src/widgets/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qttools/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 466,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 18
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 472,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 314,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 24
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 28
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 29
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 34
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 36
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 39
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 21,
+				"file" : 17,
+				"line" : 27,
+				"parent" : 41
+			},
+			{
+				"command" : 20,
+				"file" : 16,
+				"line" : 494,
+				"parent" : 42
+			},
+			{
+				"command" : 19,
+				"file" : 16,
+				"line" : 179,
+				"parent" : 43
+			},
+			{
+				"command" : 16,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 44
+			},
+			{
+				"file" : 15,
+				"parent" : 45
+			},
+			{
+				"command" : 16,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 46
+			},
+			{
+				"file" : 14,
+				"parent" : 47
+			},
+			{
+				"command" : 18,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 48
+			},
+			{
+				"command" : 17,
+				"file" : 13,
+				"line" : 453,
+				"parent" : 49
+			},
+			{
+				"command" : 16,
+				"file" : 13,
+				"line" : 79,
+				"parent" : 50
+			},
+			{
+				"file" : 12,
+				"parent" : 51
+			},
+			{
+				"command" : 15,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 52
+			},
+			{
+				"command" : 23,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 54
+			},
+			{
+				"command" : 24,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 25,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 24,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 57
+			},
+			{
+				"command" : 24,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 54
+			},
+			{
+				"command" : 26,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 459,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 61
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 235,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 63
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 16
+			},
+			{
+				"command" : 28,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 65
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 66
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 18
+			},
+			{
+				"command" : 28,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 68
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 69
+			},
+			{
+				"command" : 30,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 72
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 224,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 75
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 76
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 77
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 79
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 80
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 81
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 83
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 84
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 85
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 87
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 88
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 89
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 272,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 91
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 92
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 93
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 95
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 96
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 97
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 99
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 100
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 101
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 308,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 103
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 104
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 105
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 107
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 108
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 109
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 353,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 111
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 112
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 113
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 379,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 115
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 116
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 117
+			},
+			{
+				"command" : 30,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 61
+			},
+			{
+				"command" : 35,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 30,
+				"file" : 20,
+				"line" : 205,
+				"parent" : 120
+			},
+			{
+				"command" : 36,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 30,
+				"file" : 21,
+				"line" : 160,
+				"parent" : 122
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 55,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Designer_EXPORTS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_EXTENSION_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SDK_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SHARED_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_UILIB_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILD_DESIGNER_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DESIGNER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_UIPLUGIN_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/deviceskin"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/findwidget"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtgradienteditor"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/extension"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/sdk"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/shared"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/uilib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1/QtDesigner"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtpropertybrowser"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtUiPlugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtXml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/widgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1/QtWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 64,
+					"header" : "lib_pch.h"
+				},
+				{
+					"backtrace" : 67,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 70,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				37,
+				39,
+				41,
+				43,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				63,
+				65,
+				67,
+				70,
+				72,
+				74,
+				77,
+				79,
+				81,
+				85,
+				91,
+				93,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				290
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 55,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Designer_EXPORTS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_EXTENSION_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SDK_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SHARED_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_UILIB_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILD_DESIGNER_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DESIGNER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_UIPLUGIN_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/deviceskin"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/findwidget"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtgradienteditor"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/extension"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/sdk"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/shared"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/uilib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1/QtDesigner"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtpropertybrowser"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtUiPlugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtXml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/widgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1/QtWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 64,
+					"header" : "lib_pch.h"
+				},
+				{
+					"backtrace" : 67,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 70,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 55,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Designer_EXPORTS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_EXTENSION_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SDK_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_SHARED_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QDESIGNER_UILIB_LIBRARY"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_BUILD_DESIGNER_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DESIGNER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_UIPLUGIN_LIB"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/deviceskin"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/findwidget"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtgradienteditor"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/extension"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/sdk"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/shared"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/uilib"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDesigner/6.7.1/QtDesigner"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/designer/src/lib/../../../shared/qtpropertybrowser"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtUiPlugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/uiplugin"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtXml"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/widgets"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets/6.7.1/QtWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 64,
+					"header" : "lib_pch.h"
+				},
+				{
+					"backtrace" : 67,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGLWidgets/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 70,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "Designer_autogen_timestamp_deps::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Designer_autogen::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "UiPlugin::@1fa6a9cbad4ebcf3e5ea"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "UiPlugin_sync_headers::@1fa6a9cbad4ebcf3e5ea"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Designer_version_script::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "Designer_sync_headers::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "Designer_lib_pri::@3c0d5573d61ad1bf16bb"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Xml::@ea9d4d7867ee2bbe586a"
+		},
+		{
+			"id" : "uic::@59bab6873281db6cb111"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "Gui_sync_headers::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Widgets::@9a4b53f49ed997d8bad6"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "Widgets_sync_headers::@9a4b53f49ed997d8bad6"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "OpenGLWidgets::@5c0e57a89c8c6a8b2532"
+		}
+	],
+	"id" : "Designer::@3c0d5573d61ad1bf16bb",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Xml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "qtbase/lib/libQt6OpenGLWidgets.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Widgets.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Designer",
+	"nameOnDisk" : "libQt6Designer.so",
+	"paths" : 
+	{
+		"build" : "qttools/src/designer/src/lib",
+		"source" : "qttools/src/designer/src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				37,
+				39,
+				41,
+				43,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				63,
+				65,
+				67,
+				70,
+				72,
+				74,
+				77,
+				79,
+				81,
+				85,
+				91,
+				93,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				36,
+				38,
+				40,
+				42,
+				44,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				62,
+				64,
+				66,
+				68,
+				69,
+				71,
+				73,
+				75,
+				76,
+				78,
+				80,
+				82,
+				83,
+				84,
+				86,
+				87,
+				88,
+				89,
+				90,
+				92,
+				94,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				223,
+				225,
+				226,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237,
+				239,
+				241,
+				243,
+				245,
+				246,
+				248,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				261,
+				262,
+				291,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				292,
+				293,
+				323
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				294
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/deviceskin/deviceskin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/deviceskin/deviceskin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/findwidget/abstractfindwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/findwidget/abstractfindwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/findwidget/itemviewfindwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/findwidget/itemviewfindwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/findwidget/texteditfindwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/findwidget/texteditfindwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtcolorbutton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtcolorbutton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtcolorline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtcolorline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradienteditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradienteditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopscontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopscontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopsmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopsmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopswidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientstopswidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientviewdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientviewdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/extension/default_extensionfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/extension/default_extensionfactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/extension/extension_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/extension/extension.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/extension/extension.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/extension/qextensionmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/extension/qextensionmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractactioneditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractactioneditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractdialoggui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractdialoggui_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractdnditem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformeditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformeditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformeditorplugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformeditorplugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowcursor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowcursor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowtool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractformwindowtool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractintegration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractintegration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractintrospection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractintrospection_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractlanguage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractmetadatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractmetadatabase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractnewformwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractnewformwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractobjectinspector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractobjectinspector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractoptionspage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractpromotioninterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractpromotioninterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractpropertyeditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractpropertyeditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractresourcebrowser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractresourcebrowser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractsettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetbox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetdatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetdatabase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/abstractwidgetfactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/container.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/dynamicpropertysheet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/extrainfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/extrainfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/layoutdecoration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/membersheet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/propertysheet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/sdk_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/sdk/taskmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/sdk/taskmenu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/actioneditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/actioneditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/actionprovider_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/actionrepository.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/actionrepository_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/codedialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/codedialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/connectionedit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/connectionedit_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/csshighlighter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/csshighlighter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/deviceprofile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/deviceprofile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/dialoggui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/dialoggui_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/extensionfactory_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/formlayoutmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/formlayoutmenu_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/formwindowbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/formwindowbase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/grid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/grid_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/gridpanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/gridpanel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/htmlhighlighter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/htmlhighlighter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/iconloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/iconloader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/iconselector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/iconselector_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/invisible_widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/invisible_widget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/layout_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/layoutinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/layoutinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/metadatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/metadatabase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/morphmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/morphmenu_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/newactiondialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/newactiondialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/newformwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/newformwidget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/orderdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/orderdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/plaintexteditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/plaintexteditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/plugindialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/plugindialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/pluginmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/pluginmanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/previewconfigurationwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/previewconfigurationwidget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/previewmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/previewmanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/promotionmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/promotionmodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/promotiontaskmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/promotiontaskmenu_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/propertylineedit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/propertylineedit_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_command.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_command_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_command2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_command2_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_dnditem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_dnditem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_dockwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_dockwidget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formbuilder_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formeditorcommand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formeditorcommand_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formwindowcommand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formwindowcommand_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formwindowmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_formwindowmanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_introspection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_introspection_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_membersheet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_membersheet_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_menu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_menu_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_menubar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_menubar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_objectinspector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_objectinspector_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_promotion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_promotion_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_promotiondialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_promotiondialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_propertycommand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_propertyeditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_propertyeditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_propertysheet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_propertysheet_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_qsettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_qsettings_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_stackedbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_stackedbox_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_tabwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_tabwidget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_taskmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_taskmenu_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_toolbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_toolbar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_toolbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_toolbox_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_utils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widgetbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widgetbox_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widgetitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qdesigner_widgetitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qlayout_widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qlayout_widget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qsimpleresource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qsimpleresource_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourceeditordialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourceeditordialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourcemodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourcemodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourceview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourceview_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/rcc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/rcc_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/richtexteditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/richtexteditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/selectsignaldialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/selectsignaldialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/shared_enums_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/shared_global_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/shared_settings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/shared_settings_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/sheet_delegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/sheet_delegate_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/signalslotdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/signalslotdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/spacer_widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/spacer_widget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/stylesheeteditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/stylesheeteditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/textpropertyeditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/textpropertyeditor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/widgetdatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/widgetdatabase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/widgetfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/widgetfactory_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/shared/zoomwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/shared/zoomwidget_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/uilib_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/abstractformbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/abstractformbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/formbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/formbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/formbuilderextra.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/formbuilderextra_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/properties.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/properties_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/resourcebuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/resourcebuilder_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/textbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/textbuilder_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/designer/src/lib/uilib/ui4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/uilib/ui4_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/components/qdesigner_components.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qttools/src/designer/src/lib/components/qdesigner_components_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/meta_types/qt6designer_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradienteditor.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientview.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/shared/qtgradienteditor/qtgradientviewdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/addlinkdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/formlayoutrowdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/gridpanel.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/previewconfigurationwidget.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/newactiondialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/newformwidget.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/orderdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/plugindialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/qtresourceeditordialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/selectsignaldialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qttools/src/designer/src/lib/shared/signalslotdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_ClamshellPhone.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhone2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhone.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhoneWithButtons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_TouchscreenPhone.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_PortableMedia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_S60-QVGA-Candybar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_S60-nHD-Touchscreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_findwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_qtgradienteditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_shared.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/shared/qtpropertybrowser/qtpropertybrowserutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"path" : "qttools/src/shared/qtpropertybrowser/qtpropertybrowserutils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 121,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/preliminary_prl_for_Designer_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 123,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Designer.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/CMakeFiles/Designer.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/240x320/ui_Dialog_with_Buttons_Bottom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/240x320/ui_Dialog_with_Buttons_Right.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/320x240/ui_Dialog_with_Buttons_Bottom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/320x240/ui_Dialog_with_Buttons_Right.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/480x640/ui_Dialog_with_Buttons_Bottom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/480x640/ui_Dialog_with_Buttons_Right.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/640x480/ui_Dialog_with_Buttons_Bottom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/640x480/ui_Dialog_with_Buttons_Right.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/ui_Dialog_with_Buttons_Bottom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/ui_Dialog_with_Buttons_Right.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/ui_Dialog_without_Buttons.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/ui_Main_Window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/templates/forms/ui_Widget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/shared/qtgradienteditor/ui_qtgradientdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/shared/qtgradienteditor/ui_qtgradienteditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/shared/qtgradienteditor/ui_qtgradientview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/shared/qtgradienteditor/ui_qtgradientviewdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_addlinkdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_formlayoutrowdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_gridpanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_previewconfigurationwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_newactiondialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_newformwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_orderdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_plugindialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_qtresourceeditordialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_selectsignaldialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/include/shared/ui_signalslotdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/meta_types/qt6designer_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_ClamshellPhone.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhone2.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhone.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_SmartPhoneWithButtons.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_TouchscreenPhone.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_PortableMedia.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_S60-QVGA-Candybar.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_S60-nHD-Touchscreen.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_findwidget.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_qtgradienteditor.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qrc_shared.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/preliminary_prl_for_Designer_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Designer.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/Designer_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/meta_types/Designer_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

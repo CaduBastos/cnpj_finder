@@ -1,0 +1,75 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtquick3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "qtquick3d_src::@d3774c846119e484cbfe"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquick3d_tools::@d3774c846119e484cbfe"
+		}
+	],
+	"id" : "qtquick3d::@d3774c846119e484cbfe",
+	"name" : "qtquick3d",
+	"paths" : 
+	{
+		"build" : "qtquick3d",
+		"source" : "qtquick3d"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QXcbGlxIntegrationPlugin_version_script::@a7169e300f7219b339d3"
+		},
+		{
+			"id" : "QXcbGlxIntegrationPlugin_autogen_timestamp_deps::@a7169e300f7219b339d3"
+		}
+	],
+	"id" : "QXcbGlxIntegrationPlugin_autogen::@a7169e300f7219b339d3",
+	"isGeneratorProvided" : true,
+	"name" : "QXcbGlxIntegrationPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx",
+		"source" : "qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx/CMakeFiles/QXcbGlxIntegrationPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx/CMakeFiles/QXcbGlxIntegrationPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/platforms/xcb/gl_integrations/xcb_glx/QXcbGlxIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

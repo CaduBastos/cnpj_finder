@@ -1,0 +1,68 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtimageformats/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "qch_docs_qtimageformats::@57198556e487f86b0cf5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "html_docs_qtimageformats::@57198556e487f86b0cf5"
+		}
+	],
+	"id" : "docs_qtimageformats::@57198556e487f86b0cf5",
+	"name" : "docs_qtimageformats",
+	"paths" : 
+	{
+		"build" : "qtimageformats",
+		"source" : "qtimageformats"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtwebchannel/src/webchannelquick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "WebChannelQuickplugin_autogen_timestamp_deps::@0ca8e1b426d2dada73b0"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "WebChannelQuickplugin_version_script::@0ca8e1b426d2dada73b0"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "WebChannelQuickplugin_autogen::@0ca8e1b426d2dada73b0",
+	"isGeneratorProvided" : true,
+	"name" : "WebChannelQuickplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtwebchannel/src/webchannelquick",
+		"source" : "qtwebchannel/src/webchannelquick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebchannel/src/webchannelquick/CMakeFiles/WebChannelQuickplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebchannel/src/webchannelquick/CMakeFiles/WebChannelQuickplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebchannel/src/webchannelquick/WebChannelQuickplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

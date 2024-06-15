@@ -1,0 +1,106 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtconnectivity/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtconnectivity/src/bluetooth/CMakeLists.txt",
+			"qtconnectivity/src/nfc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 270,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 106,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 9
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "prepare_docs_qtconnectivity::@1d845a44fe9cdea7f99d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "generate_repo_docs_Bluetooth::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "generate_repo_docs_Nfc::@bb58a699190997bd331b"
+		}
+	],
+	"id" : "generate_docs_qtconnectivity::@1d845a44fe9cdea7f99d",
+	"name" : "generate_docs_qtconnectivity",
+	"paths" : 
+	{
+		"build" : "qtconnectivity",
+		"source" : "qtconnectivity"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

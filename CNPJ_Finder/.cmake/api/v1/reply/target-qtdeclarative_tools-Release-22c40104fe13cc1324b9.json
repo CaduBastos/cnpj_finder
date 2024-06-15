@@ -1,0 +1,139 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "qmldom::@995d3d001c0ac8f9bb23"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmllint::@37993fb73c5436d04ed4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmltc::@5c4f603dd1dd79ffc823"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmltyperegistrar::@b7d96742f61bda066508"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmljsrootgen::@319383766498e4cdc997"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlimportscanner::@e136f4179b63101c9178"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlformat::@3095e1cc049b9a00b8ac"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlls::@4cac07814ee501d0183f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qml::@c63a63e0aa568036f055"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qml_tooling::@c63a63e0aa568036f055"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlprofiler::@e8ea86c4cb5199966a71"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlpreview::@696f14bdc73812625921"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlscene::@b3f490695aef1634fb6e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmltime::@bc38895fa0e26383e47b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmlplugindump::@12574ef75c437c717158"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmleasing::@289fe0d480957862845d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "svgtoqml::@8755565899022414cc0e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qmltestrunner::@146bf929be086b6f48ff"
+		}
+	],
+	"id" : "qtdeclarative_tools::@3f8b8320d1872f2fb4d4",
+	"name" : "qtdeclarative_tools",
+	"paths" : 
+	{
+		"build" : "qtdeclarative",
+		"source" : "qtdeclarative"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

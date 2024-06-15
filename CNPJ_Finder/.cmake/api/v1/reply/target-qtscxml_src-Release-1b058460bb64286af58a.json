@@ -1,0 +1,224 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtscxml/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtscxml/src/scxml/CMakeLists.txt",
+			"qtscxml/src/statemachine/CMakeLists.txt",
+			"qtscxml/src/statemachineqml/CMakeLists.txt",
+			"qtscxml/src/scxmlqml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 24
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Scxml::@eb449b438aadb6e38810"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Scxml_sync_headers::@eb449b438aadb6e38810"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "StateMachine::@00511a99ade26ce518a0"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "StateMachine_sync_headers::@00511a99ade26ce518a0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "StateMachineQml::@cf86a6535a0ac68d89f7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtqmlstatemachine::@cf86a6535a0ac68d89f7"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "StateMachineQml_sync_headers::@cf86a6535a0ac68d89f7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ScxmlQml::@7a95e5fe409962fa3e40"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "declarative_scxml::@7a95e5fe409962fa3e40"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "ScxmlQml_sync_headers::@7a95e5fe409962fa3e40"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QScxmlEcmaScriptDataModelPlugin::@8d75998346e60e9955b9"
+		}
+	],
+	"id" : "qtscxml_src::@d1ac4d6caceb0db4046b",
+	"name" : "qtscxml_src",
+	"paths" : 
+	{
+		"build" : "qtscxml",
+		"source" : "qtscxml"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

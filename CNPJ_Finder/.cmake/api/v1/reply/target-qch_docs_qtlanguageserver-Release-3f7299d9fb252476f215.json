@@ -1,0 +1,50 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtlanguageserver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "qch_docs_qtlanguageserver::@82f86ec940245d7f0d67",
+	"name" : "qch_docs_qtlanguageserver",
+	"paths" : 
+	{
+		"build" : "qtlanguageserver",
+		"source" : "qtlanguageserver"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,82 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/platformsupport/devicediscovery/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DeviceDiscoverySupportPrivate_version_script::@5fae5bf070741eaf0ee8"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DeviceDiscoverySupportPrivate_sync_headers::@5fae5bf070741eaf0ee8"
+		},
+		{
+			"id" : "DeviceDiscoverySupportPrivate_autogen_timestamp_deps::@5fae5bf070741eaf0ee8"
+		}
+	],
+	"id" : "DeviceDiscoverySupportPrivate_autogen::@5fae5bf070741eaf0ee8",
+	"isGeneratorProvided" : true,
+	"name" : "DeviceDiscoverySupportPrivate_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/platformsupport/devicediscovery",
+		"source" : "qtbase/src/platformsupport/devicediscovery"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/devicediscovery/CMakeFiles/DeviceDiscoverySupportPrivate_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/devicediscovery/CMakeFiles/DeviceDiscoverySupportPrivate_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/platformsupport/devicediscovery/DeviceDiscoverySupportPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

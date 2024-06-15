@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdoc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "generate_docs_qtdoc::@3e3e19ca4bb0a1418a40"
+		}
+	],
+	"id" : "html_docs_qtdoc::@3e3e19ca4bb0a1418a40",
+	"name" : "html_docs_qtdoc",
+	"paths" : 
+	{
+		"build" : "qtdoc",
+		"source" : "qtdoc"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

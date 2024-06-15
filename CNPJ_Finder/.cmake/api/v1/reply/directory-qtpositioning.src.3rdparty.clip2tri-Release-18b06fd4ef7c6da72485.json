@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/3rdparty/clip2tri",
+		"source" : "qtpositioning/src/3rdparty/clip2tri"
+	}
+}

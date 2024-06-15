@@ -1,0 +1,1394 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_expose_source_file_to_ide",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"qt_internal_add_qml_module",
+			"set_property",
+			"qt6_target_qml_sources",
+			"qt_internal_add_resource"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quickcontrols/universal/CMakeLists.txt",
+			"qtbase/cmake/QtResourceHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 647,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 2766,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 36
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 38
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 40
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 42
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 48
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 50
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 54
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 56
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 58
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 60
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 64
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 66
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 68
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 70
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 72
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 74
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 76
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 78
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 80
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 82
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 84
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 86
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 88
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 90
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 92
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 94
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 96
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 98
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 100
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 102
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 104
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 106
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 108
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 110
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 112
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 114
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 30,
+				"parent" : 116
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 118
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 120
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 122
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 124
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 126
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 128
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 130
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 132
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 134
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 136
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 138
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 140
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 142
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 144
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 146
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 148
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 150
+			}
+		]
+	},
+	"id" : "QuickControls2Universal_other_files::@26392891d9b1a1e52c80",
+	"name" : "QuickControls2Universal_other_files",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/universal",
+		"source" : "qtdeclarative/src/quickcontrols/universal"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/.qt/rcc/qmake_QtQuick_Controls_Universal.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/qml/QtQuick/Controls/Universal/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/.qt/rcc/QuickControls2Universal_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ApplicationWindow.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"path" : "qtdeclarative/src/quickcontrols/universal/BusyIndicator.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Button.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"path" : "qtdeclarative/src/quickcontrols/universal/CheckBox.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"path" : "qtdeclarative/src/quickcontrols/universal/CheckDelegate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ComboBox.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "qtdeclarative/src/quickcontrols/universal/DelayButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Dial.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Dialog.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 33,
+			"path" : "qtdeclarative/src/quickcontrols/universal/DialogButtonBox.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 35,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Drawer.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Frame.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 39,
+			"path" : "qtdeclarative/src/quickcontrols/universal/GroupBox.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "qtdeclarative/src/quickcontrols/universal/HorizontalHeaderView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ItemDelegate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Label.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Menu.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtdeclarative/src/quickcontrols/universal/MenuBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdeclarative/src/quickcontrols/universal/MenuBarItem.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "qtdeclarative/src/quickcontrols/universal/MenuItem.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtdeclarative/src/quickcontrols/universal/MenuSeparator.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 57,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Page.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtdeclarative/src/quickcontrols/universal/PageIndicator.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Pane.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 63,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Popup.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ProgressBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"path" : "qtdeclarative/src/quickcontrols/universal/RadioButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 69,
+			"path" : "qtdeclarative/src/quickcontrols/universal/RadioDelegate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "qtdeclarative/src/quickcontrols/universal/RangeSlider.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "qtdeclarative/src/quickcontrols/universal/RoundButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 75,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ScrollView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ScrollBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ScrollIndicator.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "qtdeclarative/src/quickcontrols/universal/SelectionRectangle.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Slider.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 85,
+			"path" : "qtdeclarative/src/quickcontrols/universal/SpinBox.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 87,
+			"path" : "qtdeclarative/src/quickcontrols/universal/SplitView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"path" : "qtdeclarative/src/quickcontrols/universal/StackView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 91,
+			"path" : "qtdeclarative/src/quickcontrols/universal/SwipeDelegate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"path" : "qtdeclarative/src/quickcontrols/universal/SwitchDelegate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 95,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Switch.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"path" : "qtdeclarative/src/quickcontrols/universal/TabBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"path" : "qtdeclarative/src/quickcontrols/universal/TabButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"path" : "qtdeclarative/src/quickcontrols/universal/TextArea.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "qtdeclarative/src/quickcontrols/universal/TextField.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ToolBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 107,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ToolButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ToolSeparator.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"path" : "qtdeclarative/src/quickcontrols/universal/ToolTip.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "qtdeclarative/src/quickcontrols/universal/Tumbler.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickcontrols/universal/VerticalHeaderView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/.qt/rcc/qtquickcontrols2universalstyle.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 121,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/checkmark.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 123,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/checkmark@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 125,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/checkmark@3x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 127,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/checkmark@4x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 129,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/downarrow.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 131,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/downarrow@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 133,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/downarrow@3x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/downarrow@4x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 137,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/leftarrow.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 139,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/leftarrow@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 141,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/leftarrow@3x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 143,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/leftarrow@4x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 145,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/rightarrow.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 147,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/rightarrow@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 149,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/rightarrow@3x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 151,
+			"path" : "qtdeclarative/src/quickcontrols/universal/images/rightarrow@4x.png",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

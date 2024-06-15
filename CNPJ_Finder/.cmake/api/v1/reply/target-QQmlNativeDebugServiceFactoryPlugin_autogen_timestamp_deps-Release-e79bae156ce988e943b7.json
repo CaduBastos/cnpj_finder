@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/plugins/qmltooling/qmldbg_nativedebugger/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "PacketProtocolPrivate::@a437ddcb89473f80e3f8"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		}
+	],
+	"id" : "QQmlNativeDebugServiceFactoryPlugin_autogen_timestamp_deps::@b459486d5b5936e1a43e",
+	"isGeneratorProvided" : true,
+	"name" : "QQmlNativeDebugServiceFactoryPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/plugins/qmltooling/qmldbg_nativedebugger",
+		"source" : "qtdeclarative/src/plugins/qmltooling/qmldbg_nativedebugger"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_nativedebugger/CMakeFiles/QQmlNativeDebugServiceFactoryPlugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_nativedebugger/CMakeFiles/QQmlNativeDebugServiceFactoryPlugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

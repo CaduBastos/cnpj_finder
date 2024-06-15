@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt5compat/src/imports/graphicaleffects5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		}
+	],
+	"id" : "qtgraphicaleffectsplugin_autogen_timestamp_deps::@26ce633ec2e63dd68c47",
+	"isGeneratorProvided" : true,
+	"name" : "qtgraphicaleffectsplugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qt5compat/src/imports/graphicaleffects5",
+		"source" : "qt5compat/src/imports/graphicaleffects5"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/imports/graphicaleffects5/CMakeFiles/qtgraphicaleffectsplugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/imports/graphicaleffects5/CMakeFiles/qtgraphicaleffectsplugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

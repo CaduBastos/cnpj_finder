@@ -1,0 +1,61 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtscxml/src/statemachine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "install_html_docs_StateMachine::@00511a99ade26ce518a0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "install_qch_docs_StateMachine::@00511a99ade26ce518a0"
+		}
+	],
+	"id" : "install_docs_StateMachine::@00511a99ade26ce518a0",
+	"name" : "install_docs_StateMachine",
+	"paths" : 
+	{
+		"build" : "qtscxml/src/statemachine",
+		"source" : "qtscxml/src/statemachine"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

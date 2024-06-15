@@ -1,0 +1,67 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qt5compat/src/core5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "html_docs_Core5Compat::@7fdedc63ca22c4e18891"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qch_docs_Core5Compat::@7fdedc63ca22c4e18891"
+		}
+	],
+	"id" : "docs_Core5Compat::@7fdedc63ca22c4e18891",
+	"name" : "docs_Core5Compat",
+	"paths" : 
+	{
+		"build" : "qt5compat/src/core5",
+		"source" : "qt5compat/src/core5"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

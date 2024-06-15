@@ -1,0 +1,92 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtwayland/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtwayland_config_tests::@887962b2188c00fadee7",
+	"name" : "qtwayland_config_tests",
+	"paths" : 
+	{
+		"build" : "qtwayland",
+		"source" : "qtwayland"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "wayland_scanner",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/config.tests/wayland_scanner/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/config.tests/wayland_scanner/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/config.tests/wayland_scanner/scanner-test.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtwayland/config.tests/wayland_scanner/wayland_scanner.pro",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

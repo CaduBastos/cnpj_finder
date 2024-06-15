@@ -1,0 +1,2757 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6DataVisualization.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdatavis3d/src/datavisualization/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdatavis3d/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 18
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 20,
+				"file" : 14,
+				"line" : 30,
+				"parent" : 20
+			},
+			{
+				"command" : 19,
+				"file" : 13,
+				"line" : 494,
+				"parent" : 21
+			},
+			{
+				"command" : 18,
+				"file" : 13,
+				"line" : 179,
+				"parent" : 22
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"file" : 12,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 12,
+				"line" : 6,
+				"parent" : 25
+			},
+			{
+				"file" : 11,
+				"parent" : 26
+			},
+			{
+				"command" : 17,
+				"file" : 11,
+				"line" : 4,
+				"parent" : 27
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 453,
+				"parent" : 28
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 79,
+				"parent" : 29
+			},
+			{
+				"file" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 39,
+				"parent" : 31
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 33
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 36
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 33
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 15,
+				"line" : 15,
+				"parent" : 40
+			},
+			{
+				"command" : 26,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 41
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 15,
+				"line" : 15,
+				"parent" : 43
+			},
+			{
+				"command" : 26,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 44
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 15,
+				"line" : 15,
+				"parent" : 46
+			},
+			{
+				"command" : 26,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 47
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 49
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 52
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 54
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 16,
+				"line" : 30,
+				"parent" : 56
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 57
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 58
+			},
+			{
+				"command" : 34,
+				"file" : 2,
+				"line" : 399,
+				"parent" : 0
+			},
+			{
+				"command" : 33,
+				"file" : 16,
+				"line" : 30,
+				"parent" : 60
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 61
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 62
+			},
+			{
+				"command" : 35,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 17,
+				"line" : 205,
+				"parent" : 64
+			},
+			{
+				"command" : 36,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 18,
+				"line" : 160,
+				"parent" : 66
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/CMakeFiles/DataVisualization.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "DataVisualization_EXPORTS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILD_DATAVISUALIZATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/axis"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/data"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/engine"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/input"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/theme"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/utils"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1/QtDataVisualization"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 42,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 45,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 48,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				6,
+				9,
+				12,
+				15,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				33,
+				36,
+				39,
+				42,
+				45,
+				48,
+				51,
+				54,
+				57,
+				60,
+				63,
+				66,
+				69,
+				72,
+				75,
+				78,
+				81,
+				84,
+				86,
+				88,
+				90,
+				102,
+				104,
+				106,
+				109,
+				112,
+				115,
+				121,
+				127,
+				134,
+				136,
+				138,
+				144,
+				148,
+				151,
+				154,
+				157,
+				160,
+				162,
+				164,
+				166,
+				168,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/CMakeFiles/DataVisualization.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "DataVisualization_EXPORTS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILD_DATAVISUALIZATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/axis"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/data"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/engine"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/input"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/theme"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/utils"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1/QtDataVisualization"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 42,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 45,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 48,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "DataVisualization_EXPORTS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILD_DATAVISUALIZATION_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/axis"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/data"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/engine"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/input"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/theme"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdatavis3d/src/datavisualization/utils"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/6.7.1/QtDataVisualization"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 42,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 45,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 48,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL/QtOpenGL"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				92,
+				94,
+				96,
+				98,
+				100,
+				118,
+				124,
+				130,
+				132,
+				140,
+				142,
+				188,
+				189
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "DataVisualization_autogen_timestamp_deps::@2521eee5d2f8fd1d21c6"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DataVisualization_autogen::@2521eee5d2f8fd1d21c6"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "DataVisualization_version_script::@2521eee5d2f8fd1d21c6"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "DataVisualization_sync_headers::@2521eee5d2f8fd1d21c6"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "DataVisualization_lib_pri::@2521eee5d2f8fd1d21c6"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		}
+	],
+	"id" : "DataVisualization::@2521eee5d2f8fd1d21c6",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DataVisualization",
+	"nameOnDisk" : "libQt6DataVisualization.so",
+	"paths" : 
+	{
+		"build" : "qtdatavis3d/src/datavisualization",
+		"source" : "qtdatavis3d/src/datavisualization"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				6,
+				9,
+				12,
+				15,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				33,
+				36,
+				39,
+				42,
+				45,
+				48,
+				51,
+				54,
+				57,
+				60,
+				63,
+				66,
+				69,
+				72,
+				75,
+				78,
+				81,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				109,
+				112,
+				115,
+				118,
+				121,
+				124,
+				127,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				144,
+				148,
+				151,
+				154,
+				157,
+				160,
+				162,
+				164,
+				166,
+				168,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				188,
+				189
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				7,
+				8,
+				10,
+				11,
+				13,
+				14,
+				16,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				32,
+				34,
+				35,
+				37,
+				38,
+				40,
+				41,
+				43,
+				44,
+				46,
+				47,
+				49,
+				50,
+				52,
+				53,
+				55,
+				56,
+				58,
+				59,
+				61,
+				62,
+				64,
+				65,
+				67,
+				68,
+				70,
+				71,
+				73,
+				74,
+				76,
+				77,
+				79,
+				80,
+				82,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				108,
+				110,
+				111,
+				113,
+				114,
+				116,
+				117,
+				119,
+				120,
+				122,
+				123,
+				125,
+				126,
+				128,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				146,
+				147,
+				149,
+				150,
+				152,
+				153,
+				155,
+				156,
+				158,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				185,
+				186
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				187,
+				190,
+				191,
+				193
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				192
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/CMakeFiles/DataVisualization.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtDataVisualization/qtdatavisualizationexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qabstract3daxis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qabstract3daxis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qabstract3daxis_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qcategory3daxis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qcategory3daxis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qcategory3daxis_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qlogvalue3daxisformatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qlogvalue3daxisformatter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qlogvalue3daxisformatter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxis_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxisformatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxisformatter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/axis/qvalue3daxisformatter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/abstractitemmodelhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/abstractitemmodelhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/abstractrenderitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/abstractrenderitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/baritemmodelhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/baritemmodelhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/barrenderitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/barrenderitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/customrenderitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/customrenderitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/labelitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/labelitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstract3dseries.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstract3dseries.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstract3dseries_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstractdataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstractdataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qabstractdataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbar3dseries.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbar3dseries.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbar3dseries_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataitem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qbardataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3ditem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3ditem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3ditem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dlabel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dlabel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dlabel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dvolume.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dvolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qcustom3dvolume_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qheightmapsurfacedataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qheightmapsurfacedataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qheightmapsurfacedataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelbardataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelbardataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelbardataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelscatterdataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelscatterdataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelscatterdataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelsurfacedataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelsurfacedataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qitemmodelsurfacedataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatter3dseries.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatter3dseries.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatter3dseries_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataitem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qscatterdataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurface3dseries.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurface3dseries.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurface3dseries_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataitem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataproxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/qsurfacedataproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/scatteritemmodelhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/scatteritemmodelhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/scatterrenderitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/scatterrenderitem_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/data/surfaceitemmodelhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/data/surfaceitemmodelhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstractdeclarativeinterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstractdeclarativeinterface_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstract3dcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstract3dcontroller_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstract3drenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/abstract3drenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/axisrendercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/axisrendercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/bars3dcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/bars3dcontroller_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/bars3drenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/bars3drenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/barseriesrendercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/barseriesrendercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/drawer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/drawer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dbars.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dbars.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dbars_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dcamera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dcamera.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dcamera_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dlight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dlight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dlight_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscatter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscatter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscene.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscene.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dscene_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dsurface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dsurface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/q3dsurface_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/qabstract3dgraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/qabstract3dgraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/qabstract3dgraph_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatter3dcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatter3dcontroller_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatter3drenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatter3drenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatterseriesrendercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/scatterseriesrendercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/selectionpointer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/selectionpointer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/seriesrendercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/seriesrendercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surface3dcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surface3dcontroller_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 2,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surface3drenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surface3drenderer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surfaceseriesrendercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/engine/surfaceseriesrendercache_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/global/datavisualizationglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/global/qdatavisualizationglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/input/q3dinputhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/q3dinputhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/q3dinputhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/input/qabstract3dinputhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/qabstract3dinputhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/qabstract3dinputhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/input/qtouch3dinputhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/qtouch3dinputhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/input/qtouch3dinputhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/theme/q3dtheme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/theme/q3dtheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/theme/q3dtheme_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/theme/thememanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/theme/thememanager_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/abstractobjecthelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/abstractobjecthelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/camerahelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/camerahelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/meshloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/meshloader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/objecthelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/objecthelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/qutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/scatterobjectbufferhelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/scatterobjectbufferhelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/scatterpointbufferhelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/scatterpointbufferhelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/shaderhelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/shaderhelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/surfaceobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/surfaceobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/texturehelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/texturehelper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/utils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "qtdatavis3d/src/datavisualization/utils/vertexindexer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"path" : "qtdatavis3d/src/datavisualization/utils/vertexindexer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/qtdatavisualization-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/qtdatavisualization-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/meta_types/qt6datavisualization_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/.qt/rcc/qrc_datavisualizationshaders.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 63,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/.qt/rcc/qrc_datavisualizationmeshes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/preliminary_prl_for_DataVisualization_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 67,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6DataVisualization.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/CMakeFiles/DataVisualization.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/meta_types/qt6datavisualization_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/.qt/rcc/qrc_datavisualizationshaders.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/.qt/rcc/qrc_datavisualizationmeshes.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/preliminary_prl_for_DataVisualization_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6DataVisualization.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/DataVisualization_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdatavis3d/src/datavisualization/meta_types/DataVisualization_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

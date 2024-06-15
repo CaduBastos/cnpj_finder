@@ -1,0 +1,100 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtpositioning/src/plugins/position/geoclue2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Positioning::@9d46389cb8471f8f1d24"
+		},
+		{
+			"id" : "Positioning_sync_headers::@9d46389cb8471f8f1d24"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "DBus::@ea5664f228ab8e579394"
+		},
+		{
+			"id" : "qdbusxml2cpp::@1ee37bc5ddca4e2b74cc"
+		}
+	],
+	"id" : "QGeoPositionInfoSourceFactoryGeoclue2Plugin_autogen_timestamp_deps::@5c0dd2eaab9e5bb98a94",
+	"isGeneratorProvided" : true,
+	"name" : "QGeoPositionInfoSourceFactoryGeoclue2Plugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/plugins/position/geoclue2",
+		"source" : "qtpositioning/src/plugins/position/geoclue2"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/geoclue2/CMakeFiles/QGeoPositionInfoSourceFactoryGeoclue2Plugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/geoclue2/CMakeFiles/QGeoPositionInfoSourceFactoryGeoclue2Plugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/geoclue2/client_interface.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/geoclue2/location_interface.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/geoclue2/manager_interface.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

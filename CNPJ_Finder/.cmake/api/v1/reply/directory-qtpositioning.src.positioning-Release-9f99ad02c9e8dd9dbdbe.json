@@ -1,0 +1,511 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtpositioning/src/positioning/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/positioning/meta_types/qt6positioning_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Positioning",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Positioning/Qt6PositioningConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Positioning/Qt6PositioningConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Positioning/Qt6PositioningConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Positioning.so.6.7.1",
+				"qtbase/lib/libQt6Positioning.so.6"
+			],
+			"targetId" : "Positioning::@9d46389cb8471f8f1d24",
+			"targetIndex" : 600,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6Positioning.so"
+			],
+			"targetId" : "Positioning::@9d46389cb8471f8f1d24",
+			"targetIndex" : 600,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Positioning",
+			"exportName" : "Qt6PositioningTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Positioning::@9d46389cb8471f8f1d24",
+					"index" : 600
+				},
+				{
+					"id" : "PositioningPrivate::@9d46389cb8471f8f1d24",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtpositioning/src/positioning/CMakeFiles/Export/lib/cmake/Qt6Positioning/Qt6PositioningTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Positioning",
+			"exportName" : "Qt6PositioningVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PositioningVersionless::@9d46389cb8471f8f1d24",
+					"index" : 0
+				},
+				{
+					"id" : "PositioningPrivateVersionless::@9d46389cb8471f8f1d24",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtpositioning/src/positioning/CMakeFiles/Export/lib/cmake/Qt6Positioning/Qt6PositioningVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/Positioning.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Positioning",
+			"destination" : "./doc/qtpositioning",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtpositioning",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Positioning",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtpositioning.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Positioning",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Positioning/Qt6PositioningAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioning",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioning/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioning",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioning/qtpositioningexports.h",
+				"qtpositioning/src/positioning/qgeoaddress.h",
+				"qtpositioning/src/positioning/qgeoareamonitorinfo.h",
+				"qtpositioning/src/positioning/qgeoareamonitorsource.h",
+				"qtpositioning/src/positioning/qgeocircle.h",
+				"qtpositioning/src/positioning/qgeocoordinate.h",
+				"qtpositioning/src/positioning/qgeolocation.h",
+				"qtpositioning/src/positioning/qgeopath.h",
+				"qtpositioning/src/positioning/qgeopolygon.h",
+				"qtpositioning/src/positioning/qgeopositioninfo.h",
+				"qtpositioning/src/positioning/qgeopositioninfosource.h",
+				"qtpositioning/src/positioning/qgeopositioninfosourcefactory.h",
+				"qtpositioning/src/positioning/qgeorectangle.h",
+				"qtpositioning/src/positioning/qgeosatelliteinfo.h",
+				"qtpositioning/src/positioning/qgeosatelliteinfosource.h",
+				"qtpositioning/src/positioning/qgeoshape.h",
+				"qtpositioning/src/positioning/qnmeapositioninfosource.h",
+				"qtpositioning/src/positioning/qnmeasatelliteinfosource.h",
+				"qtpositioning/src/positioning/qpositioningglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/positioning/qtpositioning-config.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioning/QtPositioningDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioning/6.7.1/QtPositioning/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioning/6.7.1/QtPositioning/private/qtpositioningexports_p.h",
+				"qtpositioning/src/positioning/qclipperutils_p.h",
+				"qtpositioning/src/positioning/qdoublematrix4x4_p.h",
+				"qtpositioning/src/positioning/qdoublevector2d_p.h",
+				"qtpositioning/src/positioning/qdoublevector3d_p.h",
+				"qtpositioning/src/positioning/qgeoaddress_p.h",
+				"qtpositioning/src/positioning/qgeocircle_p.h",
+				"qtpositioning/src/positioning/qgeocoordinate_p.h",
+				"qtpositioning/src/positioning/qgeocoordinateobject_p.h",
+				"qtpositioning/src/positioning/qgeolocation_p.h",
+				"qtpositioning/src/positioning/qgeopath_p.h",
+				"qtpositioning/src/positioning/qgeopolygon_p.h",
+				"qtpositioning/src/positioning/qgeopositioninfo_p.h",
+				"qtpositioning/src/positioning/qgeopositioninfosource_p.h",
+				"qtpositioning/src/positioning/qgeorectangle_p.h",
+				"qtpositioning/src/positioning/qgeosatelliteinfo_p.h",
+				"qtpositioning/src/positioning/qgeosatelliteinfosource_p.h",
+				"qtpositioning/src/positioning/qgeoshape_p.h",
+				"qtpositioning/src/positioning/qlocationutils_p.h",
+				"qtpositioning/src/positioning/qnmeapositioninfosource_p.h",
+				"qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h",
+				"qtpositioning/src/positioning/qpositioningglobal_p.h",
+				"qtpositioning/src/positioning/qwebmercator_p.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/positioning/qtpositioning-config_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_positioning.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_positioning_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Positioning.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/positioning",
+		"source" : "qtpositioning/src/positioning"
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtquick3d/src/plugins/assetimporters/assimp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "AssimpImporterPlugin_version_script::@a70ee9f8e3165b04afa4"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "AssimpImporterPlugin_autogen_timestamp_deps::@a70ee9f8e3165b04afa4"
+		}
+	],
+	"id" : "AssimpImporterPlugin_autogen::@a70ee9f8e3165b04afa4",
+	"isGeneratorProvided" : true,
+	"name" : "AssimpImporterPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/plugins/assetimporters/assimp",
+		"source" : "qtquick3d/src/plugins/assetimporters/assimp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/plugins/assetimporters/assimp/CMakeFiles/AssimpImporterPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/plugins/assetimporters/assimp/CMakeFiles/AssimpImporterPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtquick3d/src/plugins/assetimporters/assimp/AssimpImporterPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

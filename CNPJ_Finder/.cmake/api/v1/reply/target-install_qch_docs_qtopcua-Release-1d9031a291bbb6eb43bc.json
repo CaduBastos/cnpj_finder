@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtopcua/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtopcua/src/opcua/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 137,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 273,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "install_qch_docs_OpcUa::@e43cc5ce8c68dac988db"
+		}
+	],
+	"id" : "install_qch_docs_qtopcua::@4fc8952bc7293d88529a",
+	"name" : "install_qch_docs_qtopcua",
+	"paths" : 
+	{
+		"build" : "qtopcua",
+		"source" : "qtopcua"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

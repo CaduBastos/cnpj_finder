@@ -1,0 +1,90 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/qmltest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickTest_tooling::@f3ea4e36fd753b337276"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickTest_version_script::@f3ea4e36fd753b337276"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickTest_sync_headers::@f3ea4e36fd753b337276"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickTest_lib_pri::@f3ea4e36fd753b337276"
+		},
+		{
+			"id" : "QuickTest_autogen_timestamp_deps::@f3ea4e36fd753b337276"
+		}
+	],
+	"id" : "QuickTest_autogen::@f3ea4e36fd753b337276",
+	"isGeneratorProvided" : true,
+	"name" : "QuickTest_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/qmltest",
+		"source" : "qtdeclarative/src/qmltest"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmltest/CMakeFiles/QuickTest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmltest/CMakeFiles/QuickTest_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmltest/QuickTest_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

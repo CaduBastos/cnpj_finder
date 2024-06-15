@@ -1,0 +1,131 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtserialbus/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtserialbus/src/serialbus/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "SerialBus::@9e7a8ba87033816f279e"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "SerialBus_sync_headers::@9e7a8ba87033816f279e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "VirtualCanBusPlugin::@717a8aa7252a2405aad5"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SocketCanBusPlugin::@dfff9e50e6a9eab40124"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PassThruCanBusPlugin::@3760b7805892a87b82d0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PeakCanBusPlugin::@dd5a5998cebae592917b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "TinyCanBusPlugin::@61b51a3baeb997320f35"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "canbusutil::@bfca44c250a43576ae89"
+		}
+	],
+	"id" : "qtserialbus_src::@9505959a53623ced070a",
+	"name" : "qtserialbus_src",
+	"paths" : 
+	{
+		"build" : "qtserialbus",
+		"source" : "qtserialbus"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,90 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/material/impl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2MaterialStyleImpl_tooling::@3227e0825ec2870064fd"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2MaterialStyleImpl_version_script::@3227e0825ec2870064fd"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2MaterialStyleImpl_sync_headers::@3227e0825ec2870064fd"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2MaterialStyleImpl_lib_pri::@3227e0825ec2870064fd"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "QuickControls2MaterialStyleImpl_autogen_timestamp_deps::@3227e0825ec2870064fd"
+		}
+	],
+	"id" : "QuickControls2MaterialStyleImpl_autogen::@3227e0825ec2870064fd",
+	"isGeneratorProvided" : true,
+	"name" : "QuickControls2MaterialStyleImpl_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/material/impl",
+		"source" : "qtdeclarative/src/quickcontrols/material/impl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/material/impl/CMakeFiles/QuickControls2MaterialStyleImpl_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/material/impl/CMakeFiles/QuickControls2MaterialStyleImpl_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/material/impl/QuickControls2MaterialStyleImpl_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

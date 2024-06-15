@@ -1,0 +1,416 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "qttools/src/assistant/qlitehtml/src/value-NOTFOUND/libqlitehtml.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"qttools/src/assistant/qlitehtml/src/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qttools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 494,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 453,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 13
+			},
+			{
+				"file" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-w"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "QLITEHTML_STATIC_LIBRARY"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "QT_RESTRICTED_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/assistant/qlitehtml/src/qlitehtml_autogen/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/assistant/qlitehtml/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/assistant/qlitehtml/src/3rdparty/litehtml/src/gumbo/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/assistant/qlitehtml/src/3rdparty/litehtml/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qttools/src/assistant/qlitehtml/src/3rdparty/litehtml/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "qlitehtml_autogen_timestamp_deps::@39f8be2c182169c8b54d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "qlitehtml_autogen::@39f8be2c182169c8b54d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "litehtml::@da548118eb290d2230c8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gumbo::@198c5828e391bd6fcb76"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Widgets::@9a4b53f49ed997d8bad6"
+		}
+	],
+	"id" : "qlitehtml::@39f8be2c182169c8b54d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"name" : "qlitehtml",
+	"nameOnDisk" : "libqlitehtml.a",
+	"paths" : 
+	{
+		"build" : "qttools/src/assistant/qlitehtml/src",
+		"source" : "qttools/src/assistant/qlitehtml/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/assistant/qlitehtml/src/qlitehtml_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "qttools/src/assistant/qlitehtml/src/container_qpainter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "qttools/src/assistant/qlitehtml/src/container_qpainter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "qttools/src/assistant/qlitehtml/src/qlitehtml_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "qttools/src/assistant/qlitehtml/src/qlitehtmlwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/assistant/qlitehtml/src/container_qpainter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "qttools/src/assistant/qlitehtml/src/qlitehtmlwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/assistant/qlitehtml/src/qlitehtml_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/assistant/qlitehtml/src/qlitehtml_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

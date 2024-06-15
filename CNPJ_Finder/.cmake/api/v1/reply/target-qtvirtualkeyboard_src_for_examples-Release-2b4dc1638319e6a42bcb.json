@@ -1,0 +1,218 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtvirtualkeyboard/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtvirtualkeyboard/src/virtualkeyboard/CMakeLists.txt",
+			"qtvirtualkeyboard/src/settings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "VirtualKeyboard::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbplugin::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "VirtualKeyboard_tooling::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "VirtualKeyboard_sync_headers::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "VirtualKeyboardSettings::@a16b477fed1f725845e8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbsettingsplugin::@a16b477fed1f725845e8"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "VirtualKeyboardSettings_sync_headers::@a16b477fed1f725845e8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbcomponentsplugin::@92748dbbdf9089e93004"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbcomponentsplugin_tooling::@92748dbbdf9089e93004"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkblayoutsplugin::@15d5b235cc9d3ae2c5f0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbstylesplugin::@d4d213a524047152cb91"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbstylesplugin_tooling::@d4d213a524047152cb91"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbbuiltinstylesplugin::@17390adef51dd0124a20"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QVirtualKeyboardPlugin::@8cdd951ff86eeed938ff"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbpluginsplugin::@7e18607b9a7d234070fd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbhangulplugin::@6122dfe856a15d46d5b6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbopenwnnplugin::@98ba4ef49357197b9e8f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BundledOpenwnn::@a35f0c86a5ef8c0fc3dd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbpinyinplugin::@e2bc37036fffd16cc1ee"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BundledPinyin::@55144a8dff1090290dae"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbtcimeplugin::@d7fcd9c994d1859ce9d6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BundledTcime::@28847d65ce084381c1ec"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtvkbthaiplugin::@9c3ebf2f052463911be5"
+		}
+	],
+	"id" : "qtvirtualkeyboard_src_for_examples::@45172afbc29b91a1b9bb",
+	"name" : "qtvirtualkeyboard_src_for_examples",
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard",
+		"source" : "qtvirtualkeyboard"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

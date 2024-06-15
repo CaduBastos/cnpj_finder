@@ -1,0 +1,150 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtquicktimeline/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtquicktimeline/src/timeline/CMakeLists.txt",
+			"qtquicktimeline/src/timeline/blendtrees/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "QuickTimeline::@ef27fa22df2fa175de50"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquicktimelineplugin::@ef27fa22df2fa175de50"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "QuickTimeline_sync_headers::@ef27fa22df2fa175de50"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QuickTimelineBlendTrees::@ae4f21f460541639243e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquicktimelineblendtreesplugin::@ae4f21f460541639243e"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "QuickTimelineBlendTrees_sync_headers::@ae4f21f460541639243e"
+		}
+	],
+	"id" : "qtquicktimeline_src_for_examples::@8f0eedf324c84ace99ed",
+	"name" : "qtquicktimeline_src_for_examples",
+	"paths" : 
+	{
+		"build" : "qtquicktimeline",
+		"source" : "qtquicktimeline"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

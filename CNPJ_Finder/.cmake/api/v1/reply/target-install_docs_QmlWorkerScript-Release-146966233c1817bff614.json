@@ -1,0 +1,61 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtdeclarative/src/qmlworkerscript/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "install_html_docs_QmlWorkerScript::@42b6f0f8b3b4b80d662a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "install_qch_docs_QmlWorkerScript::@42b6f0f8b3b4b80d662a"
+		}
+	],
+	"id" : "install_docs_QmlWorkerScript::@42b6f0f8b3b4b80d662a",
+	"name" : "install_docs_QmlWorkerScript",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/qmlworkerscript",
+		"source" : "qtdeclarative/src/qmlworkerscript"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_copy_or_install"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtquick3d/src/quick3d/designer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick3D/designer",
+			"paths" : 
+			[
+				"qtquick3d/src/quick3d/designer/AbstractLightSection.qml",
+				"qtquick3d/src/quick3d/designer/BufferInputSection.qml",
+				"qtquick3d/src/quick3d/designer/BufferInputSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/BufferSection.qml",
+				"qtquick3d/src/quick3d/designer/BufferSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/CameraSection.qml",
+				"qtquick3d/src/quick3d/designer/CubeMapTextureSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/CustomCameraSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/CustomMaterialSection.qml",
+				"qtquick3d/src/quick3d/designer/CustomMaterialSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/DebugSettingsSection.qml",
+				"qtquick3d/src/quick3d/designer/DebugSettingsSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/DefaultMaterialSection.qml",
+				"qtquick3d/src/quick3d/designer/DefaultMaterialSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/DirectionalLightSection.qml",
+				"qtquick3d/src/quick3d/designer/DirectionalLightSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/EffectSection.qml",
+				"qtquick3d/src/quick3d/designer/EffectSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/FileInstancingSection.qml",
+				"qtquick3d/src/quick3d/designer/FileInstancingSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/FogSection.qml",
+				"qtquick3d/src/quick3d/designer/FogSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/FrustumCameraSection.qml",
+				"qtquick3d/src/quick3d/designer/FrustumCameraSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/InstanceListEntrySection.qml",
+				"qtquick3d/src/quick3d/designer/InstanceListEntrySpecifics.qml",
+				"qtquick3d/src/quick3d/designer/InstanceListSection.qml",
+				"qtquick3d/src/quick3d/designer/InstanceListSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/InstancingSection.qml",
+				"qtquick3d/src/quick3d/designer/JointSection.qml",
+				"qtquick3d/src/quick3d/designer/JointSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/LightmapperSection.qml",
+				"qtquick3d/src/quick3d/designer/LightmapperSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/Loader3DSection.qml",
+				"qtquick3d/src/quick3d/designer/Loader3DSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/MaterialSection.qml",
+				"qtquick3d/src/quick3d/designer/ModelSection.qml",
+				"qtquick3d/src/quick3d/designer/ModelSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/MorphTargetSection.qml",
+				"qtquick3d/src/quick3d/designer/MorphTargetSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/NodeSection.qml",
+				"qtquick3d/src/quick3d/designer/NodeSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/Object3DSection.qml",
+				"qtquick3d/src/quick3d/designer/OrthographicCameraSection.qml",
+				"qtquick3d/src/quick3d/designer/OrthographicCameraSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/PassSection.qml",
+				"qtquick3d/src/quick3d/designer/PassSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/PerspectiveCameraSection.qml",
+				"qtquick3d/src/quick3d/designer/PerspectiveCameraSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/PointLightSection.qml",
+				"qtquick3d/src/quick3d/designer/PointLightSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/PrincipledMaterialSection.qml",
+				"qtquick3d/src/quick3d/designer/PrincipledMaterialSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/Repeater3DSection.qml",
+				"qtquick3d/src/quick3d/designer/Repeater3DSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/ResourceLoaderSection.qml",
+				"qtquick3d/src/quick3d/designer/ResourceLoaderSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/SceneEnvironmentSection.qml",
+				"qtquick3d/src/quick3d/designer/SceneEnvironmentSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/SetUniformValueSection.qml",
+				"qtquick3d/src/quick3d/designer/SetUniformValueSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/ShaderSection.qml",
+				"qtquick3d/src/quick3d/designer/ShaderSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/ShadowSection.qml",
+				"qtquick3d/src/quick3d/designer/SkinSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/SkinSection.qml",
+				"qtquick3d/src/quick3d/designer/SpecularGlossyMaterialSection.qml",
+				"qtquick3d/src/quick3d/designer/SpecularGlossyMaterialSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/SpotLightSection.qml",
+				"qtquick3d/src/quick3d/designer/SpotLightSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/TextureInputSection.qml",
+				"qtquick3d/src/quick3d/designer/TextureInputSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/TextureSection.qml",
+				"qtquick3d/src/quick3d/designer/TextureSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/View3DSection.qml",
+				"qtquick3d/src/quick3d/designer/View3DSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/ReflectionProbeSection.qml",
+				"qtquick3d/src/quick3d/designer/ReflectionProbeSpecifics.qml",
+				"qtquick3d/src/quick3d/designer/quick3d.metainfo",
+				"qtquick3d/src/quick3d/designer/propertyGroups.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/quick3d/designer",
+		"source" : "qtquick3d/src/quick3d/designer"
+	}
+}

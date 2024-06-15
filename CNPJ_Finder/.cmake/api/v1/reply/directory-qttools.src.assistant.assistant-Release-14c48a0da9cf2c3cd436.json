@@ -1,0 +1,114 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_executable",
+			"qt_internal_add_app",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtExecutableHelpers.cmake",
+			"qtbase/cmake/QtAppHelpers.cmake",
+			"qttools/src/assistant/assistant/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 46,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 198,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 230,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 243,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"qtbase/bin/assistant"
+			],
+			"targetId" : "assistant::@cb198c9b13c478f85fdb",
+			"targetIndex" : 1800,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "_install_html_docs_assistant",
+			"destination" : "./doc/qtassistant",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtassistant",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "_install_qch_docs_assistant",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qtassistant.qch"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qttools/src/assistant/assistant",
+		"source" : "qttools/src/assistant/assistant"
+	}
+}

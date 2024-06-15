@@ -1,0 +1,64 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtnetworkauth/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "generate_docs_qtnetworkauth::@9dd021b2ac21df611ebe"
+		}
+	],
+	"id" : "html_docs_qtnetworkauth::@9dd021b2ac21df611ebe",
+	"name" : "html_docs_qtnetworkauth",
+	"paths" : 
+	{
+		"build" : "qtnetworkauth",
+		"source" : "qtnetworkauth"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

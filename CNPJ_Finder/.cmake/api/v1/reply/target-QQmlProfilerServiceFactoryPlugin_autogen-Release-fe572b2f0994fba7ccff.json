@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/plugins/qmltooling/qmldbg_profiler/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QQmlProfilerServiceFactoryPlugin_version_script::@b29a65948b008f90a347"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "QQmlProfilerServiceFactoryPlugin_autogen_timestamp_deps::@b29a65948b008f90a347"
+		}
+	],
+	"id" : "QQmlProfilerServiceFactoryPlugin_autogen::@b29a65948b008f90a347",
+	"isGeneratorProvided" : true,
+	"name" : "QQmlProfilerServiceFactoryPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/plugins/qmltooling/qmldbg_profiler",
+		"source" : "qtdeclarative/src/plugins/qmltooling/qmldbg_profiler"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_profiler/CMakeFiles/QQmlProfilerServiceFactoryPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_profiler/CMakeFiles/QQmlProfilerServiceFactoryPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/plugins/qmltooling/qmldbg_profiler/QQmlProfilerServiceFactoryPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

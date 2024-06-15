@@ -1,0 +1,90 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/imagine/impl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2ImagineStyleImpl_tooling::@44f8a69d5a70bae1feb4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2ImagineStyleImpl_version_script::@44f8a69d5a70bae1feb4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2ImagineStyleImpl_sync_headers::@44f8a69d5a70bae1feb4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2ImagineStyleImpl_lib_pri::@44f8a69d5a70bae1feb4"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "QuickControls2ImagineStyleImpl_autogen_timestamp_deps::@44f8a69d5a70bae1feb4"
+		}
+	],
+	"id" : "QuickControls2ImagineStyleImpl_autogen::@44f8a69d5a70bae1feb4",
+	"isGeneratorProvided" : true,
+	"name" : "QuickControls2ImagineStyleImpl_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/imagine/impl",
+		"source" : "qtdeclarative/src/quickcontrols/imagine/impl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/impl/CMakeFiles/QuickControls2ImagineStyleImpl_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/impl/CMakeFiles/QuickControls2ImagineStyleImpl_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/imagine/impl/QuickControls2ImagineStyleImpl_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

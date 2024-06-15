@@ -1,0 +1,398 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_create_module_depends_file",
+			"qt_internal_create_depends_files",
+			"include",
+			"qt_build_repo_post_process",
+			"qt_build_repo",
+			"qt_internal_create_config_file_for_standalone_tests",
+			"qt_export_tools",
+			"qt_create_tools_config_files",
+			"qt_internal_install_prl_files",
+			"qt_copy_or_install",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPostProcessHelpers.cmake",
+			"qtbase/cmake/QtPostProcess.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtremoteobjects/CMakeLists.txt",
+			"qtbase/cmake/QtToolHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 500,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 318,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 832,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 777,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 387,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 441,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 450,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 467,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 848,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 32
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 34
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 738,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 1013,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 8,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RepParser",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RepParser/Qt6RepParserDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RemoteObjects",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjects/Qt6RemoteObjectsDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RemoteObjectsQml",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsQml/Qt6RemoteObjectsQmlDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BuildInternals/StandaloneTests",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BuildInternals/StandaloneTests/QtRemoteObjectsTestsConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RemoteObjectsTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RemoteObjectsTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6RemoteObjectsTools",
+			"exportName" : "Qt6RemoteObjectsToolsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "repc::@ae928a6b8eee265a75ba",
+					"index" : 4214
+				}
+			],
+			"paths" : 
+			[
+				"qtremoteobjects/CMakeFiles/Export/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6RemoteObjectsTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "mkspecs",
+			"paths" : 
+			[
+				{
+					"from" : "qtremoteobjects/mkspecs",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6RemoteObjectsTools",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6RemoteObjectsTools/Qt6RemoteObjectsToolsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtremoteobjects",
+		"source" : "qtremoteobjects"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtwebchannel/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtwebchannel/src/webchannel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 36,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 272,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "install_html_docs_WebChannel::@490d0e679ec6162171c1"
+		}
+	],
+	"id" : "install_html_docs_qtwebchannel::@2254ea46f82dd30bb8ee",
+	"name" : "install_html_docs_qtwebchannel",
+	"paths" : 
+	{
+		"build" : "qtwebchannel",
+		"source" : "qtwebchannel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

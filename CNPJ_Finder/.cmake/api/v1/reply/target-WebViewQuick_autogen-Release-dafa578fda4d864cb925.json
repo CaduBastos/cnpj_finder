@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtwebview/src/quick/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "WebViewQuick_autogen_timestamp_deps::@bfad9139b23a70ef2263"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "WebViewQuick_version_script::@bfad9139b23a70ef2263"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "WebViewQuick_sync_headers::@bfad9139b23a70ef2263"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "WebViewQuick_lib_pri::@bfad9139b23a70ef2263"
+		}
+	],
+	"id" : "WebViewQuick_autogen::@bfad9139b23a70ef2263",
+	"isGeneratorProvided" : true,
+	"name" : "WebViewQuick_autogen",
+	"paths" : 
+	{
+		"build" : "qtwebview/src/quick",
+		"source" : "qtwebview/src/quick"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebview/src/quick/CMakeFiles/WebViewQuick_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebview/src/quick/CMakeFiles/WebViewQuick_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtwebview/src/quick/WebViewQuick_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

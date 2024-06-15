@@ -1,0 +1,1543 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6Sql.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_internal_qtbase_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/src/sql/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtbase/cmake/QtBaseHelpers.cmake",
+			"qtbase/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 23
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 20,
+				"file" : 16,
+				"line" : 32,
+				"parent" : 25
+			},
+			{
+				"command" : 19,
+				"file" : 15,
+				"line" : 154,
+				"parent" : 26
+			},
+			{
+				"command" : 18,
+				"file" : 14,
+				"line" : 179,
+				"parent" : 27
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"file" : 13,
+				"parent" : 29
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 6,
+				"parent" : 30
+			},
+			{
+				"file" : 12,
+				"parent" : 31
+			},
+			{
+				"command" : 17,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 32
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 453,
+				"parent" : 33
+			},
+			{
+				"command" : 15,
+				"file" : 11,
+				"line" : 79,
+				"parent" : 34
+			},
+			{
+				"file" : 10,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 36
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 38
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 41
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 38
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 7,
+				"line" : 235,
+				"parent" : 14
+			},
+			{
+				"command" : 26,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 45
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 1
+			},
+			{
+				"command" : 28,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 47
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 50
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 28,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 52
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 54
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 28,
+				"file" : 18,
+				"line" : 205,
+				"parent" : 56
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 28,
+				"file" : 19,
+				"line" : 160,
+				"parent" : 58
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/CMakeFiles/Sql.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 40,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILD_SQL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Sql_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1/QtSql"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				6,
+				8,
+				11,
+				13,
+				15,
+				17,
+				20,
+				22,
+				24,
+				32,
+				35,
+				37,
+				39
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/CMakeFiles/Sql.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 40,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILD_SQL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Sql_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1/QtSql"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 40,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_BUILD_SQL_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "Sql_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/6.7.1/QtSql"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "Sql_version_script::@ade569add210a552017a"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Sql_sync_headers::@ade569add210a552017a"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Sql_lib_pri::@ade569add210a552017a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Sql_autogen::@ade569add210a552017a"
+		},
+		{
+			"id" : "Sql_autogen_timestamp_deps::@ade569add210a552017a"
+		}
+	],
+	"id" : "Sql::@ade569add210a552017a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Sql",
+	"nameOnDisk" : "libQt6Sql.so",
+	"paths" : 
+	{
+		"build" : "qtbase/src/sql",
+		"source" : "qtbase/src/sql"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				11,
+				13,
+				15,
+				17,
+				20,
+				22,
+				24,
+				32,
+				35,
+				37,
+				39
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				5,
+				7,
+				9,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19,
+				21,
+				23,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				33,
+				34,
+				36,
+				38,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				31,
+				42,
+				43,
+				45
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				44
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				49,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/CMakeFiles/Sql.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql/qtsqlexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 2,
+			"path" : "qtbase/src/sql/compat/removed_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlcachedresult.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlcachedresult_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqldatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqldatabase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqldriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqldriver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqldriver_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqldriverplugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqldriverplugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlerror.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlerror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlfield.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlfield.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlindex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlindex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlnulldriver_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlquery.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlquery.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlrecord.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlrecord.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/kernel/qsqlresult.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlresult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qsqlresult_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qtsqlglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "qtbase/src/sql/kernel/qtsqlglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/qtsql-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/qtsql-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/meta_types/qt6sql_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/models/qsqlquerymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqlquerymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqlquerymodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/models/qsqlrelationaldelegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqlrelationaldelegate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/models/qsqlrelationaltablemodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqlrelationaltablemodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"path" : "qtbase/src/sql/models/qsqltablemodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqltablemodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"path" : "qtbase/src/sql/models/qsqltablemodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 57,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/preliminary_prl_for_Sql_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 59,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Sql.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/CMakeFiles/Sql.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/meta_types/qt6sql_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/preliminary_prl_for_Sql_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Sql.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/Sql_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/sql/meta_types/Sql_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,1926 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6Bluetooth.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtconnectivity/src/bluetooth/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/network/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtconnectivity/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 18
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 23
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 28
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 20,
+				"file" : 16,
+				"line" : 24,
+				"parent" : 30
+			},
+			{
+				"command" : 19,
+				"file" : 15,
+				"line" : 494,
+				"parent" : 31
+			},
+			{
+				"command" : 18,
+				"file" : 15,
+				"line" : 179,
+				"parent" : 32
+			},
+			{
+				"command" : 15,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 14,
+				"parent" : 34
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 6,
+				"parent" : 35
+			},
+			{
+				"file" : 13,
+				"parent" : 36
+			},
+			{
+				"command" : 17,
+				"file" : 13,
+				"line" : 4,
+				"parent" : 37
+			},
+			{
+				"command" : 16,
+				"file" : 12,
+				"line" : 453,
+				"parent" : 38
+			},
+			{
+				"command" : 15,
+				"file" : 12,
+				"line" : 79,
+				"parent" : 39
+			},
+			{
+				"file" : 11,
+				"parent" : 40
+			},
+			{
+				"command" : 14,
+				"file" : 11,
+				"line" : 39,
+				"parent" : 41
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 43
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 46
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 43
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 50
+			},
+			{
+				"command" : 26,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 51
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 53
+			},
+			{
+				"command" : 26,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 54
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 56
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1207,
+				"parent" : 56
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 60
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 62
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 0
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 64
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 18,
+				"line" : 205,
+				"parent" : 66
+			},
+			{
+				"command" : 33,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 19,
+				"line" : 160,
+				"parent" : 68
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/CMakeFiles/Bluetooth.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Bluetooth_EXPORTS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_BLUETOOTH_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1/QtBluetooth"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/QtNetwork"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				8,
+				10,
+				13,
+				16,
+				19,
+				22,
+				25,
+				28,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				67,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				76
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/CMakeFiles/Bluetooth.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Bluetooth_EXPORTS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_BLUETOOTH_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1/QtBluetooth"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/QtNetwork"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Bluetooth_EXPORTS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_BLUETOOTH_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1/QtBluetooth"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/6.7.1/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork/QtNetwork"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "Bluetooth_autogen_timestamp_deps::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Bluetooth_autogen::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Bluetooth_version_script::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Bluetooth_sync_headers::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "Bluetooth_lib_pri::@61dc9a2b5cbfead25ae5"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Network_sync_headers::@1db477eea17d89636c09"
+		}
+	],
+	"id" : "Bluetooth::@61dc9a2b5cbfead25ae5",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Bluetooth",
+	"nameOnDisk" : "libQt6Bluetooth.so",
+	"paths" : 
+	{
+		"build" : "qtconnectivity/src/bluetooth",
+		"source" : "qtconnectivity/src/bluetooth"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5,
+				6,
+				8,
+				10,
+				13,
+				16,
+				19,
+				22,
+				25,
+				28,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				67,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				76
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				7,
+				9,
+				11,
+				12,
+				14,
+				15,
+				17,
+				18,
+				20,
+				21,
+				23,
+				24,
+				26,
+				27,
+				29,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				68,
+				75,
+				77
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				66,
+				78,
+				79,
+				81
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				80
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				82,
+				83,
+				84,
+				85,
+				86
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/CMakeFiles/Bluetooth.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 57,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/qtbluetoothexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtBluetooth/6.7.1/QtBluetooth/private/qtbluetoothexports_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/lecmaccalculator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 2,
+			"path" : "qtconnectivity/src/bluetooth/removed_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetooth.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetooth.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothaddress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothaddress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdeviceinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothhostinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothhostinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothhostinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothlocaldevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothlocaldevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserver_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserviceinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserviceinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocketbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocketbase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothuuid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothuuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycharacteristic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycharacteristic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontrollerbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontrollerbase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergydescriptor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergydescriptor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergydescriptordata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergydescriptordata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyservice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyservice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyservicedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyservicedata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyserviceprivate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergyserviceprivate_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qprivatelinearbuffer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qtbluetoothglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "qtconnectivity/src/bluetooth/qtbluetoothglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/qtbluetooth-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/qtbluetooth-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/meta_types/qt6bluetooth_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/dummy/dummy_helper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "qtconnectivity/src/bluetooth/dummy/dummy_helper_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserver_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocket_dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "qtconnectivity/src/bluetooth/qbluetoothsocket_dummy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontroller_dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "qtconnectivity/src/bluetooth/qlowenergycontroller_dummy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 67,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/preliminary_prl_for_Bluetooth_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 69,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Bluetooth.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/CMakeFiles/Bluetooth.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/meta_types/qt6bluetooth_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/preliminary_prl_for_Bluetooth_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6Bluetooth.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/Bluetooth_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtconnectivity/src/bluetooth/meta_types/Bluetooth_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

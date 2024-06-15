@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtimageformats/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtimageformats/src/imageformats/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 272,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "install_html_docs_ImageFormats::@9bfd970526c7b4012f02"
+		}
+	],
+	"id" : "install_html_docs_qtimageformats::@57198556e487f86b0cf5",
+	"name" : "install_html_docs_qtimageformats",
+	"paths" : 
+	{
+		"build" : "qtimageformats",
+		"source" : "qtimageformats"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

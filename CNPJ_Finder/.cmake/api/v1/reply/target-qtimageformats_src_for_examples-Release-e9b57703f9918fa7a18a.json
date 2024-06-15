@@ -1,0 +1,87 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtimageformats/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "QTgaPlugin::@3e5044312ab2c3bc427b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QWbmpPlugin::@33d8f5396415a2074432"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QTiffPlugin::@7fabcfaa1588a4c7692e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QWebpPlugin::@b3b7c45966ad49e5d7c8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QICNSPlugin::@4a7b0217bdae3b292ff5"
+		}
+	],
+	"id" : "qtimageformats_src_for_examples::@57198556e487f86b0cf5",
+	"name" : "qtimageformats_src_for_examples",
+	"paths" : 
+	{
+		"build" : "qtimageformats",
+		"source" : "qtimageformats"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

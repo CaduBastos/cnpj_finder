@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/sqldrivers/sqlite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QSQLiteDriverPlugin_version_script::@dc044ba657191f48b2fd"
+		},
+		{
+			"id" : "QSQLiteDriverPlugin_autogen_timestamp_deps::@dc044ba657191f48b2fd"
+		}
+	],
+	"id" : "QSQLiteDriverPlugin_autogen::@dc044ba657191f48b2fd",
+	"isGeneratorProvided" : true,
+	"name" : "QSQLiteDriverPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/sqldrivers/sqlite",
+		"source" : "qtbase/src/plugins/sqldrivers/sqlite"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/sqldrivers/sqlite/CMakeFiles/QSQLiteDriverPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/sqldrivers/sqlite/CMakeFiles/QSQLiteDriverPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/sqldrivers/sqlite/QSQLiteDriverPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

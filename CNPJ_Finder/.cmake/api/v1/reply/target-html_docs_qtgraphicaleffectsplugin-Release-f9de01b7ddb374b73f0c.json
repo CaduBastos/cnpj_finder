@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qt5compat/src/imports/graphicaleffects5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "generate_docs_qtgraphicaleffectsplugin::@26ce633ec2e63dd68c47"
+		}
+	],
+	"id" : "html_docs_qtgraphicaleffectsplugin::@26ce633ec2e63dd68c47",
+	"name" : "html_docs_qtgraphicaleffectsplugin",
+	"paths" : 
+	{
+		"build" : "qt5compat/src/imports/graphicaleffects5",
+		"source" : "qt5compat/src/imports/graphicaleffects5"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

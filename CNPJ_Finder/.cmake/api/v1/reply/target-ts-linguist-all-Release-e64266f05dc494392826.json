@@ -1,0 +1,286 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_ts_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qttranslations/translations/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ts-linguist-ar::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ts-linguist-bg::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ts-linguist-cs::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ts-linguist-da::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ts-linguist-de::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ts-linguist-es::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ts-linguist-fr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "ts-linguist-hr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "ts-linguist-hu::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "ts-linguist-it::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "ts-linguist-ja::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "ts-linguist-ka::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "ts-linguist-ko::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "ts-linguist-nl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "ts-linguist-pl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "ts-linguist-ru::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "ts-linguist-sk::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "ts-linguist-sl::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "ts-linguist-sv::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "ts-linguist-tr::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "ts-linguist-uk::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "ts-linguist-zh_CN::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "ts-linguist-zh_TW::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "ts-linguist-untranslated::@ac001fec6975ed2cc610"
+		}
+	],
+	"id" : "ts-linguist-all::@ac001fec6975ed2cc610",
+	"name" : "ts-linguist-all",
+	"paths" : 
+	{
+		"build" : "qttranslations/translations",
+		"source" : "qttranslations/translations"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

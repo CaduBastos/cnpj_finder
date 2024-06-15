@@ -1,0 +1,150 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtsvg/CMakeLists.txt",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtsvg/src/svg/CMakeLists.txt",
+			"qtsvg/src/svgwidgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 915,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Svg::@b467f01ce70acae3c20a"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Svg_sync_headers::@b467f01ce70acae3c20a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QSvgIconPlugin::@0e597f3a87be19dd6eb4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "QSvgPlugin::@ca42ea307a3580aa37a8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SvgWidgets::@99ad5cef9565babef719"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "SvgWidgets_sync_headers::@99ad5cef9565babef719"
+		}
+	],
+	"id" : "qtsvg_src::@baec950b6194507a830b",
+	"name" : "qtsvg_src",
+	"paths" : 
+	{
+		"build" : "qtsvg",
+		"source" : "qtsvg"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

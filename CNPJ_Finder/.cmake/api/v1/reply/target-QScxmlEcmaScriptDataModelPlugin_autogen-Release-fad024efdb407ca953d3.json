@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtscxml/src/plugins/ecmascriptdatamodel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "QScxmlEcmaScriptDataModelPlugin_autogen_timestamp_deps::@8d75998346e60e9955b9"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QScxmlEcmaScriptDataModelPlugin_version_script::@8d75998346e60e9955b9"
+		}
+	],
+	"id" : "QScxmlEcmaScriptDataModelPlugin_autogen::@8d75998346e60e9955b9",
+	"isGeneratorProvided" : true,
+	"name" : "QScxmlEcmaScriptDataModelPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtscxml/src/plugins/ecmascriptdatamodel",
+		"source" : "qtscxml/src/plugins/ecmascriptdatamodel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtscxml/src/plugins/ecmascriptdatamodel/CMakeFiles/QScxmlEcmaScriptDataModelPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtscxml/src/plugins/ecmascriptdatamodel/CMakeFiles/QScxmlEcmaScriptDataModelPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtscxml/src/plugins/ecmascriptdatamodel/QScxmlEcmaScriptDataModelPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

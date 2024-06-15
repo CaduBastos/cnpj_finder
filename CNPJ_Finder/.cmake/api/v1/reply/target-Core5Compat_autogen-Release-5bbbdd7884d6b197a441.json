@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt5compat/src/core5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Core5Compat_autogen_timestamp_deps::@7fdedc63ca22c4e18891"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core5Compat_version_script::@7fdedc63ca22c4e18891"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core5Compat_sync_headers::@7fdedc63ca22c4e18891"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core5Compat_lib_pri::@7fdedc63ca22c4e18891"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "Core5Compat_autogen::@7fdedc63ca22c4e18891",
+	"isGeneratorProvided" : true,
+	"name" : "Core5Compat_autogen",
+	"paths" : 
+	{
+		"build" : "qt5compat/src/core5",
+		"source" : "qt5compat/src/core5"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/CMakeFiles/Core5Compat_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/CMakeFiles/Core5Compat_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt5compat/src/core5/Core5Compat_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

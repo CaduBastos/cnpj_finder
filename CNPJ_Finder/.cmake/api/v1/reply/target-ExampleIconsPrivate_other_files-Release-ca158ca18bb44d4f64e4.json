@@ -1,0 +1,2855 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_expose_source_file_to_ide",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"set_property"
+		],
+		"files" : 
+		[
+			"qtbase/src/corelib/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"qtbase/src/assets/icons/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 167,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 99
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 101
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 103
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 105
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 107
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 111
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 113
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 115
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 117
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 119
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 121
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 123
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 125
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 129
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 131
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 133
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 135
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 137
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 139
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 141
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 143
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 145
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 147
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 149
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 151
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 153
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 155
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 157
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 159
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 161
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 163
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 165
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 167
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 169
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 171
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 173
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 175
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 177
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 179
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 181
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 183
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 185
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 187
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 189
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 191
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 193
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 195
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 197
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 199
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 201
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 203
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 205
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 207
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 209
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 211
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 213
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 215
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 217
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 219
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 221
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 223
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 225
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 227
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 229
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 231
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 233
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 235
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 237
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 239
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 241
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 243
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 245
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 247
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 249
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 251
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 253
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 255
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 257
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 259
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 261
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 263
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 265
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 267
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 269
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 271
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 273
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 275
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 277
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 279
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 281
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 283
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 285
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 287
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 289
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 291
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 293
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 295
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 297
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 299
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 301
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 303
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 305
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 307
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 309
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 311
+			}
+		]
+	},
+	"id" : "ExampleIconsPrivate_other_files::@c648befb5e8c1d139a5d",
+	"name" : "ExampleIconsPrivate_other_files",
+	"paths" : 
+	{
+		"build" : "qtbase/src/assets/icons",
+		"source" : "qtbase/src/assets/icons"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/assets/icons/.qt/rcc/example_icons.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "qtbase/src/assets/icons/index.theme",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "qtbase/src/assets/icons/16x16/document-new.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "qtbase/src/assets/icons/16x16/document-open.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"path" : "qtbase/src/assets/icons/16x16/document-print.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "qtbase/src/assets/icons/16x16/document-save.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"path" : "qtbase/src/assets/icons/16x16/edit-copy.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"path" : "qtbase/src/assets/icons/16x16/edit-cut.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "qtbase/src/assets/icons/16x16/edit-delete.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"path" : "qtbase/src/assets/icons/16x16/edit-paste.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"path" : "qtbase/src/assets/icons/16x16/edit-redo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 26,
+			"path" : "qtbase/src/assets/icons/16x16/edit-undo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"path" : "qtbase/src/assets/icons/16x16/format-justify-center.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"path" : "qtbase/src/assets/icons/16x16/format-justify-fill.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "qtbase/src/assets/icons/16x16/format-justify-left.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"path" : "qtbase/src/assets/icons/16x16/format-justify-right.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 36,
+			"path" : "qtbase/src/assets/icons/16x16/format-text-bold.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 38,
+			"path" : "qtbase/src/assets/icons/16x16/format-text-italic.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"path" : "qtbase/src/assets/icons/16x16/format-text-underline.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 42,
+			"path" : "qtbase/src/assets/icons/16x16@2/document-new@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"path" : "qtbase/src/assets/icons/16x16@2/document-open@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 46,
+			"path" : "qtbase/src/assets/icons/16x16@2/document-print@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "qtbase/src/assets/icons/16x16@2/document-save@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-copy@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-cut@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 54,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-delete@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 56,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-paste@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-redo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"path" : "qtbase/src/assets/icons/16x16@2/edit-undo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-justify-center@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-justify-fill@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-justify-left@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-justify-right@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-text-bold@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 72,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-text-italic@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "qtbase/src/assets/icons/16x16@2/format-text-underline@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 76,
+			"path" : "qtbase/src/assets/icons/32x32/document-new.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 78,
+			"path" : "qtbase/src/assets/icons/32x32/document-open.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"path" : "qtbase/src/assets/icons/32x32/document-print.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"path" : "qtbase/src/assets/icons/32x32/document-save.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"path" : "qtbase/src/assets/icons/32x32/edit-copy.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"path" : "qtbase/src/assets/icons/32x32/edit-cut.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"path" : "qtbase/src/assets/icons/32x32/edit-delete.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"path" : "qtbase/src/assets/icons/32x32/edit-paste.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"path" : "qtbase/src/assets/icons/32x32/edit-redo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"path" : "qtbase/src/assets/icons/32x32/edit-undo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 96,
+			"path" : "qtbase/src/assets/icons/32x32/format-justify-center.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qtbase/src/assets/icons/32x32/format-justify-fill.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"path" : "qtbase/src/assets/icons/32x32/format-justify-left.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"path" : "qtbase/src/assets/icons/32x32/format-justify-right.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 104,
+			"path" : "qtbase/src/assets/icons/32x32/format-text-bold.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"path" : "qtbase/src/assets/icons/32x32/format-text-italic.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 108,
+			"path" : "qtbase/src/assets/icons/32x32/format-text-underline.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"path" : "qtbase/src/assets/icons/32x32@2/document-new@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "qtbase/src/assets/icons/32x32@2/document-open@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"path" : "qtbase/src/assets/icons/32x32@2/document-print@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"path" : "qtbase/src/assets/icons/32x32@2/document-save@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-copy@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 120,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-cut@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 122,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-delete@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 124,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-paste@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 126,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-redo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 128,
+			"path" : "qtbase/src/assets/icons/32x32@2/edit-undo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 130,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-justify-center@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-justify-fill@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 134,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-justify-left@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 136,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-justify-right@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 138,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-text-bold@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 140,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-text-italic@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 142,
+			"path" : "qtbase/src/assets/icons/32x32@2/format-text-underline@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 144,
+			"path" : "qtbase/src/assets/icons/128x128/document-new.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 146,
+			"path" : "qtbase/src/assets/icons/128x128/document-open.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 148,
+			"path" : "qtbase/src/assets/icons/128x128/document-print.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 150,
+			"path" : "qtbase/src/assets/icons/128x128/document-save.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 152,
+			"path" : "qtbase/src/assets/icons/128x128/edit-copy.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 154,
+			"path" : "qtbase/src/assets/icons/128x128/edit-cut.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 156,
+			"path" : "qtbase/src/assets/icons/128x128/edit-delete.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 158,
+			"path" : "qtbase/src/assets/icons/128x128/edit-paste.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 160,
+			"path" : "qtbase/src/assets/icons/128x128/edit-redo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 162,
+			"path" : "qtbase/src/assets/icons/128x128/edit-undo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 164,
+			"path" : "qtbase/src/assets/icons/128x128/format-justify-center.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 166,
+			"path" : "qtbase/src/assets/icons/128x128/format-justify-fill.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 168,
+			"path" : "qtbase/src/assets/icons/128x128/format-justify-left.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 170,
+			"path" : "qtbase/src/assets/icons/128x128/format-justify-right.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 172,
+			"path" : "qtbase/src/assets/icons/128x128/format-text-bold.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 174,
+			"path" : "qtbase/src/assets/icons/128x128/format-text-italic.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 176,
+			"path" : "qtbase/src/assets/icons/128x128/format-text-underline.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 178,
+			"path" : "qtbase/src/assets/icons/128x128@2/document-new@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 180,
+			"path" : "qtbase/src/assets/icons/128x128@2/document-open@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 182,
+			"path" : "qtbase/src/assets/icons/128x128@2/document-print@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 184,
+			"path" : "qtbase/src/assets/icons/128x128@2/document-save@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 186,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-copy@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 188,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-cut@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 190,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-delete@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 192,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-paste@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 194,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-redo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 196,
+			"path" : "qtbase/src/assets/icons/128x128@2/edit-undo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 198,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-justify-center@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 200,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-justify-fill@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 202,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-justify-left@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 204,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-justify-right@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 206,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-text-bold@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 208,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-text-italic@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 210,
+			"path" : "qtbase/src/assets/icons/128x128@2/format-text-underline@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 212,
+			"path" : "qtbase/src/assets/icons/256x256/document-new.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 214,
+			"path" : "qtbase/src/assets/icons/256x256/document-open.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 216,
+			"path" : "qtbase/src/assets/icons/256x256/document-print.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 218,
+			"path" : "qtbase/src/assets/icons/256x256/document-save.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 220,
+			"path" : "qtbase/src/assets/icons/256x256/edit-copy.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 222,
+			"path" : "qtbase/src/assets/icons/256x256/edit-cut.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 224,
+			"path" : "qtbase/src/assets/icons/256x256/edit-delete.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 226,
+			"path" : "qtbase/src/assets/icons/256x256/edit-paste.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 228,
+			"path" : "qtbase/src/assets/icons/256x256/edit-redo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 230,
+			"path" : "qtbase/src/assets/icons/256x256/edit-undo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 232,
+			"path" : "qtbase/src/assets/icons/256x256/format-justify-center.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 234,
+			"path" : "qtbase/src/assets/icons/256x256/format-justify-fill.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 236,
+			"path" : "qtbase/src/assets/icons/256x256/format-justify-left.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 238,
+			"path" : "qtbase/src/assets/icons/256x256/format-justify-right.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 240,
+			"path" : "qtbase/src/assets/icons/256x256/format-text-bold.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 242,
+			"path" : "qtbase/src/assets/icons/256x256/format-text-italic.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 244,
+			"path" : "qtbase/src/assets/icons/256x256/format-text-underline.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 246,
+			"path" : "qtbase/src/assets/icons/256x256@2/document-new@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 248,
+			"path" : "qtbase/src/assets/icons/256x256@2/document-open@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 250,
+			"path" : "qtbase/src/assets/icons/256x256@2/document-print@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 252,
+			"path" : "qtbase/src/assets/icons/256x256@2/document-save@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 254,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-copy@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 256,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-cut@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 258,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-delete@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 260,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-paste@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 262,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-redo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 264,
+			"path" : "qtbase/src/assets/icons/256x256@2/edit-undo@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 266,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-justify-center@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 268,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-justify-fill@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 270,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-justify-left@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 272,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-justify-right@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 274,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-text-bold@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 276,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-text-italic@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 278,
+			"path" : "qtbase/src/assets/icons/256x256@2/format-text-underline@2x.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 280,
+			"path" : "qtbase/src/assets/icons/scalable/document-new.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 282,
+			"path" : "qtbase/src/assets/icons/scalable/document-open.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 284,
+			"path" : "qtbase/src/assets/icons/scalable/document-print.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 286,
+			"path" : "qtbase/src/assets/icons/scalable/document-save.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 288,
+			"path" : "qtbase/src/assets/icons/scalable/edit-copy.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 290,
+			"path" : "qtbase/src/assets/icons/scalable/edit-cut.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 292,
+			"path" : "qtbase/src/assets/icons/scalable/edit-delete.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 294,
+			"path" : "qtbase/src/assets/icons/scalable/edit-paste.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 296,
+			"path" : "qtbase/src/assets/icons/scalable/edit-redo.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 298,
+			"path" : "qtbase/src/assets/icons/scalable/edit-undo.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 300,
+			"path" : "qtbase/src/assets/icons/scalable/format-justify-center.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 302,
+			"path" : "qtbase/src/assets/icons/scalable/format-justify-fill.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 304,
+			"path" : "qtbase/src/assets/icons/scalable/format-justify-left.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 306,
+			"path" : "qtbase/src/assets/icons/scalable/format-justify-right.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 308,
+			"path" : "qtbase/src/assets/icons/scalable/format-text-bold.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 310,
+			"path" : "qtbase/src/assets/icons/scalable/format-text-italic.svg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 312,
+			"path" : "qtbase/src/assets/icons/scalable/format-text-underline.svg",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

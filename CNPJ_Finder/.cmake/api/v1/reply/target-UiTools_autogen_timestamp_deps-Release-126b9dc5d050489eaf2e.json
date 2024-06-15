@@ -1,0 +1,85 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qttools/src/uitools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "UiPlugin::@1fa6a9cbad4ebcf3e5ea"
+		},
+		{
+			"id" : "UiTools_sync_headers::@e77ce7598941c41e0d73"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"id" : "Widgets::@9a4b53f49ed997d8bad6"
+		},
+		{
+			"id" : "OpenGLWidgets::@5c0e57a89c8c6a8b2532"
+		}
+	],
+	"id" : "UiTools_autogen_timestamp_deps::@e77ce7598941c41e0d73",
+	"isGeneratorProvided" : true,
+	"name" : "UiTools_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qttools/src/uitools",
+		"source" : "qttools/src/uitools"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/uitools/CMakeFiles/UiTools_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/uitools/CMakeFiles/UiTools_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

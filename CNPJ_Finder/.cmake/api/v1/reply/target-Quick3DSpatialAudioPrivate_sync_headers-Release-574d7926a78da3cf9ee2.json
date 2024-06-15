@@ -1,0 +1,107 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtmultimedia/src/spatialaudioquick3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Quick3D_sync_headers::@60de046a73c3f1bf5cbb"
+		},
+		{
+			"id" : "SpatialAudio_sync_headers::@ad1b23e3ac9050538eca"
+		},
+		{
+			"id" : "syncqt::@bde8fd3945225648c441"
+		}
+	],
+	"id" : "Quick3DSpatialAudioPrivate_sync_headers::@9923edfbe76b9501d683",
+	"name" : "Quick3DSpatialAudioPrivate_sync_headers",
+	"paths" : 
+	{
+		"build" : "qtmultimedia/src/spatialaudioquick3d",
+		"source" : "qtmultimedia/src/spatialaudioquick3d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/CMakeFiles/Quick3DSpatialAudioPrivate_sync_headers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/CMakeFiles/Quick3DSpatialAudioPrivate_sync_headers.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/Quick3DSpatialAudioPrivate_syncqt_timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

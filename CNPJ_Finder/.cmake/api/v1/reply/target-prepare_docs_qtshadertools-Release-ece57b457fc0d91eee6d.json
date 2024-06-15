@@ -1,0 +1,76 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtshadertools/CMakeLists.txt",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtshadertools/src/shadertools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 274,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 53,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 269,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "prepare_docs_ShaderTools::@484bb1c56e28263ebe8f"
+		}
+	],
+	"id" : "prepare_docs_qtshadertools::@289997075d89e55c951f",
+	"name" : "prepare_docs_qtshadertools",
+	"paths" : 
+	{
+		"build" : "qtshadertools",
+		"source" : "qtshadertools"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

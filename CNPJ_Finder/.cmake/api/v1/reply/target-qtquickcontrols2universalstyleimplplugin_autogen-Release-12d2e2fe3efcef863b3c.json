@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/universal/impl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtquickcontrols2universalstyleimplplugin_version_script::@28293bd7f3640a6ffead"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "qtquickcontrols2universalstyleimplplugin_autogen_timestamp_deps::@28293bd7f3640a6ffead"
+		}
+	],
+	"id" : "qtquickcontrols2universalstyleimplplugin_autogen::@28293bd7f3640a6ffead",
+	"isGeneratorProvided" : true,
+	"name" : "qtquickcontrols2universalstyleimplplugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/universal/impl",
+		"source" : "qtdeclarative/src/quickcontrols/universal/impl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/impl/CMakeFiles/qtquickcontrols2universalstyleimplplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/impl/CMakeFiles/qtquickcontrols2universalstyleimplplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/impl/qtquickcontrols2universalstyleimplplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

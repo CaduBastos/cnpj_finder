@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtbase/src/plugins/generic/evdevkeyboard/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QEvdevKeyboardPlugin_version_script::@4c07a38a0f9097dfc1fa"
+		},
+		{
+			"id" : "QEvdevKeyboardPlugin_autogen_timestamp_deps::@4c07a38a0f9097dfc1fa"
+		}
+	],
+	"id" : "QEvdevKeyboardPlugin_autogen::@4c07a38a0f9097dfc1fa",
+	"isGeneratorProvided" : true,
+	"name" : "QEvdevKeyboardPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/generic/evdevkeyboard",
+		"source" : "qtbase/src/plugins/generic/evdevkeyboard"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/generic/evdevkeyboard/CMakeFiles/QEvdevKeyboardPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/generic/evdevkeyboard/CMakeFiles/QEvdevKeyboardPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/plugins/generic/evdevkeyboard/QEvdevKeyboardPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

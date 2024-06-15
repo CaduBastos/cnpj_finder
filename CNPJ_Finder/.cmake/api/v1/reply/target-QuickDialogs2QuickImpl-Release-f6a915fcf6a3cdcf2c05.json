@@ -1,0 +1,4653 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt6QuickDialogs2QuickImpl.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"qt_internal_add_qml_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"qt6_add_qml_module",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"qt_generate_module_pri_file",
+			"add_custom_command",
+			"_qt_internal_target_enable_qmlcachegen",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt_internal_add_resource",
+			"_qt_internal_add_shaders_impl",
+			"qt_internal_add_shaders",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtdeclarative/src/qml/Qt6QmlMacros.cmake",
+			"qtdeclarative/src/quickdialogs/quickdialogsutils/CMakeLists.txt",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/gui/CMakeLists.txt",
+			"qtdeclarative/src/qml/CMakeLists.txt",
+			"qtdeclarative/src/qmlmodels/CMakeLists.txt",
+			"qtdeclarative/src/quick/CMakeLists.txt",
+			"qtdeclarative/src/quicktemplates/CMakeLists.txt",
+			"qtdeclarative/src/quickcontrolsimpl/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 137,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 2
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 171,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 392,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 23
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 9,
+				"line" : 647,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 2747,
+				"parent" : 26
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 136,
+				"parent" : 13
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 251,
+				"parent" : 12
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 11
+			},
+			{
+				"command" : 14,
+				"file" : 11,
+				"line" : 559,
+				"parent" : 30
+			},
+			{
+				"command" : 18,
+				"file" : 9,
+				"line" : 2635,
+				"parent" : 26
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 1216,
+				"parent" : 32
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 34
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 35
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 36
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 37
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 39
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 40
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 41
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 42
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 44
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 47
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 49
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 50
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 52
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 53
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 54
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 55
+			},
+			{
+				"file" : 16
+			},
+			{
+				"file" : 16,
+				"line" : -1,
+				"parent" : 57
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 58
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 59
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 60
+			},
+			{
+				"file" : 17
+			},
+			{
+				"file" : 17,
+				"line" : -1,
+				"parent" : 62
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 63
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 64
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 65
+			},
+			{
+				"file" : 18
+			},
+			{
+				"file" : 18,
+				"line" : -1,
+				"parent" : 67
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 68
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 69
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 256,
+				"parent" : 70
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"file" : 24
+			},
+			{
+				"command" : 25,
+				"file" : 24,
+				"line" : 63,
+				"parent" : 75
+			},
+			{
+				"command" : 24,
+				"file" : 23,
+				"line" : 494,
+				"parent" : 76
+			},
+			{
+				"command" : 23,
+				"file" : 23,
+				"line" : 179,
+				"parent" : 77
+			},
+			{
+				"command" : 20,
+				"file" : 23,
+				"line" : 21,
+				"parent" : 78
+			},
+			{
+				"file" : 22,
+				"parent" : 79
+			},
+			{
+				"command" : 20,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 80
+			},
+			{
+				"file" : 21,
+				"parent" : 81
+			},
+			{
+				"command" : 22,
+				"file" : 21,
+				"line" : 4,
+				"parent" : 82
+			},
+			{
+				"command" : 21,
+				"file" : 20,
+				"line" : 453,
+				"parent" : 83
+			},
+			{
+				"command" : 20,
+				"file" : 20,
+				"line" : 79,
+				"parent" : 84
+			},
+			{
+				"file" : 19,
+				"parent" : 85
+			},
+			{
+				"command" : 19,
+				"file" : 19,
+				"line" : 39,
+				"parent" : 86
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 2
+			},
+			{
+				"command" : 26,
+				"file" : 5,
+				"line" : 311,
+				"parent" : 88
+			},
+			{
+				"command" : 28,
+				"file" : 8,
+				"line" : 168,
+				"parent" : 15
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 2
+			},
+			{
+				"command" : 28,
+				"file" : 8,
+				"line" : 1435,
+				"parent" : 91
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 310,
+				"parent" : 88
+			},
+			{
+				"command" : 30,
+				"file" : 8,
+				"line" : 163,
+				"parent" : 15
+			},
+			{
+				"command" : 31,
+				"file" : 9,
+				"line" : 541,
+				"parent" : 17
+			},
+			{
+				"command" : 30,
+				"file" : 9,
+				"line" : 3099,
+				"parent" : 95
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 97
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 98
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 100
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 101
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 103
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 104
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 106
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 107
+			},
+			{
+				"command" : 34,
+				"file" : 8,
+				"line" : 112,
+				"parent" : 15
+			},
+			{
+				"command" : 33,
+				"file" : 25,
+				"line" : 15,
+				"parent" : 109
+			},
+			{
+				"command" : 32,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 110
+			},
+			{
+				"command" : 36,
+				"file" : 1,
+				"line" : 435,
+				"parent" : 2
+			},
+			{
+				"command" : 35,
+				"file" : 1,
+				"line" : 1194,
+				"parent" : 112
+			},
+			{
+				"command" : 35,
+				"file" : 1,
+				"line" : 1207,
+				"parent" : 112
+			},
+			{
+				"command" : 35,
+				"file" : 8,
+				"line" : 147,
+				"parent" : 15
+			},
+			{
+				"command" : 37,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 2
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 116
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 3065,
+				"parent" : 95
+			},
+			{
+				"command" : 40,
+				"file" : 9,
+				"line" : 590,
+				"parent" : 17
+			},
+			{
+				"command" : 39,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 119
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 120
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 121
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 1244,
+				"parent" : 32
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2531,
+				"parent" : 26
+			},
+			{
+				"command" : 35,
+				"file" : 9,
+				"line" : 2683,
+				"parent" : 26
+			},
+			{
+				"command" : 40,
+				"file" : 9,
+				"line" : 2766,
+				"parent" : 26
+			},
+			{
+				"command" : 39,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 218
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 219
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 220
+			},
+			{
+				"command" : 12,
+				"file" : 3,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 35,
+				"file" : 8,
+				"line" : 147,
+				"parent" : 222
+			},
+			{
+				"command" : 41,
+				"file" : 3,
+				"line" : 225,
+				"parent" : 0
+			},
+			{
+				"command" : 39,
+				"file" : 26,
+				"line" : 30,
+				"parent" : 224
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 225
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 226
+			},
+			{
+				"command" : 43,
+				"file" : 3,
+				"line" : 232,
+				"parent" : 0
+			},
+			{
+				"command" : 42,
+				"file" : 27,
+				"line" : 308,
+				"parent" : 228
+			},
+			{
+				"command" : 41,
+				"file" : 27,
+				"line" : 264,
+				"parent" : 229
+			},
+			{
+				"command" : 39,
+				"file" : 26,
+				"line" : 30,
+				"parent" : 230
+			},
+			{
+				"command" : 38,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 231
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 232
+			},
+			{
+				"command" : 44,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 11
+			},
+			{
+				"command" : 35,
+				"file" : 28,
+				"line" : 205,
+				"parent" : 234
+			},
+			{
+				"command" : 45,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 11
+			},
+			{
+				"command" : 35,
+				"file" : 29,
+				"line" : 160,
+				"parent" : 236
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 89,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 90,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILD_QUICKDIALOGS2QUICKIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 93,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKDIALOGS2UTILS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickDialogs2QuickImpl_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsutils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 99,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 102,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 105,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 108,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 111,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/QtQuickTemplates2"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				7,
+				11,
+				12,
+				14,
+				16,
+				19,
+				21,
+				23,
+				25,
+				29,
+				32,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				132,
+				135,
+				138,
+				141,
+				143,
+				145
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 89,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 90,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILD_QUICKDIALOGS2QUICKIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 93,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKDIALOGS2UTILS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickDialogs2QuickImpl_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsutils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 99,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 102,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 105,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 108,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 111,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/QtQuickTemplates2"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 87,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 89,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 90,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_BUILD_QUICKDIALOGS2QUICKIMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 93,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKCONTROLS2IMPL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKDIALOGS2UTILS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 90,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "QuickDialogs2QuickImpl_EXPORTS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl/6.7.1/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2Impl"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsutils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/6.7.1/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 99,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 102,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 105,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/QtQuick"
+				},
+				{
+					"backtrace" : 108,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2Utils/QtQuickDialogs2Utils"
+				},
+				{
+					"backtrace" : 111,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/QtQuickTemplates2"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				30,
+				126,
+				147,
+				148
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 19,
+			"id" : "QuickControls2Material::@a5aa0af7d22794615bdb"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "QuickControls2Universal::@26392891d9b1a1e52c80"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickDialogs2Utils::@9ddd469fe19f2ebb9e2f"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "QuickDialogs2Utils_sync_headers::@9ddd469fe19f2ebb9e2f"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "QuickDialogs2QuickImpl_tooling::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "QuickDialogs2QuickImpl_version_script::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "QuickDialogs2QuickImpl_sync_headers::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "QuickDialogs2QuickImpl_lib_pri::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "qmlcachegen::@e720dc932ac7ed76011b"
+		},
+		{
+			"id" : "qmltyperegistrar::@b7d96742f61bda066508"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "rcc::@bea154ae34688698a385"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "Gui_sync_headers::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"id" : "qsb::@3a860c13ae1d73cd1ff7"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlIntegration::@29f26caaecb4c251c292"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlBuiltins::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "QmlBuiltins_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "Qml_sync_headers::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlModels::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "QmlModels_sync_headers::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "Quick_sync_headers::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickTemplates2::@d8e4b05793fe777813fb"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "QuickTemplates2_sync_headers::@d8e4b05793fe777813fb"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QuickControls2Impl::@43d63f53c887901ae31b"
+		},
+		{
+			"backtrace" : 71,
+			"id" : "QuickControls2Impl_sync_headers::@43d63f53c887901ae31b"
+		},
+		{
+			"backtrace" : 72,
+			"id" : "QuickControls2Basic::@f3603730969a3f4688de"
+		},
+		{
+			"backtrace" : 73,
+			"id" : "QuickControls2Fusion::@bf51e4d6335e76f1f49b"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "QuickControls2Imagine::@4f40d3ff401839b5c364"
+		},
+		{
+			"id" : "QuickDialogs2QuickImpl_autogen_timestamp_deps::@41a59b2ff1f2e91f4e79"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickDialogs2QuickImpl_autogen::@41a59b2ff1f2e91f4e79"
+		}
+	],
+	"id" : "QuickDialogs2QuickImpl::@41a59b2ff1f2e91f4e79",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QuickControls2Impl.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6QuickDialogs2Utils.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6QuickTemplates2.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "qtbase/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "QuickDialogs2QuickImpl",
+	"nameOnDisk" : "libQt6QuickDialogs2QuickImpl.so",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl",
+		"source" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				7,
+				11,
+				12,
+				14,
+				16,
+				19,
+				21,
+				23,
+				25,
+				29,
+				30,
+				32,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				126,
+				127,
+				129,
+				132,
+				135,
+				138,
+				141,
+				143,
+				145,
+				147,
+				148
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				6,
+				8,
+				9,
+				10,
+				13,
+				15,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				27,
+				128,
+				130,
+				131,
+				133,
+				134,
+				136,
+				137,
+				139,
+				140,
+				142,
+				144,
+				146
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				28,
+				31,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				149,
+				150,
+				152,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				151
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/qtquickdialogs2quickimplexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1/QtQuickDialogs2QuickImpl/private/qtquickdialogs2quickimplexports_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickabstractcolorpicker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickabstractcolorpicker_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickabstractcolorpicker_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolordialogimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolordialogimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolordialogimpl_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolordialogutils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolordialogutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolorinputs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickcolorinputs_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickdialogimplfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickdialogimplfactory_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickmessagedialogimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickmessagedialogimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickmessagedialogimpl_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformcolordialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformcolordialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformmessagedialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformmessagedialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquicksaturationlightnesspicker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquicksaturationlightnesspicker_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qtquickdialogs2quickimplforeign.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qtquickdialogs2quickimplforeign_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qtquickdialogs2quickimplglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/meta_types/qt6quickdialogs2quickimpl_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/quickdialogs2quickimpl_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_qmake_QtQuick_Dialogs_quickimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/ColorDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/ColorDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/ColorInputs.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 127,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/ColorInputs_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FileDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 129,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 130,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FileDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FileDialogDelegateLabel.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 133,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialogDelegateLabel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 134,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FolderBreadcrumbBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 135,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderBreadcrumbBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 136,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FolderDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 137,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 138,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FolderDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 139,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 140,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FolderDialogDelegateLabel.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 141,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialogDelegateLabel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 142,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FontDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 143,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FontDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 144,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/FontDialogContent.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 145,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FontDialogContent_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 146,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/HueGradient.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 147,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/HueGradient_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 148,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/MessageDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 149,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/MessageDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 150,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/PickerHandle.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 151,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/PickerHandle_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 152,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/SaturationLightnessPicker.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 153,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/SaturationLightnessPicker_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 154,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/ColorDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 155,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/ColorDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 156,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FileDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 157,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FileDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 158,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FileDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 159,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FileDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 160,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FolderBreadcrumbBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 161,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderBreadcrumbBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 162,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FolderDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 164,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FolderDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 165,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 166,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/FontDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 167,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FontDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 168,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Fusion/MessageDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/MessageDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 170,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/ColorDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 171,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/ColorDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 172,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FileDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 173,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FileDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 174,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FileDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 175,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FileDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 176,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FolderBreadcrumbBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 177,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderBreadcrumbBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 178,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FolderDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 179,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 180,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FolderDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 181,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 182,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/FontDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 183,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FontDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 184,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Imagine/MessageDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 185,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/MessageDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 186,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/ColorDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 187,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/ColorDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 188,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FileDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 189,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FileDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 190,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FileDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 191,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FileDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 192,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FolderBreadcrumbBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 193,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderBreadcrumbBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 194,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FolderDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 195,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 196,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FolderDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 197,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 198,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/FontDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 199,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FontDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 200,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Material/MessageDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 201,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/MessageDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 202,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/ColorDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 203,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/ColorDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 204,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FileDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 205,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FileDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 206,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FileDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 207,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FileDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 208,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FolderBreadcrumbBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 209,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderBreadcrumbBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 210,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FolderDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 211,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 212,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FolderDialogDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 213,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderDialogDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 214,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/FontDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 215,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FontDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 216,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qml/+Universal/MessageDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 217,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/MessageDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 221,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImpl_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfiledialogdelegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfiledialogdelegate_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfiledialogimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfiledialogimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfiledialogimpl_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderbreadcrumbbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderbreadcrumbbar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderbreadcrumbbar_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderdialogimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderdialogimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfolderdialogimpl_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfontdialogimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfontdialogimpl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickfontdialogimpl_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfiledialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfiledialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfolderdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfolderdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 223,
+			"compileGroupIndex" : 0,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfontdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 223,
+			"path" : "qtdeclarative/src/quickdialogs/quickdialogsquickimpl/qquickplatformfontdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 227,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 233,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImplShaders.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 235,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/preliminary_prl_for_QuickDialogs2QuickImpl_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 237,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6QuickDialogs2QuickImpl.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/CMakeFiles/QuickDialogs2QuickImpl.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/meta_types/qt6quickdialogs2quickimpl_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/quickdialogs2quickimpl_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_qmake_QtQuick_Dialogs_quickimpl.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/ColorDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/ColorInputs_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FileDialogDelegateLabel_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderBreadcrumbBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FolderDialogDelegateLabel_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FontDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/FontDialogContent_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/HueGradient_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/MessageDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/PickerHandle_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/SaturationLightnessPicker_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/ColorDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FileDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FileDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderBreadcrumbBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FolderDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/FontDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Fusion/MessageDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/ColorDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FileDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FileDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderBreadcrumbBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FolderDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/FontDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Imagine/MessageDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/ColorDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FileDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FileDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderBreadcrumbBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FolderDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/FontDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Material/MessageDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/ColorDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FileDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FileDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderBreadcrumbBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FolderDialogDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/FontDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.rcc/qmlcache/QuickDialogs2QuickImpl_qml/+Universal/MessageDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImpl_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImpl.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qt/rcc/qrc_QuickDialogs2QuickImplShaders.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/preliminary_prl_for_QuickDialogs2QuickImpl_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6QuickDialogs2QuickImpl.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/QuickDialogs2QuickImpl_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/meta_types/QuickDialogs2QuickImpl_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl/.qsb/shaders/SaturationLightness.frag.qsb.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib/meta_types/qt6core_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui/meta_types/qt6gui_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick/meta_types/qt6quick_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qml_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml/meta_types/qt6qmlbuiltins_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/network/meta_types/qt6network_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels/meta_types/qt6qmlmodels_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/opengl/meta_types/qt6opengl_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolsimpl/meta_types/qt6quickcontrols2impl_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsutils/meta_types/qt6quickdialogs2utils_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates/meta_types/qt6quicktemplates2_release_metatypes.json",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

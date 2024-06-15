@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtpositioning/src/plugins/position/positionpoll/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Positioning::@9d46389cb8471f8f1d24"
+		},
+		{
+			"id" : "Positioning_sync_headers::@9d46389cb8471f8f1d24"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Core::@03825b256518b1168c29"
+		}
+	],
+	"id" : "QGeoPositionInfoSourceFactoryPollPlugin_autogen_timestamp_deps::@065f10484a33c1a6ace4",
+	"isGeneratorProvided" : true,
+	"name" : "QGeoPositionInfoSourceFactoryPollPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/plugins/position/positionpoll",
+		"source" : "qtpositioning/src/plugins/position/positionpoll"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/positionpoll/CMakeFiles/QGeoPositionInfoSourceFactoryPollPlugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/plugins/position/positionpoll/CMakeFiles/QGeoPositionInfoSourceFactoryPollPlugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

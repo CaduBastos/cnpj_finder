@@ -1,0 +1,146 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtimageformats/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtimageformats_cmake_files::@57198556e487f86b0cf5",
+	"name" : "qtimageformats_cmake_files",
+	"paths" : 
+	{
+		"build" : "qtimageformats",
+		"source" : "qtimageformats"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "cmake",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "src\\3rdparty\\libtiff\\libtiff",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		},
+		{
+			"name" : "src\\imageformats",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/.cmake.conf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/cmake/FindLibmng.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/cmake/FindWrapJasper.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/cmake/FindWrapWebP.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/configure.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/qt_cmdline.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/src/3rdparty/libtiff/libtiff/tif_config.h.cmake.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/src/3rdparty/libtiff/libtiff/tiffconf.h.cmake.in",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/src/imageformats/configure.cmake",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtimageformats/src/imageformats/qt_cmdline.cmake",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "UTILITY"
+}

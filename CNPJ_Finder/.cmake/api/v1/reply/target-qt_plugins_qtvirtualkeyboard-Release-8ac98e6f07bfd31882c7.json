@@ -1,0 +1,390 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtvirtualkeyboard/CMakeLists.txt",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtvirtualkeyboard/src/virtualkeyboard/CMakeLists.txt",
+			"qtvirtualkeyboard/src/settings/CMakeLists.txt",
+			"qtvirtualkeyboard/src/components/CMakeLists.txt",
+			"qtvirtualkeyboard/src/layouts/CMakeLists.txt",
+			"qtvirtualkeyboard/src/styles/CMakeLists.txt",
+			"qtvirtualkeyboard/src/styles/builtin/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugin/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/hangul/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/openwnn/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/pinyin/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/tcime/CMakeLists.txt",
+			"qtvirtualkeyboard/src/plugins/thai/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 6
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 42,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 18
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 14,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 22
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 4,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 26
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 8,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 29
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 42,
+				"parent" : 31
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 33
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 8,
+				"parent" : 35
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 37
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 10,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 41
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 10,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 45
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 10,
+				"parent" : 47
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 49
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 16,
+				"line" : 8,
+				"parent" : 51
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 53
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "qtvkbplugin::@d7043907fa59c054e379"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "qtvkbsettingsplugin::@a16b477fed1f725845e8"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "qtvkbcomponentsplugin::@92748dbbdf9089e93004"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "qtvkblayoutsplugin::@15d5b235cc9d3ae2c5f0"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "qtvkbstylesplugin::@d4d213a524047152cb91"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "qtvkbbuiltinstylesplugin::@17390adef51dd0124a20"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "QVirtualKeyboardPlugin::@8cdd951ff86eeed938ff"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "qtvkbpluginsplugin::@7e18607b9a7d234070fd"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "qtvkbhangulplugin::@6122dfe856a15d46d5b6"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "qtvkbopenwnnplugin::@98ba4ef49357197b9e8f"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "qtvkbpinyinplugin::@e2bc37036fffd16cc1ee"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "qtvkbtcimeplugin::@d7fcd9c994d1859ce9d6"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "qtvkbthaiplugin::@9c3ebf2f052463911be5"
+		}
+	],
+	"id" : "qt_plugins_qtvirtualkeyboard::@45172afbc29b91a1b9bb",
+	"name" : "qt_plugins_qtvirtualkeyboard",
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard",
+		"source" : "qtvirtualkeyboard"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,90 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtdeclarative/src/quickcontrols/universal/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Universal_tooling::@26392891d9b1a1e52c80"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Universal_version_script::@26392891d9b1a1e52c80"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Universal_sync_headers::@26392891d9b1a1e52c80"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QuickControls2Universal_lib_pri::@26392891d9b1a1e52c80"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "QuickControls2Universal_autogen_timestamp_deps::@26392891d9b1a1e52c80"
+		}
+	],
+	"id" : "QuickControls2Universal_autogen::@26392891d9b1a1e52c80",
+	"isGeneratorProvided" : true,
+	"name" : "QuickControls2Universal_autogen",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrols/universal",
+		"source" : "qtdeclarative/src/quickcontrols/universal"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/CMakeFiles/QuickControls2Universal_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/CMakeFiles/QuickControls2Universal_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrols/universal/QuickControls2Universal_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

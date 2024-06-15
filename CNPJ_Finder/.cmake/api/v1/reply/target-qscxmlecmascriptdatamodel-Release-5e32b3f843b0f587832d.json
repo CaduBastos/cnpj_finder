@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtscxml/src/plugins/ecmascriptdatamodel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QScxmlEcmaScriptDataModelPlugin::@8d75998346e60e9955b9"
+		}
+	],
+	"id" : "qscxmlecmascriptdatamodel::@8d75998346e60e9955b9",
+	"name" : "qscxmlecmascriptdatamodel",
+	"paths" : 
+	{
+		"build" : "qtscxml/src/plugins/ecmascriptdatamodel",
+		"source" : "qtscxml/src/plugins/ecmascriptdatamodel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

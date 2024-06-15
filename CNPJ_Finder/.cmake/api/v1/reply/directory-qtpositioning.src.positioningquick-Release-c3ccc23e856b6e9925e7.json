@@ -1,0 +1,602 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_internal_add_qml_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtpositioning/src/positioningquick/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1035,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 441,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 452,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 461,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 416,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 738,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1013,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 738,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1013,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 242,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 562,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 162,
+				"parent" : 48
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 49
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtpositioning/src/positioningquick/meta_types/qt6positioningquick_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6PositioningQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6PositioningQuick.so.6.7.1",
+				"qtbase/lib/libQt6PositioningQuick.so.6"
+			],
+			"targetId" : "PositioningQuick::@66fcabd510f4d74d9ab0",
+			"targetIndex" : 601,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6PositioningQuick.so"
+			],
+			"targetId" : "PositioningQuick::@66fcabd510f4d74d9ab0",
+			"targetIndex" : 601,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PositioningQuick",
+			"exportName" : "Qt6PositioningQuickTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PositioningQuick::@66fcabd510f4d74d9ab0",
+					"index" : 601
+				},
+				{
+					"id" : "PositioningQuickPrivate::@66fcabd510f4d74d9ab0",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtpositioning/src/positioningquick/CMakeFiles/Export/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PositioningQuick",
+			"exportName" : "Qt6PositioningQuickVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PositioningQuickVersionless::@66fcabd510f4d74d9ab0",
+					"index" : 0
+				},
+				{
+					"id" : "PositioningQuickPrivateVersionless::@66fcabd510f4d74d9ab0",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtpositioning/src/positioningquick/CMakeFiles/Export/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/PositioningQuick.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtPositioning",
+			"paths" : 
+			[
+				"qtbase/qml/QtPositioning/libpositioningquickplugin.so"
+			],
+			"targetId" : "positioningquickplugin::@66fcabd510f4d74d9ab0",
+			"targetIndex" : 2776,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6positioningquickpluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "positioningquickplugin::@66fcabd510f4d74d9ab0",
+					"index" : 2776
+				}
+			],
+			"paths" : 
+			[
+				"qtpositioning/src/positioningquick/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtPositioning",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtPositioning/plugins.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtPositioning",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtPositioning/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PositioningQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioningQuick",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioningQuick/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioningQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioningQuick/qtpositioningquickexports.h",
+				"qtpositioning/src/positioningquick/qpositioningquickglobal.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioningQuick/QtPositioningQuickDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "include/QtPositioningQuick/6.7.1/QtPositioningQuick/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtPositioningQuick/6.7.1/QtPositioningQuick/private/qtpositioningquickexports_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativeposition_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h",
+				"qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h",
+				"qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h",
+				"qtpositioning/src/positioningquick/locationsingleton_p.h",
+				"qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h",
+				"qtpositioning/src/positioningquick/qpositioningquickglobal_p.h",
+				"qtpositioning/src/positioningquick/qpositioningquickmodule_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_positioningquick.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_positioningquick_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6PositioningQuick.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/positioningquick",
+		"source" : "qtpositioning/src/positioningquick"
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_ts_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qttranslations/translations/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ts-qtbase-fa::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ts-qtdeclarative-fa::@ac001fec6975ed2cc610"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ts-qtmultimedia-fa::@ac001fec6975ed2cc610"
+		}
+	],
+	"id" : "ts-fa::@ac001fec6975ed2cc610",
+	"name" : "ts-fa",
+	"paths" : 
+	{
+		"build" : "qttranslations/translations",
+		"source" : "qttranslations/translations"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

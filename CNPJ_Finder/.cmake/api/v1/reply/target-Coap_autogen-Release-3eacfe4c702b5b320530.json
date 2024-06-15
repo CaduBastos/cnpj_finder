@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtcoap/src/coap/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Coap_autogen_timestamp_deps::@6d752d65743953cd3185"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Coap_version_script::@6d752d65743953cd3185"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Coap_sync_headers::@6d752d65743953cd3185"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Coap_lib_pri::@6d752d65743953cd3185"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "Coap_autogen::@6d752d65743953cd3185",
+	"isGeneratorProvided" : true,
+	"name" : "Coap_autogen",
+	"paths" : 
+	{
+		"build" : "qtcoap/src/coap",
+		"source" : "qtcoap/src/coap"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtcoap/src/coap/CMakeFiles/Coap_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtcoap/src/coap/CMakeFiles/Coap_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtcoap/src/coap/Coap_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

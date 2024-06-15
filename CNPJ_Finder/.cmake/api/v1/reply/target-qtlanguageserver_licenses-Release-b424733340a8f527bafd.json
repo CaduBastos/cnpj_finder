@@ -1,0 +1,110 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtlanguageserver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 438,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtlanguageserver_licenses::@82f86ec940245d7f0d67",
+	"name" : "qtlanguageserver_licenses",
+	"paths" : 
+	{
+		"build" : "qtlanguageserver",
+		"source" : "qtlanguageserver"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/BSD-3-Clause.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/GFDL-1.3-no-invariants-only.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/GPL-2.0-only.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/GPL-3.0-only.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/LGPL-3.0-only.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/LicenseRef-Qt-Commercial.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtlanguageserver/LICENSES/Qt-GPL-exception-1.0.txt",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

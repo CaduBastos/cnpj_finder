@@ -1,0 +1,75 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtquick3dphysics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "qtquick3dphysics_src::@5ea11a6d82b893940af0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qtquick3dphysics_tools::@5ea11a6d82b893940af0"
+		}
+	],
+	"id" : "qtquick3dphysics::@5ea11a6d82b893940af0",
+	"name" : "qtquick3dphysics",
+	"paths" : 
+	{
+		"build" : "qtquick3dphysics",
+		"source" : "qtquick3dphysics"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

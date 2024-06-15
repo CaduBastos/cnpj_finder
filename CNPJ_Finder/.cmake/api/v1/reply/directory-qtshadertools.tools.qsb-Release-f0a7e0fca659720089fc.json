@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_tool"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtToolHelpers.cmake",
+			"qtshadertools/tools/qsb/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"qtbase/bin/qsb"
+			],
+			"targetId" : "qsb::@3a860c13ae1d73cd1ff7",
+			"targetIndex" : 3419,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtshadertools/tools/qsb",
+		"source" : "qtshadertools/tools/qsb"
+	}
+}

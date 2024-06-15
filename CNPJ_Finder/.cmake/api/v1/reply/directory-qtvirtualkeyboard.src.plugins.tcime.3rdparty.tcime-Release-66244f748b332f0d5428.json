@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard/src/plugins/tcime/3rdparty/tcime",
+		"source" : "qtvirtualkeyboard/src/plugins/tcime/3rdparty/tcime"
+	}
+}

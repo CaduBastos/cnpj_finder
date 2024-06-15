@@ -1,0 +1,391 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtdeclarative/src/qmldebug/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 242,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 562,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmldebug/meta_types/qt6qmldebugprivate_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6QmlDebugPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6QmlDebug.a"
+			],
+			"targetId" : "QmlDebugPrivate::@4c37814b98aec0b349c6",
+			"targetIndex" : 905,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QmlDebugPrivate",
+			"exportName" : "Qt6QmlDebugPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QmlDebugPrivate::@4c37814b98aec0b349c6",
+					"index" : 905
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/qmldebug/CMakeFiles/Export/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QmlDebugPrivate",
+			"exportName" : "Qt6QmlDebugPrivateVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QmlDebugPrivateVersionless::@4c37814b98aec0b349c6",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtdeclarative/src/qmldebug/CMakeFiles/Export/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/QmlDebugPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6QmlDebugPrivate",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlDebugPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/QtQmlDebug",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlDebug/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtQmlDebug",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlDebug/QtQmlDebugDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/QtQmlDebug/6.7.1/QtQmlDebug/private",
+			"paths" : 
+			[
+				"qtdeclarative/src/qmldebug/qqmldebugclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmldebugclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmldebugconnection_p.h",
+				"qtdeclarative/src/qmldebug/qqmldebugmessageclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmldebugtranslationclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlenginecontrolclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlenginecontrolclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmlenginedebugclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlenginedebugclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmlinspectorclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlinspectorclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmlpreviewclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlpreviewclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilerclient_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilerclient_p_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilerclientdefinitions_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilerevent_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilereventlocation_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilereventreceiver_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilereventtype_p.h",
+				"qtdeclarative/src/qmldebug/qqmlprofilertypedevent_p.h",
+				"qtdeclarative/src/qmldebug/qv4debugclient_p.h",
+				"qtdeclarative/src/qmldebug/qv4debugclient_p_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_qmldebug_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/qmldebug",
+		"source" : "qtdeclarative/src/qmldebug"
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt3d/src/plugins/renderplugins/scene2d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Scene2DPlugin_autogen_timestamp_deps::@993f37b7cd4fab0d3d13"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Scene2DPlugin_version_script::@993f37b7cd4fab0d3d13"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		}
+	],
+	"id" : "Scene2DPlugin_autogen::@993f37b7cd4fab0d3d13",
+	"isGeneratorProvided" : true,
+	"name" : "Scene2DPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "qt3d/src/plugins/renderplugins/scene2d",
+		"source" : "qt3d/src/plugins/renderplugins/scene2d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/plugins/renderplugins/scene2d/CMakeFiles/Scene2DPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/plugins/renderplugins/scene2d/CMakeFiles/Scene2DPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/plugins/renderplugins/scene2d/Scene2DPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

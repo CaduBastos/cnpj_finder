@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_tool"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtToolHelpers.cmake",
+			"qttools/src/assistant/qhelpgenerator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./libexec",
+			"paths" : 
+			[
+				"qtbase/libexec/qhelpgenerator"
+			],
+			"targetId" : "qhelpgenerator::@8dd31d61caaa7912cae3",
+			"targetIndex" : 3257,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qttools/src/assistant/qhelpgenerator",
+		"source" : "qttools/src/assistant/qhelpgenerator"
+	}
+}

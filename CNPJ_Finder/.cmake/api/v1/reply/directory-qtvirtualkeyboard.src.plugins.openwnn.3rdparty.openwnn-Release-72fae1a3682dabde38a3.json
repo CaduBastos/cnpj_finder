@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtvirtualkeyboard/src/plugins/openwnn/3rdparty/openwnn",
+		"source" : "qtvirtualkeyboard/src/plugins/openwnn/3rdparty/openwnn"
+	}
+}

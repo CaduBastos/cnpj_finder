@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_copy_or_install"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtquick3d/src/quick3dparticleeffects/designer/source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtQuick3D/ParticleEffects/designer/source",
+			"paths" : 
+			[
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_clouds.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_dust.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_exhaust.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_fire.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_heavyrain.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_heavyrain_tirespray.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_lightrain.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_lightrain_tirespray.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_rainmist.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_steam.qml",
+				"qtquick3d/src/quick3dparticleeffects/designer/source/particleeffect_snow.qml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtquick3d/src/quick3dparticleeffects/designer/source",
+		"source" : "qtquick3d/src/quick3dparticleeffects/designer/source"
+	}
+}

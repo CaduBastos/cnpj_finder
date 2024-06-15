@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/src/plugins/generic/tuiotouch/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QTuioTouchPlugin::@e5b1e808a57fd6c9d7f7"
+		}
+	],
+	"id" : "qtuiotouchplugin::@e5b1e808a57fd6c9d7f7",
+	"name" : "qtuiotouchplugin",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/generic/tuiotouch",
+		"source" : "qtbase/src/plugins/generic/tuiotouch"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

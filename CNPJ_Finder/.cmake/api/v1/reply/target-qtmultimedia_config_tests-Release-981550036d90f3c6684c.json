@@ -1,0 +1,278 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_show_extra_ide_sources",
+			"qt_build_repo_end",
+			"qt_build_repo"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtmultimedia/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "qtmultimedia_config_tests::@f6be161ca40fb2138242",
+	"name" : "qtmultimedia_config_tests",
+	"paths" : 
+	{
+		"build" : "qtmultimedia",
+		"source" : "qtmultimedia"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "alsa",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "avfoundation",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		},
+		{
+			"name" : "evr",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "gpu_vivante",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		},
+		{
+			"name" : "gstreamer",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		},
+		{
+			"name" : "gstreamer_appsrc",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		},
+		{
+			"name" : "gstreamer_photography",
+			"sourceIndexes" : 
+			[
+				12,
+				13
+			]
+		},
+		{
+			"name" : "linux_v4l",
+			"sourceIndexes" : 
+			[
+				14,
+				15
+			]
+		},
+		{
+			"name" : "mmrenderer",
+			"sourceIndexes" : 
+			[
+				16,
+				17
+			]
+		},
+		{
+			"name" : "pulseaudio",
+			"sourceIndexes" : 
+			[
+				18,
+				19
+			]
+		},
+		{
+			"name" : "wmf",
+			"sourceIndexes" : 
+			[
+				20,
+				21
+			]
+		},
+		{
+			"name" : "wmsdk",
+			"sourceIndexes" : 
+			[
+				22,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/alsa/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/alsa/alsatest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/avfoundation/CMakeLists.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/avfoundation/main.mm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/evr/CMakeLists.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/evr/main.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gpu_vivante/CMakeLists.txt",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gpu_vivante/main.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer/CMakeLists.txt",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer/main.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer_appsrc/CMakeLists.txt",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer_appsrc/main.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer_photography/CMakeLists.txt",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/gstreamer_photography/main.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/linux_v4l/CMakeLists.txt",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/linux_v4l/main.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/mmrenderer/CMakeLists.txt",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/mmrenderer/mmrenderertest.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/pulseaudio/CMakeLists.txt",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/pulseaudio/pulseaudio.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/wmf/CMakeLists.txt",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/wmf/main.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/wmsdk/CMakeLists.txt",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qtmultimedia/config.tests/wmsdk/main.cpp",
+			"sourceGroupIndex" : 11
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,505 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qt3d/src/input/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 242,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 562,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 162,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/meta_types/qt63dinput_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DInput",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt63DInput.so.6.7.1",
+				"qtbase/lib/libQt63DInput.so.6"
+			],
+			"targetId" : "3DInput::@69a23d69950dfd6af6e1",
+			"targetIndex" : 22,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt63DInput.so"
+			],
+			"targetId" : "3DInput::@69a23d69950dfd6af6e1",
+			"targetIndex" : 22,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DInput",
+			"exportName" : "Qt63DInputTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "3DInput::@69a23d69950dfd6af6e1",
+					"index" : 22
+				},
+				{
+					"id" : "3DInputPrivate::@69a23d69950dfd6af6e1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt3d/src/input/CMakeFiles/Export/lib/cmake/Qt63DInput/Qt63DInputTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DInput",
+			"exportName" : "Qt63DInputVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "3DInputVersionless::@69a23d69950dfd6af6e1",
+					"index" : 0
+				},
+				{
+					"id" : "3DInputPrivateVersionless::@69a23d69950dfd6af6e1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt3d/src/input/CMakeFiles/Export/lib/cmake/Qt63DInput/Qt63DInputVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/3DInput.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DInput",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DInput",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DInput",
+			"paths" : 
+			[
+				"qt3d/src/input/frontend/qabstractactioninput.h",
+				"qt3d/src/input/frontend/qabstractaxisinput.h",
+				"qt3d/src/input/frontend/qabstractphysicaldevice.h",
+				"qt3d/src/input/frontend/qaction.h",
+				"qt3d/src/input/frontend/qactioninput.h",
+				"qt3d/src/input/frontend/qanalogaxisinput.h",
+				"qt3d/src/input/frontend/qaxis.h",
+				"qt3d/src/input/frontend/qaxisaccumulator.h",
+				"qt3d/src/input/frontend/qaxissetting.h",
+				"qt3d/src/input/frontend/qbuttonaxisinput.h",
+				"qt3d/src/input/frontend/qinputaspect.h",
+				"qt3d/src/input/frontend/qinputchord.h",
+				"qt3d/src/input/frontend/qinputsequence.h",
+				"qt3d/src/input/frontend/qinputsettings.h",
+				"qt3d/src/input/frontend/qkeyboarddevice.h",
+				"qt3d/src/input/frontend/qkeyboardhandler.h",
+				"qt3d/src/input/frontend/qkeyevent.h",
+				"qt3d/src/input/frontend/qlogicaldevice.h",
+				"qt3d/src/input/frontend/qmousedevice.h",
+				"qt3d/src/input/frontend/qmouseevent.h",
+				"qt3d/src/input/frontend/qmousehandler.h",
+				"qt3d/src/input/qt3dinput_global.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/Qt3DInputDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DInput/6.7.1/Qt3DInput/private",
+			"paths" : 
+			[
+				"qt3d/src/input/backend/abstractactioninput_p.h",
+				"qt3d/src/input/backend/abstractaxisinput_p.h",
+				"qt3d/src/input/backend/action_p.h",
+				"qt3d/src/input/backend/actioninput_p.h",
+				"qt3d/src/input/backend/analogaxisinput_p.h",
+				"qt3d/src/input/backend/assignkeyboardfocusjob_p.h",
+				"qt3d/src/input/backend/axis_p.h",
+				"qt3d/src/input/backend/axisaccumulator_p.h",
+				"qt3d/src/input/backend/axisaccumulatorjob_p.h",
+				"qt3d/src/input/backend/axissetting_p.h",
+				"qt3d/src/input/backend/backendnode_p.h",
+				"qt3d/src/input/backend/buttonaxisinput_p.h",
+				"qt3d/src/input/backend/genericdevicebackendnode_p.h",
+				"qt3d/src/input/backend/handle_types_p.h",
+				"qt3d/src/input/backend/inputbackendnodefunctor_p.h",
+				"qt3d/src/input/backend/inputchord_p.h",
+				"qt3d/src/input/backend/inputhandler_p.h",
+				"qt3d/src/input/backend/inputmanagers_p.h",
+				"qt3d/src/input/backend/inputsequence_p.h",
+				"qt3d/src/input/backend/inputsettings_p.h",
+				"qt3d/src/input/backend/job_common_p.h",
+				"qt3d/src/input/backend/keyboarddevice_p.h",
+				"qt3d/src/input/backend/keyboardhandler_p.h",
+				"qt3d/src/input/backend/keyboardmousegenericdeviceintegration_p.h",
+				"qt3d/src/input/backend/loadproxydevicejob_p.h",
+				"qt3d/src/input/backend/logicaldevice_p.h",
+				"qt3d/src/input/backend/mousedevice_p.h",
+				"qt3d/src/input/backend/mousehandler_p.h",
+				"qt3d/src/input/backend/movingaverage_p.h",
+				"qt3d/src/input/backend/physicaldeviceproxy_p.h",
+				"qt3d/src/input/backend/qabstractphysicaldevicebackendnode_p.h",
+				"qt3d/src/input/backend/qabstractphysicaldevicebackendnode_p_p.h",
+				"qt3d/src/input/backend/updateaxisactionjob_p.h",
+				"qt3d/src/input/backend/utils_p.h",
+				"qt3d/src/input/frontend/qabstractactioninput_p.h",
+				"qt3d/src/input/frontend/qabstractaxisinput_p.h",
+				"qt3d/src/input/frontend/qabstractphysicaldevice_p.h",
+				"qt3d/src/input/frontend/qabstractphysicaldeviceproxy_p.h",
+				"qt3d/src/input/frontend/qabstractphysicaldeviceproxy_p_p.h",
+				"qt3d/src/input/frontend/qaction_p.h",
+				"qt3d/src/input/frontend/qactioninput_p.h",
+				"qt3d/src/input/frontend/qanalogaxisinput_p.h",
+				"qt3d/src/input/frontend/qaxis_p.h",
+				"qt3d/src/input/frontend/qaxisaccumulator_p.h",
+				"qt3d/src/input/frontend/qaxissetting_p.h",
+				"qt3d/src/input/frontend/qbuttonaxisinput_p.h",
+				"qt3d/src/input/frontend/qgenericinputdevice_p.h",
+				"qt3d/src/input/frontend/qinputaspect_p.h",
+				"qt3d/src/input/frontend/qinputchord_p.h",
+				"qt3d/src/input/frontend/qinputdeviceintegration_p.h",
+				"qt3d/src/input/frontend/qinputdeviceintegration_p_p.h",
+				"qt3d/src/input/frontend/qinputdeviceintegrationfactory_p.h",
+				"qt3d/src/input/frontend/qinputdeviceplugin_p.h",
+				"qt3d/src/input/frontend/qinputsequence_p.h",
+				"qt3d/src/input/frontend/qinputsettings_p.h",
+				"qt3d/src/input/frontend/qkeyboarddevice_p.h",
+				"qt3d/src/input/frontend/qkeyboardhandler_p.h",
+				"qt3d/src/input/frontend/qlogicaldevice_p.h",
+				"qt3d/src/input/frontend/qmousedevice_p.h",
+				"qt3d/src/input/frontend/qmousehandler_p.h",
+				"qt3d/src/input/qt3dinput_global_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_3dinput.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_3dinput_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt63DInput.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qt3d/src/input",
+		"source" : "qt3d/src/input"
+	}
+}

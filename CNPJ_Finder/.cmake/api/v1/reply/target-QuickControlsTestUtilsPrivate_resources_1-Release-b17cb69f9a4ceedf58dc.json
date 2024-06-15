@@ -1,0 +1,699 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtdeclarative/src/quickcontrolstestutils/CMakeFiles/QuickControlsTestUtilsPrivate_resources_1.dir/./.qt/rcc/qrc_qmake_Qt_test_controls_init.cpp.o"
+		}
+	],
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"qt_internal_add_qml_module",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"__qt_internal_propagate_object_library",
+			"add_dependencies",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"set_property",
+			"_qt_internal_copy_dependency_properties",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlMacros.cmake",
+			"qtdeclarative/src/qml/Qt6QmlBuildInternals.cmake",
+			"qtdeclarative/src/quickcontrolstestutils/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtdeclarative/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1951,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 344,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1995,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1892,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 1963,
+				"parent" : 5
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 17,
+				"file" : 10,
+				"line" : 63,
+				"parent" : 12
+			},
+			{
+				"command" : 16,
+				"file" : 9,
+				"line" : 494,
+				"parent" : 13
+			},
+			{
+				"command" : 15,
+				"file" : 9,
+				"line" : 179,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"file" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 14,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 19
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 453,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 79,
+				"parent" : 21
+			},
+			{
+				"file" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 23
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1893,
+				"parent" : 9
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 25
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 1964,
+				"parent" : 5
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 1967,
+				"parent" : 5
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 25
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 27,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_BUILD_QUICKCONTROLSTESTUTILSPRIVATE_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_BUILD_SHARED_QUICK_CONTROLS_TEST_UTILS_LIB"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QUICKDIALOGS2QUICKIMPL_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QUICKTEMPLATES2_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QUICKTESTUTILSPRIVATE_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_TESTCASE_BUILDDIR=\"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolstestutils\""
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_TESTCASE_SOURCEDIR=\"/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickcontrolstestutils\""
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolstestutils/QuickControlsTestUtilsPrivate_autogen/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControlsTestUtils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/quickcontrolstestutils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolstestutils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControlsTestUtils/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControlsTestUtils/6.7.1/QtQuickControlsTestUtils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qml"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtTest"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quick"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick/6.7.1/QtQuick"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlmodels"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels/6.7.1/QtQmlModels"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktemplates"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTemplates2/6.7.1/QtQuickTemplates2"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTestUtils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quicktestutils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTestUtils/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickTestUtils/6.7.1/QtQuickTestUtils"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickdialogs/quickdialogsquickimpl"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl/6.7.1/QtQuickDialogs2QuickImpl"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuickDialogs2QuickImpl"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					31
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		}
+	],
+	"id" : "QuickControlsTestUtilsPrivate_resources_1::@d9c24100bd2cf0dd0413",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "./qml/Qt/test/controls"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"name" : "QuickControlsTestUtilsPrivate_resources_1",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/quickcontrolstestutils",
+		"source" : "qtdeclarative/src/quickcontrolstestutils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/quickcontrolstestutils/.qt/rcc/qrc_qmake_Qt_test_controls_init.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

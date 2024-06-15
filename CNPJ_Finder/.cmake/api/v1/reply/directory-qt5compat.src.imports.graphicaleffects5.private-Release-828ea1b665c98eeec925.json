@@ -1,0 +1,392 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qt5compat/src/imports/graphicaleffects5/private/CMakeLists.txt",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 441,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 461,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 416,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 30
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 33
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qtbase/qml/Qt5Compat/GraphicalEffects/private/libqtgraphicaleffectsprivateplugin.so"
+			],
+			"targetId" : "qtgraphicaleffectsprivate::@4976ff30a0785d9021c4",
+			"targetIndex" : 3623,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6qtgraphicaleffectsprivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qtgraphicaleffectsprivate::@4976ff30a0785d9021c4",
+					"index" : 3623
+				}
+			],
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/DropShadowBase.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/FastGlow.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/FastInnerShadow.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/GaussianDirectionalBlur.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/GaussianGlow.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/GaussianInnerShadow.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"qt5compat/src/imports/graphicaleffects5/private/GaussianMaskedBlur.qml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt5Compat/GraphicalEffects/private/plugins.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "./qml/Qt5Compat/GraphicalEffects/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/Qt5Compat/GraphicalEffects/private/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qt5compat/src/imports/graphicaleffects5/private",
+		"source" : "qt5compat/src/imports/graphicaleffects5/private"
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtnetworkauth/src/oauth/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "NetworkAuth_autogen_timestamp_deps::@292faff82b2e18fce823"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "NetworkAuth_version_script::@292faff82b2e18fce823"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "NetworkAuth_sync_headers::@292faff82b2e18fce823"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "NetworkAuth_lib_pri::@292faff82b2e18fce823"
+		}
+	],
+	"id" : "NetworkAuth_autogen::@292faff82b2e18fce823",
+	"isGeneratorProvided" : true,
+	"name" : "NetworkAuth_autogen",
+	"paths" : 
+	{
+		"build" : "qtnetworkauth/src/oauth",
+		"source" : "qtnetworkauth/src/oauth"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtnetworkauth/src/oauth/CMakeFiles/NetworkAuth_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtnetworkauth/src/oauth/CMakeFiles/NetworkAuth_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtnetworkauth/src/oauth/NetworkAuth_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,2260 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/lib/libQt63DInput.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qt3d/src/input/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qt3d/src/core/CMakeLists.txt",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/src/corelib/CMakeLists.txt",
+			"qtbase/src/gui/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qt3d/CMakeLists.txt",
+			"qtbase/cmake/QtPrecompiledHeadersHelpers.cmake",
+			"qtbase/cmake/QtPrlHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 136,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 11
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 23
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 28
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 32
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 33
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 20,
+				"file" : 17,
+				"line" : 42,
+				"parent" : 35
+			},
+			{
+				"command" : 19,
+				"file" : 16,
+				"line" : 494,
+				"parent" : 36
+			},
+			{
+				"command" : 18,
+				"file" : 16,
+				"line" : 179,
+				"parent" : 37
+			},
+			{
+				"command" : 15,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 38
+			},
+			{
+				"file" : 15,
+				"parent" : 39
+			},
+			{
+				"command" : 15,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 40
+			},
+			{
+				"file" : 14,
+				"parent" : 41
+			},
+			{
+				"command" : 17,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 42
+			},
+			{
+				"command" : 16,
+				"file" : 13,
+				"line" : 453,
+				"parent" : 43
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 79,
+				"parent" : 44
+			},
+			{
+				"file" : 12,
+				"parent" : 45
+			},
+			{
+				"command" : 14,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 46
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 311,
+				"parent" : 48
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 168,
+				"parent" : 14
+			},
+			{
+				"command" : 24,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 23,
+				"file" : 7,
+				"line" : 1435,
+				"parent" : 51
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 310,
+				"parent" : 48
+			},
+			{
+				"command" : 25,
+				"file" : 7,
+				"line" : 163,
+				"parent" : 14
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 55
+			},
+			{
+				"command" : 26,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 56
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 58
+			},
+			{
+				"command" : 26,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 59
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 14
+			},
+			{
+				"command" : 27,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 61
+			},
+			{
+				"command" : 26,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 62
+			},
+			{
+				"command" : 29,
+				"file" : 7,
+				"line" : 147,
+				"parent" : 14
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 65
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 927,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 19,
+				"line" : 205,
+				"parent" : 67
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 10
+			},
+			{
+				"command" : 29,
+				"file" : 20,
+				"line" : 160,
+				"parent" : 69
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/CMakeFiles/3DInput.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 50,
+					"define" : "QT3DINPUT_LIBRARY"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_3DCORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILD_3DINPUT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "_3DInput_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput_autogen/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input/backend"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input/frontend"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/6.7.1"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/6.7.1/Qt3DInput"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/core"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/6.7.1/Qt3DCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/Qt3DCore"
+				},
+				{
+					"backtrace" : 60,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 63,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				30,
+				32,
+				35,
+				37,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				61,
+				64,
+				67,
+				70,
+				73,
+				76,
+				79,
+				82,
+				85,
+				88,
+				91,
+				94,
+				97,
+				99,
+				102,
+				105,
+				108,
+				110,
+				112,
+				115,
+				118,
+				121,
+				124,
+				126,
+				129,
+				132,
+				134
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"fragment" : "-std=c++17"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/CMakeFiles/3DInput.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 50,
+					"define" : "QT3DINPUT_LIBRARY"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_3DCORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILD_3DINPUT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_NO_AS_CONST=1"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_NO_FOREACH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"define" : "_3DInput_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput_autogen/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input/backend"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qt3d/src/input/frontend"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/6.7.1"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DInput/6.7.1/Qt3DInput"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/corelib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/core"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/6.7.1/Qt3DCore"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/src/gui"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/6.7.1/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/Qt3DCore"
+				},
+				{
+					"backtrace" : 60,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 63,
+					"header" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "3DInput_autogen_timestamp_deps::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "3DInput_autogen::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "3DCore::@c624818a73eafba92541"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "3DCore_sync_headers::@c624818a73eafba92541"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "3DInput_version_script::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "3DInput_sync_headers::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "3DInput_lib_pri::@69a23d69950dfd6af6e1"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "cmake_automoc_parser::@b677eb6370b713a1988b"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Core_sync_headers::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Concurrent::@6debff8c4cb0dde4990d"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Gui_sync_headers::@15927fb4a244b1a1abf0"
+		}
+	],
+	"id" : "3DInput::@69a23d69950dfd6af6e1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Bsymbolic-functions",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt63DCore.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Concurrent.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "3DInput",
+	"nameOnDisk" : "libQt63DInput.so",
+	"paths" : 
+	{
+		"build" : "qt3d/src/input",
+		"source" : "qt3d/src/input"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				30,
+				32,
+				35,
+				37,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				61,
+				64,
+				67,
+				70,
+				73,
+				76,
+				79,
+				82,
+				85,
+				88,
+				91,
+				94,
+				97,
+				99,
+				102,
+				105,
+				108,
+				110,
+				112,
+				115,
+				118,
+				121,
+				124,
+				126,
+				129,
+				132,
+				134
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				31,
+				33,
+				34,
+				36,
+				38,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				60,
+				62,
+				63,
+				65,
+				66,
+				68,
+				69,
+				71,
+				72,
+				74,
+				75,
+				77,
+				78,
+				80,
+				81,
+				83,
+				84,
+				86,
+				87,
+				89,
+				90,
+				92,
+				93,
+				95,
+				96,
+				98,
+				100,
+				101,
+				103,
+				104,
+				106,
+				107,
+				109,
+				111,
+				113,
+				114,
+				116,
+				117,
+				119,
+				120,
+				122,
+				123,
+				125,
+				127,
+				128,
+				130,
+				131,
+				133,
+				135,
+				136,
+				137,
+				138
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				139,
+				140,
+				141,
+				143
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				142
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				144,
+				145,
+				146,
+				147,
+				148
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/CMakeFiles/3DInput.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/abstractactioninput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/abstractactioninput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/abstractaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/abstractaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/action.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/action_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/actioninput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/actioninput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/analogaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/analogaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/assignkeyboardfocusjob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/assignkeyboardfocusjob_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/axis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/axis_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/axisaccumulator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/axisaccumulator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/axisaccumulatorjob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/axisaccumulatorjob_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/axissetting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/axissetting_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/backendnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/backendnode_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/buttonaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/buttonaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/genericdevicebackendnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/genericdevicebackendnode_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/handle_types_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputbackendnodefunctor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/inputchord.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputchord_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/inputhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputmanagers_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/inputsequence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputsequence_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/inputsettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/inputsettings_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/job_common_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/keyboarddevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/keyboarddevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/keyboardhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/keyboardhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/keyboardmousegenericdeviceintegration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/keyboardmousegenericdeviceintegration_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/loadproxydevicejob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/loadproxydevicejob_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/logicaldevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/logicaldevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/mousedevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/mousedevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/mousehandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/mousehandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/movingaverage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/movingaverage_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/physicaldeviceproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/physicaldeviceproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/qabstractphysicaldevicebackendnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/qabstractphysicaldevicebackendnode_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/qabstractphysicaldevicebackendnode_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/backend/updateaxisactionjob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/updateaxisactionjob_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/backend/utils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qabstractactioninput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractactioninput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractactioninput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qabstractaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractaxisinput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldeviceproxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldeviceproxy_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qabstractphysicaldeviceproxy_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qaction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaction_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qactioninput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qactioninput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qactioninput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qanalogaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qanalogaxisinput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qanalogaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qaxis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxis_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qaxisaccumulator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxisaccumulator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxisaccumulator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qaxissetting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxissetting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qaxissetting_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qbuttonaxisinput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qbuttonaxisinput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qbuttonaxisinput_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qgenericinputdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qgenericinputdevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputaspect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputaspect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputaspect_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputchord.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputchord.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputchord_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputdeviceintegration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputdeviceintegration_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputdeviceintegration_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputdeviceintegrationfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputdeviceintegrationfactory_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputdeviceplugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputdeviceplugin_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputsequence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputsequence.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputsequence_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qinputsettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputsettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qinputsettings_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qkeyboarddevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qkeyboarddevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qkeyboarddevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qkeyboardhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qkeyboardhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qkeyboardhandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qkeyevent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qkeyevent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qlogicaldevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qlogicaldevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qlogicaldevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qmousedevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qmousedevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qmousedevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qmouseevent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qmouseevent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "qt3d/src/input/frontend/qmousehandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qmousehandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/frontend/qmousehandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/qt3dinput_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qt3d/src/input/qt3dinput_global_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/meta_types/qt63dinput_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 68,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/preliminary_prl_for_3DInput_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 70,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt63DInput.pc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/CMakeFiles/3DInput.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/meta_types/qt63dinput_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/preliminary_prl_for_3DInput_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt63DInput.pc.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/3DInput_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/input/meta_types/3DInput_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

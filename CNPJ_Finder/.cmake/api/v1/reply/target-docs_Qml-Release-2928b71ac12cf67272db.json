@@ -1,0 +1,67 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtdeclarative/src/qml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 854,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "html_docs_Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qch_docs_Qml::@d55031ce3d5f71a021ef"
+		}
+	],
+	"id" : "docs_Qml::@d55031ce3d5f71a021ef",
+	"name" : "docs_Qml",
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/qml",
+		"source" : "qtdeclarative/src/qml"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

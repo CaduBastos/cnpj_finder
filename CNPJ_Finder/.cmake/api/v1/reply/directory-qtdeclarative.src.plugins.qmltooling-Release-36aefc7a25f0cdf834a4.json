@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qtdeclarative/src/plugins/qmltooling",
+		"source" : "qtdeclarative/src/plugins/qmltooling"
+	}
+}

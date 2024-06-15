@@ -1,0 +1,610 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_internal_add_qml_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtsensors/src/sensorsquick/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1035,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 441,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 452,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 461,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 416,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 738,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1013,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 738,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1013,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 242,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 562,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 162,
+				"parent" : 48
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 49
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsensors/src/sensorsquick/meta_types/qt6sensorsquick_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6SensorsQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6SensorsQuick.so.6.7.1",
+				"qtbase/lib/libQt6SensorsQuick.so.6"
+			],
+			"targetId" : "SensorsQuick::@a9eb58f86ebb27d65b24",
+			"targetIndex" : 1556,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt6SensorsQuick.so"
+			],
+			"targetId" : "SensorsQuick::@a9eb58f86ebb27d65b24",
+			"targetIndex" : 1556,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SensorsQuick",
+			"exportName" : "Qt6SensorsQuickTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SensorsQuick::@a9eb58f86ebb27d65b24",
+					"index" : 1556
+				},
+				{
+					"id" : "SensorsQuickPrivate::@a9eb58f86ebb27d65b24",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtsensors/src/sensorsquick/CMakeFiles/Export/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SensorsQuick",
+			"exportName" : "Qt6SensorsQuickVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SensorsQuickVersionless::@a9eb58f86ebb27d65b24",
+					"index" : 0
+				},
+				{
+					"id" : "SensorsQuickPrivateVersionless::@a9eb58f86ebb27d65b24",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qtsensors/src/sensorsquick/CMakeFiles/Export/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/SensorsQuick.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtSensors",
+			"paths" : 
+			[
+				"qtbase/qml/QtSensors/libsensorsquickplugin.so"
+			],
+			"targetId" : "SensorsQuickplugin::@a9eb58f86ebb27d65b24",
+			"targetIndex" : 1568,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"exportName" : "Qt6SensorsQuickpluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SensorsQuickplugin::@a9eb58f86ebb27d65b24",
+					"index" : 1568
+				}
+			],
+			"paths" : 
+			[
+				"qtsensors/src/sensorsquick/CMakeFiles/Export/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtSensors",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtSensors/plugins.qmltypes"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "./qml/QtSensors",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./qml/QtSensors/qmldir"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6SensorsQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6SensorsQuick/Qt6SensorsQuickAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Qml/QmlPlugins",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "include/QtSensorsQuick",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSensorsQuick/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/QtSensorsQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSensorsQuick/qtsensorsquickexports.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSensorsQuick/QtSensorsQuickDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "include/QtSensorsQuick/6.7.1/QtSensorsQuick/private",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSensorsQuick/6.7.1/QtSensorsQuick/private/qtsensorsquickexports_p.h",
+				"qtsensors/src/sensorsquick/qmlaccelerometer_p.h",
+				"qtsensors/src/sensorsquick/qmlambientlightsensor_p.h",
+				"qtsensors/src/sensorsquick/qmlambienttemperaturesensor_p.h",
+				"qtsensors/src/sensorsquick/qmlcompass_p.h",
+				"qtsensors/src/sensorsquick/qmlgyroscope_p.h",
+				"qtsensors/src/sensorsquick/qmlhumiditysensor_p.h",
+				"qtsensors/src/sensorsquick/qmlirproximitysensor_p.h",
+				"qtsensors/src/sensorsquick/qmllidsensor_p.h",
+				"qtsensors/src/sensorsquick/qmllightsensor_p.h",
+				"qtsensors/src/sensorsquick/qmlmagnetometer_p.h",
+				"qtsensors/src/sensorsquick/qmlorientationsensor_p.h",
+				"qtsensors/src/sensorsquick/qmlpressuresensor_p.h",
+				"qtsensors/src/sensorsquick/qmlproximitysensor_p.h",
+				"qtsensors/src/sensorsquick/qmlrotationsensor_p.h",
+				"qtsensors/src/sensorsquick/qmlsensor_p.h",
+				"qtsensors/src/sensorsquick/qmlsensorglobal_p.h",
+				"qtsensors/src/sensorsquick/qmlsensorrange_p.h",
+				"qtsensors/src/sensorsquick/qmltapsensor_p.h",
+				"qtsensors/src/sensorsquick/qmltiltsensor_p.h",
+				"qtsensors/src/sensorsquick/qsensorsquickglobal_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_sensorsquick.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_sensorsquick_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt6SensorsQuick.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qtsensors/src/sensorsquick",
+		"source" : "qtsensors/src/sensorsquick"
+	}
+}

@@ -1,0 +1,552 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_create_module_depends_file",
+			"qt_internal_create_depends_files",
+			"include",
+			"qt_build_repo_post_process",
+			"qt_build_repo",
+			"qt_internal_create_plugins_auto_inclusion_files",
+			"qt_internal_create_config_file_for_standalone_tests",
+			"qt_internal_install_prl_files",
+			"qt_copy_or_install",
+			"qt_build_repo_end"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtPostProcessHelpers.cmake",
+			"qtbase/cmake/QtPostProcess.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qt3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 500,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 318,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 410,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 509,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 509,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 832,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 48
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 848,
+				"parent" : 50
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 51
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 503,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 333,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 54
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 55
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 8,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DCore",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DCore/Qt63DCoreDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DLogic",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DLogic/Qt63DLogicDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DInput",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DRender/Qt63DRenderDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DExtras",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DExtras/Qt63DExtrasDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DAnimation",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DAnimation/Qt63DAnimationDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuick",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuick/Qt63DQuickDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuickRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuickRender/Qt63DQuickRenderDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuickScene2D",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuickScene2D/Qt63DQuickScene2DDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuickExtras",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuickExtras/Qt63DQuickExtrasDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuickInput",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuickInput/Qt63DQuickInputDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DQuickAnimation",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DQuickAnimation/Qt63DQuickAnimationDependencies.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DInput",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DInput/Qt63DInputPlugins.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DRender",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DRender/Qt63DRenderPlugins.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BuildInternals/StandaloneTests",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6BuildInternals/StandaloneTests/Qt3DTestsConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6",
+			"paths" : 
+			[
+				{
+					"from" : "qt3d/cmake",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qt3d",
+		"source" : "qt3d"
+	}
+}

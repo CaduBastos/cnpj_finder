@@ -1,0 +1,815 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qtbase/qml/QtInsightTracker/libinsighttrackerqmlplugin.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_plugin",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module",
+			"install",
+			"qt_install",
+			"target_link_options",
+			"qt_internal_add_link_flags_no_undefined",
+			"qt_internal_add_linker_version_script",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"qt6_add_qml_plugin",
+			"qt6_add_qml_module",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtinsighttracker/src/insighttrackerqml/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtFlagHandlingHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtinsighttracker/src/insighttracker/CMakeLists.txt",
+			"qtbase/cmake/QtCompilerFlags.cmake",
+			"qtbase/cmake/QtBuildHelpers.cmake",
+			"qtbase/cmake/QtBuild.cmake",
+			"qtbase/cmake/QtSetup.cmake",
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtinsighttracker/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2451,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2659,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 452,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 474,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 477,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 137,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 348,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 171,
+				"parent" : 12
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 1
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 625,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 2244,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 2240,
+				"parent" : 15
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 18
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 15,
+				"file" : 9,
+				"line" : 915,
+				"parent" : 20
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 256,
+				"parent" : 21
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 136,
+				"parent" : 10
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 23,
+				"file" : 17,
+				"line" : 25,
+				"parent" : 24
+			},
+			{
+				"command" : 22,
+				"file" : 16,
+				"line" : 494,
+				"parent" : 25
+			},
+			{
+				"command" : 21,
+				"file" : 16,
+				"line" : 179,
+				"parent" : 26
+			},
+			{
+				"command" : 18,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 27
+			},
+			{
+				"file" : 15,
+				"parent" : 28
+			},
+			{
+				"command" : 18,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 29
+			},
+			{
+				"file" : 14,
+				"parent" : 30
+			},
+			{
+				"command" : 20,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 31
+			},
+			{
+				"command" : 19,
+				"file" : 13,
+				"line" : 453,
+				"parent" : 32
+			},
+			{
+				"command" : 18,
+				"file" : 13,
+				"line" : 79,
+				"parent" : 33
+			},
+			{
+				"file" : 12,
+				"parent" : 34
+			},
+			{
+				"command" : 17,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 35
+			},
+			{
+				"command" : 25,
+				"file" : 1,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 311,
+				"parent" : 37
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2518,
+				"parent" : 3
+			},
+			{
+				"command" : 26,
+				"file" : 6,
+				"line" : 168,
+				"parent" : 12
+			},
+			{
+				"command" : 26,
+				"file" : 5,
+				"line" : 310,
+				"parent" : 37
+			},
+			{
+				"command" : 27,
+				"file" : 6,
+				"line" : 163,
+				"parent" : 12
+			},
+			{
+				"command" : 28,
+				"file" : 7,
+				"line" : 2233,
+				"parent" : 15
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 36,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "InsightTrackerQmlplugin_EXPORTS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DISABLE_DEPRECATED_UP_TO=0x050000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_INSIGHTTRACKERQML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_INSIGHTTRACKER_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_AS_CONST"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_WARN_DEPRECATED_UP_TO=0x070000"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin_autogen/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtinsighttracker/src/insighttrackerqml"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtbase/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQml"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtCore"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/Qt/6.7.1/Src/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtdeclarative/src/qmlintegration"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtNetwork"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtInsightTrackerQml"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQuick"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtGui"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttracker"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtInsightTracker/6.7.1"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtInsightTracker/6.7.1/QtInsightTracker"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtInsightTracker"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/QtSql"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					13
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "InsightTrackerQmlplugin_autogen_timestamp_deps::@3ffae792432903af01db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "InsightTrackerQmlplugin_autogen::@3ffae792432903af01db"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "InsightTracker::@8fb53162f8723e97f291"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "InsightTracker_sync_headers::@8fb53162f8723e97f291"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Platform::@e5137009cee4d36dff54"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Core::@03825b256518b1168c29"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Sql::@ade569add210a552017a"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Network::@1db477eea17d89636c09"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Gui::@15927fb4a244b1a1abf0"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "OpenGL::@4647851a72f814f2421b"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "QmlIntegration::@29f26caaecb4c251c292"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "QmlBuiltins::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Qml::@d55031ce3d5f71a021ef"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "QmlModels::@3be23c0b9d8631a92944"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Quick::@022ac8dfaf7bfe5dcf20"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "InsightTrackerQml::@3ffae792432903af01db"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "InsightTrackerQmlplugin_version_script::@3ffae792432903af01db"
+		}
+	],
+	"id" : "InsightTrackerQmlplugin::@3ffae792432903af01db",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "./qml/QtInsightTracker"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/Qt-6.7.1"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-Wl,--version-script,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin.version",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "qtbase/lib/libQt6InsightTrackerQml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "qtbase/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6InsightTracker.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Sql.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "qtbase/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "InsightTrackerQmlplugin",
+	"nameOnDisk" : "libinsighttrackerqmlplugin.so",
+	"paths" : 
+	{
+		"build" : "qtinsighttracker/src/insighttrackerqml",
+		"source" : "qtinsighttracker/src/insighttrackerqml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin_QtInsightTrackerPlugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtinsighttracker/src/insighttrackerqml/InsightTrackerQmlplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

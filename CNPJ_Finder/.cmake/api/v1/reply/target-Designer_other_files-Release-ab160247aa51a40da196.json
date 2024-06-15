@@ -1,0 +1,1221 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_expose_source_file_to_ide",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtResourceHelpers.cmake",
+			"qttools/src/designer/src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 224,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 272,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 32
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 32
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 308,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 44
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 44
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 47
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 69
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 353,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 99
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 72
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 101
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 379,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 103
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 105
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 107
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 111
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 113
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 115
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 117
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 119
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 121
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 123
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 125
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 129
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 131
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 133
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 104
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 135
+			}
+		]
+	},
+	"id" : "Designer_other_files::@3c0d5573d61ad1bf16bb",
+	"name" : "Designer_other_files",
+	"paths" : 
+	{
+		"build" : "qttools/src/designer/src/lib",
+		"source" : "qttools/src/designer/src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				26,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/ClamshellPhone.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "qttools/src/shared/deviceskin/skins/ClamshellPhone.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/SmartPhone2.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "qttools/src/shared/deviceskin/skins/SmartPhone2.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/SmartPhone.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"path" : "qttools/src/shared/deviceskin/skins/SmartPhone.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/SmartPhoneWithButtons.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "qttools/src/shared/deviceskin/skins/SmartPhoneWithButtons.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/TouchscreenPhone.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"path" : "qttools/src/shared/deviceskin/skins/TouchscreenPhone.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/PortableMedia.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"path" : "qttools/src/shared/deviceskin/skins/PortableMedia.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/S60-QVGA-Candybar.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"path" : "qttools/src/shared/deviceskin/skins/S60-QVGA-Candybar.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/S60-nHD-Touchscreen.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "qttools/src/shared/deviceskin/skins/S60-nHD-Touchscreen.skin",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/findwidget.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 54,
+			"path" : "qttools/src/shared/findwidget/images/mac/closetab.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 56,
+			"path" : "qttools/src/shared/findwidget/images/mac/next.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"path" : "qttools/src/shared/findwidget/images/mac/previous.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"path" : "qttools/src/shared/findwidget/images/mac/searchfind.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "qttools/src/shared/findwidget/images/win/closetab.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "qttools/src/shared/findwidget/images/win/next.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "qttools/src/shared/findwidget/images/win/previous.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "qttools/src/shared/findwidget/images/win/searchfind.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "qttools/src/shared/findwidget/images/wrap.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/qtgradienteditor.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"path" : "qttools/src/shared/qtgradienteditor/images/down.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 78,
+			"path" : "qttools/src/shared/qtgradienteditor/images/edit.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"path" : "qttools/src/shared/qtgradienteditor/images/editdelete.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"path" : "qttools/src/shared/qtgradienteditor/images/minus.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"path" : "qttools/src/shared/qtgradienteditor/images/plus.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"path" : "qttools/src/shared/qtgradienteditor/images/spreadpad.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"path" : "qttools/src/shared/qtgradienteditor/images/spreadreflect.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"path" : "qttools/src/shared/qtgradienteditor/images/spreadrepeat.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"path" : "qttools/src/shared/qtgradienteditor/images/typeconical.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"path" : "qttools/src/shared/qtgradienteditor/images/typelinear.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 96,
+			"path" : "qttools/src/shared/qtgradienteditor/images/typeradial.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"path" : "qttools/src/shared/qtgradienteditor/images/up.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"path" : "qttools/src/shared/qtgradienteditor/images/zoomin.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"path" : "qttools/src/shared/qtgradienteditor/images/zoomout.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qttools/src/designer/src/lib/.qt/rcc/shared.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "qttools/src/designer/src/lib/shared/defaultgradients.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "qttools/src/designer/src/lib/shared/icon-naming-spec.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/240x320/Dialog_with_Buttons_Bottom.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/240x320/Dialog_with_Buttons_Right.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/320x240/Dialog_with_Buttons_Bottom.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/320x240/Dialog_with_Buttons_Right.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/480x640/Dialog_with_Buttons_Bottom.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/480x640/Dialog_with_Buttons_Right.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/640x480/Dialog_with_Buttons_Bottom.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/640x480/Dialog_with_Buttons_Right.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/Dialog_with_Buttons_Bottom.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 130,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/Dialog_with_Buttons_Right.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/Dialog_without_Buttons.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 134,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/Main_Window.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 136,
+			"path" : "qttools/src/designer/src/lib/shared/templates/forms/Widget.ui",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

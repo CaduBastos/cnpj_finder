@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtsvg/src/svgwidgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SvgWidgets_version_script::@99ad5cef9565babef719"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SvgWidgets_sync_headers::@99ad5cef9565babef719"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SvgWidgets_lib_pri::@99ad5cef9565babef719"
+		},
+		{
+			"id" : "SvgWidgets_autogen_timestamp_deps::@99ad5cef9565babef719"
+		}
+	],
+	"id" : "SvgWidgets_autogen::@99ad5cef9565babef719",
+	"isGeneratorProvided" : true,
+	"name" : "SvgWidgets_autogen",
+	"paths" : 
+	{
+		"build" : "qtsvg/src/svgwidgets",
+		"source" : "qtsvg/src/svgwidgets"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsvg/src/svgwidgets/CMakeFiles/SvgWidgets_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsvg/src/svgwidgets/CMakeFiles/SvgWidgets_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtsvg/src/svgwidgets/SvgWidgets_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

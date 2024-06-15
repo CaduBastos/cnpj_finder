@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qttools/src/designer/src/plugins/qquickwidget/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QQuickWidgetPlugin::@6ad6b632e415479f162c"
+		}
+	],
+	"id" : "qquickwidget::@6ad6b632e415479f162c",
+	"name" : "qquickwidget",
+	"paths" : 
+	{
+		"build" : "qttools/src/designer/src/plugins/qquickwidget",
+		"source" : "qttools/src/designer/src/plugins/qquickwidget"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

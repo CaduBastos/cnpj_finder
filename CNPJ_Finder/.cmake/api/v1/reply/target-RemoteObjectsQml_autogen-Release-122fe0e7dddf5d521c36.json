@@ -1,0 +1,86 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtremoteobjects/src/remoteobjectsqml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "RemoteObjectsQml_autogen_timestamp_deps::@fb77bf45dde7ef01fa93"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "RemoteObjectsQml_version_script::@fb77bf45dde7ef01fa93"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "RemoteObjectsQml_sync_headers::@fb77bf45dde7ef01fa93"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "RemoteObjectsQml_lib_pri::@fb77bf45dde7ef01fa93"
+		}
+	],
+	"id" : "RemoteObjectsQml_autogen::@fb77bf45dde7ef01fa93",
+	"isGeneratorProvided" : true,
+	"name" : "RemoteObjectsQml_autogen",
+	"paths" : 
+	{
+		"build" : "qtremoteobjects/src/remoteobjectsqml",
+		"source" : "qtremoteobjects/src/remoteobjectsqml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtremoteobjects/src/remoteobjectsqml/CMakeFiles/RemoteObjectsQml_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtremoteobjects/src/remoteobjectsqml/CMakeFiles/RemoteObjectsQml_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtremoteobjects/src/remoteobjectsqml/RemoteObjectsQml_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

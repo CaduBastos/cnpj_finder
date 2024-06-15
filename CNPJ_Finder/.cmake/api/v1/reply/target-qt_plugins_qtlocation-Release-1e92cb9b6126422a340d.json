@@ -1,0 +1,124 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies",
+			"qt_internal_add_plugin",
+			"qt_internal_add_qml_module"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtBuildRepoHelpers.cmake",
+			"qtlocation/CMakeLists.txt",
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Qml/Qt6QmlBuildInternals.cmake",
+			"qtlocation/src/location/CMakeLists.txt",
+			"qtlocation/src/plugins/geoservices/itemsoverlay/CMakeLists.txt",
+			"qtlocation/src/plugins/geoservices/osm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 494,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 106,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 6
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 12
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "declarative_location::@40797766ad51bddf9b74"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "QGeoServiceProviderFactoryItemsOverlayPlugin::@d38306f59018286751b7"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "QGeoServiceProviderFactoryOsmPlugin::@bb619c0672f0b27eb703"
+		}
+	],
+	"id" : "qt_plugins_qtlocation::@3afafb1560ea7cf29404",
+	"name" : "qt_plugins_qtlocation",
+	"paths" : 
+	{
+		"build" : "qtlocation",
+		"source" : "qtlocation"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

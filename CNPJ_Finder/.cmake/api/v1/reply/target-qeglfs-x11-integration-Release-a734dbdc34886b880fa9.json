@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QEglFSX11IntegrationPlugin::@21e7ae633e11b4202809"
+		}
+	],
+	"id" : "qeglfs-x11-integration::@21e7ae633e11b4202809",
+	"name" : "qeglfs-x11-integration",
+	"paths" : 
+	{
+		"build" : "qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11",
+		"source" : "qtbase/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

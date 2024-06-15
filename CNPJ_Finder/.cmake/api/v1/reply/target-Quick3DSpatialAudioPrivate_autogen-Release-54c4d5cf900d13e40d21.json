@@ -1,0 +1,82 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qtmultimedia/src/spatialaudioquick3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DSpatialAudioPrivate_version_script::@9923edfbe76b9501d683"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Quick3DSpatialAudioPrivate_sync_headers::@9923edfbe76b9501d683"
+		},
+		{
+			"id" : "moc::@bb10bf682bcce7be460c"
+		},
+		{
+			"id" : "Quick3DSpatialAudioPrivate_autogen_timestamp_deps::@9923edfbe76b9501d683"
+		}
+	],
+	"id" : "Quick3DSpatialAudioPrivate_autogen::@9923edfbe76b9501d683",
+	"isGeneratorProvided" : true,
+	"name" : "Quick3DSpatialAudioPrivate_autogen",
+	"paths" : 
+	{
+		"build" : "qtmultimedia/src/spatialaudioquick3d",
+		"source" : "qtmultimedia/src/spatialaudioquick3d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/CMakeFiles/Quick3DSpatialAudioPrivate_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/CMakeFiles/Quick3DSpatialAudioPrivate_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtmultimedia/src/spatialaudioquick3d/Quick3DSpatialAudioPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

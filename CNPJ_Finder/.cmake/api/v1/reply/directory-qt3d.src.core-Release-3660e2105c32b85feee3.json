@@ -1,0 +1,565 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file",
+			"qt_internal_generate_pkg_config_file"
+		],
+		"files" : 
+		[
+			"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"qtbase/cmake/QtModuleHelpers.cmake",
+			"qt3d/src/core/CMakeLists.txt",
+			"qtbase/cmake/QtInstallHelpers.cmake",
+			"qtbase/cmake/QtTargetHelpers.cmake",
+			"qtbase/cmake/QtDocsHelpers.cmake",
+			"qtbase/cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtbase/cmake/QtSyncQtHelpers.cmake",
+			"qtbase/cmake/QtPriHelpers.cmake",
+			"qtbase/cmake/QtPkgConfigHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 753,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1456,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 796,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 816,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 827,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1035,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1166,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 738,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 915,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1245,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1249,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 928,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 562,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 929,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 162,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/core/meta_types/qt63dcore_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt63DCore",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DCore/Qt63DCoreConfig.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DCore/Qt63DCoreConfigVersion.cmake",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DCore/Qt63DCoreConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt63DCore.so.6.7.1",
+				"qtbase/lib/libQt63DCore.so.6"
+			],
+			"targetId" : "3DCore::@c624818a73eafba92541",
+			"targetIndex" : 7,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"qtbase/lib/libQt63DCore.so"
+			],
+			"targetId" : "3DCore::@c624818a73eafba92541",
+			"targetIndex" : 7,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DCore",
+			"exportName" : "Qt63DCoreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "3DCore::@c624818a73eafba92541",
+					"index" : 7
+				},
+				{
+					"id" : "3DCorePrivate::@c624818a73eafba92541",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt3d/src/core/CMakeFiles/Export/lib/cmake/Qt63DCore/Qt63DCoreTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DCore",
+			"exportName" : "Qt63DCoreVersionlessTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "3DCoreVersionless::@c624818a73eafba92541",
+					"index" : 0
+				},
+				{
+					"id" : "3DCorePrivateVersionless::@c624818a73eafba92541",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"qt3d/src/core/CMakeFiles/Export/lib/cmake/Qt63DCore/Qt63DCoreVersionlessTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/./modules/3DCore.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_3DCore",
+			"destination" : "./doc/qt3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qt3d",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_3DCore",
+			"destination" : "./doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/./doc/qt3d.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt63DCore",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/cmake/Qt63DCore/Qt63DCoreAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DCore",
+			"paths" : 
+			[
+				{
+					"from" : "/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DCore",
+			"paths" : 
+			[
+				"qt3d/src/core/aspect/qcoreaspect.h",
+				"qt3d/src/core/aspect/qcoresettings.h",
+				"qt3d/src/core/aspects/qabstractaspect.h",
+				"qt3d/src/core/aspects/qaspectengine.h",
+				"qt3d/src/core/geometry/qabstractfunctor.h",
+				"qt3d/src/core/geometry/qattribute.h",
+				"qt3d/src/core/geometry/qboundingvolume.h",
+				"qt3d/src/core/geometry/qbuffer.h",
+				"qt3d/src/core/geometry/qgeometry.h",
+				"qt3d/src/core/geometry/qgeometryview.h",
+				"qt3d/src/core/jobs/qaspectjob.h",
+				"qt3d/src/core/nodes/qbackendnode.h",
+				"qt3d/src/core/nodes/qcomponent.h",
+				"qt3d/src/core/nodes/qentity.h",
+				"qt3d/src/core/nodes/qnode.h",
+				"qt3d/src/core/nodes/qnodeid.h",
+				"qt3d/src/core/qt3dcore_global.h",
+				"qt3d/src/core/transforms/qabstractskeleton.h",
+				"qt3d/src/core/transforms/qarmature.h",
+				"qt3d/src/core/transforms/qjoint.h",
+				"qt3d/src/core/transforms/qskeleton.h",
+				"qt3d/src/core/transforms/qskeletonloader.h",
+				"qt3d/src/core/transforms/qtransform.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/core/qt3dcore-config.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/include/Qt3DCore/Qt3DCoreDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/Qt3DCore/6.7.1/Qt3DCore/private",
+			"paths" : 
+			[
+				"qt3d/src/core/aligned_malloc_p.h",
+				"qt3d/src/core/aspect/qcoreaspect_p.h",
+				"qt3d/src/core/aspect/qcoresettings_p.h",
+				"qt3d/src/core/aspect/coresettings_p.h",
+				"qt3d/src/core/aspects/aspectcommanddebugger_p.h",
+				"qt3d/src/core/aspects/qabstractaspect_p.h",
+				"qt3d/src/core/aspects/qaspectengine_p.h",
+				"qt3d/src/core/aspects/qaspectfactory_p.h",
+				"qt3d/src/core/aspects/qaspectmanager_p.h",
+				"qt3d/src/core/corelogging_p.h",
+				"qt3d/src/core/geometry/bufferutils_p.h",
+				"qt3d/src/core/geometry/buffervisitor_p.h",
+				"qt3d/src/core/geometry/qattribute_p.h",
+				"qt3d/src/core/geometry/qboundingvolume_p.h",
+				"qt3d/src/core/geometry/qbuffer_p.h",
+				"qt3d/src/core/geometry/qgeometry_p.h",
+				"qt3d/src/core/geometry/qgeometryfactory_p.h",
+				"qt3d/src/core/geometry/qgeometryview_p.h",
+				"qt3d/src/core/jobs/calcboundingvolumejob_p.h",
+				"qt3d/src/core/jobs/job_common_p.h",
+				"qt3d/src/core/jobs/qabstractaspectjobmanager_p.h",
+				"qt3d/src/core/jobs/qaspectjob_p.h",
+				"qt3d/src/core/jobs/qaspectjobmanager_p.h",
+				"qt3d/src/core/jobs/qaspectjobproviderinterface_p.h",
+				"qt3d/src/core/jobs/qthreadpooler_p.h",
+				"qt3d/src/core/jobs/task_p.h",
+				"qt3d/src/core/nodes/propertychangehandler_p.h",
+				"qt3d/src/core/nodes/qabstractnodefactory_p.h",
+				"qt3d/src/core/nodes/qbackendnode_p.h",
+				"qt3d/src/core/nodes/qcomponent_p.h",
+				"qt3d/src/core/nodes/qdestructionidandtypecollector_p.h",
+				"qt3d/src/core/nodes/qentity_p.h",
+				"qt3d/src/core/nodes/qnode_p.h",
+				"qt3d/src/core/nodes/qnodevisitor_p.h",
+				"qt3d/src/core/qabstractfrontendnodemanager_p.h",
+				"qt3d/src/core/qchangearbiter_p.h",
+				"qt3d/src/core/qscene_p.h",
+				"qt3d/src/core/qscheduler_p.h",
+				"qt3d/src/core/qt3dcore_global_p.h",
+				"qt3d/src/core/qtickclock_p.h",
+				"qt3d/src/core/qurlhelper_p.h",
+				"qt3d/src/core/resources/qhandle_p.h",
+				"qt3d/src/core/resources/qloadgltf_p.h",
+				"qt3d/src/core/resources/qresourcemanager_p.h",
+				"qt3d/src/core/services/nullservices_p.h",
+				"qt3d/src/core/services/qabstractframeadvanceservice_p.h",
+				"qt3d/src/core/services/qabstractframeadvanceservice_p_p.h",
+				"qt3d/src/core/services/qabstractserviceprovider_p.h",
+				"qt3d/src/core/services/qdownloadhelperservice_p.h",
+				"qt3d/src/core/services/qdownloadnetworkworker_p.h",
+				"qt3d/src/core/services/qeventfilterservice_p.h",
+				"qt3d/src/core/services/qopenglinformationservice_p.h",
+				"qt3d/src/core/services/qopenglinformationservice_p_p.h",
+				"qt3d/src/core/services/qservicelocator_p.h",
+				"qt3d/src/core/services/qsysteminformationservice_p.h",
+				"qt3d/src/core/services/qsysteminformationservice_p_p.h",
+				"qt3d/src/core/services/qtickclockservice_p.h",
+				"qt3d/src/core/transforms/matrix4x4_p.h",
+				"qt3d/src/core/transforms/qabstractskeleton_p.h",
+				"qt3d/src/core/transforms/qarmature_p.h",
+				"qt3d/src/core/transforms/qjoint_p.h",
+				"qt3d/src/core/transforms/qmath3d_p.h",
+				"qt3d/src/core/transforms/qskeleton_p.h",
+				"qt3d/src/core/transforms/qskeletonloader_p.h",
+				"qt3d/src/core/transforms/qtransform_p.h",
+				"qt3d/src/core/transforms/sqt_p.h",
+				"qt3d/src/core/transforms/vector3d_p.h",
+				"qt3d/src/core/transforms/vector4d_p.h",
+				"qt3d/src/core/vector_helper_p.h",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qt3d/src/core/qt3dcore-config_p.h",
+				"qt3d/src/core/transforms/matrix4x4_avx2_p.h",
+				"qt3d/src/core/transforms/matrix4x4_sse_p.h",
+				"qt3d/src/core/transforms/vector3d_sse_p.h",
+				"qt3d/src/core/transforms/vector4d_sse_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_3dcore.pri",
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/mkspecs/modules/qt_lib_3dcore_private.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/cadubastos/qt_projects/CNPJ_Finder/CNPJ_Finder/qtbase/lib/pkgconfig/Qt63DCore.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qt3d/src/core",
+		"source" : "qt3d/src/core"
+	}
+}

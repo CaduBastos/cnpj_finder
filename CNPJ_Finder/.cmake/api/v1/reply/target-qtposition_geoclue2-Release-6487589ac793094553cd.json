@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"qtbase/cmake/QtPluginHelpers.cmake",
+			"qtpositioning/src/plugins/position/geoclue2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QGeoPositionInfoSourceFactoryGeoclue2Plugin::@5c0dd2eaab9e5bb98a94"
+		}
+	],
+	"id" : "qtposition_geoclue2::@5c0dd2eaab9e5bb98a94",
+	"name" : "qtposition_geoclue2",
+	"paths" : 
+	{
+		"build" : "qtpositioning/src/plugins/position/geoclue2",
+		"source" : "qtpositioning/src/plugins/position/geoclue2"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
