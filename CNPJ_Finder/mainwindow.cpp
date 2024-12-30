@@ -343,3 +343,4 @@ void MainWindow::on_actionHist_rico_triggered(bool checked)
     historicwindow->show();
 }
 
+#include "mainwindow.moc"

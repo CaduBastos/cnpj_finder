@@ -1,0 +1,10 @@
+# ninja log v6
+21	977	7571859273049773	CNPJ_Finder_autogen/timestamp	fef3dd4148e425a9
+21	977	7571859273049773	CNPJ_Finder_autogen/mocs_compilation.cpp	fef3dd4148e425a9
+21	977	7571859273049773	D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CNPJ_Finder_autogen/timestamp	fef3dd4148e425a9
+21	977	7571859273049773	D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CNPJ_Finder_autogen/mocs_compilation.cpp	fef3dd4148e425a9
+993	3182	7571859274730145	CMakeFiles/CNPJ_Finder.dir/CNPJ_Finder_autogen/mocs_compilation.cpp.obj	3b434ca319a7f5b
+998	3299	7571859274780158	CMakeFiles/CNPJ_Finder.dir/main.cpp.obj	a7e19501bb14225d
+1004	3375	7571859274850173	CMakeFiles/CNPJ_Finder.dir/historicwindow.cpp.obj	b18f31632cef87d3
+1001	4473	7571859274810167	CMakeFiles/CNPJ_Finder.dir/mainwindow.cpp.obj	affc5169e1e2161f
+4473	9785	7571859309528788	bin/CNPJ_Finder.exe	6a49e00d995ed608
