@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListView>
 #include <QtWidgets/QWidget>
@@ -22,6 +23,7 @@ class Ui_HistoricWindow
 public:
     QListView *listView_historic;
     QLabel *label_historic_list_title;
+    QComboBox *comboBox;
 
     void setupUi(QWidget *HistoricWindow)
     {
@@ -46,12 +48,17 @@ public:
         font1.setPointSize(12);
         font1.setKerning(true);
         listView_historic->setFont(font1);
-        listView_historic->setEditTriggers(QAbstractItemView::AllEditTriggers);
-        listView_historic->setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
-        listView_historic->setItemAlignment(Qt::AlignLeading);
+        listView_historic->setEditTriggers(QAbstractItemView::EditTrigger::NoEditTriggers);
+        listView_historic->setAlternatingRowColors(true);
+        listView_historic->setSelectionMode(QAbstractItemView::SelectionMode::NoSelection);
+        listView_historic->setVerticalScrollMode(QAbstractItemView::ScrollMode::ScrollPerPixel);
+        listView_historic->setItemAlignment(Qt::AlignmentFlag::AlignLeading);
         label_historic_list_title = new QLabel(HistoricWindow);
         label_historic_list_title->setObjectName("label_historic_list_title");
-        label_historic_list_title->setGeometry(QRect(90, 28, 150, 17));
+        label_historic_list_title->setGeometry(QRect(90, 30, 150, 17));
+        comboBox = new QComboBox(HistoricWindow);
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(230, 190, 65, 24));
 
         retranslateUi(HistoricWindow);
 
@@ -61,7 +68,7 @@ public:
     void retranslateUi(QWidget *HistoricWindow)
     {
         HistoricWindow->setWindowTitle(QString());
-        label_historic_list_title->setText(QCoreApplication::translate("HistoricWindow", "Hist\303\263rico de consultas", nullptr));
+        label_historic_list_title->setText(QCoreApplication::translate("HistoricWindow", "Hist\303\263rico de consult", nullptr));
     } // retranslateUi
 
 };

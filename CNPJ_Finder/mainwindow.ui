@@ -66,7 +66,7 @@
     <widget class="QLabel" name="label_cnpj_formated">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>33</x>
        <y>53</y>
        <width>111</width>
        <height>20</height>
@@ -105,10 +105,10 @@
     <widget class="QLabel" name="label_cnpj_formated_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>93</y>
-       <width>131</width>
-       <height>20</height>
+       <x>21</x>
+       <y>100</y>
+       <width>111</width>
+       <height>10</height>
       </rect>
      </property>
      <property name="text">
@@ -711,6 +711,19 @@
     </property>
     <property name="text">
      <string>QSA</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>77</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
     </property>
    </widget>
   </widget>

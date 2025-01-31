@@ -147,6 +147,7 @@ void MainWindow::on_lineEdit_input_editingFinished()
             case 429:
                 qDebug() << "Error: Too many requests - http status code: 429";
                 showMessage("critical", "Limite de consultas atingido! Aguarde 1 minuto.");
+                ui->statusbar->clearMessage();
                 break;
             case 504:
                 qDebug() << "Error: Timeout - http status code: 504";
@@ -343,4 +344,3 @@ void MainWindow::on_actionHist_rico_triggered(bool checked)
     historicwindow->show();
 }
 
-#include "mainwindow.moc"

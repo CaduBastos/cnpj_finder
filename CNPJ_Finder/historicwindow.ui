@@ -49,26 +49,42 @@
     </font>
    </property>
    <property name="editTriggers">
-    <set>QAbstractItemView::AllEditTriggers</set>
+    <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::SelectionMode::NoSelection</enum>
    </property>
    <property name="verticalScrollMode">
-    <enum>QAbstractItemView::ScrollPerPixel</enum>
+    <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
    </property>
    <property name="itemAlignment">
-    <set>Qt::AlignLeading</set>
+    <set>Qt::AlignmentFlag::AlignLeading</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_historic_list_title">
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>28</y>
+     <y>30</y>
      <width>150</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>Histórico de consultas</string>
+    <string>Histórico de consult</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>190</y>
+     <width>65</width>
+     <height>24</height>
+    </rect>
    </property>
   </widget>
  </widget>
