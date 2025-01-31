@@ -13,6 +13,7 @@
 #include <QtGui/QAction>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHeaderView>
@@ -86,6 +87,7 @@ public:
     QToolButton *toolButton_cp_fake_name;
     QTableView *tableView_qsa;
     QLabel *label_qsa;
+    QCheckBox *checkBox_2;
     QMenuBar *menubar;
     QMenu *menuConfigura_es;
     QMenu *menuTema;
@@ -127,7 +129,7 @@ public:
         lineEdit_input->setInputMethodHints(Qt::InputMethodHint::ImhPreferNumbers);
         label_cnpj_formated = new QLabel(cnpj_fields);
         label_cnpj_formated->setObjectName("label_cnpj_formated");
-        label_cnpj_formated->setGeometry(QRect(30, 53, 111, 20));
+        label_cnpj_formated->setGeometry(QRect(33, 53, 111, 20));
         toolButton_cp_astrk = new QToolButton(cnpj_fields);
         toolButton_cp_astrk->setObjectName("toolButton_cp_astrk");
         toolButton_cp_astrk->setGeometry(QRect(320, 93, 41, 25));
@@ -138,7 +140,7 @@ public:
         lineEdit_output_dots->setGeometry(QRect(150, 53, 161, 25));
         label_cnpj_formated_2 = new QLabel(cnpj_fields);
         label_cnpj_formated_2->setObjectName("label_cnpj_formated_2");
-        label_cnpj_formated_2->setGeometry(QRect(10, 93, 131, 20));
+        label_cnpj_formated_2->setGeometry(QRect(21, 100, 111, 10));
         toolButton_cp_dots = new QToolButton(cnpj_fields);
         toolButton_cp_dots->setObjectName("toolButton_cp_dots");
         toolButton_cp_dots->setGeometry(QRect(320, 53, 41, 25));
@@ -290,6 +292,9 @@ public:
         label_qsa = new QLabel(centralwidget);
         label_qsa->setObjectName("label_qsa");
         label_qsa->setGeometry(QRect(551, 360, 31, 20));
+        checkBox_2 = new QCheckBox(centralwidget);
+        checkBox_2->setObjectName("checkBox_2");
+        checkBox_2->setGeometry(QRect(140, 200, 77, 22));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -373,6 +378,7 @@ public:
         toolButton_cp_social_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         toolButton_cp_fake_name->setText(QCoreApplication::translate("MainWindow", "Copiar", nullptr));
         label_qsa->setText(QCoreApplication::translate("MainWindow", "QSA", nullptr));
+        checkBox_2->setText(QCoreApplication::translate("MainWindow", "CheckBox", nullptr));
         menuConfigura_es->setTitle(QCoreApplication::translate("MainWindow", "Arquivo", nullptr));
         menuTema->setTitle(QCoreApplication::translate("MainWindow", "Prefer\303\252ncias", nullptr));
         menuTema_2->setTitle(QCoreApplication::translate("MainWindow", "Tema", nullptr));

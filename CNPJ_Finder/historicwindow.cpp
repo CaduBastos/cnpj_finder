@@ -32,3 +32,5 @@ void HistoricWindow::historic_list_setup(QString CNPJ, QString social_name, QStr
     ui->listView_historic->setModel(historic_listView_model);
     historic_listView_model->setStringList(historic_window_stringList);
 }
+
+
