@@ -1,59 +1,79 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
 
-# Nome do projeto e definição da linguagem
-project(CNPJ_Finder VERSION 1.0 LANGUAGES CXX)
+project(CNPJ_Finder VERSION 0.1 LANGUAGES CXX)
 
-# Definir o padrão C++
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Diretório onde as bibliotecas estáticas do Qt estão localizadas
-set(Qt6_DIR "D:/Qt/build-static/lib/cmake/Qt6")
+list(APPEND CMAKE_PREFIX_PATH "D:/Qt/qt-static-build")
 
-set(CMAKE_AUTOMOC ON)  # Garante que os arquivos .moc sejam gerados automaticamente
-set(CMAKE_AUTOUIC ON)  # Processa arquivos .ui automaticamente
-set(CMAKE_AUTORCC ON)  # Processa arquivos .qrc automaticamente
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Core Gui Network)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS  Widgets Core Gui Network)
 
-# Configuração para compilação estática
-set(BUIILD_SHARED_LIBS OFF)
-set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
-set(CMAKE_EXE_LINKER_FLAGS "-static -static-libgcc -static-libstdc++")
 
-# Encontrar pacotes Qt necessários
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Network)
-
-# Listar os arquivos de interface (.ui)
-set(UI_FILES
+# Listar os arquivos de origem e cabeçalhos
+set(PROJECT_SOURCES
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
     mainwindow.ui
+
+    historicwindow.cpp
+    historicwindow.h
     historicwindow.ui
 )
 
-# Listar os arquivos de origem e cabeçalhos
-set(SOURCES
-    main.cpp
-    mainwindow.cpp
-    historicwindow.cpp
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(CNPJ_Finder
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+    )
+
+# Define target properties for Android with Qt 6 as:
+#    set_property(TARGET teste APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
+# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+else()
+    if(ANDROID)
+        add_library(teste SHARED
+            ${PROJECT_SOURCES}
+        )
+# Define properties for Android with Qt 5 after find_package() calls as:
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    else()
+        add_executable(teste
+            ${PROJECT_SOURCES}
+        )
+    endif()
+endif()
+
+target_link_libraries(CNPJ_Finder PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(CNPJ_Finder PRIVATE Qt${QT_VERSION_MAJOR}::Network)
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+if(${QT_VERSION} VERSION_LESS 6.1.0)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.CNPJ_Finder)
+endif()
+set_target_properties(CNPJ_Finder PROPERTIES
+    ${BUNDLE_ID_OPTION}
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
 )
 
-set(HEADERS
-    mainwindow.h
-    historicwindow.h
+include(GNUInstallDirs)
+install(TARGETS CNPJ_Finder
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
-# Adicionar o executável
-add_executable(CNPJ_Finder WIN32
-    ${SOURCES}
-    ${HEADERS}
-    ${UI_FILES}
-)
-
-# Linkar o projeto com o Qt
-target_link_libraries(CNPJ_Finder
-    Qt6::Core
-    Qt6::Gui
-    Qt6::Widgets
-    Qt6::Network
-)
-
-# Configurar o diretório de instalação do executável
-set_target_properties(CNPJ_Finder PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(CNPJ_Finder)
+endif()

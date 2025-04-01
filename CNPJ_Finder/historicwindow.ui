@@ -74,17 +74,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Histórico de consult</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>190</y>
-     <width>65</width>
-     <height>24</height>
-    </rect>
+    <string>Histórico de consultas</string>
    </property>
   </widget>
  </widget>

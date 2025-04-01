@@ -1,0 +1,9 @@
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/CNPJ_Finder.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/edit_cache.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/rebuild_cache.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/list_install_components.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/install.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/install/local.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/install/strip.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/CNPJ_Finder_autogen_timestamp_deps.dir
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Debug/CMakeFiles/CNPJ_Finder_autogen.dir

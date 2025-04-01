@@ -169,19 +169,19 @@ void MainWindow::on_pushButton_cls_input_clicked(bool checked)
     ui->lineEdit_output_astrk->clear();
     ui->lineEdit_output_social_name->clear();
     ui->lineEdit_output_fake_name->clear();
-    ui->label_type->setText(" ");
-    ui->label_last_update->setText(" ");
-    ui->label_status->setText(" ");
-    ui->label_status_2->setText(" ");
-    ui->label_size->setText(" ");
+    ui->label_type->setText("Tipo:");
+    ui->label_last_update->setText("Última atualização:");
+    ui->label_status->setText("Situação:");
+    ui->label_status_2->setText("Status:");
+    ui->label_size->setText("Porte:");
     ui->lineEdit_output_email->clear();
     ui->lineEdit_output_phone->clear();
     ui->lineEdit_output_cep->clear();
     ui->lineEdit_output_street->clear();
     ui->lineEdit_output_neighborhood->clear();
     ui->lineEdit_output_city->clear();
-    ui->label_uf->setText(" ");
-    ui->label_number->setText(" ");
+    ui->label_uf->setText("UF:");
+    ui->label_number->setText("Número:");
     qsa_table_model->removeRows(0, qsa_table_model->rowCount());
     ui->tableView_qsa->update();
 }

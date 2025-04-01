@@ -1,5 +1,0 @@
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CMakeFiles/CNPJ_Finder.dir
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CMakeFiles/edit_cache.dir
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CMakeFiles/rebuild_cache.dir
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CMakeFiles/CNPJ_Finder_autogen_timestamp_deps.dir
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/build/Desktop_Qt_6_7_3_MinGW_64_bit_static_build-Release/CMakeFiles/CNPJ_Finder_autogen.dir

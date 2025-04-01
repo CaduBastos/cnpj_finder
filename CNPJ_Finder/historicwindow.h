@@ -19,9 +19,6 @@ public:
 
     void historic_list_setup(QString CNPJ, QString social_name, QString fake_name);
 
-private slots:
-    void on_comboBox_activated(int index);
-
 private:
     Ui::HistoricWindow *ui;
     QStringListModel *historic_listView_model = new QStringListModel(this);
