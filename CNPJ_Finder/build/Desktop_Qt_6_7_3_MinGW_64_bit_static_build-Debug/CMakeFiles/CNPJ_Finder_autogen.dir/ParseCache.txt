@@ -729,9 +729,9 @@ D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/mainwindow.h
  mdp:D:/Qt/qt-static-build/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/Qt/qt-static-build/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/Qt/qt-static-build/include/QtWidgets/qwidget.h
-D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/main.cpp
 D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/historicwindow.cpp
  uic:ui_historicwindow.h
+D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/main.cpp
 D:/Qt/qt-projects/cnpj_finder/CNPJ_Finder/mainwindow.cpp
  uic:./ui_mainwindow.h
  uic:ui_historicwindow.h

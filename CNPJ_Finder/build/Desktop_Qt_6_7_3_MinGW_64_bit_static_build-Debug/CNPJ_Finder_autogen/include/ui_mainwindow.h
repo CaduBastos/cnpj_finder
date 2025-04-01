@@ -97,6 +97,9 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(1197, 679);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("cnpj_finder.ico"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        MainWindow->setWindowIcon(icon);
         MainWindow->setTabShape(QTabWidget::TabShape::Rounded);
         actionDark = new QAction(MainWindow);
         actionDark->setObjectName("actionDark");
@@ -131,8 +134,8 @@ public:
         toolButton_cp_astrk = new QToolButton(cnpj_fields);
         toolButton_cp_astrk->setObjectName("toolButton_cp_astrk");
         toolButton_cp_astrk->setGeometry(QRect(320, 93, 41, 25));
-        QIcon icon(QIcon::fromTheme(QString::fromUtf8("edit-copy")));
-        toolButton_cp_astrk->setIcon(icon);
+        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("edit-copy")));
+        toolButton_cp_astrk->setIcon(icon1);
         lineEdit_output_dots = new QLineEdit(cnpj_fields);
         lineEdit_output_dots->setObjectName("lineEdit_output_dots");
         lineEdit_output_dots->setGeometry(QRect(150, 53, 161, 25));
@@ -142,7 +145,7 @@ public:
         toolButton_cp_dots = new QToolButton(cnpj_fields);
         toolButton_cp_dots->setObjectName("toolButton_cp_dots");
         toolButton_cp_dots->setGeometry(QRect(320, 53, 41, 25));
-        toolButton_cp_dots->setIcon(icon);
+        toolButton_cp_dots->setIcon(icon1);
         pushButton_cls_input = new QPushButton(cnpj_fields);
         pushButton_cls_input->setObjectName("pushButton_cls_input");
         pushButton_cls_input->setGeometry(QRect(320, 13, 71, 25));
@@ -201,19 +204,19 @@ public:
         toolButton_cp_cep = new QToolButton(group_location);
         toolButton_cp_cep->setObjectName("toolButton_cp_cep");
         toolButton_cp_cep->setGeometry(QRect(291, 40, 41, 25));
-        toolButton_cp_cep->setIcon(icon);
+        toolButton_cp_cep->setIcon(icon1);
         toolButton_cp_street = new QToolButton(group_location);
         toolButton_cp_street->setObjectName("toolButton_cp_street");
         toolButton_cp_street->setGeometry(QRect(450, 77, 41, 25));
-        toolButton_cp_street->setIcon(icon);
+        toolButton_cp_street->setIcon(icon1);
         toolButton_cp_neighborhood = new QToolButton(group_location);
         toolButton_cp_neighborhood->setObjectName("toolButton_cp_neighborhood");
         toolButton_cp_neighborhood->setGeometry(QRect(381, 117, 41, 25));
-        toolButton_cp_neighborhood->setIcon(icon);
+        toolButton_cp_neighborhood->setIcon(icon1);
         toolButton_cp_city = new QToolButton(group_location);
         toolButton_cp_city->setObjectName("toolButton_cp_city");
         toolButton_cp_city->setGeometry(QRect(410, 158, 41, 25));
-        toolButton_cp_city->setIcon(icon);
+        toolButton_cp_city->setIcon(icon1);
         group_contact = new QGroupBox(centralwidget);
         group_contact->setObjectName("group_contact");
         group_contact->setGeometry(QRect(550, 230, 520, 111));
@@ -236,11 +239,11 @@ public:
         toolButton_cp_email = new QToolButton(group_contact);
         toolButton_cp_email->setObjectName("toolButton_cp_email");
         toolButton_cp_email->setGeometry(QRect(451, 33, 41, 25));
-        toolButton_cp_email->setIcon(icon);
+        toolButton_cp_email->setIcon(icon1);
         toolButton_cp_phone = new QToolButton(group_contact);
         toolButton_cp_phone->setObjectName("toolButton_cp_phone");
         toolButton_cp_phone->setGeometry(QRect(380, 70, 41, 25));
-        toolButton_cp_phone->setIcon(icon);
+        toolButton_cp_phone->setIcon(icon1);
         company_informations = new QGroupBox(centralwidget);
         company_informations->setObjectName("company_informations");
         company_informations->setGeometry(QRect(431, 20, 741, 201));
@@ -275,11 +278,11 @@ public:
         toolButton_cp_social_name = new QToolButton(company_informations);
         toolButton_cp_social_name->setObjectName("toolButton_cp_social_name");
         toolButton_cp_social_name->setGeometry(QRect(680, 40, 41, 25));
-        toolButton_cp_social_name->setIcon(icon);
+        toolButton_cp_social_name->setIcon(icon1);
         toolButton_cp_fake_name = new QToolButton(company_informations);
         toolButton_cp_fake_name->setObjectName("toolButton_cp_fake_name");
         toolButton_cp_fake_name->setGeometry(QRect(680, 80, 41, 25));
-        toolButton_cp_fake_name->setIcon(icon);
+        toolButton_cp_fake_name->setIcon(icon1);
         tableView_qsa = new QTableView(centralwidget);
         tableView_qsa->setObjectName("tableView_qsa");
         tableView_qsa->setGeometry(QRect(548, 380, 621, 251));
@@ -326,7 +329,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "CNPJ Formatter 1.0", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "CNPJ Finder v1.0", nullptr));
         actionDark->setText(QCoreApplication::translate("MainWindow", "Dark", nullptr));
         actionWhite_2->setText(QCoreApplication::translate("MainWindow", "White", nullptr));
         actionDark_2->setText(QCoreApplication::translate("MainWindow", "Dark", nullptr));
